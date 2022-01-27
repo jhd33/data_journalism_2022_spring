@@ -18,3 +18,18 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Introduction
 
 Consider this a personal guide to the commands and functions you will learn. In general, when you come across an R command or function that you want to remember, put it in here along with a description of what it does and when you'd use it.
+
+
+## Things I learned today on Jan 26th. 
+
+The command to set a working directory is setwd(). For example: 
+
+```{r}
+setwd("~/Documents/GitHub/data_journalism_2022_spring")
+```
+```{r}
+install.packages("tidyverse")
+library(tidyverse)
+```
+
+
