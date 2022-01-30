@@ -85,7 +85,7 @@ wv_ppp_loans %>%
 
 
 **Q5** What West Virginia business got the state's largest PPP loan? How much was it for? What does the business do? How many jobs did the loan retain, according to the data?
-**A5** [The largest loan was given to the Greenbrier Hotel Corporation]
+**A5** [The largest loan was given to the Greenbrier Hotel Corporation.]
 
 ```{r}
 wv_ppp_loans %>%
