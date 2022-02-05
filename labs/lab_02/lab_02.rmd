@@ -1,0 +1,131 @@
+---
+title: "lab_02"
+author: "Jon Donville"
+date: "2/3/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## About this lab
+
+To complete this lab, you need to:
+* run existing code as directed (look for **Task**).
+* modify existing code as directed (look for **Task**).
+* write code in empty codeblocks provided to answer questions included (look for **Q**).
+* write out the answer in the form of a complete sentence in the space given (look for **A**).
+
+When you are finished, commit changes and push to your personal GitHub repo, then submit the URL to this document on ELMS.
+
+## Load libraries and establish settings
+
+**Task** Run the codeblock below to load the Tidyverse and Lubridate. To run the codeblock, hit the little green play button in the upper right corner of the gray area (the codeblock) below.
+
+```{r}
+# Turn off scientific notation
+options(scipen=999)
+
+# Load the tidyverse and lubridate
+library(tidyverse)
+library(lubridate)
+```
+
+## Load Data
+
+Let's keep working with West Virginia loans contained in the PPP loans data.  
+
+**Task** Run the codeblock below to load the data.
+
+```{r}
+west_virginia_ppp <- read_rds("data/lab_02.rds")
+```
+
+## Examine Data
+
+## Answer questions
+
+**Q1** Create a new column that divides the loan amounts into the following options - under_10k, 10k_50k, 50k_100k, 100k_500k, 500k_1m, 1m_plus - and calculates how many loans are in each group. How would you describe the distribution of loans in a sentence?
+Hint: You will need to use `case_when` to make this work.
+**A1** The vast majority of loans were between zero and 50,000 dollars. The number of loans decreased as the loan amount surpassed 50,000 dollars. 
+
+
+```{r}
+# Write the code to produce your answer here
+west_virginia_amount_categories <- west_virginia_ppp %>%
+mutate(
+  loan_amounts_category = case_when(
+    amount < 10000 ~ 'under_10k',
+    amount >= 10000 & amount < 50000 ~ '10_to_50k',
+    amount>= 50000 & amount < 100000 ~ '50_to_100k',
+    amount >= 100000 & amount < 500000 ~ '100_to_500k',
+    amount >= 500000 & amount < 1000000 ~ '500k_to_1M',
+    amount > 1000000 ~ '1M+'
+  )
+)
+
+west_virginia_amount_categories %>%
+  group_by(loan_amounts_category) %>%
+  summarise(total = n()) %>%
+  arrange(desc(total))
+
+
+
+```
+
+**Q2** Some of the loans appear not to have been paid out - there is a column representing the amount of money that hasn't been disbursed to the applicant. Which servicing lenders have the most loans with undisbursed amounts greater than 0?
+**A2** [I tried a number of different ways to program this question, but I have run out of time. In sorting the data in the dataframe, I can see that the answer is The Davis Trust Company. I chose to leave the code in that I tried to use on my last attempt, but it does not give the corrext answer.]
+
+
+
+```{r}
+# Write the code to produce your answer here
+
+west_virginia_ppp %>%
+  group_by(lender) %>%
+  summarise(
+    value_loans = n(),
+    undisbursed_amount = sum(amount)
+  ) %>%
+  arrange(desc(undisbursed_amount))
+
+```
+
+**Q3** What are some potential reasons why a loan might not be paid out? What questions does that circumstance raise for you?
+**A3** The first reason is that the bank might not have the liquidity to actually give out the loans. The obvious questions here are how stable the banks are, and whether they are actually able to withstand the financial demands that the PPP program will demand, especially during an economic downturn. Likewise, there are questions about whether this bank is in legal trouble, or if there is a reason why they legally cannot distribute the money. Lastly, it is worth checking into the Davis Trust company, and who works there. If there are any ethical conflicts of interest, that could be an issue as well. 
+
+
+**Q4** Which month in 2021 had the most loans approved?
+**A4** [March had the most loans in 2021]
+
+```{r}
+# Write the code to produce your answer here
+west_virginia_ppp %>%
+  mutate(Month = floor_date(date_approved, "month")) %>%
+  group_by(Month) %>%
+  summarise(total = n()) %>%
+  arrange(desc(total))
+
+```
+
+**Q5** How many loans went to West Virginia applicants that listed the maximum number of jobs retained (500)? Which one had the earliest approved date?
+**A5** [Only 10 loans went to applicants that planned to retain 500 jobs. The earliest approval date was 2020-04-08. The date is taken from the dataframe produced by the code. I could not figure out how to program it.]
+
+```{r}
+# Write the code to produce your answer here
+west_virginia_jobs_categories <- west_virginia_ppp %>%
+mutate(
+  jobs_retained_category = case_when(
+    jobs_retained < 500 ~ 'under_500',
+    jobs_retained >= 500 ~ 'over_500'
+  )
+)
+
+west_virginia_jobs_categories %>%
+  group_by(jobs_retained_category) %>%
+  summarise(date_approved = n()) %>%
+  arrange(desc(date_approved))
+
+
+```
