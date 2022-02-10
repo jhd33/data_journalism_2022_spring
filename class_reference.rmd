@@ -32,4 +32,8 @@ install.packages("tidyverse")
 library(tidyverse)
 ```
 
+How to find the number of how many NAs there are 
 
+```{r}
+filter(is.na(forgiveness_date)) %>%
+```
