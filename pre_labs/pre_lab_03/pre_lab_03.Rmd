@@ -37,6 +37,7 @@ library(tidyverse)
 ### Task 2: Load data
 **Task** Load the PPP loan dataset by running the following code. We'll use the guess_max() function as an argument to use the first 10 rows to set the data type. What does the first line of the red Warning message that prints out when you load the data say? Answer below.
 **Answer**
+Warning: One or more parsing issues, see `problems()` for details
 
 ```{r}
 ppp_maryland_loans <- read_csv("ppp_loans_md.csv.zip", guess_max=10)
@@ -57,6 +58,7 @@ problems(ppp_maryland_loans)
 ### Task 4: Reload data
 **Task** Run the following codeblock to reload the data, using every row to set the data types. Does it show any parsing errors when you run? Answer below
 **Answer**
+No, there are no parsing errors
 
 ```{r}
 ppp_maryland_loans <- read_csv("ppp_loans_md.csv.zip", guess_max=195865)
@@ -170,6 +172,7 @@ ppp_maryland_loans %>%
 ### Task 14: Check for suspicious outliers
 **Task** Run the following codeblock to find the largest and smallest loans in the data, by using summarise() without grouping. How much is the largest loan for? How much is the smallest loan for? Are either of these suspicious to you? Why or why not? Answer below.
 **Answer**
+Max amount is 10 million dollars. The minium is six dollars. The max is not suspicious because 10 million was the max amount for the PPP program. In theory, the minimum is suspicious, but when the number is so low, the question is whether or not it is newsworthy. 
 ```{r}
 
 ppp_maryland_loans %>%
@@ -180,7 +183,7 @@ ppp_maryland_loans %>%
 
 ### Task 15: Look at smallest loans
 **Task** Run the following codeblock to examine all loans under $100. How many are there? Answer below.
-**Answer**
+**Answer** There are two loans under 100 dollars. 
 ```{r}
 
 ppp_maryland_loans %>%
@@ -190,7 +193,7 @@ ppp_maryland_loans %>%
 ### Task 16: Look for internal consistency
 **Task** Run the following codeblock to examine all loans under $100 and look at whether the various fields with amounts align. Do they? Answer below.
 **Answer**
-
+Yes, they align. 
 ```{r}
 
 ppp_maryland_loans %>%
@@ -217,14 +220,14 @@ library(janitor)
 ### Task 3: Load Arnold, Maryland demonstration data
 **Task** Run the following codeblock to load a demonstration slice of the data for Arnold, Maryland. How many rows are in this demonstration data set?
 **Answer**
-
+There are six rows.
 ```{r}
 arnold_md_loans <- read_rds("arnold_md_loans.rds")
 ```
 
 ### Task 4: Examine the data with glimpse
 **Task** Run the following codeblock to glimpse the data.  What data type is the "amount" field? Answer below.
-**Answer**
+**Answer** The data type is character. 
 ```{r}
 glimpse(arnold_md_loans)
 ```
@@ -234,6 +237,7 @@ And let's examine the full data set.
 ### Task 5: Examine the data table
 **Task** Run the following codeblock to examine the data. Name three problems the book chapter says exist in this data set that could prevent us from answering questions?  Answer below
 **Answer**
+One problem is the inconsistent styling in the column names. For example NAME is capitalized while amount is not. Second, the amount is a character not a number, so the math won't work. Third, the first two rows are exactly the same. 
 
 ```{r}
 arnold_md_loans
@@ -242,6 +246,7 @@ arnold_md_loans
 ### Task 6: Use clean_names()
 **Task** Run the following codeblock to use the `clean_names()` function from janitor to standardize column names. How does the function change the name of the column "1_id"? Answer below. Add a description of what this code does to your reference notebook.
 **Answer**
+It adds an x before the name of the column so that it does not begin with a number. 
 
 
 ```{r}
@@ -271,7 +276,7 @@ cleaned_arnold_md_loans
 ### Task 8: Try summarizing the amount column
 **Task** Run the following codeblock to attempt to add up the amount of all loans. What does the error say when you run this code? What do you think it means? Answer below.
 **Answer**
-
+It says that character is an invalid type of argument. This is because the amounts are characters and not numbers, so it cannot use them for mathematical equations. 
 ```{r}
 # cleaning function
 total_arnold_md_loans <- cleaned_arnold_md_loans %>%
@@ -285,6 +290,7 @@ total_arnold_md_loans
 ### Task 9: Change data type for amount
 **Task** Run the following codeblock to attempt to change the datatype for the amount field to a number. What is the new data type (three letter code) for amount? Answer below.
 **Answer**
+The new data type is dbl. 
 
 ```{r}
 # cleaning function
@@ -301,6 +307,7 @@ cleaned_arnold_md_loans
 ### Task 10: Try again to summarize the amount column
 **Task** Run the following codeblock to add up the amount of all loans in this data.  What is the total? Answer below.
 **Answer**
+The total amount is 2033179	
 ```{r}
 # cleaning function
 total_arnold_md_loans <- cleaned_arnold_md_loans %>%
@@ -315,6 +322,7 @@ total_arnold_md_loans
 ### Task 11: Check for duplicate rows
 **Task** Run the following codeblock to check for duplicate rows using get_dupes().  How many are there? What is the business name? Answer below.
 **Answer**
+There are two duplicate rows. The business name is Stuart Jones LLC.
 
 ```{r}
 cleaned_arnold_md_loans %>%
@@ -324,6 +332,7 @@ cleaned_arnold_md_loans %>%
 ### Task 12: Check for duplicate rows
 **Task** Run the following codeblock to use distinct() to get rid of duplicate rows. How many rows does the new dataframe have? Answer below. Add a description of what this code does to your reference notebook.
 **Answer**
+The new dataframe has 5 rows. 
 
 ```{r}
 # cleaning function
@@ -342,6 +351,7 @@ cleaned_arnold_md_loans
 ### Task 13: Clean up ZIP code
 **Task** Run the following codeblock to use str_sub() to convert the ZIP codes that have nine digits to five digits, standardizing the field. Add a description of what this code does to your reference notebook.
 **Answer**
+Unclear what question was. 
 
 ```{r}
 # cleaning function
@@ -360,7 +370,7 @@ cleaned_arnold_md_loans
 
 ### Task 14: Clean up city field
 **Task** Run the following codeblock to use str_tot_title() to standarize capitalization in the "city" field. How many mispellings of Arnold remain after running this code? Answer below. Add a description of what this code does to your reference notebook.
-
+Two mispellings remain
 ```{r}
 # cleaning function
 cleaned_arnold_md_loans <- arnold_md_loans %>%
@@ -381,6 +391,7 @@ cleaned_arnold_md_loans
 ### Task 15: Clean up city field more with case_when()
 **Task** Run the following codeblock to use case_when() to fix misspellings of Arnold in the "city" field. How many mispellings of Arnold remain after running this code? Answer below.
 **Answer**
+One misspelling remains. 
 
 ```{r}
 # cleaning function
@@ -405,6 +416,7 @@ cleaned_arnold_md_loans
 ### Task 16: Clean up city field more with case_when()
 **Task** Run the following codeblock to use case_when() to fix misspellings of Arnold in the "city" field using both the exact match method and the str_detect() method. How many mispellings of Arnold remain after running this code? Answer below. Add a description of what this code does to your reference notebook.
 **Answer**
+Zero misspellings remain. 
 ```{r}
 # cleaning function
 cleaned_arnold_md_loans <- arnold_md_loans %>%
