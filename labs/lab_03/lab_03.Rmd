@@ -1,7 +1,7 @@
 ---
 title: "lab_03"
-author: "sean mussenden"
-date: "8/19/2021"
+author: "Jon Donville"
+date: "2/11/2022"
 output: html_document
 ---
 
@@ -15,16 +15,17 @@ knitr::opts_chunk$set(echo = TRUE)
 options(scipen=999)
 
 # Load the tidyverse here
+library(tidyverse)
 
 # Load janitor here
-
+library(janitor)
 ```
 
 ## Load data
 ```{r}
 # Write code to load the WV slice of the ppp loan data here and call it wv_ppp_loans.
 # The data is called lab_03.rds, and is in the same folder as lab_03.Rmd (this data notebook)
-
+wv_ppp_loans <- read_rds("lab_03.rds")
 
 ```
 
@@ -35,10 +36,59 @@ Q1: Which five cities located in Kanawha County, West Virginia, got the largest 
 Note: To answer this question, you'll need to see every variation of the "city" column in Kanawha County, and then fully clean the city field for those cities. Hint: once cleaned, the dataframe that counts the number of loans by city should have 38 distinct cities for Kanawha County.
 
 A1:
+
+The five cities with the highest number of loans in Kanawha County are: 
+
+Charleston	2802			
+South Charleston	478			
+Saint Albans	296			
+Dunbar	162			
+Nitro	140	
+
 ```{r}
 
 # Write your code in this codeblock.
-
+wv_ppp_loans %>%
+  clean_names() %>%
+   mutate(city = str_to_title(city)) %>%
+ mutate(city = case_when(
+    city == "CHARLESTON" ~ "Charleston",
+    city == "charleston" ~ "Charleston",
+    str_detect(city,"^char") ~ "Charleston",
+     str_detect(city,"^Char") ~ "Charleston",
+    city == "SOUTH CHARLESTON"  ~ "South Charleston",
+    city == "So Charleston" ~ "South Charleston",
+    city == "south charleston" ~ "South Charleston",
+    city == "south Charleston" ~ "South Charleston",
+    str_detect(city,"^S C") ~ "South Charleston",
+      str_detect(city,"^St") ~ "Saint Albans",
+     str_detect(city,"^st") ~ "Saint Albans",
+     str_detect(city,"^ST") ~ "Saint Albans",
+     str_detect(city,"^saint") ~ "Saint Albans",
+    city == "SAINT ALBANS" ~ "Saint Albans",
+    city == "NITRO" ~ "Nitro",
+    str_detect(city,"^cross") ~ "Cross Lanes",
+    city == "CROSS LANES" ~ "Cross Lanes",
+    city == "Crosslanes" ~ "Cross Lanes",
+    city == "DUNBAR" ~ "Dunbar",
+    city == "ELKVIEW" ~ "Elkview",
+     city == "Elkveiw" ~ "Elkview",
+    city == "BELLE" ~ "Belle",
+     city == "Balle" ~ "Belle",
+       city == "CLENDENDIN" ~ "Clendenin",
+      str_detect(city,"^siss") ~ "Sissonville",
+      str_detect(city,"^SISS") ~ "Sissonville",
+        city == "ALUM CREEK" ~ "Alum Creek",
+        city == "CLENDENDIN" ~ "Clendenin",
+        city == "TORNADO" ~ "Tornado",
+        city == "CEDAR GROVE" ~ "Cedar Grove",
+        city == "MONTGOMERY" ~ "Montgomery",
+    TRUE ~ city
+  )) %>% 
+   group_by(city) %>%
+  filter(project_county_name == "KANAWHA") %>%
+   summarise(total = n()) %>%
+  arrange(desc(total))
 ```
 
 Q2: Find the 5-digit ZIP code in West Virginia that had the highest total amount of loans (by dollar value). What is the name of the business that got the largest loan (by dollar value) in that zip code? Write up a short paragraph that also answers these questions:
@@ -49,11 +99,31 @@ Q2: Find the 5-digit ZIP code in West Virginia that had the highest total amount
 * Which number is bigger, the loan amount or the forgiveness amount? Can you explain the discrepancy?
 
 A2:
-
+The zip code with the highest amount of loans is 25301, which is located in Charleston. The Business with the highest loan was Jackson Kelly PLLC, and the loan was for 5,068,472 dollars. The forgiveness amount was $5,126,618.64. The forgiveness amount was greater than the loan amount. I researched these loans and found that 100% of the loan, plus accrued interest can be forgiven, which is how the forgiveness amount could become higher than the loan amount. 
 ```{r}
 # Hint
 # First, create a dataframe that shows the top 5-digit ZIP code by total dollar amount
+
+cleaned_kanawha_wv_loans <- wv_ppp_loans %>%
+mutate(zip = str_sub(zip, start=1L, end=5L)) %>%
+  group_by(zip) %>%
+  summarise(count_loans = n(),
+    total_loans_amount = sum(amount)
+) %>% 
+  arrange(desc(total_loans_amount))
+  
 # Second, use the top ZIP code to create a separate dataframe that shows the business with the biggest loan in that ZIP code.
+
+cleaned_business_wv_loans <- wv_ppp_loans %>%
+  mutate(zip = str_sub(zip, start=1L, end=5L)) %>%
+  group_by(name) %>% 
+  filter(zip == "25301") %>%
+  summarise(
+    amount,
+    forgiveness_amount,
+  ) %>% 
+  arrange(desc(amount))
+  
 
 ```
 
@@ -78,12 +148,25 @@ Some hints to help you answer this question:
 * When you examine the disclosure forms, there may be lots of stock sales and retirement accounts mixed in.  Ignore those. In the table in the disclosure forms, look for "Partnership" or "C-Corp" in the column named "Income Type"
 * This is a link to details on passage of the [CARES ACT](https://www.congress.gov/bill/116th-congress/house-bill/748). You can find a link to how the House voted by clicking on a link from [this page](https://www.congress.gov/bill/116th-congress/house-bill/748/actions).
 
-A3:
+A3: The Businesses are all Dutch Miller car dealerships and auto repair shops. They are: Dutch Miller Chevrolet, Dutch Miller of Charleston, Dutch Miller of Charlotte, Dutch Miller Subaru, and Dutch Motor. In total, they received $3,105,300 in loans across their three businesses. Approximately 101 percent of their loans were forgiven. Rep Miller voted for the bill. 
 
 ```{r}
 
 # Hint
 # First, create a dataframe that only has loans to those five companies
+wv_ppp_loans %>% 
+ mutate(name = str_to_title(name)) %>% 
+  filter(str_detect(name, "Dutch Miller")
+                    | str_detect(name, "Dm Motor")) %>% 
+            
+  
 # Second, use that newly created dataframe to calculate total loan amount and percentage forgiven for those companies
+
+summarise(
+    total_loans_amount = sum(amount),
+    total_forgivenss_amount = sum(forgiveness_amount),
+    percentage_forgiven =total_forgivenss_amount  / total_loans_amount * 100
+  ) %>% 
+  arrange(desc(total_loans_amount))
 
 ```
