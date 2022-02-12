@@ -39,11 +39,11 @@ A1:
 
 The five cities with the highest number of loans in Kanawha County are: 
 
-Charleston	2802			
-South Charleston	478			
-Saint Albans	296			
-Dunbar	162			
-Nitro	140	
+Charleston -	2802 loans			
+South Charleston -	478	loans		
+Saint Albans -	296	loans	
+Dunbar -	162	loans	
+Nitro	- 140	loans
 
 ```{r}
 
