@@ -1,7 +1,7 @@
 ---
 title: "Reverse Engineering Project"
-author: "Student names here"
-date: "Date here"
+author: "Mythili Devarakonda, Varun Shanker, Jon Donville"
+date: "March 5th"
 output:
   html_document:
     theme: cerulean
@@ -18,13 +18,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction 
 
-In this notebook, we are reverse engineering the story, [STORY NAME](STORY URL)
+In this notebook, we are reverse engineering the story, [CEOs gave heavily during legislative session, exposing loophole in NC's fundraising ban (WRAL, North Carolina)](https://www.wral.com/in-session-campaign-donations/17716104/)
 
 ## Load libraries
 
 Loading required libraries for this analysis.
 
 ```{r echo=FALSE, message=FALSE}
+library(tidyverse)
 
 ```
 
@@ -34,7 +35,7 @@ In this section, describe the source of the data, write a basic data dictionary 
 
 ```{r}
 # Load required data
-
+donor_list <- read.csv("data/donors0103-0701.csv")
 # Path to data should be loaded from folder "data" i.e. read_csv("data/name_of_data.csv")
 
 # Clean required data and prepare for analysis if needed. 
@@ -71,11 +72,14 @@ In this notebook, we are reverse engineering five sentences from the story.
 
 ### Sentence 3
 
-* **Sentence text**: [Paste in sentence to engineer here]
-* **Analysis summary**: [Write up two to three sentences describing the results of your analysis.  Were you able to confirm the finding? If not, why not?]
+* **Sentence text**: [R.H. Barringer's board chair, Jasie Barringer, donated another $8,200 in-session, and Teresa Craig kicked in another $5,200 to Berger. The North Carolina Beer & Wine Wholesalers Association PAC gave $18,400 during the week before session and on opening day.]
+* **Analysis summary**: [The problem with the data right now is that the amount row is not a number. The datatype will need to be changed before getting any accurate data. I could filter for those names specifically, but it would make it difficult to produce any meaningful oversations other than exactly what I am looking for. ]
 
 ```{r}
 # Put code to reverse engineer sentence here
+donor_list %>% 
+  group_by(name.clean) %>% 
+arrange(desc(amount))
 
 # Display results of code below this codeblock
 
