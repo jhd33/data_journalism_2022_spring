@@ -26,7 +26,9 @@ Loading required libraries for this analysis.
 
 ```{r echo=FALSE, message=FALSE}
 library(tidyverse)
-
+library(lubridate)
+library(refinr)
+library(janitor)
 ```
 
 ## Load and Cleaning Data
@@ -35,12 +37,12 @@ In this section, describe the source of the data, write a basic data dictionary 
 
 ```{r}
 # Load required data
-donor_list <- read.csv("data/donors0103-0701.csv")
 # Path to data should be loaded from folder "data" i.e. read_csv("data/name_of_data.csv")
-
 # Clean required data and prepare for analysis if needed. 
-
-
+nc_finance_data <- read_csv("data/donors0103-0701.csv")
+nc_finance_data <- nc_finance_data %>%
+  mutate(date = as.Date(date)) %>% 
+  mutate(amount = as.numeric(parse_number(amount)))
 ```
 
 ## Sentences to Engineer
@@ -48,32 +50,52 @@ In this notebook, we are reverse engineering five sentences from the story.
 
 ### Sentence 1
 
-* **Sentence text**: [Paste in sentence to engineer here]
-* **Analysis summary**: [Write up two to three sentences describing the results of your analysis.  Were you able to confirm the finding? If not, why not?]
+* **Sentence text**: “Gov. Roy Cooper's main campaign account brought in another $407,000 during session.”
+* **Analysis summary**: I tried filtering the data set using his main campaign account "Cooper for North Carolina" but the amount didn't match with the article's result.
 
 ```{r}
 # Put code to reverse engineer sentence here
-
 # Display results of code below this codeblock
+nc_finance_data %>% 
+ filter(name == "Cooper For North Carolina")
+```  
 
-```
 
 ### Sentence 2
 
-* **Sentence text**: [Paste in sentence to engineer here]
-* **Analysis summary**: [Write up two to three sentences describing the results of your analysis.  Were you able to confirm the finding? If not, why not?]
+* **Sentence text**: “Berger, R-Rockingham, brought in about $60,000 that week. House Speaker Tim Moore's campaign account collected more than $72,000. Both men declined interview requests on these issues.”
 
+* **Analysis summary**: I tried to confirm the values found here but ran into a couple of issues. The first was the time-frame, which I think is 1/3 to 1/10 but I'm not sure. The second is knowing where all the donations are going, it's hard to see if I'm catching all of Berger/Moore's donations.
 ```{r}
 # Put code to reverse engineer sentence here
-
-# Display results of code below this codeblock
-
+berger_donations <- nc_finance_data %>%  
+  filter(date >= "0001-03-18" & date <= "0001-10-18" & committee_name == "PHILIP E BERGER COMM") 
+berger_donations %>% 
+summarize(
+      total_loans_amount = sum(amount)
+) 
 ```
+
+```{r}
+moore_donations <- nc_finance_data %>%  
+  filter(date >= "0001-03-18" & date <= "0001-10-18" & committee_name == "FRIENDS OF TIM MOORE") 
+moore_donations %>% 
+summarize(
+      total_loans_amount = sum(amount)
+)
+```
+# Display results of code below this codeblock
 
 ### Sentence 3
 
-* **Sentence text**: [R.H. Barringer's board chair, Jasie Barringer, donated another $8,200 in-session, and Teresa Craig kicked in another $5,200 to Berger. The North Carolina Beer & Wine Wholesalers Association PAC gave $18,400 during the week before session and on opening day.]
-* **Analysis summary**: [The problem with the data right now is that the amount row is not a number. The datatype will need to be changed before getting any accurate data. I could filter for those names specifically, but it would make it difficult to produce any meaningful oversations other than exactly what I am looking for. ]
+Sentence text: [R.H. Barringer's board chair, Jasie Barringer, donated another $8,200 in-session, and Teresa Craig kicked in another $5,200 to Berger. The North Carolina Beer & Wine Wholesalers Association PAC gave $18,400 during the week before session and on opening day.]
+Analysis summary: [The problem with the data right now is that the amount row is not a number. The datatype will need to be changed before getting any accurate data. I could filter for those names specifically, but it would make it difficult to produce any meaningful obversations other than exactly what I am looking for. ]
+
+```{r}
+nc_finance_data %>% 
+  group_by("name-clean") %>%
+arrange(desc(amount))
+```
 
 ```{r}
 # Put code to reverse engineer sentence here
