@@ -37,3 +37,126 @@ How to find the number of how many NAs there are
 ```{r}
 filter(is.na(forgiveness_date)) %>%
 ```
+
+Rvest stuff 
+
+Scraping a table --> Because it's inside of a table, and not some other kind of element (like a `<div>`), rvest has a special function for easily extracting and converting html tables, called html_table(). This function extracts all six html tables on the page, only one of which we actually want. NOTE: this gives all the tables on the page
+
+```{r}
+# read in the html and extract all the tables
+naics_industry <- naics_url %>%
+  read_html() %>%
+  html_table()
+
+# display the tables below
+naics_industry
+
+```
+
+Storing one dataframe --> to store that single dataframe as an object, and get rid of the rest.  We can do that with this code, which says "keep only the second dataframe from our nested list. If we wanted to keep the third one, we'd change the number 2 to number 3.
+
+```{r}
+# Read in all html from table, store all tables on page as nested list of dataframes.
+naics_industry  <- naics_url %>%
+  read_html() %>%
+  html_table()
+
+# Just keep the second dataframe in our list
+
+naics_industry <- naics_industry[[2]]
+
+# show the dataframe
+
+naics_industry
+
+```
+
+Clean names + Slice rows Let's use clean_names() to standardize the column names.  Then let's use slice() to remove the last row -- row number 21 -- which contains source information that will complicate our use of this table later.
+
+```{r}
+# Read in all html from table, store all tables on page as nested list of dataframes.
+naics_industry <- naics_url %>%
+  read_html() %>%
+  html_table()
+
+# Just keep the second dataframe in our list, standardize column headers, remove last row
+
+naics_industry <- naics_industry[[2]] %>%
+  clean_names() %>%
+  slice(-21)
+
+# show the dataframe
+naics_industry
+
+```
+
+using xpath to get specific tables --> But essentially what the html_element function says is "find the html element that has an id of iag22emp1, using the xpath method, and get rid of all other elements".
+
+```{r}
+
+# Define url of the page we want to get
+url <- "https://www.bls.gov/iag/tgs/iag22.htm"
+
+# Get employment html page and select only the table with employment information
+employment_info <- url %>%
+  read_html() %>%
+  html_element(xpath = '//*[@id="iag22emp1"]')
+
+# Display it so we can see what it looks like
+employment_info
+```
+
+Making a list and using for loop
+
+And now let's write a "for loop" to print out sector on that list.
+
+Let's break down what we just saw, starting with for `(sector in list_of sectors)`.
+
+The information inside the parentheses tells R what list to use -- list_of_sectors -- and how to identify list elements later on -- sector.
+
+It's important that the thing on the right side of "in" use the exact name of the list we want to loop through -- in this case "list_of_sectors".
+
+If we try to feed it something different -- say "sector_list" -- it won't work, because our actual list is called something else -- "list_of_sectors". This code throws an error.
+
+The name on the left side of "in" -- the word we're assigning to represent each element -- is totally arbitrary.  
+
+We could use any character string, even something simple like "x".  
+
+What matters is that we use the same character string inside of the curly braces {}, the section of the "for loop" that tells R what to do to each element -- in this case, print it out.    
+
+```{r}
+# Define list of sectors
+list_of_sectors <- c("Agriculture, Forestry, Fishing and Hunting", "Mining, Quarrying, and Oil and Gas Extraction", "Utilities", "Construction", "Manufacturing",
+"Wholesale Trade", "Retail Trade", "Transportation and Warehousing", "Information", "Finance and Insurance")
+
+# Make a for loop and run it
+for (sector in list_of_sectors) {
+  print(sector)
+}
+
+
+```
+
+Loop for numbers --> 
+
+We can also write for loops to iterate over a range of numbers, instead of a list of characters.  The syntax is a little different.
+
+The code below says: "for each number in a range of numbers from 1 to 10, print the number."  
+
+```{r}
+# For loop that includes instructions that refer to a variable that doesn't exist.
+for (number in 1:10) {
+  print(number)
+}
+```
+
+Loop for the number of rows in a dataframe --> 
+
+To put it all together, the code below says "make a list of numbers that starts at 1 and ends at the number of rows in the naics_industry dataframe (which is 20), then print out each of these numbers."
+
+```{r}
+# For loop that includes instructions that refer to a variable that doesn't exist.
+for (row_number in 1:nrow(naics_industry)) {
+  print(row_number)
+}
+```
