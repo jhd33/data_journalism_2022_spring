@@ -94,20 +94,42 @@ summarize(total_loans_amount = sum(amount))
 
 ```{r}
 # Put code to reverse engineer sentence here
-nc_finance_data_cleaned <- read.csv("data/nc_finance_data_cleaned.csv")
 
-nc_finance_data_cleaned <- nc_finance_data_cleaned %>% 
-  mutate(date = mdy(date))  
+nc_finance_data_cleaned <- read.csv("data/nc_finance_data_cleaned.csv") 
+
+nc_finance_data_cleaned <- nc_finance_data_cleaned %>%  mutate(amount = as.numeric(parse_number(amount)))
 
 barringer_donations<-nc_finance_data_cleaned %>% 
-  filter(name_clean == "Jasie Barringer" )
+  filter(str_detect(name_clean, "BARRINGER")) 
 
+barringer_donations_newdates <- barringer_donations %>% mutate(date = mdy(date)) %>% 
+  filter(date >= '2018-05-16' & date <= '2018-06-29')
 
+craig_donations <- nc_finance_data_cleaned %>%  
+  filter(str_detect(name_clean, "TERESA"))
+
+craig_donations_newdates <- craig_donations %>% mutate(date = mdy(date)) %>% 
+  filter(date >= '2018-05-16' & date <= '2018-06-29')
+
+beer_andwine_donations <- nc_finance_data_cleaned %>% 
+  filter(str_detect(name_clean, "BEER & WINE"))
+
+beer_andwine_newdates <- beer_andwine_donations %>% mutate(date = mdy(date)) %>% 
+  filter(date >= '2018-05-09' & date <= '2018-05-16') 
 
 # Display results of code below this codeblock
 
-  
+beer_andwine_newdates %>% 
+  summarise(
+  total_amount = sum(amount))
 
+craig_donations_newdates %>% 
+  summarise(
+  total_amount = sum(amount))
+
+barringer_donations_newdates %>% 
+  summarise(
+  total_amount = sum(amount))
 
 ```
 
