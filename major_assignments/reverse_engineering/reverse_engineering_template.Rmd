@@ -90,30 +90,39 @@ summarize(total_loans_amount = sum(amount))
 ### Sentence 3
 
 * **Sentence text**: R.H. Barringer's board chair, Jasie Barringer, donated another $8,200 in-session, and Teresa Craig kicked in another $5,200 to Berger. The North Carolina Beer & Wine Wholesalers Association PAC gave $18,400 during the week before session and on opening day.
-* **Analysis summary**: I first read in the csv, then changed the data type of the amount column. Then I needed to filter by date and by name. I did each one in their own dataframe to keep it as clear as possible. 
+* **Analysis summary**: I first read in the csv, then changed the data type of the amount column. Then I needed to filter by date and by name. I did each one in their own dataframe to keep it as clear as possible. My analysis matched the article and I got all of the same answers as them. 
 
 ```{r}
 # Put code to reverse engineer sentence here
 
+#Read in data. 
+
 nc_finance_data_cleaned <- read.csv("data/nc_finance_data_cleaned.csv") 
 
+#clean it to change the datatype of the amount colum. 
 nc_finance_data_cleaned <- nc_finance_data_cleaned %>%  mutate(amount = as.numeric(parse_number(amount)))
 
+#Filter for Barringer loans 
 barringer_donations<-nc_finance_data_cleaned %>% 
   filter(str_detect(name_clean, "BARRINGER")) 
 
+#Filter for the dates
 barringer_donations_newdates <- barringer_donations %>% mutate(date = mdy(date)) %>% 
   filter(date >= '2018-05-16' & date <= '2018-06-29')
 
+#Filter for Craig Loans
 craig_donations <- nc_finance_data_cleaned %>%  
   filter(str_detect(name_clean, "TERESA"))
 
+#Filter for the dates
 craig_donations_newdates <- craig_donations %>% mutate(date = mdy(date)) %>% 
   filter(date >= '2018-05-16' & date <= '2018-06-29')
 
+#Filter for beer and wine 
 beer_andwine_donations <- nc_finance_data_cleaned %>% 
   filter(str_detect(name_clean, "BEER & WINE"))
 
+#Filter for dates. 
 beer_andwine_newdates <- beer_andwine_donations %>% mutate(date = mdy(date)) %>% 
   filter(date >= '2018-05-09' & date <= '2018-05-16') 
 
@@ -135,39 +144,64 @@ barringer_donations_newdates %>%
 
 ### Sentence 4
 
-* **Sentence text**: [Paste in sentence to engineer here]
-* **Analysis summary**: [Write up two to three sentences describing the results of your analysis.  Were you able to confirm the finding? If not, why not?]
+**Sentence text**: Senate President Pro Tem Phil Berger's campaign alone raised nearly $222,000 during session. Twenty-three people gave him the maximum allowed: $5,200.”
 
+* **Analysis summary**: By filtering by the date and the committee and then summarizing the total amount of donations, I was able to confirm Berger got just under 222k in donations during the session. 
+I then did the same but also added another filter requirement, that the amount donated was the maximum allowed of 5200, and I got 23 results, confirming what the story said.
+
+May 16 to June 29
 ```{r}
 # Put code to reverse engineer sentence here
+berger_donations <- nc_finance_data %>%  
+  filter(date >= '2018-05-16' & date <= '2018-06-29' & committee_name == "PHILIP E BERGER COMM") 
+berger_donations %>% 
+summarize(total_loans_amount = sum(amount))
+berger_max_donations <- nc_finance_data %>%  
+  filter(date >= '2018-05-16' & date <= '2018-06-29' & committee_name == "PHILIP E BERGER COMM" & amount == 5200) 
+berger_max_donations
 # Display results of code below this codeblock
 ```
 
+
 ### Sentence 5
 
-* **Sentence text**: [The co-chief executives at a Georgia firm that brokers tax credits put $41,000 into the campaign accounts of North Carolina General Assembly members during the last regular legislative session.]
-* **Analysis summary**: [Write up two to three sentences describing the results of your analysis.  Were you able to confirm the finding? If not, why not?]
+* **Sentence text**: "The co-chief executives at a Georgia firm that brokers tax credits put $41,000 into the campaign accounts of North Carolina General Assembly members during the last regular legislative session."
+* **Analysis summary**: [My analysis showed that during the session from May 16 to June 29, the two executivves gave a combined $41,250. I am not sure if the authors of the article rounded their results for readability, but I had the total about 250 dollars different than the article. It also seems that the article made a mistake in saying that they donated these figures during the last REGULAR legislative session. According to ballotpedia (https://ballotpedia.org/2018_North_Carolina_legislative_session), the last regular session at the time of the article went from January 10 - July 4. The two executives donated significantly more than 41k during that time.]
 
 ```{r}
 # Put code to reverse engineer sentence here
 
+#Read in data 
 nc_finance_data_cleaned <- read.csv("data/nc_finance_data_cleaned.csv") 
 
+#Change datatype of amount column
 nc_finance_data_cleaned <- nc_finance_data_cleaned %>%  mutate(amount = as.numeric(parse_number(amount)))
 
-taxbroker_donations<-nc_finance_data_cleaned %>% 
+#Filter for Delmer donations, by date, name, and make sure the donations were given to candidates. 
+delmer_donations<-nc_finance_data_cleaned %>% 
   mutate(date = mdy(date)) %>% 
-  filter(date >= '2018-01-10' & date <= '2018-07-04') %>% 
-  filter(str_detect(cleaned_employer, "Monarch")) %>% 
+  filter(date >= '2018-05-16' & date <= '2018-06-29') %>% 
+  filter(str_detect(cleaned_name, "Delmer")) %>% 
+filter(str_detect(source, "candidates")) %>% 
+  filter(str_detect(transaction_type, "Individual"))
+
+#Same for Strobel
+strobel_donations<-nc_finance_data_cleaned %>% 
+  mutate(date = mdy(date)) %>% 
+  filter(date >= '2018-05-16' & date <= '2018-06-29') %>% 
+  filter(str_detect(cleaned_name, "Strobel")) %>% 
 filter(str_detect(source, "candidates")) %>% 
   filter(str_detect(transaction_type, "Individual"))
   
-taxbroker_donations %>% 
+#Summarize and Display Donations
+
+delmer_donations %>% 
   summarise(
   total_amount = sum(amount))
 
-
-# Display results of code below this codeblock
+strobel_donations %>% 
+  summarise(
+  total_amount = sum(amount))
 ```
 
 -30-
@@ -177,24 +211,3 @@ taxbroker_donations %>%
 # Display results of code below this codeblock
 ```
 
-### Sentence 4
-
-* **Sentence text**: [Paste in sentence to engineer here]
-* **Analysis summary**: [Write up two to three sentences describing the results of your analysis.  Were you able to confirm the finding? If not, why not?]
-
-```{r}
-# Put code to reverse engineer sentence here
-# Display results of code below this codeblock
-```
-
-### Sentence 5
-
-* **Sentence text**: [Paste in sentence to engineer here]
-* **Analysis summary**: [Write up two to three sentences describing the results of your analysis.  Were you able to confirm the finding? If not, why not?]
-
-```{r}
-# Put code to reverse engineer sentence here
-# Display results of code below this codeblock
-```
-
--30-
