@@ -90,7 +90,7 @@ summarize(total_loans_amount = sum(amount))
 ### Sentence 3
 
 * **Sentence text**: R.H. Barringer's board chair, Jasie Barringer, donated another $8,200 in-session, and Teresa Craig kicked in another $5,200 to Berger. The North Carolina Beer & Wine Wholesalers Association PAC gave $18,400 during the week before session and on opening day.
-* **Analysis summary**: I am still having trouble finding this information. Even when I filtered for the individual names, the amounts I found did not line up with the results of the story. 
+* **Analysis summary**: I first read in the csv, then changed the data type of the amount column. Then I needed to filter by date and by name. I did each one in their own dataframe to keep it as clear as possible. 
 
 ```{r}
 # Put code to reverse engineer sentence here
@@ -145,11 +145,28 @@ barringer_donations_newdates %>%
 
 ### Sentence 5
 
-* **Sentence text**: [Paste in sentence to engineer here]
+* **Sentence text**: [The co-chief executives at a Georgia firm that brokers tax credits put $41,000 into the campaign accounts of North Carolina General Assembly members during the last regular legislative session.]
 * **Analysis summary**: [Write up two to three sentences describing the results of your analysis.  Were you able to confirm the finding? If not, why not?]
 
 ```{r}
 # Put code to reverse engineer sentence here
+
+nc_finance_data_cleaned <- read.csv("data/nc_finance_data_cleaned.csv") 
+
+nc_finance_data_cleaned <- nc_finance_data_cleaned %>%  mutate(amount = as.numeric(parse_number(amount)))
+
+taxbroker_donations<-nc_finance_data_cleaned %>% 
+  mutate(date = mdy(date)) %>% 
+  filter(date >= '2018-01-10' & date <= '2018-07-04') %>% 
+  filter(str_detect(cleaned_employer, "Monarch")) %>% 
+filter(str_detect(source, "candidates")) %>% 
+  filter(str_detect(transaction_type, "Individual"))
+  
+taxbroker_donations %>% 
+  summarise(
+  total_amount = sum(amount))
+
+
 # Display results of code below this codeblock
 ```
 
