@@ -1,0 +1,185 @@
+---
+title: "lab_11"
+author: "Jon Donville"
+date: "04/14/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## You will need
+
+* A Census API key
+
+## Load libraries and establish settings
+
+**Task** Create a codeblock and load appropriate packages and settings for this lab. You'll need tidyverse, tidycensus, janitor, sf and tigris, and you'll also need to install your census API key.
+
+```{r}
+library(tidyverse)
+library(sf)
+library(janitor)
+library(tidycensus)
+library(tigris)
+library(stringr)
+library(lubridate)
+
+census_api_key("46337cfa9ca4bb84fc53936d51e61e3bdb6e6b3e")
+```
+
+## Load data
+
+**Task** Create a codeblock and load the WV slice of the PPP loan data, which is in the data folder and is called lab_11.rds.
+
+```{r}
+wv_ppp_data <- read_rds("data/lab_11.rds")
+
+```
+
+## Questions
+
+**Q1.** You are interested in doing some reporting on how West Virginia companies in the "Mining, Quarrying, and Oil and Gas Extraction" industry (https://www.naics.com/six-digit-naics/?code=21) used PPP loans during the pandemic (West Virginia is a big coal mining state).  
+
+Then produce a choropleth map that shows West Virginia counties shaded according to the total amount of loans to that industry per 100,000 population.
+
+Use the magma color palette, and shade on a "log" scale. Also produce a table that shows the total amount of loans per 100,000 population for each county, ranked from highest to lowest, along with the total amount of loans and the total number of loans.
+
+Then answer these questions:
+
+* Based on the map, what region of the state appears to have gotten more loans in this industry? What geographic pattern do you notice in the data?
+* Based on the table, what county got the highest total loan amount? What was the total amount per 100K population, the total amount of loans (not population adjusted), how many loans were there, and what's the population?
+
+**A1.**
+There appears to be a line from the southwest to the northeast of the state, where there are more loans. There were very few loans along the eastern border of the state. Looking at a topographic map, it appears that loans are way more frequent and for more money on the west side of the appalachin mountains, which run from southwest to northeast in the state. 
+
+Harrison county had the highest loan amount, of $9,919,762.98. There were 59 loans, a population of 67,908, and the loans per 100k was $1,4607,650.03. 
+
+```{r}
+wv_mining_activities <- wv_ppp_data %>% 
+     mutate(naics_code = str_sub(naics_code, start=1L, end=2L)) %>% 
+  filter(str_detect(naics_code, "21")) %>% 
+  rename("COUNTY" = "project_county_name") %>% 
+  group_by(COUNTY) %>% 
+    summarise(total_amount = sum(amount)) %>% 
+arrange(total_amount)
+
+wv_county_population <- get_acs(geography = "county", 
+              variables = c(population = "B01001_001"), 
+              state = "WV",
+              geometry = TRUE)
+
+wv_county_population <- wv_county_population %>%
+  rename(COUNTY = NAME) %>%
+  mutate(COUNTY = toupper(str_remove_all(COUNTY,", West Virginia|County"))) %>%
+  mutate(COUNTY = str_trim(COUNTY,side="both")) %>%
+  rename(population = estimate) %>%
+  select(COUNTY, population, geometry)
+
+wv_mining_per100k <- wv_county_population %>% 
+  left_join(wv_mining_activities, by="COUNTY") %>% 
+mutate(loans_per_100k = (total=(total_amount/population)*100000)) %>% 
+   mutate(loans_per_100k = replace_na(loans_per_100k,0)) %>% 
+  group_by(COUNTY)
+
+ggplot() + 
+  geom_sf(data=wv_mining_per100k, aes(fill=loans_per_100k)) + 
+  theme_minimal()+
+ scale_fill_viridis_b(option="magma",trans = "log")
+
+wv_mining_table <- wv_ppp_data %>% 
+     mutate(naics_code = str_sub(naics_code, start=1L, end=2L)) %>% 
+  filter(str_detect(naics_code, "21")) %>% 
+  rename("COUNTY" = "project_county_name") %>% 
+  group_by(COUNTY) %>% 
+    summarise(count=n())
+
+wv_mining_table_final <- wv_mining_per100k %>% 
+  left_join(wv_mining_table, by="COUNTY") %>% 
+  arrange(desc(total_amount))
+
+wv_mining_table_final
+  
+```
+
+**Q2.** You want to understand WHY the spatial pattern you saw above exists.  So you grab a shapefile with the latitude and longitude coordinates of every mine permit in West Virginia from the state Department of Environmental Protection.
+
+Here's the url: https://tagis.dep.wv.gov/arcgis/rest/services/WVDEP_enterprise/mining_reclamation/MapServer/0/query?where=1%3D1&outFields=*&geometry=&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outSR=4326&f=json
+
+(It's in a slightly different format than the .shp file in the lab. It's another type of shapefile called "geojson".  It will work just the same, though, despite that difference. You can read it directly into R without manually downloading it, by putting the url in the st_read() function we learned about in this week's prelab.)
+
+This data includes both currently operating mines and old ones that have closed.  You want to examine only mines that have a permit expiration date after Sept. 1, 2021.
+
+Make a map with a point for each one of these mine permits and put a blank map with the outline of West Virginia counties (which you can get from Tigris) behind it.
+
+What spatial pattern do you see? How does it compare to the spatial pattern in the first map you made?
+
+**A2.**
+This map is different, it shows a concentration in the southwest corner of the state, with relatively less loans the further north you get along the appalachins. 
+
+```{r}
+mining_loans <- st_read("https://tagis.dep.wv.gov/arcgis/rest/services/WVDEP_enterprise/mining_reclamation/MapServer/0/query?where=1%3D1&outFields=*&geometry=&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outSR=4326&f=json")
+
+wv_mining_loans <- mining_loans %>% 
+  mutate(
+    CleanDate = as.POSIXct(expiredate, format="%Y-%m-%d %H:%M:%S")
+) %>% 
+  filter(expiredate >= '2021/09/01' & expiredate <= '2022/04/15') 
+ 
+wv_counties <- counties %>%
+  filter(STATEFP == "54")
+
+ggplot() + 
+  geom_sf(data=wv_counties) + 
+  geom_sf(data=wv_mining_loans) +
+  theme_minimal()
+  
+```
+
+**Q3.** To confirm the spatial comparison you identified in question 2, let's create a new map that layers the mine location points on top of our PPP choropleth map we created in question 1. What do you notice about the number of mines in the county that has the highest total loan amount per 100K?
+
+**A3.**
+This map confirms the findings. Even though loan data is relatively consistent the more north you go, the loans in question 2 are more consistent in the southwest counties of the state. 
+
+```{r}
+ggplot() + 
+  geom_sf(data=wv_counties, fill="white") + 
+   geom_sf(data=wv_mining_per100k, aes(fill=loans_per_100k), size=2) +
+  geom_sf(data=wv_mining_loans) +
+    theme_minimal() +
+ scale_fill_viridis_b(option="magma",trans = "log")
+ 
+  
+```
+
+**Q4.** Starting from the original WV ppp dataframe, examine the loans to companies in "Mining, Quarrying, and Oil and Gas Extraction" in the county with the highest total loan amount per 100K (you can use the table you created in question 1 to identify the top county).
+
+* What single company accounts for the biggest chunk of the total loan amount?
+* What specific industry are they in, based on their 6-digit NAICS code? Look them up on the web. What services do they provide?
+* How many jobs did they save, according to the data?
+* What's your hypothesis for why a company in their specific industry would need to seek a PPP loan during the pandemic?
+
+**A4.** 
+ET360 had the highest total amount. They retained 178 jobs. Their industry is "support operations for oil and gas operations. With new environmental rules coming into play, there is likely a massive new market for companies that can either clean previously mined land, or perform environmentally friendly operations that help mining companies comply with new rules. 
+
+```{r}
+wv_topcompany <- wv_ppp_data %>% 
+   mutate(naics_code = str_sub(naics_code, start=1L, end=2L)) %>% 
+  filter(str_detect(naics_code, "21")) %>% 
+  filter(project_county_name == "HARRISON") %>% 
+  group_by(name) %>% 
+summarise(total_amount = sum(amount)) %>% 
+arrange(desc(total_amount))
+
+wv_topcompany
+
+    
+  
+
+```
+
+
+
+-30-
+
