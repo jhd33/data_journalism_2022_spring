@@ -1,0 +1,34 @@
+---
+title: "data_analysis_project"
+author: "Jon Donville"
+date: "16/04/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+library(tidyverse)
+library(sf)
+library(janitor)
+library(tidycensus)
+library(tigris)
+library(stringr)
+library(lubridate)
+
+census_api_key("46337cfa9ca4bb84fc53936d51e61e3bdb6e6b3e")
+```
+
+
+## Read in data 
+
+```{r}
+marvel_data <- read_csv("data/marvel-wikia-data.csv")
+
+dc_data <- read_csv("data/dc-wikia-data.csv")
+
+```
