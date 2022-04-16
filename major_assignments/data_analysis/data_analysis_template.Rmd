@@ -32,3 +32,10 @@ marvel_data <- read_csv("data/marvel-wikia-data.csv")
 dc_data <- read_csv("data/dc-wikia-data.csv")
 
 ```
+
+```{r}
+# Create an if/else statement to create new columns that group characters into LGBT or not, and neutral color hair or not. 
+
+
+
+```
