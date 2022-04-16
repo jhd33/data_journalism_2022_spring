@@ -36,6 +36,81 @@ dc_data <- read_csv("data/dc-wikia-data.csv")
 ```{r}
 # Create an if/else statement to create new columns that group characters into LGBT or not, and neutral color hair or not. 
 
+dc_data_lgbt <- dc_data %>%  
+mutate(
+    lgbt_or_not = case_when(
+        GSM == 'Bisexual Characters' ~ "LGBT",
+        GSM == 'Homosexual Characters' ~ "LGBT",
+      )
+  ) %>% 
+  mutate(lgbt_or_not = replace_na(lgbt_or_not, "Not LGBT"))
+
+dc_data_lgbt_hair <- dc_data_lgbt %>% 
+  mutate(
+    neutral_hair_or_not = case_when(
+        HAIR == 'Black Hair' ~ "NEUTRAL",
+        HAIR == 'Blond Hair' ~ "NEUTRAL",
+        HAIR == 'Brown Hair' ~ "NEUTRAL",
+        HAIR == 'Auburn Hair' ~ "NEUTRAL", 
+        HAIR == 'Bald' ~ "NEUTRAL",
+        HAIR == 'Green Hair' ~ "Not",
+        HAIR == 'Blue Hair' ~ "Not",
+        HAIR == 'Gold Hair' ~ "Not", 
+        HAIR == 'Grey Hair' ~ "NEUTRAL",
+        HAIR == 'Orange Hair' ~ "Not",
+        HAIR == 'Pink Hair' ~ "Not",
+        HAIR == 'Platinum Blond Hair' ~ "NEUTRAL", 
+        HAIR == 'Purple Hair' ~ "Not",
+        HAIR == 'Red Hair' ~ "Not",
+        HAIR == 'Reddish Brown Hair' ~ "Neutral",
+          HAIR == 'Silver Hair' ~ "Not", 
+        HAIR == 'Strawberry Blond Hair' ~ "NEUTRAL",
+        HAIR == 'Violet Hair' ~ "Not",
+        HAIR == 'White Hair' ~ "Not",
+        
+      )
+  ) 
+
+## Same thing for Marvel Data
+
+marvel_data_lgbt <- marvel_data %>%  
+mutate(
+    lgbt_or_not = case_when(
+        GSM == 'Bisexual Characters' ~ "LGBT",
+        GSM == 'Homosexual Characters' ~ "LGBT",
+      )
+  ) %>% 
+  mutate(lgbt_or_not = replace_na(lgbt_or_not, "Not LGBT"))
+
+marvel_data_lgbt_hair <- marvel_data_lgbt %>% 
+  mutate(
+    neutral_hair_or_not = case_when(
+        HAIR == 'Black Hair' ~ "NEUTRAL",
+        HAIR == 'Blond Hair' ~ "NEUTRAL",
+        HAIR == 'Brown Hair' ~ "NEUTRAL",
+        HAIR == 'Auburn Hair' ~ "NEUTRAL", 
+        HAIR == 'Bald' ~ "NEUTRAL",
+        HAIR == 'Green Hair' ~ "Not",
+        HAIR == 'Blue Hair' ~ "Not",
+        HAIR == 'Gold Hair' ~ "Not", 
+        HAIR == 'Grey Hair' ~ "NEUTRAL",
+        HAIR == 'Orange Hair' ~ "Not",
+        HAIR == 'Pink Hair' ~ "Not",
+        HAIR == 'Platinum Blond Hair' ~ "NEUTRAL", 
+        HAIR == 'Purple Hair' ~ "Not",
+        HAIR == 'Red Hair' ~ "Not",
+        HAIR == 'Reddish Brown Hair' ~ "Neutral",
+          HAIR == 'Silver Hair' ~ "Not", 
+        HAIR == 'Strawberry Blond Hair' ~ "NEUTRAL",
+        HAIR == 'Violet Hair' ~ "Not",
+        HAIR == 'White Hair' ~ "Not",
+        
+      )
+  ) 
+
+
+
+
 
 
 ```
