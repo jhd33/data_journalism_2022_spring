@@ -51,7 +51,28 @@ Put your sentence in the answer below, along with one other question you could a
 wv_police_data <- read_csv("https://raw.githubusercontent.com/dwillis/wvu-projects/master/crime-log/crime_log.csv")
 
 wv_police_data_cleaned <- wv_police_data %>% 
+  mutate(
+    datetime=mdy_hm(datetime),
+    date=date(datetime),
+    time=format(datetime,
+                format="%H:%M"),
+    day_of_week=wday(datetime, label = TRUE, abbr = FALSE)
+  ) %>% 
+  arrange(desc(date)) 
+
+latest_date <- wv_police_data_cleaned %>% slice(1)
+one_month_ago <- wv_police_data_cleaned %>% 
+  filter(date >= latest_date$date - 30) %>% 
+  filter(title == "SUSPICIOUS EVENT") %>% 
+summarise(count=n())
+
   
+  ## SENTENCE SHOULD READ. ON "LATEST DATE," "TITLE" OCCURED. IT WAS THE "COUNT, ONE MONTH AGO" TIME IT HAS HAPPENED IN THE LAST 30 DAYS
+
+sub <- paste("On", format(latest_date$date, format="%B %d"), " ", "A Suspicious Event Occured. It was the", format(one_month_ago), "time it has occured in the previous 30 days", sep="")
+sub
+
+
 ```
 
 **Q2.** Maryland produces a [CSV file](https://raw.githubusercontent.com/state-of-maryland/VaccineCSVs/master/Vax_ZIP_CODE_FirstSecondSingle_Totals_Raw.csv) showing the total number of vaccinations by zip code and -- interestingly -- it includes non-Maryland zip codes (as well as some zip codes that seem to be bad data). write a script that reads the CSV file, making the columns more readable and adding today's date. Then output the top 25 Maryland zip codes and top 25 non-Maryland zip codes based on number of people fully vaccinated, and write both dataframes out to CSV files, using the following name formats:
