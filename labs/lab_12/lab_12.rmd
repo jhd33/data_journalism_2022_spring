@@ -144,7 +144,7 @@ You WILL need to ensure that the columns you use to join the two dataframes are 
 Describe the output of the map below, and say what you think the most interesting areas are.
 
 **A3.**
-I kept getting an error on my map, so was unable to complete it the whole way. 
+The counties that border Deleware and the ones in the northwest corner of the state are the areas where the lower vaccination rates are found. The most interesting part to me is that it seems the closer you get to urban centers like DC and Baltimore, the less you see low vaccination counties.Unsurprisingly, this trend matches with the political divides across the country, with more conservative areas found in rural locations and liberal areas near urban ones. 
 
 ```{r}
 one_year <- load_variables(2019, "acs1", cache = TRUE)
@@ -159,7 +159,7 @@ maryland_allzips <- md_vax_byzip %>%
    mutate(zip_code = as.character(zip_code)) %>% 
   arrange(desc(fully_vaccinated)) 
 
-md_pop <- get_acs(geography = "zcta", variables = "B01001_001", state="MD", year = 2019) %>% 
+md_pop <- get_acs(geography = "zcta", variables = "B01001_001", state="MD", year = 2019, geometry = TRUE) %>% 
   rename(zip_code = GEOID) %>% 
   mutate(zip_code = as.character(zip_code))
 
@@ -179,8 +179,10 @@ get_date <- maryland_allzips %>%
 
 ggplot() +
   geom_sf(data=md_counties)+
-   geom_sf(data=md_vax_bypop, aes(fill=percent_vaxxed))
-
+   geom_sf(data=md_vax_bypop, aes(fill=percent_vaxxed))+
+scale_fill_viridis_c(option = "plasma", trans = "sqrt") +
+  theme_void() +
+  labs(title = paste("COVID-19 vaccination rates as of ", current[[1]], sep=""))
 ```
 
 
