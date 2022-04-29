@@ -48,7 +48,9 @@ Then write code that will construct a paragraph about the data described above c
 Put your sentence in the answer below, along with one other question you could ask of this data.
 
 **A1.**
+"On April 21. this crime occured: SUSPICIOUS EVENT It was the 7 time it has occurred in the last 30 days"
 
+One other question I would ask of the data was what percentage of the crimes occurred during the operating hours of the university. 
 
 
 ```{r}
@@ -105,6 +107,9 @@ To do that, you will need to:
 Google the top 2-3 zip codes from both Maryland and non-Maryland results and describe them in your answer.
 
 **A2.**
+The Maryland zip codes are both in Montgomery County, and appear to be two extremely wealthy zip codes. 
+
+The leading non-md zip code was from DC. According to median home listings, this is also a very weaolthy zip codes.
 
 ```{r}
 md_vax_byzip <- read_csv("https://raw.githubusercontent.com/state-of-maryland/VaccineCSVs/master/Vax_ZIP_CODE_FirstSecondSingle_Totals_Raw.csv") %>% 
@@ -129,6 +134,7 @@ write_csv(maryland_topzips, paste("maryland_zips_", today(), ".csv"))
 
 write_csv(non_md_topzips, paste("non_md_topzips_", today(), ".csv"))
 
+
 ```
 
 **Q3.** Maryland has had one of the more successful vaccination rates, but you want to understand where a significant portion of the population remains less than fully vaccinated. Make a dataframe of all Maryland zip codes from the vaccination data you used in Q2 and join it to Maryland zip code population data from the Census API. Calculate the percentage of fully vaccinated for each zip code and then make a map showing the zip codes with less than 50 percent fully vaccinated. Put a blank map with the outline of Maryland counties (which you can get from Tigris) behind it for context. Add a label to the map describing what the data is and include the date from the vaccination data (programmatically, so you can run it every day).
@@ -138,10 +144,11 @@ You WILL need to ensure that the columns you use to join the two dataframes are 
 Describe the output of the map below, and say what you think the most interesting areas are.
 
 **A3.**
+I kept getting an error on my map, so was unable to complete it the whole way. 
 
 ```{r}
 one_year <- load_variables(2019, "acs1", cache = TRUE)
-View(five_year)
+
 ```
 
 ```{r}

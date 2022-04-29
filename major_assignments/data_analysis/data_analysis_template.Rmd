@@ -17,6 +17,7 @@ library(janitor)
 library(tidycensus)
 library(stringr)
 library(lubridate)
+
 ```
 
 
@@ -34,8 +35,12 @@ dc_data <- read_csv("data/dc-wikia-data.csv")
 The marvel_data dataset consists of 16,376 rows and 13 columns of data on Marvel comic characters. In such a large dataset, only about 90 comic characters are known to be a "gender or sexual minority", according to the data.
 
 ``` {r}
+
 glimpse(marvel_data)
-marvel_data %>% filter (! is.na (GSM))
+
+marvel_data <- marvel_data %>% 
+  filter (! is.na (GSM))
+
 ```
 
 2) DC Data
@@ -43,11 +48,17 @@ marvel_data %>% filter (! is.na (GSM))
 The dc_data dataset consists of 6,896 rows and 13 columns of data on DC comic characters. In such a large dataset, only about 64 comic characters are known to be a "gender or sexual minority", according to the data.
 
 ``` {r}
+
 glimpse(dc_data)
-dc_data %>% filter (! is.na (GSM))
+
+dc_data <-dc_data %>% 
+  filter (! is.na (GSM))
+
+
 ```
 ```{r}
 # Create an if/else statement to create new columns that group characters into LGBT or not, and neutral color hair or not.
+
 dc_data_lgbt <- dc_data %>%  
 mutate(
     lgbt_or_not = case_when(
@@ -81,6 +92,7 @@ dc_data_lgbt_hair <- dc_data_lgbt %>%
         
       )
   ) 
+
 ## Same thing for Marvel Data
 marvel_data_lgbt <- marvel_data %>%  
 mutate(
@@ -115,22 +127,19 @@ marvel_data_lgbt_hair <- marvel_data_lgbt %>%
         
       )
   ) 
-```
 
-Question 1: 
+```
+Question 1: What percentage of LGBT comic characters get more than 1 appearance and average appearances?
 
 ```{r}
 lgbt_dc_characters_overoneapp <- dc_data_lgbt %>% 
     filter(lgbt_or_not == "LGBT" & APPEARANCES > 1)
 lgbt_marvel_characters_overoneapp <- marvel_data_lgbt %>% 
     filter(lgbt_or_not == "LGBT" & APPEARANCES > 1)
-
-
  lgbt_dc_characters <- dc_data_lgbt %>% 
     filter(lgbt_or_not == "LGBT")
  lgbt_marvel_characters <- marvel_data_lgbt %>% 
     filter(lgbt_or_not == "LGBT")
-
  dclgbtcount = count(lgbt_dc_characters)
  dclgbtcountoveroneapp = count(lgbt_dc_characters_overoneapp)
  marvellgbtcount = count(lgbt_marvel_characters)
@@ -140,36 +149,55 @@ lgbt_marvel_characters_overoneapp <- marvel_data_lgbt %>%
  ((dclgbtcountoveroneapp+marvellgbtcountoveroneapp)/(marvellgbtcount+dclgbtcount))*100
              
 ```
-Question 2: 
+
+Question 2: What's the alignment of LGBT comic characters?
 
 ```{r}
 dc_lgbt_heroes <- dc_data_lgbt_hair %>% 
   filter(lgbt_or_not == "LGBT" & ALIGN == "Good Characters")
-
 marvel_lgbt_heroes <- marvel_data_lgbt_hair %>% 
   filter(lgbt_or_not == "LGBT" & ALIGN == "Good Characters")
-
 dclgbtcountgoodguy = count(dc_lgbt_heroes)
 marvellgbtcountgoodguy = count(marvel_lgbt_heroes)
  dclgbtcount = count(lgbt_dc_characters)
  marvellgbtcount = count(lgbt_marvel_characters)
  
+ 
   ((dclgbtcountgoodguy+marvellgbtcountgoodguy)/(marvellgbtcount+dclgbtcount))*100
 ```
 
-Question 4: 
+Question 3: What's the identity status of LGBT characters? (Here: Identity means secret or public or dual identity according to the data)
+
+
+```{r}
+dc_lgbt_secret <- dc_data_lgbt %>% 
+  filter(lgbt_or_not == "LGBT" & ID == "Secret Identity")
+
+marvel_lgbt_secret <- marvel_data_lgbt %>% 
+  filter(lgbt_or_not == "LGBT" & ID == "Secret Identity")
+dc_lgbt_secret_count = count(dc_lgbt_secret)
+marvel_lgbt_secret_count = count(marvel_lgbt_secret)
+ dc_lgbt_count = count(dc_data_lgbt)
+ marvel_lgbt_count = count(marvel_data_lgbt)
+ 
+  ((dc_lgbt_secret_count+marvel_lgbt_secret_count)/(marvel_lgbt_count+dc_lgbt_count))*100
+```
+Question 4: What’s the death rate of LGBT comic characters ?
 
 ```{r}
 dc_lgbt_alive <- dc_data_lgbt_hair %>% 
   filter(lgbt_or_not == "LGBT" & ALIVE == "Living Characters")
-
 marvel_lgbt_alive <- marvel_data_lgbt_hair %>% 
   filter(lgbt_or_not == "LGBT" & ALIVE == "Living Characters")
-
 dclgbtcountalive= count(dc_lgbt_alive)
 marvellgbtcountalive = count(marvel_lgbt_alive)
-
 ((dclgbtcountalive+marvellgbtcountalive)/(marvellgbtcount+dclgbtcount))*100
-
-
 ```
+
+Question 5: What percentage of LGBT characters have neutral hair colors? 
+```{r}
+
+
+
+
+``` 
