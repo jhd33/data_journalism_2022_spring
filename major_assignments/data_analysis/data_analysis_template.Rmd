@@ -1,7 +1,7 @@
 ---
 title: "data_analysis_project"
 author: "Jon Donville,Varun Shankar, Mythili Devarakonda"
-date: "16/04/2022"
+date: "05/03/2022"
 output: html_document
 ---
 
@@ -17,7 +17,6 @@ library(janitor)
 library(tidycensus)
 library(stringr)
 library(lubridate)
-
 ```
 
 
@@ -35,12 +34,13 @@ dc_data <- read_csv("data/dc-wikia-data.csv")
 The marvel_data dataset consists of 16,376 rows and 13 columns of data on Marvel comic characters. In such a large dataset, only about 90 comic characters are known to be a "gender or sexual minority", according to the data.
 
 ``` {r}
-
 glimpse(marvel_data)
-
-marvel_data <- marvel_data %>% 
-  filter (! is.na (GSM))
-
+marvel_data_lgbt <- marvel_data %>% 
+  filter (! is.na (GSM)) %>% 
+  clean_names()
+marvel_data_no_lgbt <- marvel_data %>% 
+  filter (is.na (GSM)) %>% 
+  clean_names()
 ```
 
 2) DC Data
@@ -48,156 +48,172 @@ marvel_data <- marvel_data %>%
 The dc_data dataset consists of 6,896 rows and 13 columns of data on DC comic characters. In such a large dataset, only about 64 comic characters are known to be a "gender or sexual minority", according to the data.
 
 ``` {r}
-
 glimpse(dc_data)
-
-dc_data <-dc_data %>% 
-  filter (! is.na (GSM))
-
-
+dc_data_lgbt <-dc_data %>% 
+  filter (! is.na (GSM)) %>% 
+    clean_names()
+dc_data_no_lgbt <-dc_data %>% 
+  filter (is.na (GSM)) %>% 
+    clean_names()
+total_lgbt <- rbind(dc_data_lgbt, marvel_data_lgbt)
+total_non_lgbt <- rbind(dc_data_no_lgbt, marvel_data_no_lgbt)
 ```
+
+Defining neutral hair:
+
 ```{r}
 # Create an if/else statement to create new columns that group characters into LGBT or not, and neutral color hair or not.
-
-dc_data_lgbt <- dc_data %>%  
-mutate(
-    lgbt_or_not = case_when(
-        GSM == 'Bisexual Characters' ~ "LGBT",
-        GSM == 'Homosexual Characters' ~ "LGBT",
-      )
-  ) %>% 
-  mutate(lgbt_or_not = replace_na(lgbt_or_not, "Not LGBT"))
-dc_data_lgbt_hair <- dc_data_lgbt %>% 
+total_lgbt_hair <- total_lgbt %>% 
   mutate(
     neutral_hair_or_not = case_when(
-        HAIR == 'Black Hair' ~ "NEUTRAL",
-        HAIR == 'Blond Hair' ~ "NEUTRAL",
-        HAIR == 'Brown Hair' ~ "NEUTRAL",
-        HAIR == 'Auburn Hair' ~ "NEUTRAL", 
-        HAIR == 'Bald' ~ "NEUTRAL",
-        HAIR == 'Green Hair' ~ "Not",
-        HAIR == 'Blue Hair' ~ "Not",
-        HAIR == 'Gold Hair' ~ "Not", 
-        HAIR == 'Grey Hair' ~ "NEUTRAL",
-        HAIR == 'Orange Hair' ~ "Not",
-        HAIR == 'Pink Hair' ~ "Not",
-        HAIR == 'Platinum Blond Hair' ~ "NEUTRAL", 
-        HAIR == 'Purple Hair' ~ "Not",
-        HAIR == 'Red Hair' ~ "Not",
-        HAIR == 'Reddish Brown Hair' ~ "Neutral",
-          HAIR == 'Silver Hair' ~ "Not", 
-        HAIR == 'Strawberry Blond Hair' ~ "NEUTRAL",
-        HAIR == 'Violet Hair' ~ "Not",
-        HAIR == 'White Hair' ~ "Not",
+        hair == 'Black Hair' ~ "NEUTRAL",
+        hair == 'Blond Hair' ~ "NEUTRAL",
+        hair == 'Brown Hair' ~ "NEUTRAL",
+        hair == 'Auburn Hair' ~ "NEUTRAL", 
+        hair == 'Bald' ~ "NEUTRAL",
+        hair == 'Green Hair' ~ "Not",
+        hair == 'Blue Hair' ~ "Not",
+        hair == 'Gold Hair' ~ "Not", 
+        hair == 'Grey Hair' ~ "NEUTRAL",
+        hair == 'Orange Hair' ~ "Not",
+        hair == 'Pink Hair' ~ "Not",
+        hair == 'Platinum Blond Hair' ~ "NEUTRAL", 
+        hair == 'Purple Hair' ~ "Not",
+        hair == 'Red Hair' ~ "Not",
+        hair == 'Reddish Brown Hair' ~ "NEUTRAL",
+        hair == 'Silver Hair' ~ "Not", 
+        hair == 'Strawberry Blond Hair' ~ "NEUTRAL",
+        hair == 'Violet Hair' ~ "Not",
+        hair == 'White Hair' ~ "Not",
         
       )
   ) 
 
-## Same thing for Marvel Data
-marvel_data_lgbt <- marvel_data %>%  
-mutate(
-    lgbt_or_not = case_when(
-        GSM == 'Bisexual Characters' ~ "LGBT",
-        GSM == 'Homosexual Characters' ~ "LGBT",
-      )
-  ) %>% 
-  mutate(lgbt_or_not = replace_na(lgbt_or_not, "Not LGBT"))
-marvel_data_lgbt_hair <- marvel_data_lgbt %>% 
+total_nonlgbt_hair <- total_non_lgbt %>% 
   mutate(
     neutral_hair_or_not = case_when(
-        HAIR == 'Black Hair' ~ "NEUTRAL",
-        HAIR == 'Blond Hair' ~ "NEUTRAL",
-        HAIR == 'Brown Hair' ~ "NEUTRAL",
-        HAIR == 'Auburn Hair' ~ "NEUTRAL", 
-        HAIR == 'Bald' ~ "NEUTRAL",
-        HAIR == 'Green Hair' ~ "Not",
-        HAIR == 'Blue Hair' ~ "Not",
-        HAIR == 'Gold Hair' ~ "Not", 
-        HAIR == 'Grey Hair' ~ "NEUTRAL",
-        HAIR == 'Orange Hair' ~ "Not",
-        HAIR == 'Pink Hair' ~ "Not",
-        HAIR == 'Platinum Blond Hair' ~ "NEUTRAL", 
-        HAIR == 'Purple Hair' ~ "Not",
-        HAIR == 'Red Hair' ~ "Not",
-        HAIR == 'Reddish Brown Hair' ~ "Neutral",
-          HAIR == 'Silver Hair' ~ "Not", 
-        HAIR == 'Strawberry Blond Hair' ~ "NEUTRAL",
-        HAIR == 'Violet Hair' ~ "Not",
-        HAIR == 'White Hair' ~ "Not",
+        hair == 'Black Hair' ~ "NEUTRAL",
+        hair == 'Blond Hair' ~ "NEUTRAL",
+        hair == 'Brown Hair' ~ "NEUTRAL",
+        hair == 'Auburn Hair' ~ "NEUTRAL", 
+        hair == 'Bald' ~ "NEUTRAL",
+        hair == 'Green Hair' ~ "Not",
+        hair == 'Blue Hair' ~ "Not",
+        hair == 'Gold Hair' ~ "Not", 
+        hair == 'Grey Hair' ~ "NEUTRAL",
+        hair == 'Orange Hair' ~ "Not",
+        hair == 'Pink Hair' ~ "Not",
+        hair == 'Platinum Blond Hair' ~ "NEUTRAL", 
+        hair == 'Purple Hair' ~ "Not",
+        hair == 'Red Hair' ~ "Not",
+        hair == 'Reddish Brown Hair' ~ "NEUTRAL",
+        hair == 'Silver Hair' ~ "Not", 
+        hair == 'Strawberry Blond Hair' ~ "NEUTRAL",
+        hair == 'Violet Hair' ~ "Not",
+        hair == 'White Hair' ~ "Not",
         
       )
   ) 
-
 ```
 Question 1: What percentage of LGBT comic characters get more than 1 appearance and average appearances?
 
+LGBT characters - average 74.677 appearance and 92.85714 get above 1 appearance
+Non LGBT characters - average 18.626 appearances and 68.6305 get above 1 appearance.
+
+We wanted to see if LGBT characters were recurring characters or were just brought on for one-offs/minor roles. What we found was that over 92 percent of LGBT characters got over one appearance, compared to just over 68 percent for non-LGBT characters. We also found that LGBT characters averaged over 74 appearances compared to over 18 for non-LGBT characters. This means they were more likely to get more than one appearance that they averaged more appearances. Part of this can be attributed to small sample sizes, there are just 154 LGBT characters and 23118 non-LGBT characters. Many are also newer characters, meaning that the way the comics industry uses characters could have changed over time. 
+
+
 ```{r}
-lgbt_dc_characters_overoneapp <- dc_data_lgbt %>% 
-    filter(lgbt_or_not == "LGBT" & APPEARANCES > 1)
-lgbt_marvel_characters_overoneapp <- marvel_data_lgbt %>% 
-    filter(lgbt_or_not == "LGBT" & APPEARANCES > 1)
- lgbt_dc_characters <- dc_data_lgbt %>% 
-    filter(lgbt_or_not == "LGBT")
- lgbt_marvel_characters <- marvel_data_lgbt %>% 
-    filter(lgbt_or_not == "LGBT")
- dclgbtcount = count(lgbt_dc_characters)
- dclgbtcountoveroneapp = count(lgbt_dc_characters_overoneapp)
- marvellgbtcount = count(lgbt_marvel_characters)
- marvellgbtcountoveroneapp = count(lgbt_marvel_characters_overoneapp)
- 
- 
- ((dclgbtcountoveroneapp+marvellgbtcountoveroneapp)/(marvellgbtcount+dclgbtcount))*100
-             
+lgbt_characters_overoneapp <- total_lgbt %>% 
+    filter(appearances > 1)
+nonlgbt_total_characters_overoneapp <- total_non_lgbt %>% 
+    filter(appearances > 1)
+lgbt_over_one_app_percent <- (count(lgbt_characters_overoneapp)/count(total_lgbt))*100
+non_lgbt_over_one_app_percent <- (count(nonlgbt_total_characters_overoneapp)/count(total_non_lgbt))*100
+lgbt_app_mean <- mean(total_lgbt$appearances, na.rm = TRUE)
+nonlgbt_app_mean <- mean(total_non_lgbt$appearances, na.rm = TRUE)
 ```
 
-Question 2: What's the alignment of LGBT comic characters?
+Question 2: What's the alignment of LGBT comic characters? What percentage of LGBT characters are heroes compared to non-lgbt characters?
+
+This one is interesting, as LGBT characters appear as heroes or "good characters" 67% of the time they are featured in the comics. This is compared to just 31% of non-lgbt characters. LGBT characters are obviously newer in comics, so there is a smaller sample which will allow for a possibility of higher rates of heroes as the comic brands develop. However it does speak to an interesting trend perhaps, of LGBT characters serving as role-models or aspirational characters when compared to non-LGBT characters.There is a good argument to be made that for LGBT characters to be seen the same way as non-LGBT ones, they need to have the same representation in terms of "good" and "bad" characters. 
 
 ```{r}
-dc_lgbt_heroes <- dc_data_lgbt_hair %>% 
-  filter(lgbt_or_not == "LGBT" & ALIGN == "Good Characters")
-marvel_lgbt_heroes <- marvel_data_lgbt_hair %>% 
-  filter(lgbt_or_not == "LGBT" & ALIGN == "Good Characters")
-dclgbtcountgoodguy = count(dc_lgbt_heroes)
-marvellgbtcountgoodguy = count(marvel_lgbt_heroes)
- dclgbtcount = count(lgbt_dc_characters)
- marvellgbtcount = count(lgbt_marvel_characters)
- 
- 
-  ((dclgbtcountgoodguy+marvellgbtcountgoodguy)/(marvellgbtcount+dclgbtcount))*100
+lgbt_total_heroes <- total_lgbt %>% 
+  filter(align == "Good Characters")
+nonlgbt_total_heroes <- total_non_lgbt %>% 
+  filter(align == "Good Characters")
+
+lgbtheroes = count(lgbt_total_heroes)
+nonlgbtheroes = count(nonlgbt_total_heroes)
+
+## percent of lgbt heroes 
+percent_lgbt_heroes <- (lgbtheroes/totallgbtcount)*100 
+
+# percent of non-lgbt heroes 
+percent_nonlgbt_heroes <- (nonlgbtheroes/totalnonlgbt)*100
+
+percent_lgbt_heroes
+percent_nonlgbt_heroes
 ```
 
 Question 3: What's the identity status of LGBT characters? (Here: Identity means secret or public or dual identity according to the data)
 
+Answer: Half of the LGBT characters in the given data have a secret identity while only 37.2% of non-LGBT characters have a secret identity.While this question doesn't directly indicate what percentage of these characters have their sexual orientation hidden but their overall character's identity which also speaks to their sexual orientation. With so many LGBT individuals struggling with coming out in terms of their gender identity, this is one of our most fascinating questions which will impact greatly the role that these characters have in the comic world. 
+
+
 
 ```{r}
-dc_lgbt_secret <- dc_data_lgbt %>% 
-  filter(lgbt_or_not == "LGBT" & ID == "Secret Identity")
+lgbt_total_secret <- total_lgbt %>% 
+  filter(id == "Secret Identity")
+nonlgbt_total_secret <- total_non_lgbt %>% 
+  filter(id == "Secret Identity")
 
-marvel_lgbt_secret <- marvel_data_lgbt %>% 
-  filter(lgbt_or_not == "LGBT" & ID == "Secret Identity")
-dc_lgbt_secret_count = count(dc_lgbt_secret)
-marvel_lgbt_secret_count = count(marvel_lgbt_secret)
- dc_lgbt_count = count(dc_data_lgbt)
- marvel_lgbt_count = count(marvel_data_lgbt)
+lgbt_secret_count = count(lgbt_total_secret)
+nonlgbt_secret_count = count(nonlgbt_total_secret)
+
+## percent of private identity among lgbt characters 
+percent_lgbt_secret <- (lgbt_secret_count/totallgbtcount)*100
  
-  ((dc_lgbt_secret_count+marvel_lgbt_secret_count)/(marvel_lgbt_count+dc_lgbt_count))*100
+##
+percent_nonlgbt_secret <- (nonlgbt_secret_count/totalnonlgbt)*100
+
+percent_lgbt_secret
+percent_nonlgbt_secret
 ```
 Question 4: What’s the death rate of LGBT comic characters ?
 
+This question shows that at least compared to non-LGBT characters, there is no significant difference in the percentage of characters who are still alive. 76% of LGBT characters are living compared to 82% of non-LGBT characters. This result is not surprising as comic brands obviously want to always continue building their stars and titles, but it is a positive sign that LGBT characters have the same chance of continuing along their journey as non-LGBT ones. 
+
 ```{r}
-dc_lgbt_alive <- dc_data_lgbt_hair %>% 
-  filter(lgbt_or_not == "LGBT" & ALIVE == "Living Characters")
-marvel_lgbt_alive <- marvel_data_lgbt_hair %>% 
-  filter(lgbt_or_not == "LGBT" & ALIVE == "Living Characters")
-dclgbtcountalive= count(dc_lgbt_alive)
-marvellgbtcountalive = count(marvel_lgbt_alive)
-((dclgbtcountalive+marvellgbtcountalive)/(marvellgbtcount+dclgbtcount))*100
+lgbt_total_alive <- total_lgbt %>% 
+  filter(alive == "Living Characters")
+nonlgbt_total_alive <- total_non_lgbt  %>% 
+  filter(alive == "Living Characters")
+
+lgbt_alive_count = count(lgbt_total_alive)
+nonlgbt_alive_count = count (nonlgbt_total_alive)
+
+## percent of LGBT characters still alive.
+
+percent_lgbt_alive <- (lgbt_alive_count/totallgbtcount)*100
+ 
+##
+percent_nonlgbt_alive <- (nonlgbt_alive_count/totalnonlgbt)*100
+
+percent_nonlgbt_alive
+percent_lgbt_alive
 ```
 
 Question 5: What percentage of LGBT characters have neutral hair colors? 
+
+The idea behind asking this question was to find out if the comics industry was stereotyping LGBT characters with their hair colors. We deemed certain hairs (natural colors like black, brown, blonde etc) and separated them from non-neutral ones (blue, red, pink). We found that 69.58 percent of LGBT characters had neutral hair colors and that 55.02 percent of non-LGBT characters had neutral hair colors. Small sample size again comes into play here, but other than that there doesn't seem to be a particular explanation for why this is other than that the comics industry isn't perpetuating stereotypes.
+
 ```{r}
-
-
-
-
+neutral_hair_lgbt <- total_lgbt_hair %>%  
+  filter(neutral_hair_or_not == "NEUTRAL")  
+neutral_hair_lgbt_percentage <- (count(neutral_hair_lgbt)/count(total_lgbt_hair))
+neutral_hair_non_lgbt <- total_nonlgbt_hair %>% 
+   filter(neutral_hair_or_not == "NEUTRAL")  
+neutral_hair_nonlgbt_percentage <- (count(neutral_hair_non_lgbt)/count(total_nonlgbt_hair))
 ``` 
