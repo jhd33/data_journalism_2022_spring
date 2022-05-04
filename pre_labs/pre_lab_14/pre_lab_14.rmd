@@ -1,7 +1,7 @@
 ---
 title: "pre_lab_14.Rmd"
-author: "derek willis"
-date: "11/23/2021"
+author: "Jon Donville"
+date: "05/03/2022"
 output: html_document
 ---
 
@@ -23,7 +23,7 @@ To do this, we'll need a new library -- [tidytext](https://cran.r-project.org/we
 **Task** Run the following code in the gray-colored codeblock below to load the libraries we'll use.
 
 ```{r}
-#install.packages("tidytext")
+install.packages("tidytext")
 library(tidyverse)
 library(tidytext)
 library(janitor)
@@ -37,7 +37,7 @@ To answer this question, we'll use a dataset of tweets posted by federal politic
 ### Task 2: Read in data
 **Task** Run the following code and describe the dataframe it outputs.
 **Answer**
-
+The dataframe shows all the tweets in the dataset, with information on who tweeted it, which state they represent, and which party they are from. 
 ```{r}
 covid_tweets <- read_rds('data/covid_tweets.rds')
 ```
@@ -58,6 +58,7 @@ If you are trying to create a list of unique words, R will treat differences in 
 ### Task 4: Trying out unique
 **Task** Run the following code and describe what the `unique` function does to the original list of words.
 **Answer**
+The unique function shows how that each of these words exist as a unique word, even though the only difference is the capitalization. 
 
 ```{r}
 a_list_of_words <- c("Dog", "dog", "dog", "cat", "cat", ",")
@@ -69,6 +70,7 @@ Fortunately, this is a solved problem with tidytext, which has a function called
 ### Task 5: Trying out unnest_tokens
 **Task** Run the following code and describe the output of using the `unnest_tokens` function.
 **Answer**
+This function makes all of the unique words into the same case. 
 
 ```{r}
 unique_words <- covid_tweets %>% select(content) %>%
@@ -79,6 +81,7 @@ View(unique_words)
 ### Task 6: Make a column chart
 **Task** Run the following code and describe what the resulting graphic shows. Is it interesting?
 **Answer**
+It shows how many times each unique word appears. It is not useful because it includes mostly prepositions. 
 
 Now we can look at the top words in this dataset. Let's limit ourselves to making a plot of the top 25 words, and we'll use the function `count` to do the counting:
 
@@ -112,7 +115,7 @@ From there, we can get a simple word frequency by just grouping them together an
 ### Task 8: Using anti_join
 **Task** Run the following code and describe the results. Is it more interesting than before?
 **Answer**
-
+Yes it is more interesting because it shows the actual content, not just conjunctions and common joiners. 
 ```{r}
 unique_words %>%
   anti_join(stop_words) %>%
@@ -144,7 +147,7 @@ Then we can create top 10 lists for both of them and compare:
 ### Task 10: Create dataframes with the top 10 words in each year
 **Task** Run the following code and describe the results.
 **Answer**
-
+This chart shows that covid was mentioned in nearly double the percentage of tweets in 2021 vs 2020. 
 ```{r}
 unique_words_2020 %>%
   anti_join(stop_words) %>%
@@ -182,7 +185,7 @@ So this block is is going to do the following:
 ### Task 11: Create a dataframe with the top 10 two-word phrases for 2020
 **Task** Run the following code and describe the results.
 **Answer**
-
+Unsuprisingly, the results are all related to the pandemic. 
 ```{r}
 covid_tweets %>%
   filter(created < '2021-01-01') %>%
@@ -202,7 +205,7 @@ And we already have a different, more nuanced result. Health was among the top s
 ### Task 12: Create a dataframe with the top 10 two-word phrases for 2021
 **Task** Run the following code and describe the results.
 **Answer**
-
+The biggest difference here is that vaccines become a more prominent discussion point. 
 ```{r}
 covid_tweets %>%
   filter(created >= '2021-01-01') %>%
@@ -224,7 +227,7 @@ So far, we've only looked at the entire set of tweets, not any characteristics o
 ### Task 13: Create a dataframe with the top 10 two-word phrases in 2020 for both Democrats and Republicans
 **Task** Run the following code and describe the results.
 **Answer**
-
+Terms relating to public health appeared more in the Democrat tweets than the Republican ones. 
 ```{r}
 covid_tweets %>%
   filter(created < '2021-01-01', party == 'D') %>%
@@ -256,6 +259,7 @@ Now we can begin to see some differences between the parties. We also could do t
 ### Task 14: Create a dataframe with the top 10 two-word phrases in 2020 and 2021 for Republican House candidates
 **Task** Run the following code and describe the results.
 **Answer**
+The Democrats focused more on Trump, while the Republicans focused on terms like "vaccine mandates". 
 
 ```{r}
 covid_tweets %>%
@@ -292,7 +296,7 @@ Another popular use of text analysis is to measure the sentiment of a word - whe
 ### Task 15: Load the bing lexicon and produce sentiments for our 2020 and 2021 unique words
 **Task** Run the following code and describe the results. Do any of the sentiments seem incorrect or counter-intuitive?
 **Answer**
-
+The results are counts of several words, and whether they were positive or negative. For the most part, the sentiments seem pretty intuititve. 
 ```{r}
 bing <- get_sentiments("bing")
 
