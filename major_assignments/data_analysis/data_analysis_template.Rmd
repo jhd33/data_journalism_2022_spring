@@ -1,7 +1,7 @@
 ---
 title: "data_analysis_project"
 author: "Jon Donville,Varun Shankar, Mythili Devarakonda"
-date: "05/03/2022"
+date: "16/04/2022"
 output: html_document
 ---
 
@@ -26,6 +26,10 @@ library(lubridate)
 marvel_data <- read_csv("data/marvel-wikia-data.csv")
 dc_data <- read_csv("data/dc-wikia-data.csv")
 ```
+##Intro
+Comic books have been a significant part of popular culture since the late 20th century. Over the years, as times changed and what’s deemed as socially acceptable has had different definitions, the comics have reflected that in their narratives and characters. One such issue is the inclusion and representation of LGBTQ+ characters in comic books. 
+With the comic characters dataset that we were given access to, we’ve decided to explore LGBTQ+ characters in the comic world.
+We started exploring from superficial traits such as the appearance of these characters (hair color) to deeper personality traits such as whether these characters are portrayed as the good guys or the bad guys (alignment) or whether their identities are hidden or public. By looking at these characters from various perspectives, we have a better understanding of how LGBTQ+ characters are portrayed in popular media, particularly in comic books. 
 
 ## Exploratory analysis
 
@@ -59,11 +63,11 @@ total_lgbt <- rbind(dc_data_lgbt, marvel_data_lgbt)
 total_non_lgbt <- rbind(dc_data_no_lgbt, marvel_data_no_lgbt)
 ```
 
-Defining neutral hair:
+One of our initial questions was to investigate the hair color of the LGBT characters in the data. This was difficult because it is obviously subjective, especiallly when there are so many similar hair colors. We decided for each hair color whether it was neutral or not, and used mutate to add a new column with the two categories of hair. 
 
 ```{r}
 # Create an if/else statement to create new columns that group characters into LGBT or not, and neutral color hair or not.
-total_lgbt_hair <- total_lgbt %>% 
+dc_data_lgbt_hair <- dc_data_lgbt %>% 
   mutate(
     neutral_hair_or_not = case_when(
         hair == 'Black Hair' ~ "NEUTRAL",
@@ -88,8 +92,7 @@ total_lgbt_hair <- total_lgbt %>%
         
       )
   ) 
-
-total_nonlgbt_hair <- total_non_lgbt %>% 
+marvel_data_lgbt_hair <- marvel_data_lgbt %>% 
   mutate(
     neutral_hair_or_not = case_when(
         hair == 'Black Hair' ~ "NEUTRAL",
@@ -115,6 +118,7 @@ total_nonlgbt_hair <- total_non_lgbt %>%
       )
   ) 
 ```
+
 Question 1: What percentage of LGBT comic characters get more than 1 appearance and average appearances?
 
 LGBT characters - average 74.677 appearance and 92.85714 get above 1 appearance
@@ -136,7 +140,9 @@ nonlgbt_app_mean <- mean(total_non_lgbt$appearances, na.rm = TRUE)
 
 Question 2: What's the alignment of LGBT comic characters? What percentage of LGBT characters are heroes compared to non-lgbt characters?
 
-This one is interesting, as LGBT characters appear as heroes or "good characters" 67% of the time they are featured in the comics. This is compared to just 31% of non-lgbt characters. LGBT characters are obviously newer in comics, so there is a smaller sample which will allow for a possibility of higher rates of heroes as the comic brands develop. However it does speak to an interesting trend perhaps, of LGBT characters serving as role-models or aspirational characters when compared to non-LGBT characters.There is a good argument to be made that for LGBT characters to be seen the same way as non-LGBT ones, they need to have the same representation in terms of "good" and "bad" characters. 
+This one is interesting, as LGBT characters appear as heroes or "good characters" 62% of the time they are featured in the comics. This is compared to just 31% of non-lgbt characters. LGBT characters are obviously newer in comics, so there is a smaller sample which will allow for a possibility of higher rates of heroes as the comic brands develop. However it does speak to an interesting trend perhaps, of LGBT characters serving as role-models or aspirational characters when compared to non-LGBT characters.
+
+Interestingly, the percentage of LGBT characters who are Good Characters is going down. Since 2000, 39.4% of LGBT characters were Good Characters. Before 2000, 63.63% of characters who were LGBT were good characters. As the representation for these characters grows in the comic universe, it makes sense that they become more balanced in terms of Good and Bad Characters. 
 
 ```{r}
 lgbt_total_heroes <- total_lgbt %>% 
@@ -147,40 +153,77 @@ nonlgbt_total_heroes <- total_non_lgbt %>%
 lgbtheroes = count(lgbt_total_heroes)
 nonlgbtheroes = count(nonlgbt_total_heroes)
 
-## percent of lgbt heroes 
-percent_lgbt_heroes <- (lgbtheroes/totallgbtcount)*100 
+lgbt_count = count(total_lgbt)
+ non_lgbt_count = count(total_non_lgbt)
 
+## percent of lgbt heroes 
+percent_lgbt_heroes <- (lgbtheroes/lgbt_count)*100 
 # percent of non-lgbt heroes 
-percent_nonlgbt_heroes <- (nonlgbtheroes/totalnonlgbt)*100
+percent_nonlgbt_heroes <- (nonlgbtheroes/non_lgbt_count)*100
 
 percent_lgbt_heroes
 percent_nonlgbt_heroes
+
+# Now lets look at change over time. First, lets filter lgbt characters by year. 
+
+lgbt_after2k <- total_lgbt %>% 
+  filter(year >= 2000)
+
+lgbt_after2k_count = count(lgbt_after2k)
+
+lgbt_before2k <-total_lgbt %>% 
+ filter(year < 2000) 
+
+lgbt_before2k_count = count(lgbt_before2k)
+
+#percentage of lgbt individuals who are heroes after year 2000
+heroes_after_2k <- total_lgbt %>%  filter(id == "Good Characters" & year >= 2000)
+heroes_after_2k_count =count(after_2k)
+(heroes_after_2k_count/lgbt_after2k_count)*100
+
+#percentage of lgbt individuals who are heroes before year 2000
+heroes_before_2k <- total_lgbt %>%  filter(id == "Good Characters" & year < 2000)
+heroes_before_2k_count =count(before_2k)
+(heroes_before_2k_count/lgbt_before2k_count)*100
+
+
 ```
 
 Question 3: What's the identity status of LGBT characters? (Here: Identity means secret or public or dual identity according to the data)
 
 Answer: Half of the LGBT characters in the given data have a secret identity while only 37.2% of non-LGBT characters have a secret identity.While this question doesn't directly indicate what percentage of these characters have their sexual orientation hidden but their overall character's identity which also speaks to their sexual orientation. With so many LGBT individuals struggling with coming out in terms of their gender identity, this is one of our most fascinating questions which will impact greatly the role that these characters have in the comic world. 
 
-
+In the 1990s, gay rights became the forefront of political conversations in the U.S. However, these rights weren't realized till almost 20 years later. Keeping these time frames in mind, filtering the comic characters with secret identities before the year 2000 and after gave some important conclusions. The characters which had a hidden identity were almost halved (18%) during the 2000s, compared to '90s (31%). This could imply that more comic book writers were willing to create LGBT characters with public identities. 
 
 ```{r}
-lgbt_total_secret <- total_lgbt %>% 
-  filter(id == "Secret Identity")
-nonlgbt_total_secret <- total_non_lgbt %>% 
-  filter(id == "Secret Identity")
-
-lgbt_secret_count = count(lgbt_total_secret)
-nonlgbt_secret_count = count(nonlgbt_total_secret)
-
-## percent of private identity among lgbt characters 
-percent_lgbt_secret <- (lgbt_secret_count/totallgbtcount)*100
+lgbt_secret <- total_lgbt %>% 
+  filter(id == "Secret Identity") 
+secret_lgbt_count = count(lgbt_secret)
+ lgbt_count = count(total_lgbt)
  
-##
-percent_nonlgbt_secret <- (nonlgbt_secret_count/totalnonlgbt)*100
-
-percent_lgbt_secret
-percent_nonlgbt_secret
+ #percentage of lgbt individuals with secret identities
+ 
+ (secret_lgbt_count/lgbt_count)*100
+ 
+ non_lgbt_secret <- total_non_lgbt %>% 
+  filter(id == "Secret Identity") 
+ 
+ secret_non_lgbt_count = count(non_lgbt_secret)
+ non_lgbt_count = count(total_non_lgbt)
+ 
+#percentage of lgbt individuals with secret identities before year 2000
+after_2k <- total_lgbt %>%  filter(id == "Secret Identity" & year >= 2000)
+after_2k_count =count(after_2k)
+(after_2k_count/lgbt_count)*100
+#percentage of lgbt individuals with secret identities before year 2000
+before_2k <- total_lgbt %>%  filter(id == "Secret Identity" & year < 2000)
+before_2k_count =count(before_2k)
+(before_2k_count/lgbt_count)*100
+ #percentage of non-lgbt individuals with secret identities
+ (secret_non_lgbt_count/non_lgbt_count)*100
+ 
 ```
+
 Question 4: What’s the death rate of LGBT comic characters ?
 
 This question shows that at least compared to non-LGBT characters, there is no significant difference in the percentage of characters who are still alive. 76% of LGBT characters are living compared to 82% of non-LGBT characters. This result is not surprising as comic brands obviously want to always continue building their stars and titles, but it is a positive sign that LGBT characters have the same chance of continuing along their journey as non-LGBT ones. 
@@ -190,17 +233,16 @@ lgbt_total_alive <- total_lgbt %>%
   filter(alive == "Living Characters")
 nonlgbt_total_alive <- total_non_lgbt  %>% 
   filter(alive == "Living Characters")
-
 lgbt_alive_count = count(lgbt_total_alive)
 nonlgbt_alive_count = count (nonlgbt_total_alive)
+lgbt_count = count(total_lgbt)
+ non_lgbt_count = count(total_non_lgbt)
 
 ## percent of LGBT characters still alive.
-
-percent_lgbt_alive <- (lgbt_alive_count/totallgbtcount)*100
+percent_lgbt_alive <- (lgbt_alive_count/lgbt_count)*100
  
 ##
-percent_nonlgbt_alive <- (nonlgbt_alive_count/totalnonlgbt)*100
-
+percent_nonlgbt_alive <- (nonlgbt_alive_count/non_lgbt_count)*100
 percent_nonlgbt_alive
 percent_lgbt_alive
 ```
