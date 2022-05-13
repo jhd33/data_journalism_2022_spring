@@ -1,0 +1,308 @@
+---
+title: "state_profile"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## PPP State Profile
+
+Your assignment is to explore a dataset of PPP loan applications for a particular state and to answer a series of questions that will help you summarize that state's loan applications. You will need to write R code to answer those questions. You also will bring in other data, including Census information, and you will be making graphics, including maps, to illustrate your findings.
+
+The deliverable will be this R Markdown notebook and a data folder that you will receive with a state's loan application data. Place any other data you are using to answer the questions in the same data folder.
+
+## Load libraries and establish settings
+
+**Task** Create a codeblock and load appropriate packages and settings for this assignment.
+
+```{r}
+# Turn off scientific notation
+options(scipen=999)
+
+library(tidyverse)
+library(janitor)
+library(lubridate)
+library(ggrepel)
+library(sf)
+library(tidycensus)
+library(tigris)
+
+```
+
+## Initial Exploration
+
+**Q1.**. Write R code that generates some basic descriptive statistics that allows you to describe the applications from your state. This code should produce results that describe the data in different ways: how many applications there are, along with ways to understand the typical and most frequent values for columns you find interesting or newsworthy. You should produce at least five (5) descriptive statistics and write up a summary of the data using them.
+
+**A1.** 
+
+I looked first at counties and which ones got the most loans and the most money. Denver, Arapahoe, Jefferson, and El Paso were the top four in terms of total loan amount. Next, I sorted by Naics code, which showed that restaurants were the biggest recipients of PPP data. Third, I found that significant numbers and amounts of loans were serviced by lenders outside of the state. Besides Colorado, Ohio was the most frequent state for loan servicers. And lastly, I showed that there is a significant discrepency to urban recipients, as they received far more loans than those in rural settings. 
+
+```{r}
+co_ppp_data <- read_csv("data/colorado_ppp.csv")
+
+## 1. Which Counties Got the Most Loans and 2. the highest amount? 
+
+amount_by_county <- co_ppp_data %>% 
+  group_by(project_county_name) %>% 
+  summarise(  count_loans = n(),
+    total_loans_amount = sum(amount)
+) %>% 
+arrange(desc(total_loans_amount))
+
+amount_by_county
+
+## 3. Which Naics industries got the highest amount? 
+
+amount_by_naics <- co_ppp_data %>% 
+  group_by(naics_code) %>% 
+    summarise(  count_loans = n(),
+    total_loans_amount = sum(amount)
+) %>% 
+arrange(desc(count_loans))
+
+amount_by_naics
+
+## Where were the lenders located? Was most of the money coming in-state? 
+
+amount_by_service_state <- co_ppp_data %>% 
+  group_by(servicing_lender_state) %>% 
+  summarise(  count_loans = n(),
+    total_loans_amount = sum(amount)
+) %>% 
+arrange(desc(count_loans))
+
+amount_by_service_state
+
+## Using the rural/urban indicator, how many loans and how much money went to either. 
+
+amount_by_urban <- co_ppp_data %>% 
+  group_by(rural_urban_indicator) %>% 
+  summarise(  count_loans = n(),
+    total_loans_amount = sum(amount)
+) %>% 
+arrange(desc(count_loans))
+  
+amount_by_urban
+  
+```
+
+
+## Geographic Analysis
+
+**Q2.** Write R code that examines geographic patterns for PPP loans in your state, using Census population information to calculate a per-capita figure for the state and counties and zip codes. Then, make a county map using ggplot showing the per-capita data and a zip code map showing the difference from the statewide per-capita figure. Describe the most interesting or newsworthy findings based on your exploration.
+
+**A2.** 
+
+There are two interesting things here. The first is that the eastern part of the state clearly seems to attract more loans, and is well higher than the rest of the state in terms of loans per capita. This is a good use of the map because it shows geographic trends in the data that would otherwise not be possible to find. 
+
+For the second graph, the results were skewed because the graph showed the difference to the state ratio of loans per capita. Some of the results were extremely high, because some zip codes actually had more loans in their area than people living. This made the scale difficult to read, and showed the limits of mapping. 
+
+```{r}
+### Read in census data. With Geography 
+
+census_api_key("46337cfa9ca4bb84fc53936d51e61e3bdb6e6b3e")
+
+load_variables(2019, "acs1")
+
+## Get state data 
+co_pop <- get_acs(geography = "state", variables = "B01001_001", year = 2019, geometry = TRUE) %>% 
+  filter(NAME == "Colorado") %>% 
+  mutate(state = "CO")
+
+## Zip Code Data 
+co_pop_zip <- get_acs(geography = "zcta", variables = "B01001_001", state="CO", year = 2019, geometry = TRUE) 
+
+## County Data
+co_pop_county <- get_acs(geography = "county", variables = "B01001_001", state="CO", year = 2019, geometry = TRUE)
+
+## Find State per capita 
+
+co_per_capita <- co_ppp_data %>%
+  group_by(state) %>% 
+    summarise(count_loans = n()
+) %>% 
+  left_join(co_pop, by="state") %>% 
+  mutate(loans_per_capita = (count_loans/estimate)*100000)
+
+# Clean zip codes to join
+
+co_ppp_zips <- co_ppp_data %>% 
+  mutate(zip = str_sub(zip, start=1L, end=5L)) %>% 
+  filter(zip >= 80001, zip <= 81658) %>% 
+  group_by(zip) %>% 
+  summarise(  count_loans = n(),
+    total_loans_amount = sum(amount)
+) %>% 
+arrange(desc(total_loans_amount))
+
+co_pop_zip <- co_pop_zip %>% 
+  rename(zip = GEOID) 
+```
+
+```{r}
+
+#clean coounty names 
+
+co_ppp_counties <- co_ppp_data %>%
+  group_by(project_county_name) %>% 
+  summarise(  count_loans = n(),
+    total_loans_amount = sum(amount)
+) %>% 
+arrange(desc(total_loans_amount))
+  
+co_pop_county_clean <- co_pop_county %>% 
+  group_by(NAME) %>% 
+    mutate(
+    NAME = str_replace(NAME," County, Colorado",""),
+    NAME = str_to_upper(NAME)
+  ) %>% 
+  rename(project_county_name = "NAME")
+ 
+  
+## Join and calculate per capita for counties
+
+county_per_capita <- co_pop_county_clean %>% 
+  left_join(co_ppp_counties, by="project_county_name") %>% 
+   mutate(loans_per_100k = (count_loans/estimate)*100000,
+          diff_from_state = loans_per_100k - co_per_capita$loans_per_capita)
+
+co_ppp_counties
+
+### Join, and Calculate per-capita figure for state and counties and zip codes. 
+
+zip_per_capita <- co_pop_zip %>% 
+  left_join(co_ppp_zips, by="zip") %>% 
+   mutate(loans_per_100k = (count_loans/estimate)*100000,
+          diff_from_state = (loans_per_100k - co_per_capita$loans_per_capita))
+
+zip_per_capita
+
+```
+
+```{r}
+
+## Make a county map with per-capita data 
+co_counties <- counties() %>% filter(STATEFP == "08")
+
+ggplot() +
+  geom_sf(data=co_counties)+
+  geom_sf(data=county_per_capita, aes(fill=loans_per_100k))+
+ scale_fill_viridis_b(option="magma",trans = "log")+
+  theme_void() 
+
+
+## Make a zip code map with difference from statewide per-capita data. 
+
+ggplot() +
+  geom_sf(data=co_counties)+
+   geom_sf(data=zip_per_capita, aes(fill=diff_from_state))+
+    scale_fill_viridis_b(option="magma")+
+  theme_minimal() 
+
+```
+
+## Lender Analysis
+
+**Q3.** Write R code to examine which lenders had the most approved applications in your state (and include summary statistics such as total amount and average loan amount). Generate dataframes that show the number and total amount of all loans and undisbursed loans per lender. For those lenders who had any undisbursed loans, make a graphic showing the relationship between the total amount of loans and the total undisbursed amount. Describe the most noticeable outlier lenders on that graphic below.
+
+**A3.** 
+
+There were four lenders with more than 10,000 loans in the state. Firstbank, U.s Bank, Wells Fargo, and JP Morgan. Interestingly, there were only three loans with undisbursed amount in the dataset, which made the graphic pretty irrelevent. I am not sure why there were so few of these loans in the dataset, but nearly every single loan in Colorado seems to be paid out in full. 
+
+
+```{r}
+## Which lender had most approved apps?
+
+co_total_loans <- co_ppp_data %>% 
+   summarise(count_loans = n(),
+    total_loans_amount = sum(amount), 
+    undisbursed_amount = sum(amount)
+) %>% 
+arrange(desc(total_loans_amount))
+  
+
+co_lenders_indivudal <- co_ppp_data %>% 
+  group_by(servicing_lender_name) %>% 
+  summarise(  count_loans = n(),
+    total_loans_amount = sum(amount), 
+    undisbursed_amount = sum(amount)
+) %>% 
+arrange(desc(count_loans))
+  
+co_lenders_indivudal
+
+co_undisbursed_loans <- co_ppp_data %>% 
+  filter(undisbursed_amount > 0) %>% 
+  group_by(servicing_lender_name) %>% 
+  summarise(count_loans = n(),
+    total_loans_amount = sum(amount), 
+    undisbursed_amount = sum(amount)
+) %>% 
+arrange(desc(count_loans))
+
+
+## Make dataframe that shows number, amount, and undisbursed amount. Make a graphic to show relationship
+
+co_undisbursed_loans %>% 
+   ggplot(aes(x=undisbursed_amount,y=total_loans_amount,label=servicing_lender_name)) +
+  geom_point() 
+  
+
+```
+
+## Industry Analysis
+
+**Q4.** Write R code that examines industry patterns for PPP loans in your state, using the NAICS codes from the PPP data as a starting point. Generate statewide and county industry totals, then join that with 2018-19 data from the [Census County Business Patterns survey](https://www2.census.gov/programs-surveys/cbp/datasets/2019/cbp19co.zip) using 6-digit NAICS codes. The documentation explaining that data can be found here: https://www2.census.gov/programs-surveys/cbp/technical-documentation/records-layouts/2018_record_layouts/county-layout-2018.txt. To do this, you will need to add FIPS codes to your PPP dataset.
+
+Does the distribution of PPP applications by the top 10 industries (by number of applications) roughly match the number of businesses reported in the Census data? Does it roughly match if you remove self-employed individuals and sole proprietorships from the PPP totals? Write up a summary of what you've found and whether there are potentially newsworthy patterns in the data.
+
+Create a county-level map showing the differences between the PPP applications and the Census business data for one of the top 10 industry codes. You can do this either using ggplot or Datawrapper (if the latter, publish that map and include the URL below).
+
+**A4.** 
+
+I really struggled with this question. I did not understand what it meant to produce county industry totals, and had trouble joining them with the fips codes. I did create a list of the 10 most frequent naics codes. The most unique one was cattle ranching, while most of the top industries were things that can be found in all states, like restaurants, beauty salons, etc. 
+
+
+
+```{r}
+## Find state and county naics totals, join with census data. Will need to add fips codes to ppp data. 
+
+all_fips <- fips_codes %>% as_tibble()
+
+fips_survey <-read_csv("data/cbp19co.csv")
+
+co_fips <- all_fips %>% 
+  filter(state == "CO") %>% 
+  rename(project_county_name = county)
+
+co_fips_ppp <- co_ppp_data %>% 
+  left_join(co_fips, by = "project_county_name")
+
+co_naics <- co_fips_ppp %>% 
+  group_by(naics_code) %>% 
+  summarise(
+    count=n()
+  ) %>% 
+  arrange(desc(count)) %>% 
+  head(10)
+
+## Create county level maps with differences in ppp apps and census data for one of the top 10 codes. Can be in datawrapper or ggplot. I am choosing to do it on Naics code 112111 (Beef Cattle Ranching and Farming)
+
+co_ranching <- co_fips_ppp %>% 
+  filter(naics_code == 112111)
+
+```
+
+## Summary
+
+**Q5.** What is the most promising story idea that you have found during this exploration? How would you approach reporting it out and what other information/data would you need to do that? What would be the minimum story you could get from this, and what would be the maximum story?
+
+**A5.**
+
+For me, the most interesting story was how there seemed to be zip codes with more loan applicants than people living in the zip code. The worst offender for this was the zip code for Steamboat Springs, which houses a famous ski resort. Now, it makes sense that a ski resort would receive loans, given the in-person nature of their business and how they were shut down by government restiriction. What does not make sense is that there were 179 distinct loans given in that zip code, with less than one hundred people living there according to the census. The minimum story is that there is a tiny zip code which houses just the offices and retail spaces of the mountain, and nothing else. In this case, the businesses would suffer and need loans while few residents would live there. 
+
+The maximum story is that these businesses might be double-dipping into loan applications, and applying under various different business names and application information. It does seem highly unlikely that there are that many more recipients than actual residents. Perhaps there are a number of people who train and stay there, but do not actually record it as their residence, but that alone would be a story because it shows a lot of money in the state might go to people who don't live there. 
+
+To research out the story, you would need to search for patterns. Are there more service lenders from out of state? Do loan recipients come up more than once? Are there repeat addresses? Any repetitive information would be helpful in reporting this story. 
