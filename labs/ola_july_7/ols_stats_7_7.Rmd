@@ -1,0 +1,86 @@
+---
+title: "ola_stats"
+author: "Jon Donville"
+date: "07/07/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+## Load Libraries 
+
+```{r}
+# Turn off scientific notation
+options(scipen=999)
+
+library(tidyverse)
+library(janitor)
+library(lubridate)
+library(ggrepel)
+library(sf)
+library(tidycensus)
+library(tigris)
+library(ggplot2)
+
+```
+
+## Read in stats 
+
+```{r}
+
+ola_player_stats <- read_csv("data/ola_stats_july7.csv")
+
+
+```
+
+## Test scatterplots 
+
+## Note for Professor Willis - Here, I am trying to make the scatterplot to show the leading scorers in the league. I would like to label the charts with the player names. Labeling all of them might be messy, but as of now I can't get any of the names to come up. I tried geom_text but can't get that to work and every time I try to indicate that I want the label to show the data from the "PLAYER" column, it says that object cannot be found. 
+
+Goals + Assists 
+
+```{r}
+ola_top_scorers <- ola_player_stats %>% 
+  filter(PTS >= 40) %>% 
+  mutate(player_name = PLAYER)
+  
+ola_top_scorers %>% 
+ggplot() +
+  geom_point(aes(G, A), size=2, colour="blueviolet",) +
+ labs(
+    title="Goals and Assists As of July 7",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) 
+   geom_text()
+
+
+
+```
+
+Powerplay
+
+```{r}
+
+ola_top_scorers <- ola_player_stats %>% 
+  filter(PTS >= 20) 
+  
+ggplot(ola_top_scorers) +
+  geom_point(aes(PPG, PPA), size=2, colour="blueviolet",) +
+ labs(
+    title="Goals and Assists As of July 7",
+    x = "Powerplay Goals",
+    y = "Powerplay Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  )
+geom_text(size=6)
+
+```
