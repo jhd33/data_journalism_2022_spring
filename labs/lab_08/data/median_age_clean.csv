@@ -1,0 +1,3221 @@
+GEOID,county,state,variable,estimate,moe
+1001,Autauga, Alabama,B01002_001,38.2,0.6
+1003,Baldwin, Alabama,B01002_001,43,0.3
+1005,Barbour, Alabama,B01002_001,40.4,0.5
+1007,Bibb, Alabama,B01002_001,40.9,1.3
+1009,Blount, Alabama,B01002_001,40.7,0.3
+1011,Bullock, Alabama,B01002_001,40.2,2.3
+1013,Butler, Alabama,B01002_001,40.8,0.7
+1015,Calhoun, Alabama,B01002_001,39.6,0.3
+1017,Chambers, Alabama,B01002_001,42,0.7
+1019,Cherokee, Alabama,B01002_001,46.5,0.5
+1021,Chilton, Alabama,B01002_001,38.7,0.7
+1023,Choctaw, Alabama,B01002_001,46.3,0.3
+1025,Clarke, Alabama,B01002_001,42.5,0.8
+1027,Clay, Alabama,B01002_001,43.3,0.8
+1029,Cleburne, Alabama,B01002_001,43.1,0.8
+1031,Coffee, Alabama,B01002_001,39.3,0.3
+1033,Colbert, Alabama,B01002_001,42.4,0.4
+1035,Conecuh, Alabama,B01002_001,44.8,0.3
+1037,Coosa, Alabama,B01002_001,48.4,1
+1039,Covington, Alabama,B01002_001,43.3,0.5
+1041,Crenshaw, Alabama,B01002_001,41.7,0.8
+1043,Cullman, Alabama,B01002_001,40.8,0.3
+1045,Dale, Alabama,B01002_001,37.3,0.5
+1047,Dallas, Alabama,B01002_001,39.6,0.4
+1049,DeKalb, Alabama,B01002_001,39.5,0.4
+1051,Elmore, Alabama,B01002_001,38.7,0.3
+1053,Escambia, Alabama,B01002_001,40,0.5
+1055,Etowah, Alabama,B01002_001,41.4,0.3
+1057,Fayette, Alabama,B01002_001,43.7,0.6
+1059,Franklin, Alabama,B01002_001,38.6,2.1
+1061,Geneva, Alabama,B01002_001,43.2,0.6
+1063,Greene, Alabama,B01002_001,40.9,3
+1065,Hale, Alabama,B01002_001,40.5,1.8
+1067,Henry, Alabama,B01002_001,44.4,0.4
+1069,Houston, Alabama,B01002_001,40.1,0.2
+1071,Jackson, Alabama,B01002_001,43.1,0.4
+1073,Jefferson, Alabama,B01002_001,37.7,0.2
+1075,Lamar, Alabama,B01002_001,44.8,0.3
+1077,Lauderdale, Alabama,B01002_001,41,0.5
+1079,Lawrence, Alabama,B01002_001,42.4,0.4
+1081,Lee, Alabama,B01002_001,31.9,0.2
+1083,Limestone, Alabama,B01002_001,39.7,0.4
+1085,Lowndes, Alabama,B01002_001,42,1.1
+1087,Macon, Alabama,B01002_001,38.6,0.6
+1089,Madison, Alabama,B01002_001,38.5,0.2
+1091,Marengo, Alabama,B01002_001,42.2,0.7
+1093,Marion, Alabama,B01002_001,44.3,0.4
+1095,Marshall, Alabama,B01002_001,38.8,0.4
+1097,Mobile, Alabama,B01002_001,37.9,0.2
+1099,Monroe, Alabama,B01002_001,43.3,0.5
+1101,Montgomery, Alabama,B01002_001,36.4,0.3
+1103,Morgan, Alabama,B01002_001,40.6,0.3
+1105,Perry, Alabama,B01002_001,36.9,1.4
+1107,Pickens, Alabama,B01002_001,42.2,0.7
+1109,Pike, Alabama,B01002_001,31.2,0.7
+1111,Randolph, Alabama,B01002_001,43.4,0.4
+1113,Russell, Alabama,B01002_001,36.3,0.4
+1115,St., Alabama,B01002_001,40.3,0.4
+1117,Shelby, Alabama,B01002_001,39.3,0.3
+1119,Sumter, Alabama,B01002_001,35.6,0.3
+1121,Talladega, Alabama,B01002_001,41.3,0.4
+1123,Tallapoosa, Alabama,B01002_001,44.7,0.3
+1125,Tuscaloosa, Alabama,B01002_001,33,0.2
+1127,Walker, Alabama,B01002_001,42.1,0.5
+1129,Washington, Alabama,B01002_001,43.7,0.6
+1131,Wilcox, Alabama,B01002_001,40.5,1
+1133,Winston, Alabama,B01002_001,45.2,0.3
+2013,Aleutians, Alaska,B01002_001,42.5,1.5
+2016,Aleutians, Alaska,B01002_001,38.6,1.7
+2020,Anchorage, Alaska,B01002_001,33.6,0.1
+2050,Bethel, Alaska,B01002_001,27.3,0.5
+2060,Bristol, Alaska,B01002_001,42.9,5.9
+2068,Denali, Alaska,B01002_001,42.1,8.3
+2070,Dillingham, Alaska,B01002_001,30.2,0.4
+2090,Fairbanks, Alaska,B01002_001,31.3,0.3
+2100,Haines, Alaska,B01002_001,44.7,6.7
+2105,Hoonah-Angoon, Alaska,B01002_001,49.6,3.4
+2110,Juneau, Alaska,B01002_001,38.1,0.4
+2122,Kenai, Alaska,B01002_001,40.8,0.4
+2130,Ketchikan, Alaska,B01002_001,39.7,0.5
+2150,Kodiak, Alaska,B01002_001,33.9,0.6
+2158,Kusilvak, Alaska,B01002_001,24.1,0.2
+2164,Lake, Alaska,B01002_001,34.8,1.9
+2170,Matanuska-Susitna, Alaska,B01002_001,35.2,0.1
+2180,Nome, Alaska,B01002_001,28.3,0.4
+2185,North, Alaska,B01002_001,35.2,1.3
+2188,Northwest, Alaska,B01002_001,27.8,0.7
+2195,Petersburg, Alaska,B01002_001,42.8,4.2
+2198,Prince, Alaska,B01002_001,41.3,0.6
+2220,Sitka, Alaska,B01002_001,39.5,0.7
+2230,Skagway, Alaska,B01002_001,40.4,1.7
+2240,Southeast, Alaska,B01002_001,36.8,1
+2261,Valdez-Cordova, Alaska,B01002_001,38.1,1.3
+2275,Wrangell, Alaska,B01002_001,49.4,2.8
+2282,Yakutat, Alaska,B01002_001,36.9,4.7
+2290,Yukon-Koyukuk, Alaska,B01002_001,35.2,0.3
+4001,Apache, Arizona,B01002_001,35,0.2
+4003,Cochise, Arizona,B01002_001,41.1,0.3
+4005,Coconino, Arizona,B01002_001,30.7,0.2
+4007,Gila, Arizona,B01002_001,50.2,0.2
+4009,Graham, Arizona,B01002_001,33.6,0.5
+4011,Greenlee, Arizona,B01002_001,34.5,0.5
+4012,La, Arizona,B01002_001,56.5,0.5
+4013,Maricopa, Arizona,B01002_001,36.4,0.1
+4015,Mohave, Arizona,B01002_001,51.6,0.3
+4017,Navajo, Arizona,B01002_001,37.3,0.3
+4019,Pima, Arizona,B01002_001,38.5,0.1
+4021,Pinal, Arizona,B01002_001,39.3,0.3
+4023,Santa, Arizona,B01002_001,36.7,0.5
+4025,Yavapai, Arizona,B01002_001,53.4,0.1
+4027,Yuma, Arizona,B01002_001,34.6,0.2
+5001,Arkansas, Arkansas,B01002_001,40.7,0.6
+5003,Ashley, Arkansas,B01002_001,41.7,1.2
+5005,Baxter, Arkansas,B01002_001,52.2,0.3
+5007,Benton, Arkansas,B01002_001,35.4,0.1
+5009,Boone, Arkansas,B01002_001,42.3,0.8
+5011,Bradley, Arkansas,B01002_001,40.6,0.8
+5013,Calhoun, Arkansas,B01002_001,44.5,2.1
+5015,Carroll, Arkansas,B01002_001,45,0.4
+5017,Chicot, Arkansas,B01002_001,43.3,0.6
+5019,Clark, Arkansas,B01002_001,33.7,0.6
+5021,Clay, Arkansas,B01002_001,42.8,0.4
+5023,Cleburne, Arkansas,B01002_001,49.4,0.2
+5025,Cleveland, Arkansas,B01002_001,42.9,0.8
+5027,Columbia, Arkansas,B01002_001,35.7,0.5
+5029,Conway, Arkansas,B01002_001,42.5,0.7
+5031,Craighead, Arkansas,B01002_001,34.2,0.2
+5033,Crawford, Arkansas,B01002_001,38.6,0.6
+5035,Crittenden, Arkansas,B01002_001,35.2,0.1
+5037,Cross, Arkansas,B01002_001,40.9,0.8
+5039,Dallas, Arkansas,B01002_001,43.9,2.2
+5041,Desha, Arkansas,B01002_001,40.1,2.3
+5043,Drew, Arkansas,B01002_001,37.4,0.8
+5045,Faulkner, Arkansas,B01002_001,32.8,0.3
+5047,Franklin, Arkansas,B01002_001,41.2,0.9
+5049,Fulton, Arkansas,B01002_001,48.4,0.7
+5051,Garland, Arkansas,B01002_001,45,0.2
+5053,Grant, Arkansas,B01002_001,41,0.8
+5055,Greene, Arkansas,B01002_001,38,0.6
+5057,Hempstead, Arkansas,B01002_001,40.4,1.1
+5059,Hot, Arkansas,B01002_001,41.3,0.9
+5061,Howard, Arkansas,B01002_001,39.2,0.8
+5063,Independence, Arkansas,B01002_001,39.3,0.9
+5065,Izard, Arkansas,B01002_001,47.9,0.6
+5067,Jackson, Arkansas,B01002_001,39.7,0.6
+5069,Jefferson, Arkansas,B01002_001,38.7,0.5
+5071,Johnson, Arkansas,B01002_001,38.4,0.9
+5073,Lafayette, Arkansas,B01002_001,47,0.7
+5075,Lawrence, Arkansas,B01002_001,40.8,0.6
+5077,Lee, Arkansas,B01002_001,42.5,0.8
+5079,Lincoln, Arkansas,B01002_001,39,1.1
+5081,Little, Arkansas,B01002_001,42.9,0.7
+5083,Logan, Arkansas,B01002_001,42,0.7
+5085,Lonoke, Arkansas,B01002_001,36.2,0.3
+5087,Madison, Arkansas,B01002_001,42.7,0.9
+5089,Marion, Arkansas,B01002_001,52.2,0.5
+5091,Miller, Arkansas,B01002_001,39.5,0.9
+5093,Mississippi, Arkansas,B01002_001,36.6,0.4
+5095,Monroe, Arkansas,B01002_001,47.3,1
+5097,Montgomery, Arkansas,B01002_001,50.4,0.8
+5099,Nevada, Arkansas,B01002_001,44.3,2.3
+5101,Newton, Arkansas,B01002_001,49,0.6
+5103,Ouachita, Arkansas,B01002_001,43,0.8
+5105,Perry, Arkansas,B01002_001,43.7,0.6
+5107,Phillips, Arkansas,B01002_001,38.9,0.7
+5109,Pike, Arkansas,B01002_001,43.1,0.7
+5111,Poinsett, Arkansas,B01002_001,40.1,0.6
+5113,Polk, Arkansas,B01002_001,43.9,0.5
+5115,Pope, Arkansas,B01002_001,35.3,0.4
+5117,Prairie, Arkansas,B01002_001,47.2,1.2
+5119,Pulaski, Arkansas,B01002_001,37.2,0.2
+5121,Randolph, Arkansas,B01002_001,41.1,0.7
+5123,St., Arkansas,B01002_001,38.8,0.8
+5125,Saline, Arkansas,B01002_001,39.6,0.5
+5127,Scott, Arkansas,B01002_001,40.7,1
+5129,Searcy, Arkansas,B01002_001,47.9,1.1
+5131,Sebastian, Arkansas,B01002_001,37.6,0.3
+5133,Sevier, Arkansas,B01002_001,35.3,0.7
+5135,Sharp, Arkansas,B01002_001,47.6,0.7
+5137,Stone, Arkansas,B01002_001,50.1,0.7
+5139,Union, Arkansas,B01002_001,40.3,0.5
+5141,Van, Arkansas,B01002_001,48,0.6
+5143,Washington, Arkansas,B01002_001,32,0.2
+5145,White, Arkansas,B01002_001,36.9,0.4
+5147,Woodruff, Arkansas,B01002_001,45.5,0.7
+5149,Yell, Arkansas,B01002_001,40.3,1
+6001,Alameda, California,B01002_001,37.6,0.1
+6003,Alpine, California,B01002_001,52.2,8.8
+6005,Amador, California,B01002_001,50.5,0.4
+6007,Butte, California,B01002_001,37.1,0.2
+6009,Calaveras, California,B01002_001,52,0.6
+6011,Colusa, California,B01002_001,35.3,0.4
+6013,Contra, California,B01002_001,39.7,0.1
+6015,Del, California,B01002_001,39.5,1.1
+6017,El, California,B01002_001,45.9,0.1
+6019,Fresno, California,B01002_001,32.2,0.1
+6021,Glenn, California,B01002_001,36.4,0.7
+6023,Humboldt, California,B01002_001,38.4,0.3
+6025,Imperial, California,B01002_001,32.4,0.2
+6027,Inyo, California,B01002_001,45.8,0.5
+6029,Kern, California,B01002_001,31.6,0.2
+6031,Kings, California,B01002_001,31.8,0.2
+6033,Lake, California,B01002_001,45.6,0.3
+6035,Lassen, California,B01002_001,36.6,0.5
+6037,Los, California,B01002_001,36.5,0.1
+6039,Madera, California,B01002_001,34.1,0.2
+6041,Marin, California,B01002_001,46.8,0.1
+6043,Mariposa, California,B01002_001,51.7,0.6
+6045,Mendocino, California,B01002_001,43.1,0.3
+6047,Merced, California,B01002_001,31.1,0.1
+6049,Modoc, California,B01002_001,47.8,2.3
+6051,Mono, California,B01002_001,37.7,1.3
+6053,Monterey, California,B01002_001,34.4,0.1
+6055,Napa, California,B01002_001,41.3,0.4
+6057,Nevada, California,B01002_001,50.5,0.2
+6059,Orange, California,B01002_001,38.1,0.2
+6061,Placer, California,B01002_001,42,0.2
+6063,Plumas, California,B01002_001,52.3,0.5
+6065,Riverside, California,B01002_001,35.6,0.1
+6067,Sacramento, California,B01002_001,36.2,0.1
+6069,San, California,B01002_001,35.7,0.2
+6071,San, California,B01002_001,33.3,0.2
+6073,San, California,B01002_001,35.8,0.1
+6075,San, California,B01002_001,38.2,0.1
+6077,San, California,B01002_001,34.3,0.1
+6079,San, California,B01002_001,39.2,0.3
+6081,San, California,B01002_001,39.7,0.2
+6083,Santa, California,B01002_001,33.8,0.1
+6085,Santa, California,B01002_001,37.1,0.1
+6087,Santa, California,B01002_001,37.8,0.2
+6089,Shasta, California,B01002_001,41.5,0.4
+6091,Sierra, California,B01002_001,54.8,1.4
+6093,Siskiyou, California,B01002_001,47.8,0.3
+6095,Solano, California,B01002_001,38.1,0.2
+6097,Sonoma, California,B01002_001,42.1,0.2
+6099,Stanislaus, California,B01002_001,34.1,0.1
+6101,Sutter, California,B01002_001,35.7,0.2
+6103,Tehama, California,B01002_001,41,0.6
+6105,Trinity, California,B01002_001,52.5,0.5
+6107,Tulare, California,B01002_001,31,0.2
+6109,Tuolumne, California,B01002_001,48.4,0.5
+6111,Ventura, California,B01002_001,38.1,0.2
+6113,Yolo, California,B01002_001,31,0.2
+6115,Yuba, California,B01002_001,32.8,0.3
+8001,Adams, Colorado,B01002_001,33.8,0.2
+8003,Alamosa, Colorado,B01002_001,31.8,0.9
+8005,Arapahoe, Colorado,B01002_001,36.6,0.1
+8007,Archuleta, Colorado,B01002_001,50.9,0.5
+8009,Baca, Colorado,B01002_001,46,2.3
+8011,Bent, Colorado,B01002_001,40.2,0.8
+8013,Boulder, Colorado,B01002_001,36.6,0.2
+8014,Broomfield, Colorado,B01002_001,37.8,0.3
+8015,Chaffee, Colorado,B01002_001,49.2,0.6
+8017,Cheyenne, Colorado,B01002_001,39.4,4.4
+8019,Clear, Colorado,B01002_001,48.1,0.9
+8021,Conejos, Colorado,B01002_001,38.8,1.3
+8023,Costilla, Colorado,B01002_001,51.9,2.1
+8025,Crowley, Colorado,B01002_001,35.4,2.8
+8027,Custer, Colorado,B01002_001,59.7,2.6
+8029,Delta, Colorado,B01002_001,47.3,0.6
+8031,Denver, Colorado,B01002_001,34.5,0.1
+8033,Dolores, Colorado,B01002_001,48.8,10.7
+8035,Douglas, Colorado,B01002_001,38.7,0.2
+8037,Eagle, Colorado,B01002_001,37,0.6
+8039,Elbert, Colorado,B01002_001,46.1,0.4
+8041,El, Colorado,B01002_001,34.2,0.2
+8043,Fremont, Colorado,B01002_001,45.1,0.4
+8045,Garfield, Colorado,B01002_001,36.5,0.3
+8047,Gilpin, Colorado,B01002_001,49,2.4
+8049,Grand, Colorado,B01002_001,42.9,0.5
+8051,Gunnison, Colorado,B01002_001,34.5,0.8
+8053,Hinsdale, Colorado,B01002_001,56.1,4.5
+8055,Huerfano, Colorado,B01002_001,55,0.6
+8057,Jackson, Colorado,B01002_001,51.6,6.2
+8059,Jefferson, Colorado,B01002_001,40.3,0.2
+8061,Kiowa, Colorado,B01002_001,42.5,6.2
+8063,Kit, Colorado,B01002_001,38.3,1.1
+8065,Lake, Colorado,B01002_001,36.7,2.4
+8067,La, Colorado,B01002_001,40.4,0.4
+8069,Larimer, Colorado,B01002_001,36,0.2
+8071,Las, Colorado,B01002_001,45.9,0.6
+8073,Lincoln, Colorado,B01002_001,38,2.4
+8075,Logan, Colorado,B01002_001,38.2,1
+8077,Mesa, Colorado,B01002_001,39.7,0.4
+8079,Mineral, Colorado,B01002_001,56.1,5.4
+8081,Moffat, Colorado,B01002_001,36.6,0.9
+8083,Montezuma, Colorado,B01002_001,45.2,0.3
+8085,Montrose, Colorado,B01002_001,45.2,0.3
+8087,Morgan, Colorado,B01002_001,36.2,0.5
+8089,Otero, Colorado,B01002_001,39.9,0.7
+8091,Ouray, Colorado,B01002_001,54.1,2.8
+8093,Park, Colorado,B01002_001,50.7,0.9
+8095,Phillips, Colorado,B01002_001,37.1,2.7
+8097,Pitkin, Colorado,B01002_001,41.8,1
+8099,Prowers, Colorado,B01002_001,38.3,0.6
+8101,Pueblo, Colorado,B01002_001,39.3,0.3
+8103,Rio, Colorado,B01002_001,36.9,1.4
+8105,Rio, Colorado,B01002_001,42.1,2.3
+8107,Routt, Colorado,B01002_001,40.2,0.8
+8109,Saguache, Colorado,B01002_001,49,1.4
+8111,San, Colorado,B01002_001,51.2,6.9
+8113,San, Colorado,B01002_001,41.8,0.9
+8115,Sedgwick, Colorado,B01002_001,44.1,8.1
+8117,Summit, Colorado,B01002_001,39.1,0.9
+8119,Teller, Colorado,B01002_001,50,0.3
+8121,Washington, Colorado,B01002_001,41.6,0.8
+8123,Weld, Colorado,B01002_001,34.4,0.1
+8125,Yuma, Colorado,B01002_001,37.8,2.1
+9001,Fairfield, Connecticut,B01002_001,40.6,0.2
+9003,Hartford, Connecticut,B01002_001,40.4,0.1
+9005,Litchfield, Connecticut,B01002_001,47.3,0.1
+9007,Middlesex, Connecticut,B01002_001,45.7,0.1
+9009,New, Connecticut,B01002_001,40.3,0.2
+9011,New, Connecticut,B01002_001,41.4,0.3
+9013,Tolland, Connecticut,B01002_001,37.7,0.3
+9015,Windham, Connecticut,B01002_001,41.2,0.4
+10001,Kent, Delaware,B01002_001,37.7,0.4
+10003,New, Delaware,B01002_001,38.4,0.2
+10005,Sussex, Delaware,B01002_001,49.6,0.1
+11001,District, District of Columbia,B01002_001,34,0.1
+12001,Alachua, Florida,B01002_001,31.6,0.2
+12003,Baker, Florida,B01002_001,37.7,0.9
+12005,Bay, Florida,B01002_001,39.8,0.3
+12007,Bradford, Florida,B01002_001,39.7,0.8
+12009,Brevard, Florida,B01002_001,47.3,0.2
+12011,Broward, Florida,B01002_001,40.4,0.2
+12013,Calhoun, Florida,B01002_001,41.6,1.6
+12015,Charlotte, Florida,B01002_001,59.1,0.2
+12017,Citrus, Florida,B01002_001,56.5,0.3
+12019,Clay, Florida,B01002_001,39.7,0.4
+12021,Collier, Florida,B01002_001,50.8,0.1
+12023,Columbia, Florida,B01002_001,40.4,0.5
+12027,DeSoto, Florida,B01002_001,40.9,0.8
+12029,Dixie, Florida,B01002_001,46.5,0.8
+12031,Duval, Florida,B01002_001,36.2,0.2
+12033,Escambia, Florida,B01002_001,37.2,0.3
+12035,Flagler, Florida,B01002_001,51.3,0.3
+12037,Franklin, Florida,B01002_001,46.4,1
+12039,Gadsden, Florida,B01002_001,40.8,0.6
+12041,Gilchrist, Florida,B01002_001,42.1,1.1
+12043,Glades, Florida,B01002_001,47.9,1.3
+12045,Gulf, Florida,B01002_001,44.9,1.1
+12047,Hamilton, Florida,B01002_001,40.9,1.1
+12049,Hardee, Florida,B01002_001,35.4,0.3
+12051,Hendry, Florida,B01002_001,34,0.3
+12053,Hernando, Florida,B01002_001,49,0.2
+12055,Highlands, Florida,B01002_001,53.5,0.3
+12057,Hillsborough, Florida,B01002_001,37.2,0.1
+12059,Holmes, Florida,B01002_001,42.7,0.9
+12061,Indian, Florida,B01002_001,53.5,0.2
+12063,Jackson, Florida,B01002_001,41.7,0.4
+12065,Jefferson, Florida,B01002_001,48,0.6
+12067,Lafayette, Florida,B01002_001,37.3,2.4
+12069,Lake, Florida,B01002_001,46.9,0.2
+12071,Lee, Florida,B01002_001,48.5,0.2
+12073,Leon, Florida,B01002_001,31,0.2
+12075,Levy, Florida,B01002_001,46.9,0.6
+12077,Liberty, Florida,B01002_001,40.7,3.3
+12079,Madison, Florida,B01002_001,43.5,0.7
+12081,Manatee, Florida,B01002_001,48.3,0.2
+12083,Marion, Florida,B01002_001,48.7,0.2
+12085,Martin, Florida,B01002_001,52.2,0.3
+12086,Miami-Dade, Florida,B01002_001,39.9,0.2
+12087,Monroe, Florida,B01002_001,47.7,0.3
+12089,Nassau, Florida,B01002_001,45.3,0.3
+12091,Okaloosa, Florida,B01002_001,36.9,0.2
+12093,Okeechobee, Florida,B01002_001,41.1,0.9
+12095,Orange, Florida,B01002_001,35.1,0.1
+12097,Osceola, Florida,B01002_001,35.9,0.2
+12099,Palm, Florida,B01002_001,44.8,0.1
+12101,Pasco, Florida,B01002_001,44.5,0.1
+12103,Pinellas, Florida,B01002_001,48.1,0.1
+12105,Polk, Florida,B01002_001,40.2,0.2
+12107,Putnam, Florida,B01002_001,45.1,0.4
+12109,St., Florida,B01002_001,43.7,0.3
+12111,St., Florida,B01002_001,45.1,0.2
+12113,Santa, Florida,B01002_001,39.9,0.4
+12115,Sarasota, Florida,B01002_001,56.1,0.2
+12117,Seminole, Florida,B01002_001,39.2,0.2
+12119,Sumter, Florida,B01002_001,67.4,0.2
+12121,Suwannee, Florida,B01002_001,43.3,0.8
+12123,Taylor, Florida,B01002_001,42,0.8
+12125,Union, Florida,B01002_001,39.3,0.7
+12127,Volusia, Florida,B01002_001,46.6,0.1
+12129,Wakulla, Florida,B01002_001,40.6,0.7
+12131,Walton, Florida,B01002_001,44,0.4
+12133,Washington, Florida,B01002_001,41.5,0.6
+13001,Appling, Georgia,B01002_001,40.3,1.4
+13003,Atkinson, Georgia,B01002_001,36.4,1
+13005,Bacon, Georgia,B01002_001,36.7,0.7
+13007,Baker, Georgia,B01002_001,46.1,5.5
+13009,Baldwin, Georgia,B01002_001,35.5,0.3
+13011,Banks, Georgia,B01002_001,41.1,1
+13013,Barrow, Georgia,B01002_001,35.7,0.2
+13015,Bartow, Georgia,B01002_001,38.1,0.3
+13017,Ben, Georgia,B01002_001,39.9,1.1
+13019,Berrien, Georgia,B01002_001,39.6,0.6
+13021,Bibb, Georgia,B01002_001,36.4,0.2
+13023,Bleckley, Georgia,B01002_001,35.8,1.1
+13025,Brantley, Georgia,B01002_001,41.1,0.8
+13027,Brooks, Georgia,B01002_001,42,1.1
+13029,Bryan, Georgia,B01002_001,34.6,0.3
+13031,Bulloch, Georgia,B01002_001,28.8,0.3
+13033,Burke, Georgia,B01002_001,37.4,0.6
+13035,Butts, Georgia,B01002_001,38.6,0.9
+13037,Calhoun, Georgia,B01002_001,39.6,1.7
+13039,Camden, Georgia,B01002_001,32.8,0.4
+13043,Candler, Georgia,B01002_001,38.7,1.5
+13045,Carroll, Georgia,B01002_001,34.8,0.2
+13047,Catoosa, Georgia,B01002_001,40.4,0.4
+13049,Charlton, Georgia,B01002_001,41.2,1.6
+13051,Chatham, Georgia,B01002_001,35.6,0.1
+13053,Chattahoochee, Georgia,B01002_001,24.5,0.5
+13055,Chattooga, Georgia,B01002_001,39.4,0.7
+13057,Cherokee, Georgia,B01002_001,38.7,0.3
+13059,Clarke, Georgia,B01002_001,28,0.3
+13061,Clay, Georgia,B01002_001,49.8,5.6
+13063,Clayton, Georgia,B01002_001,32.5,0.2
+13065,Clinch, Georgia,B01002_001,39.9,1.8
+13067,Cobb, Georgia,B01002_001,36.7,0.2
+13069,Coffee, Georgia,B01002_001,36.3,0.3
+13071,Colquitt, Georgia,B01002_001,36.8,0.6
+13073,Columbia, Georgia,B01002_001,36.9,0.4
+13075,Cook, Georgia,B01002_001,37.3,0.7
+13077,Coweta, Georgia,B01002_001,39,0.4
+13079,Crawford, Georgia,B01002_001,44.4,0.4
+13081,Crisp, Georgia,B01002_001,38.5,1.2
+13083,Dade, Georgia,B01002_001,42.6,0.7
+13085,Dawson, Georgia,B01002_001,43.6,0.4
+13087,Decatur, Georgia,B01002_001,37.8,0.6
+13089,DeKalb, Georgia,B01002_001,35.8,0.1
+13091,Dodge, Georgia,B01002_001,41.8,0.7
+13093,Dooly, Georgia,B01002_001,43.2,0.7
+13095,Dougherty, Georgia,B01002_001,35.6,0.2
+13097,Douglas, Georgia,B01002_001,36.5,0.3
+13099,Early, Georgia,B01002_001,39.9,0.8
+13101,Echols, Georgia,B01002_001,40.6,3
+13103,Effingham, Georgia,B01002_001,36,0.2
+13105,Elbert, Georgia,B01002_001,42.6,0.6
+13107,Emanuel, Georgia,B01002_001,36.9,0.8
+13109,Evans, Georgia,B01002_001,37.6,0.8
+13111,Fannin, Georgia,B01002_001,52.1,0.5
+13113,Fayette, Georgia,B01002_001,43.4,0.3
+13115,Floyd, Georgia,B01002_001,38.3,0.3
+13117,Forsyth, Georgia,B01002_001,38.5,0.2
+13119,Franklin, Georgia,B01002_001,41.2,1
+13121,Fulton, Georgia,B01002_001,35.5,0.1
+13123,Gilmer, Georgia,B01002_001,47.2,0.8
+13125,Glascock, Georgia,B01002_001,42.7,1.1
+13127,Glynn, Georgia,B01002_001,41.6,0.7
+13129,Gordon, Georgia,B01002_001,38.4,0.6
+13131,Grady, Georgia,B01002_001,40.3,1.2
+13133,Greene, Georgia,B01002_001,50.2,0.4
+13135,Gwinnett, Georgia,B01002_001,35.3,0.1
+13137,Habersham, Georgia,B01002_001,39.7,0.8
+13139,Hall, Georgia,B01002_001,36.7,0.2
+13141,Hancock, Georgia,B01002_001,45.6,2.2
+13143,Haralson, Georgia,B01002_001,40.4,0.9
+13145,Harris, Georgia,B01002_001,42.9,0.6
+13147,Hart, Georgia,B01002_001,44.1,0.8
+13149,Heard, Georgia,B01002_001,41.9,1.1
+13151,Henry, Georgia,B01002_001,36.9,0.3
+13153,Houston, Georgia,B01002_001,35.4,0.2
+13155,Irwin, Georgia,B01002_001,39.7,0.7
+13157,Jackson, Georgia,B01002_001,38.1,0.5
+13159,Jasper, Georgia,B01002_001,43,0.9
+13161,Jeff, Georgia,B01002_001,36.6,0.7
+13163,Jefferson, Georgia,B01002_001,40,0.5
+13165,Jenkins, Georgia,B01002_001,44.3,3.6
+13167,Johnson, Georgia,B01002_001,41.8,1.3
+13169,Jones, Georgia,B01002_001,40.4,0.5
+13171,Lamar, Georgia,B01002_001,37.8,0.8
+13173,Lanier, Georgia,B01002_001,35.6,2.2
+13175,Laurens, Georgia,B01002_001,38.9,0.6
+13177,Lee, Georgia,B01002_001,37.2,0.7
+13179,Liberty, Georgia,B01002_001,28.4,0.2
+13181,Lincoln, Georgia,B01002_001,47.1,0.9
+13183,Long, Georgia,B01002_001,32.9,0.9
+13185,Lowndes, Georgia,B01002_001,30.5,0.2
+13187,Lumpkin, Georgia,B01002_001,37,0.8
+13189,McDuffie, Georgia,B01002_001,37.7,0.9
+13191,McIntosh, Georgia,B01002_001,49.4,0.6
+13193,Macon, Georgia,B01002_001,40.3,1
+13195,Madison, Georgia,B01002_001,41.1,0.7
+13197,Marion, Georgia,B01002_001,44.6,2.3
+13199,Meriwether, Georgia,B01002_001,42.3,0.8
+13201,Miller, Georgia,B01002_001,43.5,1.3
+13205,Mitchell, Georgia,B01002_001,39,0.7
+13207,Monroe, Georgia,B01002_001,42.9,0.6
+13209,Montgomery, Georgia,B01002_001,40,1.2
+13211,Morgan, Georgia,B01002_001,44.6,0.6
+13213,Murray, Georgia,B01002_001,38.2,0.8
+13215,Muscogee, Georgia,B01002_001,34,0.2
+13217,Newton, Georgia,B01002_001,36.4,0.3
+13219,Oconee, Georgia,B01002_001,40.4,0.5
+13221,Oglethorpe, Georgia,B01002_001,42.4,0.5
+13223,Paulding, Georgia,B01002_001,36,0.3
+13225,Peach, Georgia,B01002_001,37.9,0.6
+13227,Pickens, Georgia,B01002_001,45.4,0.4
+13229,Pierce, Georgia,B01002_001,39.4,0.7
+13231,Pike, Georgia,B01002_001,40.4,0.8
+13233,Polk, Georgia,B01002_001,37,0.7
+13235,Pulaski, Georgia,B01002_001,43.1,3.1
+13237,Putnam, Georgia,B01002_001,46.2,0.6
+13239,Quitman, Georgia,B01002_001,47.3,7.1
+13241,Rabun, Georgia,B01002_001,49.2,0.7
+13243,Randolph, Georgia,B01002_001,41,4.3
+13245,Richmond, Georgia,B01002_001,34.1,0.2
+13247,Rockdale, Georgia,B01002_001,38.1,0.5
+13249,Schley, Georgia,B01002_001,37.8,2.6
+13251,Screven, Georgia,B01002_001,41.4,0.9
+13253,Seminole, Georgia,B01002_001,44.9,1.2
+13255,Spalding, Georgia,B01002_001,39.2,0.6
+13257,Stephens, Georgia,B01002_001,41.8,0.6
+13259,Stewart, Georgia,B01002_001,35.4,0.9
+13261,Sumter, Georgia,B01002_001,35.7,0.4
+13263,Talbot, Georgia,B01002_001,50.1,0.1
+13265,Taliaferro, Georgia,B01002_001,44.2,3.7
+13267,Tattnall, Georgia,B01002_001,37.3,0.9
+13269,Taylor, Georgia,B01002_001,45.2,0.5
+13271,Telfair, Georgia,B01002_001,41.5,1.3
+13273,Terrell, Georgia,B01002_001,41.1,1.5
+13275,Thomas, Georgia,B01002_001,40.4,0.6
+13277,Tift, Georgia,B01002_001,36.2,0.5
+13279,Toombs, Georgia,B01002_001,36.4,0.8
+13281,Towns, Georgia,B01002_001,54,0.9
+13283,Treutlen, Georgia,B01002_001,40.1,3.3
+13285,Troup, Georgia,B01002_001,36.4,0.5
+13287,Turner, Georgia,B01002_001,40.3,1.9
+13289,Twiggs, Georgia,B01002_001,45.7,1.4
+13291,Union, Georgia,B01002_001,54.3,0.4
+13293,Upson, Georgia,B01002_001,42.1,0.5
+13295,Walker, Georgia,B01002_001,41.4,0.8
+13297,Walton, Georgia,B01002_001,38.7,0.4
+13299,Ware, Georgia,B01002_001,39.5,0.7
+13301,Warren, Georgia,B01002_001,45.1,1.2
+13303,Washington, Georgia,B01002_001,41.5,0.9
+13305,Wayne, Georgia,B01002_001,38.9,0.8
+13307,Webster, Georgia,B01002_001,45.1,3.3
+13309,Wheeler, Georgia,B01002_001,38.8,7.2
+13311,White, Georgia,B01002_001,46.1,0.6
+13313,Whitfield, Georgia,B01002_001,36,0.3
+13315,Wilcox, Georgia,B01002_001,39.8,0.8
+13317,Wilkes, Georgia,B01002_001,45.1,0.8
+13319,Wilkinson, Georgia,B01002_001,42.6,1.6
+13321,Worth, Georgia,B01002_001,41.6,1.4
+15001,Hawaii, Hawaii,B01002_001,42.7,0.2
+15003,Honolulu, Hawaii,B01002_001,37.9,0.2
+15005,Kalawao, Hawaii,B01002_001,57.4,2.3
+15007,Kauai, Hawaii,B01002_001,42.6,0.5
+15009,Maui, Hawaii,B01002_001,41.2,0.3
+16001,Ada, Idaho,B01002_001,37,0.2
+16003,Adams, Idaho,B01002_001,55.2,0.7
+16005,Bannock, Idaho,B01002_001,33.8,0.3
+16007,Bear, Idaho,B01002_001,39.6,0.6
+16009,Benewah, Idaho,B01002_001,46.2,0.4
+16011,Bingham, Idaho,B01002_001,33.6,0.3
+16013,Blaine, Idaho,B01002_001,43.2,0.7
+16015,Boise, Idaho,B01002_001,54,1
+16017,Bonner, Idaho,B01002_001,47.9,0.4
+16019,Bonneville, Idaho,B01002_001,32.9,0.2
+16021,Boundary, Idaho,B01002_001,43.5,0.8
+16023,Butte, Idaho,B01002_001,45.2,6.3
+16025,Camas, Idaho,B01002_001,44.5,8.3
+16027,Canyon, Idaho,B01002_001,33.6,0.2
+16029,Caribou, Idaho,B01002_001,36.9,0.9
+16031,Cassia, Idaho,B01002_001,32.9,0.5
+16033,Clark, Idaho,B01002_001,33.2,6.7
+16035,Clearwater, Idaho,B01002_001,50.4,0.3
+16037,Custer, Idaho,B01002_001,53,2
+16039,Elmore, Idaho,B01002_001,32.3,0.6
+16041,Franklin, Idaho,B01002_001,32.8,1
+16043,Fremont, Idaho,B01002_001,37.6,0.6
+16045,Gem, Idaho,B01002_001,44.6,0.8
+16047,Gooding, Idaho,B01002_001,38.7,0.6
+16049,Idaho, Idaho,B01002_001,50.2,0.3
+16051,Jefferson, Idaho,B01002_001,31.5,0.7
+16053,Jerome, Idaho,B01002_001,32.7,0.4
+16055,Kootenai, Idaho,B01002_001,40.2,0.4
+16057,Latah, Idaho,B01002_001,28.7,0.4
+16059,Lemhi, Idaho,B01002_001,52.1,1.5
+16061,Lewis, Idaho,B01002_001,48.6,0.6
+16063,Lincoln, Idaho,B01002_001,35.1,1.5
+16065,Madison, Idaho,B01002_001,23.5,0.2
+16067,Minidoka, Idaho,B01002_001,35.2,0.2
+16069,Nez, Idaho,B01002_001,40.8,0.7
+16071,Oneida, Idaho,B01002_001,38.6,2.1
+16073,Owyhee, Idaho,B01002_001,38.9,1.4
+16075,Payette, Idaho,B01002_001,40.4,0.6
+16077,Power, Idaho,B01002_001,38.3,2.5
+16079,Shoshone, Idaho,B01002_001,47.3,0.5
+16081,Teton, Idaho,B01002_001,37.2,1
+16083,Twin, Idaho,B01002_001,34.7,0.2
+16085,Valley, Idaho,B01002_001,50.6,0.6
+16087,Washington, Idaho,B01002_001,45.4,1.9
+17001,Adams, Illinois,B01002_001,41.5,0.4
+17003,Alexander, Illinois,B01002_001,45.3,1.1
+17005,Bond, Illinois,B01002_001,41.6,0.8
+17007,Boone, Illinois,B01002_001,38.5,0.5
+17009,Brown, Illinois,B01002_001,38.9,0.9
+17011,Bureau, Illinois,B01002_001,44.4,0.3
+17013,Calhoun, Illinois,B01002_001,46.8,0.7
+17015,Carroll, Illinois,B01002_001,48.3,0.4
+17017,Cass, Illinois,B01002_001,40,0.9
+17019,Champaign, Illinois,B01002_001,30.1,0.1
+17021,Christian, Illinois,B01002_001,43.4,0.4
+17023,Clark, Illinois,B01002_001,42.3,1.6
+17025,Clay, Illinois,B01002_001,42.6,1.1
+17027,Clinton, Illinois,B01002_001,40.6,0.5
+17029,Coles, Illinois,B01002_001,35.7,0.3
+17031,Cook, Illinois,B01002_001,36.8,0.1
+17033,Crawford, Illinois,B01002_001,41.8,0.4
+17035,Cumberland, Illinois,B01002_001,42.5,0.9
+17037,DeKalb, Illinois,B01002_001,31.1,0.2
+17039,De, Illinois,B01002_001,43.6,0.6
+17041,Douglas, Illinois,B01002_001,37.8,0.6
+17043,DuPage, Illinois,B01002_001,39.3,0.1
+17045,Edgar, Illinois,B01002_001,45.2,0.3
+17047,Edwards, Illinois,B01002_001,43.5,0.7
+17049,Effingham, Illinois,B01002_001,39.4,0.5
+17051,Fayette, Illinois,B01002_001,41.9,0.7
+17053,Ford, Illinois,B01002_001,43.4,0.7
+17055,Franklin, Illinois,B01002_001,42.8,0.4
+17057,Fulton, Illinois,B01002_001,43.2,0.4
+17059,Gallatin, Illinois,B01002_001,45.6,0.9
+17061,Greene, Illinois,B01002_001,42.5,0.6
+17063,Grundy, Illinois,B01002_001,37.9,0.5
+17065,Hamilton, Illinois,B01002_001,43.6,0.8
+17067,Hancock, Illinois,B01002_001,46,0.4
+17069,Hardin, Illinois,B01002_001,46.8,3.5
+17071,Henderson, Illinois,B01002_001,50,0.5
+17073,Henry, Illinois,B01002_001,43.1,0.3
+17075,Iroquois, Illinois,B01002_001,44.4,0.2
+17077,Jackson, Illinois,B01002_001,31.9,0.3
+17079,Jasper, Illinois,B01002_001,43.1,0.6
+17081,Jefferson, Illinois,B01002_001,40.9,0.4
+17083,Jersey, Illinois,B01002_001,42.9,0.5
+17085,Jo, Illinois,B01002_001,49.9,0.4
+17087,Johnson, Illinois,B01002_001,43.7,0.4
+17089,Kane, Illinois,B01002_001,37.3,0.2
+17091,Kankakee, Illinois,B01002_001,37.7,0.3
+17093,Kendall, Illinois,B01002_001,35.2,0.1
+17095,Knox, Illinois,B01002_001,42.1,0.4
+17097,Lake, Illinois,B01002_001,38.4,0.2
+17099,LaSalle, Illinois,B01002_001,41.9,0.3
+17101,Lawrence, Illinois,B01002_001,42.4,0.6
+17103,Lee, Illinois,B01002_001,43.2,0.5
+17105,Livingston, Illinois,B01002_001,42,0.7
+17107,Logan, Illinois,B01002_001,40.1,0.5
+17109,McDonough, Illinois,B01002_001,33,0.7
+17111,McHenry, Illinois,B01002_001,40.2,0.2
+17113,McLean, Illinois,B01002_001,33.1,0.3
+17115,Macon, Illinois,B01002_001,41.1,0.3
+17117,Macoupin, Illinois,B01002_001,43.7,0.3
+17119,Madison, Illinois,B01002_001,40.2,0.2
+17121,Marion, Illinois,B01002_001,42.2,0.4
+17123,Marshall, Illinois,B01002_001,46,0.3
+17125,Mason, Illinois,B01002_001,45.2,0.3
+17127,Massac, Illinois,B01002_001,43.5,0.4
+17129,Menard, Illinois,B01002_001,43.2,1
+17131,Mercer, Illinois,B01002_001,44.9,0.3
+17133,Monroe, Illinois,B01002_001,42,0.4
+17135,Montgomery, Illinois,B01002_001,43.3,0.5
+17137,Morgan, Illinois,B01002_001,40.8,0.7
+17139,Moultrie, Illinois,B01002_001,40.7,0.7
+17141,Ogle, Illinois,B01002_001,42.4,0.4
+17143,Peoria, Illinois,B01002_001,37.5,0.3
+17145,Perry, Illinois,B01002_001,42.2,0.5
+17147,Piatt, Illinois,B01002_001,42.9,0.8
+17149,Pike, Illinois,B01002_001,42,0.7
+17151,Pope, Illinois,B01002_001,52.5,2
+17153,Pulaski, Illinois,B01002_001,44,1.6
+17155,Putnam, Illinois,B01002_001,48.1,0.6
+17157,Randolph, Illinois,B01002_001,41.6,0.5
+17159,Richland, Illinois,B01002_001,42,0.6
+17161,Rock, Illinois,B01002_001,40.1,0.3
+17163,St., Illinois,B01002_001,38.6,0.2
+17165,Saline, Illinois,B01002_001,42.2,0.6
+17167,Sangamon, Illinois,B01002_001,40.3,0.2
+17169,Schuyler, Illinois,B01002_001,46.3,0.3
+17171,Scott, Illinois,B01002_001,44.6,0.3
+17173,Shelby, Illinois,B01002_001,45.1,0.4
+17175,Stark, Illinois,B01002_001,45.1,0.4
+17177,Stephenson, Illinois,B01002_001,45.3,0.4
+17179,Tazewell, Illinois,B01002_001,41,0.3
+17181,Union, Illinois,B01002_001,43.7,0.5
+17183,Vermilion, Illinois,B01002_001,40.4,0.4
+17185,Wabash, Illinois,B01002_001,43.8,0.6
+17187,Warren, Illinois,B01002_001,39.8,1.3
+17189,Washington, Illinois,B01002_001,43.9,0.5
+17191,Wayne, Illinois,B01002_001,43.4,0.6
+17193,White, Illinois,B01002_001,44.3,0.4
+17195,Whiteside, Illinois,B01002_001,43.4,0.2
+17197,Will, Illinois,B01002_001,37.9,0.2
+17199,Williamson, Illinois,B01002_001,41.2,0.4
+17201,Winnebago, Illinois,B01002_001,39.7,0.2
+17203,Woodford, Illinois,B01002_001,40.5,0.3
+18001,Adams, Indiana,B01002_001,33.5,0.5
+18003,Allen, Indiana,B01002_001,35.9,0.1
+18005,Bartholomew, Indiana,B01002_001,37.8,0.4
+18007,Benton, Indiana,B01002_001,40.5,0.6
+18009,Blackford, Indiana,B01002_001,44,0.6
+18011,Boone, Indiana,B01002_001,38.1,0.5
+18013,Brown, Indiana,B01002_001,50,0.4
+18015,Carroll, Indiana,B01002_001,42.9,0.7
+18017,Cass, Indiana,B01002_001,40.8,0.5
+18019,Clark, Indiana,B01002_001,39.1,0.3
+18021,Clay, Indiana,B01002_001,41.5,0.5
+18023,Clinton, Indiana,B01002_001,37.8,0.7
+18025,Crawford, Indiana,B01002_001,43,0.8
+18027,Daviess, Indiana,B01002_001,34.4,0.4
+18029,Dearborn, Indiana,B01002_001,42.5,0.7
+18031,Decatur, Indiana,B01002_001,39.2,1
+18033,DeKalb, Indiana,B01002_001,39.1,0.5
+18035,Delaware, Indiana,B01002_001,35.6,0.2
+18037,Dubois, Indiana,B01002_001,40.3,0.5
+18039,Elkhart, Indiana,B01002_001,35.6,0.1
+18041,Fayette, Indiana,B01002_001,42.8,0.3
+18043,Floyd, Indiana,B01002_001,39.8,0.4
+18045,Fountain, Indiana,B01002_001,43.4,0.4
+18047,Franklin, Indiana,B01002_001,42.2,0.6
+18049,Fulton, Indiana,B01002_001,41.3,0.9
+18051,Gibson, Indiana,B01002_001,40.3,0.8
+18053,Grant, Indiana,B01002_001,40.3,0.5
+18055,Greene, Indiana,B01002_001,43.1,0.4
+18057,Hamilton, Indiana,B01002_001,37.1,0.2
+18059,Hancock, Indiana,B01002_001,39.8,0.6
+18061,Harrison, Indiana,B01002_001,42.3,0.6
+18063,Hendricks, Indiana,B01002_001,37.7,0.4
+18065,Henry, Indiana,B01002_001,42.1,0.6
+18067,Howard, Indiana,B01002_001,41.7,0.6
+18069,Huntington, Indiana,B01002_001,40.7,0.5
+18071,Jackson, Indiana,B01002_001,38.5,0.7
+18073,Jasper, Indiana,B01002_001,40.3,0.6
+18075,Jay, Indiana,B01002_001,39.7,0.9
+18077,Jefferson, Indiana,B01002_001,40.8,0.7
+18079,Jennings, Indiana,B01002_001,39.8,0.7
+18081,Johnson, Indiana,B01002_001,37.5,0.3
+18083,Knox, Indiana,B01002_001,37.9,0.5
+18085,Kosciusko, Indiana,B01002_001,38.5,0.3
+18087,LaGrange, Indiana,B01002_001,31.1,0.7
+18089,Lake, Indiana,B01002_001,39.1,0.2
+18091,LaPorte, Indiana,B01002_001,40.3,0.3
+18093,Lawrence, Indiana,B01002_001,43.1,0.5
+18095,Madison, Indiana,B01002_001,40.4,0.3
+18097,Marion, Indiana,B01002_001,34.3,0.1
+18099,Marshall, Indiana,B01002_001,40,0.5
+18101,Martin, Indiana,B01002_001,42.7,0.9
+18103,Miami, Indiana,B01002_001,40.1,0.5
+18105,Monroe, Indiana,B01002_001,29.6,0.1
+18107,Montgomery, Indiana,B01002_001,40.2,0.4
+18109,Morgan, Indiana,B01002_001,41.5,0.4
+18111,Newton, Indiana,B01002_001,43.1,0.7
+18113,Noble, Indiana,B01002_001,38.7,0.5
+18115,Ohio, Indiana,B01002_001,47.4,0.7
+18117,Orange, Indiana,B01002_001,42.4,0.6
+18119,Owen, Indiana,B01002_001,45.2,0.8
+18121,Parke, Indiana,B01002_001,43.2,0.5
+18123,Perry, Indiana,B01002_001,42,0.8
+18125,Pike, Indiana,B01002_001,43.7,0.7
+18127,Porter, Indiana,B01002_001,39.5,0.2
+18129,Posey, Indiana,B01002_001,42.6,0.5
+18131,Pulaski, Indiana,B01002_001,41.6,0.8
+18133,Putnam, Indiana,B01002_001,37.9,0.5
+18135,Randolph, Indiana,B01002_001,42.6,0.6
+18137,Ripley, Indiana,B01002_001,40.7,0.5
+18139,Rush, Indiana,B01002_001,41.7,0.6
+18141,St., Indiana,B01002_001,36.6,0.2
+18143,Scott, Indiana,B01002_001,41.5,0.6
+18145,Shelby, Indiana,B01002_001,40.8,0.5
+18147,Spencer, Indiana,B01002_001,44,0.5
+18149,Starke, Indiana,B01002_001,41.5,0.6
+18151,Steuben, Indiana,B01002_001,43.7,0.5
+18153,Sullivan, Indiana,B01002_001,41,0.7
+18155,Switzerland, Indiana,B01002_001,40.5,0.7
+18157,Tippecanoe, Indiana,B01002_001,28.2,0.2
+18159,Tipton, Indiana,B01002_001,45.1,0.5
+18161,Union, Indiana,B01002_001,43.5,1.3
+18163,Vanderburgh, Indiana,B01002_001,38.3,0.3
+18165,Vermillion, Indiana,B01002_001,42.9,0.4
+18167,Vigo, Indiana,B01002_001,36.2,0.2
+18169,Wabash, Indiana,B01002_001,42.3,0.5
+18171,Warren, Indiana,B01002_001,44.4,0.5
+18173,Warrick, Indiana,B01002_001,41.2,0.5
+18175,Washington, Indiana,B01002_001,41.6,0.5
+18177,Wayne, Indiana,B01002_001,40.6,0.3
+18179,Wells, Indiana,B01002_001,40.3,0.8
+18181,White, Indiana,B01002_001,42,0.6
+18183,Whitley, Indiana,B01002_001,41.8,0.9
+19001,Adair, Iowa,B01002_001,45.4,0.5
+19003,Adams, Iowa,B01002_001,47.3,0.4
+19005,Allamakee, Iowa,B01002_001,44.4,0.8
+19007,Appanoose, Iowa,B01002_001,45.7,0.5
+19009,Audubon, Iowa,B01002_001,48.1,0.5
+19011,Benton, Iowa,B01002_001,42.6,0.4
+19013,Black, Iowa,B01002_001,35.2,0.2
+19015,Boone, Iowa,B01002_001,41.8,0.8
+19017,Bremer, Iowa,B01002_001,39.8,0.5
+19019,Buchanan, Iowa,B01002_001,39.1,0.8
+19021,Buena, Iowa,B01002_001,35,0.3
+19023,Butler, Iowa,B01002_001,43.9,0.5
+19025,Calhoun, Iowa,B01002_001,44.6,0.5
+19027,Carroll, Iowa,B01002_001,42,0.6
+19029,Cass, Iowa,B01002_001,44.9,0.6
+19031,Cedar, Iowa,B01002_001,42.7,0.6
+19033,Cerro, Iowa,B01002_001,44.3,0.3
+19035,Cherokee, Iowa,B01002_001,46.3,0.8
+19037,Chickasaw, Iowa,B01002_001,44.5,0.3
+19039,Clarke, Iowa,B01002_001,40.5,2.5
+19041,Clay, Iowa,B01002_001,42.9,0.9
+19043,Clayton, Iowa,B01002_001,47.3,1
+19045,Clinton, Iowa,B01002_001,42.2,0.5
+19047,Crawford, Iowa,B01002_001,38.7,0.8
+19049,Dallas, Iowa,B01002_001,35.4,0.2
+19051,Davis, Iowa,B01002_001,36.8,0.5
+19053,Decatur, Iowa,B01002_001,36.4,0.9
+19055,Delaware, Iowa,B01002_001,43.8,0.4
+19057,Des, Iowa,B01002_001,42.9,0.5
+19059,Dickinson, Iowa,B01002_001,48.4,0.4
+19061,Dubuque, Iowa,B01002_001,38.6,0.4
+19063,Emmet, Iowa,B01002_001,42.9,1.2
+19065,Fayette, Iowa,B01002_001,43.8,0.5
+19067,Floyd, Iowa,B01002_001,44.1,0.7
+19069,Franklin, Iowa,B01002_001,42.7,1
+19071,Fremont, Iowa,B01002_001,46.2,0.7
+19073,Greene, Iowa,B01002_001,44.5,0.7
+19075,Grundy, Iowa,B01002_001,42.6,0.5
+19077,Guthrie, Iowa,B01002_001,45.5,0.4
+19079,Hamilton, Iowa,B01002_001,42.6,0.8
+19081,Hancock, Iowa,B01002_001,44.2,0.6
+19083,Hardin, Iowa,B01002_001,44.7,0.3
+19085,Harrison, Iowa,B01002_001,44,0.4
+19087,Henry, Iowa,B01002_001,39.7,0.6
+19089,Howard, Iowa,B01002_001,41.5,0.7
+19091,Humboldt, Iowa,B01002_001,42.9,0.9
+19093,Ida, Iowa,B01002_001,43.7,0.7
+19095,Iowa, Iowa,B01002_001,41.7,0.5
+19097,Jackson, Iowa,B01002_001,44.3,1.1
+19099,Jasper, Iowa,B01002_001,42.1,0.4
+19101,Jefferson, Iowa,B01002_001,42.9,1
+19103,Johnson, Iowa,B01002_001,30.3,0.2
+19105,Jones, Iowa,B01002_001,43.1,0.6
+19107,Keokuk, Iowa,B01002_001,43.7,0.5
+19109,Kossuth, Iowa,B01002_001,45.5,0.3
+19111,Lee, Iowa,B01002_001,43.1,0.6
+19113,Linn, Iowa,B01002_001,37.7,0.2
+19115,Louisa, Iowa,B01002_001,41.9,1
+19117,Lucas, Iowa,B01002_001,44.2,0.8
+19119,Lyon, Iowa,B01002_001,38,0.5
+19121,Madison, Iowa,B01002_001,40.7,1.2
+19123,Mahaska, Iowa,B01002_001,39.3,0.8
+19125,Marion, Iowa,B01002_001,39.4,0.5
+19127,Marshall, Iowa,B01002_001,38.7,0.4
+19129,Mills, Iowa,B01002_001,42.5,0.7
+19131,Mitchell, Iowa,B01002_001,43.6,0.8
+19133,Monona, Iowa,B01002_001,46,0.4
+19135,Monroe, Iowa,B01002_001,43,1.5
+19137,Montgomery, Iowa,B01002_001,44.2,0.9
+19139,Muscatine, Iowa,B01002_001,38.1,0.5
+19141,O'Brien, Iowa,B01002_001,41.9,0.7
+19143,Osceola, Iowa,B01002_001,44,1.2
+19145,Page, Iowa,B01002_001,44.1,0.5
+19147,Palo, Iowa,B01002_001,41.4,0.9
+19149,Plymouth, Iowa,B01002_001,40,0.7
+19151,Pocahontas, Iowa,B01002_001,47.6,0.7
+19153,Polk, Iowa,B01002_001,35.5,0.1
+19155,Pottawattamie, Iowa,B01002_001,39.7,0.3
+19157,Poweshiek, Iowa,B01002_001,40.5,0.5
+19159,Ringgold, Iowa,B01002_001,44,0.5
+19161,Sac, Iowa,B01002_001,46.1,0.4
+19163,Scott, Iowa,B01002_001,38.3,0.2
+19165,Shelby, Iowa,B01002_001,46.4,0.7
+19167,Sioux, Iowa,B01002_001,33.4,0.4
+19169,Story, Iowa,B01002_001,26.6,0.2
+19171,Tama, Iowa,B01002_001,42.6,0.7
+19173,Taylor, Iowa,B01002_001,42.3,1.2
+19175,Union, Iowa,B01002_001,40.3,0.9
+19177,Van, Iowa,B01002_001,45.4,1.1
+19179,Wapello, Iowa,B01002_001,39.6,0.5
+19181,Warren, Iowa,B01002_001,38.3,0.4
+19183,Washington, Iowa,B01002_001,40.3,0.5
+19185,Wayne, Iowa,B01002_001,43.2,0.7
+19187,Webster, Iowa,B01002_001,39,0.6
+19189,Winnebago, Iowa,B01002_001,41.8,1.2
+19191,Winneshiek, Iowa,B01002_001,41.5,0.7
+19193,Woodbury, Iowa,B01002_001,35.8,0.2
+19195,Worth, Iowa,B01002_001,43.9,0.5
+19197,Wright, Iowa,B01002_001,43.5,0.7
+20001,Allen, Kansas,B01002_001,41.9,1.2
+20003,Anderson, Kansas,B01002_001,40.8,1.4
+20005,Atchison, Kansas,B01002_001,36.6,0.8
+20007,Barber, Kansas,B01002_001,43.6,3.6
+20009,Barton, Kansas,B01002_001,39.9,0.9
+20011,Bourbon, Kansas,B01002_001,39.1,1.3
+20013,Brown, Kansas,B01002_001,42.1,0.7
+20015,Butler, Kansas,B01002_001,38.6,0.4
+20017,Chase, Kansas,B01002_001,44.8,0.4
+20019,Chautauqua, Kansas,B01002_001,47.9,0.9
+20021,Cherokee, Kansas,B01002_001,41.3,0.9
+20023,Cheyenne, Kansas,B01002_001,45.6,0.6
+20025,Clark, Kansas,B01002_001,45.3,5.4
+20027,Clay, Kansas,B01002_001,42.5,1
+20029,Cloud, Kansas,B01002_001,40.8,1.1
+20031,Coffey, Kansas,B01002_001,43.8,0.7
+20033,Comanche, Kansas,B01002_001,48.1,4.8
+20035,Cowley, Kansas,B01002_001,38.8,0.9
+20037,Crawford, Kansas,B01002_001,32.5,0.8
+20039,Decatur, Kansas,B01002_001,50.6,0.5
+20041,Dickinson, Kansas,B01002_001,41.3,0.7
+20043,Doniphan, Kansas,B01002_001,41,2.1
+20045,Douglas, Kansas,B01002_001,29.8,0.1
+20047,Edwards, Kansas,B01002_001,45.7,1.6
+20049,Elk, Kansas,B01002_001,52.3,1.2
+20051,Ellis, Kansas,B01002_001,32.5,0.8
+20053,Ellsworth, Kansas,B01002_001,42.1,1.6
+20055,Finney, Kansas,B01002_001,30.8,0.3
+20057,Ford, Kansas,B01002_001,32.2,0.5
+20059,Franklin, Kansas,B01002_001,40,0.6
+20061,Geary, Kansas,B01002_001,26.4,0.3
+20063,Gove, Kansas,B01002_001,48.2,3.1
+20065,Graham, Kansas,B01002_001,50.4,0.5
+20067,Grant, Kansas,B01002_001,32.6,1.7
+20069,Gray, Kansas,B01002_001,36,0.6
+20071,Greeley, Kansas,B01002_001,42.2,8.2
+20073,Greenwood, Kansas,B01002_001,48.6,0.4
+20075,Hamilton, Kansas,B01002_001,35.8,2
+20077,Harper, Kansas,B01002_001,42.4,0.9
+20079,Harvey, Kansas,B01002_001,39.2,1.2
+20081,Haskell, Kansas,B01002_001,36.9,1.1
+20083,Hodgeman, Kansas,B01002_001,47.6,4
+20085,Jackson, Kansas,B01002_001,41.2,0.5
+20087,Jefferson, Kansas,B01002_001,43.3,0.7
+20089,Jewell, Kansas,B01002_001,52.8,0.7
+20091,Johnson, Kansas,B01002_001,37.6,0.1
+20093,Kearny, Kansas,B01002_001,34.7,0.7
+20095,Kingman, Kansas,B01002_001,45.4,0.8
+20097,Kiowa, Kansas,B01002_001,41.6,2
+20099,Labette, Kansas,B01002_001,41,0.6
+20101,Lane, Kansas,B01002_001,40.7,3.2
+20103,Leavenworth, Kansas,B01002_001,37.8,0.3
+20105,Lincoln, Kansas,B01002_001,46.5,0.9
+20107,Linn, Kansas,B01002_001,44.4,0.5
+20109,Logan, Kansas,B01002_001,39.7,0.7
+20111,Lyon, Kansas,B01002_001,33.4,0.6
+20113,McPherson, Kansas,B01002_001,40.8,0.6
+20115,Marion, Kansas,B01002_001,44.5,0.5
+20117,Marshall, Kansas,B01002_001,42.8,0.7
+20119,Meade, Kansas,B01002_001,37.9,1.9
+20121,Miami, Kansas,B01002_001,42.1,0.8
+20123,Mitchell, Kansas,B01002_001,43.1,1.1
+20125,Montgomery, Kansas,B01002_001,40.3,0.7
+20127,Morris, Kansas,B01002_001,46.6,0.7
+20129,Morton, Kansas,B01002_001,40.5,4.3
+20131,Nemaha, Kansas,B01002_001,39.9,0.8
+20133,Neosho, Kansas,B01002_001,40.2,0.7
+20135,Ness, Kansas,B01002_001,50,2.5
+20137,Norton, Kansas,B01002_001,42.7,0.8
+20139,Osage, Kansas,B01002_001,43.8,0.5
+20141,Osborne, Kansas,B01002_001,46.7,0.8
+20143,Ottawa, Kansas,B01002_001,43,1
+20145,Pawnee, Kansas,B01002_001,43,2.1
+20147,Phillips, Kansas,B01002_001,44.3,0.6
+20149,Pottawatomie, Kansas,B01002_001,35.4,0.3
+20151,Pratt, Kansas,B01002_001,38.5,1.4
+20153,Rawlins, Kansas,B01002_001,48.8,1.2
+20155,Reno, Kansas,B01002_001,40.3,0.4
+20157,Republic, Kansas,B01002_001,50.7,0.6
+20159,Rice, Kansas,B01002_001,38.9,1.2
+20161,Riley, Kansas,B01002_001,25.1,0.2
+20163,Rooks, Kansas,B01002_001,44.7,0.9
+20165,Rush, Kansas,B01002_001,46.6,1.8
+20167,Russell, Kansas,B01002_001,49.1,1.7
+20169,Saline, Kansas,B01002_001,38.6,0.6
+20171,Scott, Kansas,B01002_001,39.7,2.4
+20173,Sedgwick, Kansas,B01002_001,35.4,0.2
+20175,Seward, Kansas,B01002_001,29.4,0.4
+20177,Shawnee, Kansas,B01002_001,39.1,0.3
+20179,Sheridan, Kansas,B01002_001,44.9,1.2
+20181,Sherman, Kansas,B01002_001,39.3,2.4
+20183,Smith, Kansas,B01002_001,51.4,0.9
+20185,Stafford, Kansas,B01002_001,44.1,1.2
+20187,Stanton, Kansas,B01002_001,35.3,5
+20189,Stevens, Kansas,B01002_001,35.1,0.7
+20191,Sumner, Kansas,B01002_001,41.2,0.6
+20193,Thomas, Kansas,B01002_001,36,0.7
+20195,Trego, Kansas,B01002_001,49.4,1.3
+20197,Wabaunsee, Kansas,B01002_001,43.8,1
+20199,Wallace, Kansas,B01002_001,41.8,3.1
+20201,Washington, Kansas,B01002_001,45.4,0.5
+20203,Wichita, Kansas,B01002_001,42.3,4.1
+20205,Wilson, Kansas,B01002_001,43.7,0.9
+20207,Woodson, Kansas,B01002_001,47.4,2.3
+20209,Wyandotte, Kansas,B01002_001,33.7,0.2
+21001,Adair, Kentucky,B01002_001,41.8,0.7
+21003,Allen, Kentucky,B01002_001,40.7,0.9
+21005,Anderson, Kentucky,B01002_001,41.4,1.4
+21007,Ballard, Kentucky,B01002_001,43.6,0.7
+21009,Barren, Kentucky,B01002_001,40.5,0.5
+21011,Bath, Kentucky,B01002_001,40.6,0.7
+21013,Bell, Kentucky,B01002_001,41.7,0.6
+21015,Boone, Kentucky,B01002_001,37.5,0.3
+21017,Bourbon, Kentucky,B01002_001,41.8,0.9
+21019,Boyd, Kentucky,B01002_001,42.3,0.6
+21021,Boyle, Kentucky,B01002_001,40.3,0.5
+21023,Bracken, Kentucky,B01002_001,41.4,1.1
+21025,Breathitt, Kentucky,B01002_001,42.2,0.8
+21027,Breckinridge, Kentucky,B01002_001,43.1,0.6
+21029,Bullitt, Kentucky,B01002_001,40.4,0.5
+21031,Butler, Kentucky,B01002_001,41.3,0.6
+21033,Caldwell, Kentucky,B01002_001,44,1.3
+21035,Calloway, Kentucky,B01002_001,35.6,0.5
+21037,Campbell, Kentucky,B01002_001,38.2,0.3
+21039,Carlisle, Kentucky,B01002_001,42.8,0.5
+21041,Carroll, Kentucky,B01002_001,38.5,1.6
+21043,Carter, Kentucky,B01002_001,41.6,0.6
+21045,Casey, Kentucky,B01002_001,42.6,0.9
+21047,Christian, Kentucky,B01002_001,28.3,0.2
+21049,Clark, Kentucky,B01002_001,42.3,0.5
+21051,Clay, Kentucky,B01002_001,39.6,0.6
+21053,Clinton, Kentucky,B01002_001,41.9,1.6
+21055,Crittenden, Kentucky,B01002_001,43.6,0.3
+21057,Cumberland, Kentucky,B01002_001,46,0.6
+21059,Daviess, Kentucky,B01002_001,38.9,0.3
+21061,Edmonson, Kentucky,B01002_001,44.3,0.6
+21063,Elliott, Kentucky,B01002_001,41.4,1.1
+21065,Estill, Kentucky,B01002_001,43.5,0.8
+21067,Fayette, Kentucky,B01002_001,34.6,0.1
+21069,Fleming, Kentucky,B01002_001,41.4,0.6
+21071,Floyd, Kentucky,B01002_001,42.2,0.8
+21073,Franklin, Kentucky,B01002_001,40.9,0.5
+21075,Fulton, Kentucky,B01002_001,43.5,0.9
+21077,Gallatin, Kentucky,B01002_001,38.8,0.8
+21079,Garrard, Kentucky,B01002_001,43,0.8
+21081,Grant, Kentucky,B01002_001,36.3,0.7
+21083,Graves, Kentucky,B01002_001,39.7,0.8
+21085,Grayson, Kentucky,B01002_001,40.3,0.9
+21087,Green, Kentucky,B01002_001,44.6,0.2
+21089,Greenup, Kentucky,B01002_001,43.4,0.3
+21091,Hancock, Kentucky,B01002_001,39.9,0.8
+21093,Hardin, Kentucky,B01002_001,37,0.3
+21095,Harlan, Kentucky,B01002_001,41.3,0.4
+21097,Harrison, Kentucky,B01002_001,42.2,0.8
+21099,Hart, Kentucky,B01002_001,40.5,0.8
+21101,Henderson, Kentucky,B01002_001,41.2,0.4
+21103,Henry, Kentucky,B01002_001,41.4,0.6
+21105,Hickman, Kentucky,B01002_001,48,1.3
+21107,Hopkins, Kentucky,B01002_001,41.8,0.5
+21109,Jackson, Kentucky,B01002_001,42.2,0.7
+21111,Jefferson, Kentucky,B01002_001,38.3,0.2
+21113,Jessamine, Kentucky,B01002_001,37.8,0.6
+21115,Johnson, Kentucky,B01002_001,41.8,0.7
+21117,Kenton, Kentucky,B01002_001,37.1,0.2
+21119,Knott, Kentucky,B01002_001,43.2,0.7
+21121,Knox, Kentucky,B01002_001,40,0.8
+21123,Larue, Kentucky,B01002_001,40.9,0.9
+21125,Laurel, Kentucky,B01002_001,40,0.5
+21127,Lawrence, Kentucky,B01002_001,41.2,0.6
+21129,Lee, Kentucky,B01002_001,43.6,1.1
+21131,Leslie, Kentucky,B01002_001,42.3,1
+21133,Letcher, Kentucky,B01002_001,42.4,1
+21135,Lewis, Kentucky,B01002_001,42.8,0.6
+21137,Lincoln, Kentucky,B01002_001,41.3,0.8
+21139,Livingston, Kentucky,B01002_001,46,0.5
+21141,Logan, Kentucky,B01002_001,40.7,0.6
+21143,Lyon, Kentucky,B01002_001,50.6,1.1
+21145,McCracken, Kentucky,B01002_001,42.2,0.4
+21147,McCreary, Kentucky,B01002_001,39.4,1.4
+21149,McLean, Kentucky,B01002_001,42.4,0.8
+21151,Madison, Kentucky,B01002_001,34.1,0.3
+21153,Magoffin, Kentucky,B01002_001,42.3,0.7
+21155,Marion, Kentucky,B01002_001,39.3,0.9
+21157,Marshall, Kentucky,B01002_001,44.9,0.3
+21159,Martin, Kentucky,B01002_001,39.5,0.6
+21161,Mason, Kentucky,B01002_001,40.6,0.6
+21163,Meade, Kentucky,B01002_001,38.6,0.5
+21165,Menifee, Kentucky,B01002_001,44.6,2.5
+21167,Mercer, Kentucky,B01002_001,43.2,0.6
+21169,Metcalfe, Kentucky,B01002_001,43.9,0.7
+21171,Monroe, Kentucky,B01002_001,41.4,0.5
+21173,Montgomery, Kentucky,B01002_001,39.7,0.7
+21175,Morgan, Kentucky,B01002_001,42,1
+21177,Muhlenberg, Kentucky,B01002_001,42.4,0.6
+21179,Nelson, Kentucky,B01002_001,39.8,0.5
+21181,Nicholas, Kentucky,B01002_001,41.1,1.1
+21183,Ohio, Kentucky,B01002_001,40.3,0.7
+21185,Oldham, Kentucky,B01002_001,38.9,0.4
+21187,Owen, Kentucky,B01002_001,42.8,0.9
+21189,Owsley, Kentucky,B01002_001,43.4,3.6
+21191,Pendleton, Kentucky,B01002_001,40.6,0.9
+21193,Perry, Kentucky,B01002_001,41.2,0.8
+21195,Pike, Kentucky,B01002_001,42.5,0.4
+21197,Powell, Kentucky,B01002_001,38.6,1
+21199,Pulaski, Kentucky,B01002_001,42,0.5
+21201,Robertson, Kentucky,B01002_001,42.9,7.9
+21203,Rockcastle, Kentucky,B01002_001,42.7,0.6
+21205,Rowan, Kentucky,B01002_001,30.6,0.5
+21207,Russell, Kentucky,B01002_001,43.3,0.6
+21209,Scott, Kentucky,B01002_001,36.2,0.3
+21211,Shelby, Kentucky,B01002_001,39.4,0.5
+21213,Simpson, Kentucky,B01002_001,39,1
+21215,Spencer, Kentucky,B01002_001,42.1,1
+21217,Taylor, Kentucky,B01002_001,37.6,0.8
+21219,Todd, Kentucky,B01002_001,37.8,0.7
+21221,Trigg, Kentucky,B01002_001,46.2,0.4
+21223,Trimble, Kentucky,B01002_001,43.4,1.6
+21225,Union, Kentucky,B01002_001,38.1,1.3
+21227,Warren, Kentucky,B01002_001,32.8,0.2
+21229,Washington, Kentucky,B01002_001,40.7,0.7
+21231,Wayne, Kentucky,B01002_001,42.5,0.9
+21233,Webster, Kentucky,B01002_001,41,1.9
+21235,Whitley, Kentucky,B01002_001,36.6,0.8
+21237,Wolfe, Kentucky,B01002_001,41.8,0.6
+21239,Woodford, Kentucky,B01002_001,42.5,0.7
+22001,Acadia, Louisiana,B01002_001,36.7,0.4
+22003,Allen, Louisiana,B01002_001,38.2,0.6
+22005,Ascension, Louisiana,B01002_001,35.7,0.2
+22007,Assumption, Louisiana,B01002_001,40.9,0.8
+22009,Avoyelles, Louisiana,B01002_001,38.2,0.5
+22011,Beauregard, Louisiana,B01002_001,37.4,0.5
+22013,Bienville, Louisiana,B01002_001,41.9,0.5
+22015,Bossier, Louisiana,B01002_001,35.3,0.2
+22017,Caddo, Louisiana,B01002_001,37.7,0.3
+22019,Calcasieu, Louisiana,B01002_001,36.1,0.2
+22021,Caldwell, Louisiana,B01002_001,39.8,1.2
+22023,Cameron, Louisiana,B01002_001,44.1,1.9
+22025,Catahoula, Louisiana,B01002_001,38.1,1.2
+22027,Claiborne, Louisiana,B01002_001,42,0.7
+22029,Concordia, Louisiana,B01002_001,37.7,1
+22031,De, Louisiana,B01002_001,39.3,1.1
+22033,East, Louisiana,B01002_001,34,0.2
+22035,East, Louisiana,B01002_001,33.9,1.6
+22037,East, Louisiana,B01002_001,42.9,0.6
+22039,Evangeline, Louisiana,B01002_001,35.7,0.3
+22041,Franklin, Louisiana,B01002_001,38.4,0.7
+22043,Grant, Louisiana,B01002_001,38.1,0.6
+22045,Iberia, Louisiana,B01002_001,36.5,0.4
+22047,Iberville, Louisiana,B01002_001,38.4,0.7
+22049,Jackson, Louisiana,B01002_001,40.9,1.1
+22051,Jefferson, Louisiana,B01002_001,39.4,0.3
+22053,Jefferson, Louisiana,B01002_001,37.8,0.6
+22055,Lafayette, Louisiana,B01002_001,35.2,0.1
+22057,Lafourche, Louisiana,B01002_001,37.8,0.4
+22059,LaSalle, Louisiana,B01002_001,38.8,0.9
+22061,Lincoln, Louisiana,B01002_001,28.3,0.5
+22063,Livingston, Louisiana,B01002_001,36.6,0.3
+22065,Madison, Louisiana,B01002_001,35.2,0.5
+22067,Morehouse, Louisiana,B01002_001,39.9,0.7
+22069,Natchitoches, Louisiana,B01002_001,33.7,0.4
+22071,Orleans, Louisiana,B01002_001,36.8,0.2
+22073,Ouachita, Louisiana,B01002_001,35.7,0.2
+22075,Plaquemines, Louisiana,B01002_001,36.5,0.7
+22077,Pointe, Louisiana,B01002_001,43.1,0.7
+22079,Rapides, Louisiana,B01002_001,37.4,0.3
+22081,Red, Louisiana,B01002_001,39.4,3
+22083,Richland, Louisiana,B01002_001,38.8,0.5
+22085,Sabine, Louisiana,B01002_001,41.1,0.8
+22087,St., Louisiana,B01002_001,34.2,0.2
+22089,St., Louisiana,B01002_001,37.9,0.4
+22091,St., Louisiana,B01002_001,39.4,3.6
+22093,St., Louisiana,B01002_001,39.2,0.7
+22095,St., Louisiana,B01002_001,36.8,0.5
+22097,St., Louisiana,B01002_001,36.7,0.3
+22099,St., Louisiana,B01002_001,37.7,0.5
+22101,St., Louisiana,B01002_001,39,0.5
+22103,St., Louisiana,B01002_001,40.2,0.2
+22105,Tangipahoa, Louisiana,B01002_001,35.3,0.2
+22107,Tensas, Louisiana,B01002_001,43.4,2.3
+22109,Terrebonne, Louisiana,B01002_001,35.8,0.2
+22111,Union, Louisiana,B01002_001,42.1,0.7
+22113,Vermilion, Louisiana,B01002_001,38,0.5
+22115,Vernon, Louisiana,B01002_001,30.4,0.2
+22117,Washington, Louisiana,B01002_001,39.4,0.4
+22119,Webster, Louisiana,B01002_001,41.4,1
+22121,West, Louisiana,B01002_001,36.3,0.8
+22123,West, Louisiana,B01002_001,40.3,1.1
+22125,West, Louisiana,B01002_001,41.4,1.3
+22127,Winn, Louisiana,B01002_001,41.1,0.6
+23001,Androscoggin, Maine,B01002_001,41,0.4
+23003,Aroostook, Maine,B01002_001,48,0.3
+23005,Cumberland, Maine,B01002_001,42.2,0.2
+23007,Franklin, Maine,B01002_001,46.3,0.3
+23009,Hancock, Maine,B01002_001,48.8,0.3
+23011,Kennebec, Maine,B01002_001,44.4,0.2
+23013,Knox, Maine,B01002_001,48.4,0.3
+23015,Lincoln, Maine,B01002_001,51,0.3
+23017,Oxford, Maine,B01002_001,47,0.3
+23019,Penobscot, Maine,B01002_001,42,0.3
+23021,Piscataquis, Maine,B01002_001,51.5,0.5
+23023,Sagadahoc, Maine,B01002_001,46.9,0.4
+23025,Somerset, Maine,B01002_001,46.4,0.3
+23027,Waldo, Maine,B01002_001,46.2,0.3
+23029,Washington, Maine,B01002_001,48.1,0.3
+23031,York, Maine,B01002_001,45.2,0.1
+24001,Allegany, Maryland,B01002_001,41.7,0.3
+24003,Anne, Maryland,B01002_001,38.3,0.2
+24005,Baltimore, Maryland,B01002_001,39.4,0.1
+24009,Calvert, Maryland,B01002_001,40.7,0.3
+24011,Caroline, Maryland,B01002_001,39.7,0.4
+24013,Carroll, Maryland,B01002_001,42.4,0.3
+24015,Cecil, Maryland,B01002_001,40.8,0.4
+24017,Charles, Maryland,B01002_001,38.4,0.3
+24019,Dorchester, Maryland,B01002_001,44.6,0.3
+24021,Frederick, Maryland,B01002_001,39.1,0.2
+24023,Garrett, Maryland,B01002_001,46.2,0.5
+24025,Harford, Maryland,B01002_001,40.9,0.3
+24027,Howard, Maryland,B01002_001,38.8,0.2
+24029,Kent, Maryland,B01002_001,48.1,0.7
+24031,Montgomery, Maryland,B01002_001,39.2,0.1
+24033,Prince, Maryland,B01002_001,37.1,0.1
+24035,Queen, Maryland,B01002_001,44.4,0.3
+24037,St., Maryland,B01002_001,36.7,0.3
+24039,Somerset, Maryland,B01002_001,36.2,0.6
+24041,Talbot, Maryland,B01002_001,50.5,0.2
+24043,Washington, Maryland,B01002_001,40.5,0.3
+24045,Wicomico, Maryland,B01002_001,36.1,0.3
+24047,Worcester, Maryland,B01002_001,50.4,0.2
+24510,Baltimore, Maryland,B01002_001,35.4,0.2
+25001,Barnstable, Massachusetts,B01002_001,53.3,0.2
+25003,Berkshire, Massachusetts,B01002_001,47.1,0.3
+25005,Bristol, Massachusetts,B01002_001,41,0.2
+25007,Dukes, Massachusetts,B01002_001,47.1,0.7
+25009,Essex, Massachusetts,B01002_001,40.9,0.1
+25011,Franklin, Massachusetts,B01002_001,46.7,0.3
+25013,Hampden, Massachusetts,B01002_001,39,0.2
+25015,Hampshire, Massachusetts,B01002_001,36.5,0.2
+25017,Middlesex, Massachusetts,B01002_001,38.5,0.2
+25019,Nantucket, Massachusetts,B01002_001,40.3,1.3
+25021,Norfolk, Massachusetts,B01002_001,40.9,0.2
+25023,Plymouth, Massachusetts,B01002_001,42.7,0.2
+25025,Suffolk, Massachusetts,B01002_001,32.8,0.2
+25027,Worcester, Massachusetts,B01002_001,40.2,0.2
+26001,Alcona, Michigan,B01002_001,58.2,0.3
+26003,Alger, Michigan,B01002_001,49.5,0.5
+26005,Allegan, Michigan,B01002_001,39.8,0.4
+26007,Alpena, Michigan,B01002_001,48.1,0.3
+26009,Antrim, Michigan,B01002_001,51.3,0.3
+26011,Arenac, Michigan,B01002_001,50,0.2
+26013,Baraga, Michigan,B01002_001,45.5,0.4
+26015,Barry, Michigan,B01002_001,42.5,0.4
+26017,Bay, Michigan,B01002_001,43.4,0.3
+26019,Benzie, Michigan,B01002_001,50.2,0.3
+26021,Berrien, Michigan,B01002_001,42.1,0.3
+26023,Branch, Michigan,B01002_001,41.2,0.4
+26025,Calhoun, Michigan,B01002_001,39.8,0.3
+26027,Cass, Michigan,B01002_001,45.2,0.2
+26029,Charlevoix, Michigan,B01002_001,48.6,0.3
+26031,Cheboygan, Michigan,B01002_001,51.1,0.2
+26033,Chippewa, Michigan,B01002_001,40.5,0.7
+26035,Clare, Michigan,B01002_001,47.2,0.3
+26037,Clinton, Michigan,B01002_001,40.6,0.4
+26039,Crawford, Michigan,B01002_001,50.8,0.5
+26041,Delta, Michigan,B01002_001,47.4,0.3
+26043,Dickinson, Michigan,B01002_001,46.7,0.4
+26045,Eaton, Michigan,B01002_001,40.9,0.3
+26047,Emmet, Michigan,B01002_001,45.5,0.3
+26049,Genesee, Michigan,B01002_001,40.5,0.2
+26051,Gladwin, Michigan,B01002_001,50.1,0.1
+26053,Gogebic, Michigan,B01002_001,49.3,0.4
+26055,Grand, Michigan,B01002_001,42.8,0.3
+26057,Gratiot, Michigan,B01002_001,39.5,0.4
+26059,Hillsdale, Michigan,B01002_001,42.3,0.3
+26061,Houghton, Michigan,B01002_001,33,0.4
+26063,Huron, Michigan,B01002_001,49.2,0.3
+26065,Ingham, Michigan,B01002_001,32,0.1
+26067,Ionia, Michigan,B01002_001,38.7,0.3
+26069,Iosco, Michigan,B01002_001,52.9,0.3
+26071,Iron, Michigan,B01002_001,54.3,0.3
+26073,Isabella, Michigan,B01002_001,28.1,0.2
+26075,Jackson, Michigan,B01002_001,41.2,0.2
+26077,Kalamazoo, Michigan,B01002_001,34.4,0.1
+26079,Kalkaska, Michigan,B01002_001,44.4,0.4
+26081,Kent, Michigan,B01002_001,35.3,0.2
+26083,Keweenaw, Michigan,B01002_001,57.5,0.8
+26085,Lake, Michigan,B01002_001,53.2,0.4
+26087,Lapeer, Michigan,B01002_001,44.1,0.2
+26089,Leelanau, Michigan,B01002_001,54.1,0.2
+26091,Lenawee, Michigan,B01002_001,41.9,0.3
+26093,Livingston, Michigan,B01002_001,43.5,0.2
+26095,Luce, Michigan,B01002_001,44.7,0.6
+26097,Mackinac, Michigan,B01002_001,52.8,0.7
+26099,Macomb, Michigan,B01002_001,40.9,0.1
+26101,Manistee, Michigan,B01002_001,49.3,0.3
+26103,Marquette, Michigan,B01002_001,39.1,0.4
+26105,Mason, Michigan,B01002_001,46.2,0.4
+26107,Mecosta, Michigan,B01002_001,36.9,0.5
+26109,Menominee, Michigan,B01002_001,48.8,0.4
+26111,Midland, Michigan,B01002_001,41.8,0.4
+26113,Missaukee, Michigan,B01002_001,43.5,0.5
+26115,Monroe, Michigan,B01002_001,42.6,0.2
+26117,Montcalm, Michigan,B01002_001,40.7,0.5
+26119,Montmorency, Michigan,B01002_001,56.1,0.4
+26121,Muskegon, Michigan,B01002_001,39.3,0.3
+26123,Newaygo, Michigan,B01002_001,42.4,0.3
+26125,Oakland, Michigan,B01002_001,40.9,0.2
+26127,Oceana, Michigan,B01002_001,43.2,0.6
+26129,Ogemaw, Michigan,B01002_001,50.4,0.3
+26131,Ontonagon, Michigan,B01002_001,58.6,0.4
+26133,Osceola, Michigan,B01002_001,43.8,0.3
+26135,Oscoda, Michigan,B01002_001,51.8,0.4
+26137,Otsego, Michigan,B01002_001,44.9,0.3
+26139,Ottawa, Michigan,B01002_001,35.2,0.1
+26141,Presque, Michigan,B01002_001,55,0.3
+26143,Roscommon, Michigan,B01002_001,56.2,0.3
+26145,Saginaw, Michigan,B01002_001,40.9,0.2
+26147,St., Michigan,B01002_001,43.8,0.2
+26149,St., Michigan,B01002_001,39.6,0.5
+26151,Sanilac, Michigan,B01002_001,45.2,0.2
+26153,Schoolcraft, Michigan,B01002_001,52.1,0.4
+26155,Shiawassee, Michigan,B01002_001,42.4,0.4
+26157,Tuscola, Michigan,B01002_001,44.6,0.2
+26159,Van, Michigan,B01002_001,41.6,0.4
+26161,Washtenaw, Michigan,B01002_001,33.6,0.1
+26163,Wayne, Michigan,B01002_001,37.9,0.1
+26165,Wexford, Michigan,B01002_001,41.6,0.5
+27001,Aitkin, Minnesota,B01002_001,55.5,0.2
+27003,Anoka, Minnesota,B01002_001,38.5,0.2
+27005,Becker, Minnesota,B01002_001,41.9,0.4
+27007,Beltrami, Minnesota,B01002_001,34,0.3
+27009,Benton, Minnesota,B01002_001,36,0.5
+27011,Big, Minnesota,B01002_001,49,0.8
+27013,Blue, Minnesota,B01002_001,31,0.2
+27015,Brown, Minnesota,B01002_001,42.3,0.6
+27017,Carlton, Minnesota,B01002_001,41,0.5
+27019,Carver, Minnesota,B01002_001,37.9,0.3
+27021,Cass, Minnesota,B01002_001,48.9,0.2
+27023,Chippewa, Minnesota,B01002_001,41.6,0.9
+27025,Chisago, Minnesota,B01002_001,41.3,0.3
+27027,Clay, Minnesota,B01002_001,32.6,0.4
+27029,Clearwater, Minnesota,B01002_001,42.3,0.4
+27031,Cook, Minnesota,B01002_001,52.6,0.6
+27033,Cottonwood, Minnesota,B01002_001,42.9,0.9
+27035,Crow, Minnesota,B01002_001,44.5,0.3
+27037,Dakota, Minnesota,B01002_001,37.9,0.2
+27039,Dodge, Minnesota,B01002_001,38.4,0.4
+27041,Douglas, Minnesota,B01002_001,44.2,0.4
+27043,Faribault, Minnesota,B01002_001,45.8,0.5
+27045,Fillmore, Minnesota,B01002_001,42.3,0.4
+27047,Freeborn, Minnesota,B01002_001,44,0.4
+27049,Goodhue, Minnesota,B01002_001,42.2,0.5
+27051,Grant, Minnesota,B01002_001,44.9,0.7
+27053,Hennepin, Minnesota,B01002_001,36.5,0.1
+27055,Houston, Minnesota,B01002_001,45.3,0.2
+27057,Hubbard, Minnesota,B01002_001,48.7,0.3
+27059,Isanti, Minnesota,B01002_001,40,0.5
+27061,Itasca, Minnesota,B01002_001,46.3,0.2
+27063,Jackson, Minnesota,B01002_001,44.8,0.4
+27065,Kanabec, Minnesota,B01002_001,45,0.3
+27067,Kandiyohi, Minnesota,B01002_001,39.3,0.3
+27069,Kittson, Minnesota,B01002_001,48.1,0.5
+27071,Koochiching, Minnesota,B01002_001,49.5,0.4
+27073,Lac, Minnesota,B01002_001,50.4,0.5
+27075,Lake, Minnesota,B01002_001,50.8,0.6
+27077,Lake, Minnesota,B01002_001,50.9,0.7
+27079,Le, Minnesota,B01002_001,41,0.4
+27081,Lincoln, Minnesota,B01002_001,45.4,0.3
+27083,Lyon, Minnesota,B01002_001,35.8,0.3
+27085,McLeod, Minnesota,B01002_001,40.7,0.5
+27087,Mahnomen, Minnesota,B01002_001,35.7,0.4
+27089,Marshall, Minnesota,B01002_001,43.7,0.5
+27091,Martin, Minnesota,B01002_001,45.3,0.4
+27093,Meeker, Minnesota,B01002_001,42.2,0.4
+27095,Mille, Minnesota,B01002_001,40.5,0.4
+27097,Morrison, Minnesota,B01002_001,41.7,0.4
+27099,Mower, Minnesota,B01002_001,38.8,0.5
+27101,Murray, Minnesota,B01002_001,48.1,0.8
+27103,Nicollet, Minnesota,B01002_001,36.3,0.5
+27105,Nobles, Minnesota,B01002_001,35.7,0.4
+27107,Norman, Minnesota,B01002_001,43.8,0.6
+27109,Olmsted, Minnesota,B01002_001,37.2,0.2
+27111,Otter, Minnesota,B01002_001,46.8,0.3
+27113,Pennington, Minnesota,B01002_001,39.6,0.7
+27115,Pine, Minnesota,B01002_001,45,0.3
+27117,Pipestone, Minnesota,B01002_001,42.1,0.8
+27119,Polk, Minnesota,B01002_001,38.7,0.5
+27121,Pope, Minnesota,B01002_001,45.8,0.3
+27123,Ramsey, Minnesota,B01002_001,35,0.1
+27125,Red, Minnesota,B01002_001,42.7,0.3
+27127,Redwood, Minnesota,B01002_001,42.6,0.6
+27129,Renville, Minnesota,B01002_001,43.8,0.3
+27131,Rice, Minnesota,B01002_001,36.5,0.3
+27133,Rock, Minnesota,B01002_001,40.8,0.8
+27135,Roseau, Minnesota,B01002_001,41.6,0.4
+27137,St., Minnesota,B01002_001,41.1,0.3
+27139,Scott, Minnesota,B01002_001,36.5,0.2
+27141,Sherburne, Minnesota,B01002_001,36,0.2
+27143,Sibley, Minnesota,B01002_001,41.7,0.3
+27145,Stearns, Minnesota,B01002_001,34.4,0.2
+27147,Steele, Minnesota,B01002_001,39,0.6
+27149,Stevens, Minnesota,B01002_001,33.1,0.7
+27151,Swift, Minnesota,B01002_001,43.9,0.6
+27153,Todd, Minnesota,B01002_001,43.9,0.4
+27155,Traverse, Minnesota,B01002_001,47.5,1.2
+27157,Wabasha, Minnesota,B01002_001,45.2,0.4
+27159,Wadena, Minnesota,B01002_001,41.5,0.8
+27161,Waseca, Minnesota,B01002_001,40.5,0.9
+27163,Washington, Minnesota,B01002_001,39.5,0.3
+27165,Watonwan, Minnesota,B01002_001,39.9,1.5
+27167,Wilkin, Minnesota,B01002_001,43.3,0.4
+27169,Winona, Minnesota,B01002_001,35.2,0.3
+27171,Wright, Minnesota,B01002_001,37,0.2
+27173,Yellow, Minnesota,B01002_001,42.4,0.5
+28001,Adams, Mississippi,B01002_001,41.4,0.9
+28003,Alcorn, Mississippi,B01002_001,39.7,0.5
+28005,Amite, Mississippi,B01002_001,47.1,1.3
+28007,Attala, Mississippi,B01002_001,39.8,0.5
+28009,Benton, Mississippi,B01002_001,41.5,2.2
+28011,Bolivar, Mississippi,B01002_001,35.6,0.3
+28013,Calhoun, Mississippi,B01002_001,41.4,0.8
+28015,Carroll, Mississippi,B01002_001,47.6,0.9
+28017,Chickasaw, Mississippi,B01002_001,37.8,0.9
+28019,Choctaw, Mississippi,B01002_001,44,1
+28021,Claiborne, Mississippi,B01002_001,33.9,1
+28023,Clarke, Mississippi,B01002_001,42.2,0.7
+28025,Clay, Mississippi,B01002_001,39.5,0.6
+28027,Coahoma, Mississippi,B01002_001,34.8,0.2
+28029,Copiah, Mississippi,B01002_001,38.5,0.5
+28031,Covington, Mississippi,B01002_001,37.3,0.6
+28033,DeSoto, Mississippi,B01002_001,36.8,0.2
+28035,Forrest, Mississippi,B01002_001,32.5,0.3
+28037,Franklin, Mississippi,B01002_001,42.5,1
+28039,George, Mississippi,B01002_001,36.4,0.6
+28041,Greene, Mississippi,B01002_001,40.4,1.1
+28043,Grenada, Mississippi,B01002_001,39.2,0.8
+28045,Hancock, Mississippi,B01002_001,44.4,0.4
+28047,Harrison, Mississippi,B01002_001,36.2,0.2
+28049,Hinds, Mississippi,B01002_001,34.8,0.2
+28051,Holmes, Mississippi,B01002_001,34.7,0.4
+28053,Humphreys, Mississippi,B01002_001,38.3,0.4
+28055,Issaquena, Mississippi,B01002_001,42.2,6.1
+28057,Itawamba, Mississippi,B01002_001,39.9,0.7
+28059,Jackson, Mississippi,B01002_001,38.8,0.3
+28061,Jasper, Mississippi,B01002_001,41,2.5
+28063,Jefferson, Mississippi,B01002_001,40.5,0.3
+28065,Jefferson, Mississippi,B01002_001,44,0.7
+28067,Jones, Mississippi,B01002_001,37.5,0.5
+28069,Kemper, Mississippi,B01002_001,41.4,2.5
+28071,Lafayette, Mississippi,B01002_001,30.5,0.3
+28073,Lamar, Mississippi,B01002_001,35.9,0.3
+28075,Lauderdale, Mississippi,B01002_001,37.8,0.4
+28077,Lawrence, Mississippi,B01002_001,39.9,0.9
+28079,Leake, Mississippi,B01002_001,36.9,0.8
+28081,Lee, Mississippi,B01002_001,37.5,0.4
+28083,Leflore, Mississippi,B01002_001,34,0.5
+28085,Lincoln, Mississippi,B01002_001,38.9,0.7
+28087,Lowndes, Mississippi,B01002_001,37.1,0.4
+28089,Madison, Mississippi,B01002_001,37.2,0.3
+28091,Marion, Mississippi,B01002_001,40.8,0.6
+28093,Marshall, Mississippi,B01002_001,40.4,0.7
+28095,Monroe, Mississippi,B01002_001,41.1,0.6
+28097,Montgomery, Mississippi,B01002_001,41.6,2
+28099,Neshoba, Mississippi,B01002_001,37.3,0.9
+28101,Newton, Mississippi,B01002_001,37,0.8
+28103,Noxubee, Mississippi,B01002_001,37,1.2
+28105,Oktibbeha, Mississippi,B01002_001,26.1,0.3
+28107,Panola, Mississippi,B01002_001,38.3,0.6
+28109,Pearl, Mississippi,B01002_001,40.9,0.6
+28111,Perry, Mississippi,B01002_001,41.9,1
+28113,Pike, Mississippi,B01002_001,37.2,0.4
+28115,Pontotoc, Mississippi,B01002_001,36.6,0.8
+28117,Prentiss, Mississippi,B01002_001,39.2,0.9
+28119,Quitman, Mississippi,B01002_001,38.7,1.1
+28121,Rankin, Mississippi,B01002_001,37.8,0.3
+28123,Scott, Mississippi,B01002_001,36.4,0.7
+28125,Sharkey, Mississippi,B01002_001,41.2,4
+28127,Simpson, Mississippi,B01002_001,39.5,1.4
+28129,Smith, Mississippi,B01002_001,41.5,1.5
+28131,Stone, Mississippi,B01002_001,38.7,1.5
+28133,Sunflower, Mississippi,B01002_001,35.6,0.5
+28135,Tallahatchie, Mississippi,B01002_001,36.8,1.9
+28137,Tate, Mississippi,B01002_001,38.2,1.2
+28139,Tippah, Mississippi,B01002_001,38.8,0.8
+28141,Tishomingo, Mississippi,B01002_001,42.5,1.1
+28143,Tunica, Mississippi,B01002_001,33.6,1.7
+28145,Union, Mississippi,B01002_001,37.9,0.5
+28147,Walthall, Mississippi,B01002_001,39.8,0.7
+28149,Warren, Mississippi,B01002_001,39.1,0.5
+28151,Washington, Mississippi,B01002_001,37.2,0.5
+28153,Wayne, Mississippi,B01002_001,40.2,2.3
+28155,Webster, Mississippi,B01002_001,40.5,1.3
+28157,Wilkinson, Mississippi,B01002_001,37.8,1.6
+28159,Winston, Mississippi,B01002_001,42.3,0.9
+28161,Yalobusha, Mississippi,B01002_001,42.5,1.5
+28163,Yazoo, Mississippi,B01002_001,36.1,0.6
+29001,Adair, Missouri,B01002_001,27.6,0.7
+29003,Andrew, Missouri,B01002_001,42.4,0.5
+29005,Atchison, Missouri,B01002_001,48.5,0.4
+29007,Audrain, Missouri,B01002_001,39.7,0.7
+29009,Barry, Missouri,B01002_001,43.7,0.6
+29011,Barton, Missouri,B01002_001,41.3,0.8
+29013,Bates, Missouri,B01002_001,41.6,0.9
+29015,Benton, Missouri,B01002_001,53.6,0.4
+29017,Bollinger, Missouri,B01002_001,44,0.8
+29019,Boone, Missouri,B01002_001,31.2,0.2
+29021,Buchanan, Missouri,B01002_001,37.8,0.4
+29023,Butler, Missouri,B01002_001,41.3,0.7
+29025,Caldwell, Missouri,B01002_001,42.3,0.7
+29027,Callaway, Missouri,B01002_001,38.6,0.5
+29029,Camden, Missouri,B01002_001,51.5,0.4
+29031,Cape, Missouri,B01002_001,36.5,0.4
+29033,Carroll, Missouri,B01002_001,43.4,0.7
+29035,Carter, Missouri,B01002_001,41.7,1.2
+29037,Cass, Missouri,B01002_001,39.8,0.4
+29039,Cedar, Missouri,B01002_001,44.7,0.6
+29041,Chariton, Missouri,B01002_001,45.7,0.4
+29043,Christian, Missouri,B01002_001,37.9,0.4
+29045,Clark, Missouri,B01002_001,44,0.7
+29047,Clay, Missouri,B01002_001,37.1,0.2
+29049,Clinton, Missouri,B01002_001,41,0.8
+29051,Cole, Missouri,B01002_001,38.6,0.4
+29053,Cooper, Missouri,B01002_001,38.7,0.7
+29055,Crawford, Missouri,B01002_001,41.9,0.8
+29057,Dade, Missouri,B01002_001,46.2,0.4
+29059,Dallas, Missouri,B01002_001,44,0.6
+29061,Daviess, Missouri,B01002_001,41.1,0.7
+29063,DeKalb, Missouri,B01002_001,40.4,0.8
+29065,Dent, Missouri,B01002_001,44.7,0.4
+29067,Douglas, Missouri,B01002_001,47.3,0.4
+29069,Dunklin, Missouri,B01002_001,40,0.6
+29071,Franklin, Missouri,B01002_001,40.7,0.3
+29073,Gasconade, Missouri,B01002_001,46.2,1
+29075,Gentry, Missouri,B01002_001,40.4,1.1
+29077,Greene, Missouri,B01002_001,36,0.2
+29079,Grundy, Missouri,B01002_001,40.8,0.8
+29081,Harrison, Missouri,B01002_001,43.3,0.5
+29083,Henry, Missouri,B01002_001,44.1,0.6
+29085,Hickory, Missouri,B01002_001,55,0.3
+29087,Holt, Missouri,B01002_001,48.5,0.4
+29089,Howard, Missouri,B01002_001,39.1,1
+29091,Howell, Missouri,B01002_001,40.9,0.9
+29093,Iron, Missouri,B01002_001,45.7,0.5
+29095,Jackson, Missouri,B01002_001,36.8,0.1
+29097,Jasper, Missouri,B01002_001,36.2,0.3
+29099,Jefferson, Missouri,B01002_001,39.2,0.3
+29101,Johnson, Missouri,B01002_001,30.5,0.3
+29103,Knox, Missouri,B01002_001,44.1,0.8
+29105,Laclede, Missouri,B01002_001,40.3,0.6
+29107,Lafayette, Missouri,B01002_001,42.3,0.6
+29109,Lawrence, Missouri,B01002_001,39.4,0.8
+29111,Lewis, Missouri,B01002_001,40.6,1
+29113,Lincoln, Missouri,B01002_001,37.1,0.3
+29115,Linn, Missouri,B01002_001,41.8,0.8
+29117,Livingston, Missouri,B01002_001,40,0.7
+29119,McDonald, Missouri,B01002_001,37.8,0.5
+29121,Macon, Missouri,B01002_001,43.3,0.6
+29123,Madison, Missouri,B01002_001,42.2,0.6
+29125,Maries, Missouri,B01002_001,46,0.9
+29127,Marion, Missouri,B01002_001,38.9,0.6
+29129,Mercer, Missouri,B01002_001,42.9,0.7
+29131,Miller, Missouri,B01002_001,40.7,0.7
+29133,Mississippi, Missouri,B01002_001,41.4,0.8
+29135,Moniteau, Missouri,B01002_001,38,0.6
+29137,Monroe, Missouri,B01002_001,46.5,0.6
+29139,Montgomery, Missouri,B01002_001,44.5,0.4
+29141,Morgan, Missouri,B01002_001,46,0.5
+29143,New, Missouri,B01002_001,42,0.9
+29145,Newton, Missouri,B01002_001,39.9,0.5
+29147,Nodaway, Missouri,B01002_001,29.7,0.9
+29149,Oregon, Missouri,B01002_001,46.4,0.6
+29151,Osage, Missouri,B01002_001,40.8,0.6
+29153,Ozark, Missouri,B01002_001,51.6,0.4
+29155,Pemiscot, Missouri,B01002_001,37.9,0.5
+29157,Perry, Missouri,B01002_001,40.7,0.8
+29159,Pettis, Missouri,B01002_001,37.8,0.4
+29161,Phelps, Missouri,B01002_001,35.3,0.4
+29163,Pike, Missouri,B01002_001,38.9,0.8
+29165,Platte, Missouri,B01002_001,38.2,0.4
+29167,Polk, Missouri,B01002_001,37.6,0.5
+29169,Pulaski, Missouri,B01002_001,27.6,0.4
+29171,Putnam, Missouri,B01002_001,45.8,0.7
+29173,Ralls, Missouri,B01002_001,45,0.5
+29175,Randolph, Missouri,B01002_001,39.4,0.7
+29177,Ray, Missouri,B01002_001,42.2,0.5
+29179,Reynolds, Missouri,B01002_001,46.5,0.4
+29181,Ripley, Missouri,B01002_001,42.3,0.7
+29183,St., Missouri,B01002_001,38.6,0.2
+29185,St., Missouri,B01002_001,50.3,0.4
+29186,Ste., Missouri,B01002_001,43.3,1
+29187,St., Missouri,B01002_001,39.4,0.5
+29189,St., Missouri,B01002_001,40.3,0.2
+29195,Saline, Missouri,B01002_001,37.9,0.5
+29197,Schuyler, Missouri,B01002_001,40.1,1.6
+29199,Scotland, Missouri,B01002_001,37.3,1.2
+29201,Scott, Missouri,B01002_001,40,0.7
+29203,Shannon, Missouri,B01002_001,45.8,0.8
+29205,Shelby, Missouri,B01002_001,42.3,1.7
+29207,Stoddard, Missouri,B01002_001,41.4,0.6
+29209,Stone, Missouri,B01002_001,53.6,0.2
+29211,Sullivan, Missouri,B01002_001,42.1,1.1
+29213,Taney, Missouri,B01002_001,42.2,0.5
+29215,Texas, Missouri,B01002_001,43.2,1
+29217,Vernon, Missouri,B01002_001,40.8,1.3
+29219,Warren, Missouri,B01002_001,41,1.1
+29221,Washington, Missouri,B01002_001,40.8,0.5
+29223,Wayne, Missouri,B01002_001,47.5,1
+29225,Webster, Missouri,B01002_001,36.7,0.3
+29227,Worth, Missouri,B01002_001,48.1,0.9
+29229,Wright, Missouri,B01002_001,41.7,0.4
+29510,St., Missouri,B01002_001,35.8,0.2
+30001,Beaverhead, Montana,B01002_001,43,1.1
+30003,Big, Montana,B01002_001,30.7,0.8
+30005,Blaine, Montana,B01002_001,33.8,0.4
+30007,Broadwater, Montana,B01002_001,47.3,0.8
+30009,Carbon, Montana,B01002_001,50.5,0.5
+30011,Carter, Montana,B01002_001,47.8,4.5
+30013,Cascade, Montana,B01002_001,38.3,0.4
+30015,Chouteau, Montana,B01002_001,41.9,1.8
+30017,Custer, Montana,B01002_001,41.4,0.9
+30019,Daniels, Montana,B01002_001,49.2,8.8
+30021,Dawson, Montana,B01002_001,41,1.4
+30023,Deer, Montana,B01002_001,48.6,0.7
+30025,Fallon, Montana,B01002_001,39.3,1.6
+30027,Fergus, Montana,B01002_001,45.3,0.6
+30029,Flathead, Montana,B01002_001,42.2,0.4
+30031,Gallatin, Montana,B01002_001,33.4,0.2
+30033,Garfield, Montana,B01002_001,45.8,6.2
+30035,Glacier, Montana,B01002_001,31.9,0.7
+30037,Golden, Montana,B01002_001,56.9,2.8
+30039,Granite, Montana,B01002_001,54.3,0.4
+30041,Hill, Montana,B01002_001,34.3,0.4
+30043,Jefferson, Montana,B01002_001,47.6,0.4
+30045,Judith, Montana,B01002_001,51.7,2.4
+30047,Lake, Montana,B01002_001,42.3,0.6
+30049,Lewis, Montana,B01002_001,40.8,0.4
+30051,Liberty, Montana,B01002_001,46.5,5.5
+30053,Lincoln, Montana,B01002_001,52.4,0.5
+30055,McCone, Montana,B01002_001,46.6,9.3
+30057,Madison, Montana,B01002_001,53,0.5
+30059,Meagher, Montana,B01002_001,48,6.1
+30061,Mineral, Montana,B01002_001,51.7,0.7
+30063,Missoula, Montana,B01002_001,36,0.3
+30065,Musselshell, Montana,B01002_001,50.1,1.1
+30067,Park, Montana,B01002_001,46.3,0.6
+30069,Petroleum, Montana,B01002_001,51.8,4.7
+30071,Phillips, Montana,B01002_001,49,3.8
+30073,Pondera, Montana,B01002_001,40.7,1
+30075,Powder, Montana,B01002_001,53.4,2.8
+30077,Powell, Montana,B01002_001,45.5,0.8
+30079,Prairie, Montana,B01002_001,48.7,7.8
+30081,Ravalli, Montana,B01002_001,49.1,0.4
+30083,Richland, Montana,B01002_001,38.6,0.9
+30085,Roosevelt, Montana,B01002_001,30.2,0.2
+30087,Rosebud, Montana,B01002_001,36.8,1.2
+30089,Sanders, Montana,B01002_001,53.9,0.3
+30091,Sheridan, Montana,B01002_001,46.3,2.5
+30093,Silver, Montana,B01002_001,40,0.9
+30095,Stillwater, Montana,B01002_001,46.8,0.5
+30097,Sweet, Montana,B01002_001,52,2.5
+30099,Teton, Montana,B01002_001,44.4,0.5
+30101,Toole, Montana,B01002_001,43.1,1.9
+30103,Treasure, Montana,B01002_001,56.8,4.6
+30105,Valley, Montana,B01002_001,44.3,0.8
+30107,Wheatland, Montana,B01002_001,41.1,5.6
+30109,Wibaux, Montana,B01002_001,47.1,4.4
+30111,Yellowstone, Montana,B01002_001,38.4,0.2
+31001,Adams, Nebraska,B01002_001,37.7,0.7
+31003,Antelope, Nebraska,B01002_001,44.9,0.3
+31005,Arthur, Nebraska,B01002_001,45.5,6
+31007,Banner, Nebraska,B01002_001,48.9,9.1
+31009,Blaine, Nebraska,B01002_001,53.2,8.6
+31011,Boone, Nebraska,B01002_001,44.8,0.7
+31013,Box, Nebraska,B01002_001,39.4,0.8
+31015,Boyd, Nebraska,B01002_001,54.3,1.9
+31017,Brown, Nebraska,B01002_001,49.4,2.7
+31019,Buffalo, Nebraska,B01002_001,33.5,0.3
+31021,Burt, Nebraska,B01002_001,45.7,0.4
+31023,Butler, Nebraska,B01002_001,43.3,1.1
+31025,Cass, Nebraska,B01002_001,41.7,0.4
+31027,Cedar, Nebraska,B01002_001,42.7,0.7
+31029,Chase, Nebraska,B01002_001,43.5,2.8
+31031,Cherry, Nebraska,B01002_001,43.1,1
+31033,Cheyenne, Nebraska,B01002_001,40.4,0.6
+31035,Clay, Nebraska,B01002_001,42.5,0.8
+31037,Colfax, Nebraska,B01002_001,33.7,2.2
+31039,Cuming, Nebraska,B01002_001,42.6,1.4
+31041,Custer, Nebraska,B01002_001,43.1,0.7
+31043,Dakota, Nebraska,B01002_001,33.4,0.7
+31045,Dawes, Nebraska,B01002_001,34.9,2.1
+31047,Dawson, Nebraska,B01002_001,35.7,0.4
+31049,Deuel, Nebraska,B01002_001,48.7,4.5
+31051,Dixon, Nebraska,B01002_001,40.8,0.7
+31053,Dodge, Nebraska,B01002_001,38.9,0.6
+31055,Douglas, Nebraska,B01002_001,34.7,0.1
+31057,Dundy, Nebraska,B01002_001,43.3,2.6
+31059,Fillmore, Nebraska,B01002_001,47,0.7
+31061,Franklin, Nebraska,B01002_001,50.8,0.6
+31063,Frontier, Nebraska,B01002_001,45.2,1
+31065,Furnas, Nebraska,B01002_001,46.9,0.7
+31067,Gage, Nebraska,B01002_001,43.8,0.4
+31069,Garden, Nebraska,B01002_001,50.4,4.3
+31071,Garfield, Nebraska,B01002_001,50.9,2.6
+31073,Gosper, Nebraska,B01002_001,53.4,3.2
+31075,Grant, Nebraska,B01002_001,38.8,8.1
+31077,Greeley, Nebraska,B01002_001,45.5,0.5
+31079,Hall, Nebraska,B01002_001,35.9,0.3
+31081,Hamilton, Nebraska,B01002_001,41.9,1.3
+31083,Harlan, Nebraska,B01002_001,45.3,1.8
+31085,Hayes, Nebraska,B01002_001,45.7,8.3
+31087,Hitchcock, Nebraska,B01002_001,46.2,0.6
+31089,Holt, Nebraska,B01002_001,42.8,0.5
+31091,Hooker, Nebraska,B01002_001,53.3,3.3
+31093,Howard, Nebraska,B01002_001,43.1,0.7
+31095,Jefferson, Nebraska,B01002_001,46.5,1.1
+31097,Johnson, Nebraska,B01002_001,40.9,0.9
+31099,Kearney, Nebraska,B01002_001,39.6,0.4
+31101,Keith, Nebraska,B01002_001,49.3,0.5
+31103,Keya, Nebraska,B01002_001,45.3,5.5
+31105,Kimball, Nebraska,B01002_001,46.3,2.2
+31107,Knox, Nebraska,B01002_001,45.6,0.3
+31109,Lancaster, Nebraska,B01002_001,33.5,0.1
+31111,Lincoln, Nebraska,B01002_001,41.1,0.6
+31113,Logan, Nebraska,B01002_001,38.6,6.6
+31115,Loup, Nebraska,B01002_001,53.2,4.2
+31117,McPherson, Nebraska,B01002_001,54.8,4.1
+31119,Madison, Nebraska,B01002_001,36.6,0.4
+31121,Merrick, Nebraska,B01002_001,43.6,0.5
+31123,Morrill, Nebraska,B01002_001,42.3,1.6
+31125,Nance, Nebraska,B01002_001,44.8,1.2
+31127,Nemaha, Nebraska,B01002_001,39.3,1.2
+31129,Nuckolls, Nebraska,B01002_001,49.2,0.6
+31131,Otoe, Nebraska,B01002_001,41.4,0.9
+31133,Pawnee, Nebraska,B01002_001,50,0.5
+31135,Perkins, Nebraska,B01002_001,42.9,0.5
+31137,Phelps, Nebraska,B01002_001,42.4,1.4
+31139,Pierce, Nebraska,B01002_001,41.6,0.8
+31141,Platte, Nebraska,B01002_001,38.4,0.6
+31143,Polk, Nebraska,B01002_001,45.1,0.3
+31145,Red, Nebraska,B01002_001,40.7,1.1
+31147,Richardson, Nebraska,B01002_001,47.7,1.1
+31149,Rock, Nebraska,B01002_001,46.2,2.7
+31151,Saline, Nebraska,B01002_001,35.5,1.1
+31153,Sarpy, Nebraska,B01002_001,34.6,0.1
+31155,Saunders, Nebraska,B01002_001,41.2,0.6
+31157,Scotts, Nebraska,B01002_001,39.5,0.4
+31159,Seward, Nebraska,B01002_001,38,0.6
+31161,Sheridan, Nebraska,B01002_001,46.7,1.2
+31163,Sherman, Nebraska,B01002_001,49.7,0.6
+31165,Sioux, Nebraska,B01002_001,44.1,11.5
+31167,Stanton, Nebraska,B01002_001,42.1,0.9
+31169,Thayer, Nebraska,B01002_001,46.5,0.4
+31171,Thomas, Nebraska,B01002_001,41.8,8.3
+31173,Thurston, Nebraska,B01002_001,27.5,0.3
+31175,Valley, Nebraska,B01002_001,46.2,1.1
+31177,Washington, Nebraska,B01002_001,41.2,0.8
+31179,Wayne, Nebraska,B01002_001,32,0.7
+31181,Webster, Nebraska,B01002_001,45.1,0.4
+31183,Wheeler, Nebraska,B01002_001,49.4,2.7
+31185,York, Nebraska,B01002_001,39.9,1.3
+32001,Churchill, Nevada,B01002_001,39.7,1
+32003,Clark, Nevada,B01002_001,37.3,0.1
+32005,Douglas, Nevada,B01002_001,52,0.3
+32007,Elko, Nevada,B01002_001,34.1,0.3
+32009,Esmeralda, Nevada,B01002_001,55.4,8.6
+32011,Eureka, Nevada,B01002_001,47.7,6.8
+32013,Humboldt, Nevada,B01002_001,36,0.5
+32015,Lander, Nevada,B01002_001,37.4,3.3
+32017,Lincoln, Nevada,B01002_001,44.4,5.2
+32019,Lyon, Nevada,B01002_001,43.7,0.5
+32021,Mineral, Nevada,B01002_001,52.9,5.1
+32023,Nye, Nevada,B01002_001,53.1,0.5
+32027,Pershing, Nevada,B01002_001,42.1,2
+32029,Storey, Nevada,B01002_001,50.9,4.2
+32031,Washoe, Nevada,B01002_001,38.4,0.2
+32033,White, Nevada,B01002_001,39.8,1
+32510,Carson, Nevada,B01002_001,42.4,0.5
+33001,Belknap, New Hampshire,B01002_001,47.4,0.3
+33003,Carroll, New Hampshire,B01002_001,52.3,0.4
+33005,Cheshire, New Hampshire,B01002_001,43.1,0.3
+33007,Coos, New Hampshire,B01002_001,48.2,0.3
+33009,Grafton, New Hampshire,B01002_001,43.2,0.4
+33011,Hillsborough, New Hampshire,B01002_001,40.7,0.2
+33013,Merrimack, New Hampshire,B01002_001,42.8,0.2
+33015,Rockingham, New Hampshire,B01002_001,44.5,0.2
+33017,Strafford, New Hampshire,B01002_001,36.9,0.3
+33019,Sullivan, New Hampshire,B01002_001,46.3,0.4
+34001,Atlantic, New Jersey,B01002_001,41.7,0.3
+34003,Bergen, New Jersey,B01002_001,41.9,0.1
+34005,Burlington, New Jersey,B01002_001,41.6,0.2
+34007,Camden, New Jersey,B01002_001,38.8,0.2
+34009,Cape, New Jersey,B01002_001,49.6,0.2
+34011,Cumberland, New Jersey,B01002_001,37.6,0.2
+34013,Essex, New Jersey,B01002_001,37.6,0.1
+34015,Gloucester, New Jersey,B01002_001,40.5,0.2
+34017,Hudson, New Jersey,B01002_001,35.3,0.1
+34019,Hunterdon, New Jersey,B01002_001,46.3,0.1
+34021,Mercer, New Jersey,B01002_001,38.8,0.2
+34023,Middlesex, New Jersey,B01002_001,38.6,0.2
+34025,Monmouth, New Jersey,B01002_001,43.3,0.2
+34027,Morris, New Jersey,B01002_001,42.8,0.1
+34029,Ocean, New Jersey,B01002_001,42.7,0.2
+34031,Passaic, New Jersey,B01002_001,37.2,0.2
+34033,Salem, New Jersey,B01002_001,42.1,0.4
+34035,Somerset, New Jersey,B01002_001,41.7,0.2
+34037,Sussex, New Jersey,B01002_001,44.7,0.1
+34039,Union, New Jersey,B01002_001,38.7,0.2
+34041,Warren, New Jersey,B01002_001,44.4,0.2
+35001,Bernalillo, New Mexico,B01002_001,37.6,0.2
+35003,Catron, New Mexico,B01002_001,58.1,1.3
+35005,Chaves, New Mexico,B01002_001,35.7,0.3
+35006,Cibola, New Mexico,B01002_001,37.3,0.7
+35007,Colfax, New Mexico,B01002_001,50.2,0.6
+35009,Curry, New Mexico,B01002_001,31.5,0.4
+35011,De, New Mexico,B01002_001,35.4,4.5
+35013,Doña, New Mexico,B01002_001,33.1,0.2
+35015,Eddy, New Mexico,B01002_001,35.2,0.3
+35017,Grant, New Mexico,B01002_001,46.4,0.5
+35019,Guadalupe, New Mexico,B01002_001,43.1,5.5
+35021,Harding, New Mexico,B01002_001,58.5,5.5
+35023,Hidalgo, New Mexico,B01002_001,43.1,1.1
+35025,Lea, New Mexico,B01002_001,31.8,0.3
+35027,Lincoln, New Mexico,B01002_001,50.9,0.5
+35028,Los, New Mexico,B01002_001,42.3,0.8
+35029,Luna, New Mexico,B01002_001,37.1,0.9
+35031,McKinley, New Mexico,B01002_001,32.4,0.3
+35033,Mora, New Mexico,B01002_001,55.2,4.1
+35035,Otero, New Mexico,B01002_001,35.8,0.4
+35037,Quay, New Mexico,B01002_001,43.4,1.7
+35039,Rio, New Mexico,B01002_001,41.3,0.5
+35041,Roosevelt, New Mexico,B01002_001,30,0.4
+35043,Sandoval, New Mexico,B01002_001,40.1,0.3
+35045,San, New Mexico,B01002_001,35.4,0.1
+35047,San, New Mexico,B01002_001,44,0.8
+35049,Santa, New Mexico,B01002_001,46.3,0.2
+35051,Sierra, New Mexico,B01002_001,55.7,0.4
+35053,Socorro, New Mexico,B01002_001,39.4,0.9
+35055,Taos, New Mexico,B01002_001,48.8,0.3
+35057,Torrance, New Mexico,B01002_001,43.6,1
+35059,Union, New Mexico,B01002_001,39.8,2.6
+35061,Valencia, New Mexico,B01002_001,38.9,0.6
+36001,Albany, New York,B01002_001,37.8,0.2
+36003,Allegany, New York,B01002_001,39.1,0.4
+36005,Bronx, New York,B01002_001,34.2,0.1
+36007,Broome, New York,B01002_001,39.9,0.3
+36009,Cattaraugus, New York,B01002_001,42,0.2
+36011,Cayuga, New York,B01002_001,42.9,0.3
+36013,Chautauqua, New York,B01002_001,42.6,0.2
+36015,Chemung, New York,B01002_001,41.3,0.4
+36017,Chenango, New York,B01002_001,44.9,0.3
+36019,Clinton, New York,B01002_001,39.5,0.4
+36021,Columbia, New York,B01002_001,48.2,0.3
+36023,Cortland, New York,B01002_001,36.4,0.5
+36025,Delaware, New York,B01002_001,47.9,0.3
+36027,Dutchess, New York,B01002_001,42.2,0.2
+36029,Erie, New York,B01002_001,40.3,0.1
+36031,Essex, New York,B01002_001,47.7,0.4
+36033,Franklin, New York,B01002_001,39.9,0.5
+36035,Fulton, New York,B01002_001,43.9,0.4
+36037,Genesee, New York,B01002_001,43.1,0.4
+36039,Greene, New York,B01002_001,45.9,0.4
+36041,Hamilton, New York,B01002_001,55.3,0.3
+36043,Herkimer, New York,B01002_001,44.2,0.2
+36045,Jefferson, New York,B01002_001,32.5,0.2
+36047,Kings, New York,B01002_001,35.2,0.1
+36049,Lewis, New York,B01002_001,42.2,0.4
+36051,Livingston, New York,B01002_001,41.3,0.4
+36053,Madison, New York,B01002_001,41.9,0.5
+36055,Monroe, New York,B01002_001,38.9,0.2
+36057,Montgomery, New York,B01002_001,41,0.5
+36059,Nassau, New York,B01002_001,41.7,0.1
+36061,New, New York,B01002_001,37.5,0.1
+36063,Niagara, New York,B01002_001,43.2,0.2
+36065,Oneida, New York,B01002_001,41,0.2
+36067,Onondaga, New York,B01002_001,39.1,0.2
+36069,Ontario, New York,B01002_001,43.7,0.2
+36071,Orange, New York,B01002_001,37,0.2
+36073,Orleans, New York,B01002_001,43,0.7
+36075,Oswego, New York,B01002_001,40.3,0.3
+36077,Otsego, New York,B01002_001,42.3,0.4
+36079,Putnam, New York,B01002_001,44.2,0.2
+36081,Queens, New York,B01002_001,39,0.2
+36083,Rensselaer, New York,B01002_001,39.8,0.3
+36085,Richmond, New York,B01002_001,40.1,0.2
+36087,Rockland, New York,B01002_001,36,0.1
+36089,St., New York,B01002_001,39,0.4
+36091,Saratoga, New York,B01002_001,42.8,0.2
+36093,Schenectady, New York,B01002_001,39.7,0.2
+36095,Schoharie, New York,B01002_001,45.4,0.2
+36097,Schuyler, New York,B01002_001,46.4,0.6
+36099,Seneca, New York,B01002_001,42.1,0.5
+36101,Steuben, New York,B01002_001,42.9,0.3
+36103,Suffolk, New York,B01002_001,41.5,0.1
+36105,Sullivan, New York,B01002_001,42.8,0.4
+36107,Tioga, New York,B01002_001,44.5,0.3
+36109,Tompkins, New York,B01002_001,31.1,0.2
+36111,Ulster, New York,B01002_001,44,0.1
+36113,Warren, New York,B01002_001,46.8,0.3
+36115,Washington, New York,B01002_001,44.2,0.3
+36117,Wayne, New York,B01002_001,43.8,0.2
+36119,Westchester, New York,B01002_001,40.9,0.2
+36121,Wyoming, New York,B01002_001,42.2,0.6
+36123,Yates, New York,B01002_001,41,0.7
+37001,Alamance, North Carolina,B01002_001,39.1,0.3
+37003,Alexander, North Carolina,B01002_001,43.7,0.5
+37005,Alleghany, North Carolina,B01002_001,50.1,0.7
+37007,Anson, North Carolina,B01002_001,40.9,0.8
+37009,Ashe, North Carolina,B01002_001,48.3,0.3
+37011,Avery, North Carolina,B01002_001,45.2,0.4
+37013,Beaufort, North Carolina,B01002_001,46.2,0.4
+37015,Bertie, North Carolina,B01002_001,45.4,0.3
+37017,Bladen, North Carolina,B01002_001,44.5,0.3
+37019,Brunswick, North Carolina,B01002_001,53.8,0.2
+37021,Buncombe, North Carolina,B01002_001,42.2,0.2
+37023,Burke, North Carolina,B01002_001,44.1,0.4
+37025,Cabarrus, North Carolina,B01002_001,37.9,0.3
+37027,Caldwell, North Carolina,B01002_001,44.6,0.3
+37029,Camden, North Carolina,B01002_001,41,2
+37031,Carteret, North Carolina,B01002_001,48.6,0.2
+37033,Caswell, North Carolina,B01002_001,45.7,0.3
+37035,Catawba, North Carolina,B01002_001,41.4,0.2
+37037,Chatham, North Carolina,B01002_001,46.7,0.3
+37039,Cherokee, North Carolina,B01002_001,51.5,0.6
+37041,Chowan, North Carolina,B01002_001,46,1.5
+37043,Clay, North Carolina,B01002_001,52.2,2.1
+37045,Cleveland, North Carolina,B01002_001,41.8,0.4
+37047,Columbus, North Carolina,B01002_001,41.9,0.4
+37049,Craven, North Carolina,B01002_001,37,0.3
+37051,Cumberland, North Carolina,B01002_001,31.3,0.1
+37053,Currituck, North Carolina,B01002_001,42.8,0.7
+37055,Dare, North Carolina,B01002_001,46.5,0.6
+37057,Davidson, North Carolina,B01002_001,42.5,0.2
+37059,Davie, North Carolina,B01002_001,45.2,0.3
+37061,Duplin, North Carolina,B01002_001,40.5,0.4
+37063,Durham, North Carolina,B01002_001,35.4,0.1
+37065,Edgecombe, North Carolina,B01002_001,41.7,0.6
+37067,Forsyth, North Carolina,B01002_001,38.4,0.2
+37069,Franklin, North Carolina,B01002_001,41.4,0.4
+37071,Gaston, North Carolina,B01002_001,40.1,0.2
+37073,Gates, North Carolina,B01002_001,46.5,0.6
+37075,Graham, North Carolina,B01002_001,46.2,0.6
+37077,Granville, North Carolina,B01002_001,42.7,0.3
+37079,Greene, North Carolina,B01002_001,40.7,0.9
+37081,Guilford, North Carolina,B01002_001,37.1,0.2
+37083,Halifax, North Carolina,B01002_001,43.4,0.5
+37085,Harnett, North Carolina,B01002_001,34.4,0.1
+37087,Haywood, North Carolina,B01002_001,47.6,0.4
+37089,Henderson, North Carolina,B01002_001,47.4,0.3
+37091,Hertford, North Carolina,B01002_001,42.2,0.6
+37093,Hoke, North Carolina,B01002_001,32.8,0.3
+37095,Hyde, North Carolina,B01002_001,40.9,3.9
+37097,Iredell, North Carolina,B01002_001,40.6,0.2
+37099,Jackson, North Carolina,B01002_001,37.7,0.7
+37101,Johnston, North Carolina,B01002_001,38.4,0.3
+37103,Jones, North Carolina,B01002_001,48.5,1.4
+37105,Lee, North Carolina,B01002_001,38.6,0.5
+37107,Lenoir, North Carolina,B01002_001,42.7,0.4
+37109,Lincoln, North Carolina,B01002_001,43.3,0.3
+37111,McDowell, North Carolina,B01002_001,43.9,0.4
+37113,Macon, North Carolina,B01002_001,50.1,0.3
+37115,Madison, North Carolina,B01002_001,44,0.6
+37117,Martin, North Carolina,B01002_001,46.3,0.3
+37119,Mecklenburg, North Carolina,B01002_001,35.1,0.1
+37121,Mitchell, North Carolina,B01002_001,47,0.5
+37123,Montgomery, North Carolina,B01002_001,43.6,0.5
+37125,Moore, North Carolina,B01002_001,44.3,0.3
+37127,Nash, North Carolina,B01002_001,41.7,0.4
+37129,New, North Carolina,B01002_001,39.1,0.3
+37131,Northampton, North Carolina,B01002_001,49.6,0.2
+37133,Onslow, North Carolina,B01002_001,26.4,0.2
+37135,Orange, North Carolina,B01002_001,34.8,0.1
+37137,Pamlico, North Carolina,B01002_001,52.4,0.4
+37139,Pasquotank, North Carolina,B01002_001,38.6,0.8
+37141,Pender, North Carolina,B01002_001,42.7,0.5
+37143,Perquimans, North Carolina,B01002_001,49.8,0.8
+37145,Person, North Carolina,B01002_001,43.7,0.5
+37147,Pitt, North Carolina,B01002_001,32.5,0.2
+37149,Polk, North Carolina,B01002_001,52.7,0.3
+37151,Randolph, North Carolina,B01002_001,41.7,0.2
+37153,Richmond, North Carolina,B01002_001,40.5,0.4
+37155,Robeson, North Carolina,B01002_001,36.6,0.2
+37157,Rockingham, North Carolina,B01002_001,44.7,0.2
+37159,Rowan, North Carolina,B01002_001,40.2,0.4
+37161,Rutherford, North Carolina,B01002_001,45,0.3
+37163,Sampson, North Carolina,B01002_001,40.3,0.4
+37165,Scotland, North Carolina,B01002_001,39.3,0.5
+37167,Stanly, North Carolina,B01002_001,42.2,0.5
+37169,Stokes, North Carolina,B01002_001,46.2,0.4
+37171,Surry, North Carolina,B01002_001,44.1,0.2
+37173,Swain, North Carolina,B01002_001,41.9,1.1
+37175,Transylvania, North Carolina,B01002_001,51.1,0.6
+37177,Tyrrell, North Carolina,B01002_001,46.2,3.5
+37179,Union, North Carolina,B01002_001,38.2,0.2
+37181,Vance, North Carolina,B01002_001,40.9,0.8
+37183,Wake, North Carolina,B01002_001,36.2,0.1
+37185,Warren, North Carolina,B01002_001,48,0.5
+37187,Washington, North Carolina,B01002_001,46.1,1.9
+37189,Watauga, North Carolina,B01002_001,31.9,0.6
+37191,Wayne, North Carolina,B01002_001,37.8,0.4
+37193,Wilkes, North Carolina,B01002_001,44.9,0.2
+37195,Wilson, North Carolina,B01002_001,40.5,0.3
+37197,Yadkin, North Carolina,B01002_001,44.4,0.3
+37199,Yancey, North Carolina,B01002_001,47.6,0.7
+38001,Adams, North Dakota,B01002_001,45.6,3
+38003,Barnes, North Dakota,B01002_001,45.1,0.9
+38005,Benson, North Dakota,B01002_001,30.5,0.2
+38007,Billings, North Dakota,B01002_001,43.7,6.5
+38009,Bottineau, North Dakota,B01002_001,45,0.6
+38011,Bowman, North Dakota,B01002_001,41,1.1
+38013,Burke, North Dakota,B01002_001,36.8,3.6
+38015,Burleigh, North Dakota,B01002_001,37,0.3
+38017,Cass, North Dakota,B01002_001,32.5,0.2
+38019,Cavalier, North Dakota,B01002_001,49.5,1.3
+38021,Dickey, North Dakota,B01002_001,41.9,0.9
+38023,Divide, North Dakota,B01002_001,51.1,2.5
+38025,Dunn, North Dakota,B01002_001,39,3.7
+38027,Eddy, North Dakota,B01002_001,45.8,5
+38029,Emmons, North Dakota,B01002_001,50.9,3.8
+38031,Foster, North Dakota,B01002_001,44.8,0.7
+38033,Golden, North Dakota,B01002_001,45,4.6
+38035,Grand, North Dakota,B01002_001,29.7,0.2
+38037,Grant, North Dakota,B01002_001,50.1,4.1
+38039,Griggs, North Dakota,B01002_001,51.1,4.1
+38041,Hettinger, North Dakota,B01002_001,46.5,5
+38043,Kidder, North Dakota,B01002_001,47.8,4.1
+38045,LaMoure, North Dakota,B01002_001,47.9,1.5
+38047,Logan, North Dakota,B01002_001,52,2.1
+38049,McHenry, North Dakota,B01002_001,43.2,0.8
+38051,McIntosh, North Dakota,B01002_001,53.5,0.6
+38053,McKenzie, North Dakota,B01002_001,30.1,0.4
+38055,McLean, North Dakota,B01002_001,46,0.4
+38057,Mercer, North Dakota,B01002_001,44,1
+38059,Morton, North Dakota,B01002_001,37.8,0.6
+38061,Mountrail, North Dakota,B01002_001,33.2,0.7
+38063,Nelson, North Dakota,B01002_001,52.4,0.5
+38065,Oliver, North Dakota,B01002_001,47,6.8
+38067,Pembina, North Dakota,B01002_001,48.1,0.6
+38069,Pierce, North Dakota,B01002_001,45.8,2.1
+38071,Ramsey, North Dakota,B01002_001,40.7,1.4
+38073,Ransom, North Dakota,B01002_001,46.6,0.9
+38075,Renville, North Dakota,B01002_001,39,2.6
+38077,Richland, North Dakota,B01002_001,37.3,0.8
+38079,Rolette, North Dakota,B01002_001,31.4,0.3
+38081,Sargent, North Dakota,B01002_001,45.2,0.4
+38083,Sheridan, North Dakota,B01002_001,50.9,1.8
+38085,Sioux, North Dakota,B01002_001,28.2,0.6
+38087,Slope, North Dakota,B01002_001,47.7,5.3
+38089,Stark, North Dakota,B01002_001,34.2,0.5
+38091,Steele, North Dakota,B01002_001,50.3,3.8
+38093,Stutsman, North Dakota,B01002_001,40.5,0.7
+38095,Towner, North Dakota,B01002_001,47.6,4.3
+38097,Traill, North Dakota,B01002_001,41.2,0.9
+38099,Walsh, North Dakota,B01002_001,44.2,0.7
+38101,Ward, North Dakota,B01002_001,31.6,0.3
+38103,Wells, North Dakota,B01002_001,51.6,1.5
+38105,Williams, North Dakota,B01002_001,31.3,0.6
+39001,Adams, Ohio,B01002_001,42,0.4
+39003,Allen, Ohio,B01002_001,39.2,0.3
+39005,Ashland, Ohio,B01002_001,40.4,0.6
+39007,Ashtabula, Ohio,B01002_001,42.5,0.3
+39009,Athens, Ohio,B01002_001,29.6,0.1
+39011,Auglaize, Ohio,B01002_001,41.1,0.4
+39013,Belmont, Ohio,B01002_001,44.6,0.3
+39015,Brown, Ohio,B01002_001,42.1,0.5
+39017,Butler, Ohio,B01002_001,36.7,0.2
+39019,Carroll, Ohio,B01002_001,45.5,0.4
+39021,Champaign, Ohio,B01002_001,41.9,0.5
+39023,Clark, Ohio,B01002_001,41.1,0.3
+39025,Clermont, Ohio,B01002_001,40,0.3
+39027,Clinton, Ohio,B01002_001,39.4,0.6
+39029,Columbiana, Ohio,B01002_001,44.1,0.3
+39031,Coshocton, Ohio,B01002_001,41.3,0.8
+39033,Crawford, Ohio,B01002_001,43,0.4
+39035,Cuyahoga, Ohio,B01002_001,40.4,0.2
+39037,Darke, Ohio,B01002_001,41.9,0.4
+39039,Defiance, Ohio,B01002_001,40.4,0.4
+39041,Delaware, Ohio,B01002_001,38.8,0.2
+39043,Erie, Ohio,B01002_001,44.8,0.3
+39045,Fairfield, Ohio,B01002_001,39.2,0.3
+39047,Fayette, Ohio,B01002_001,41.4,0.6
+39049,Franklin, Ohio,B01002_001,34.1,0.1
+39051,Fulton, Ohio,B01002_001,41.1,0.5
+39053,Gallia, Ohio,B01002_001,40.7,0.4
+39055,Geauga, Ohio,B01002_001,44.8,0.1
+39057,Greene, Ohio,B01002_001,38.3,0.2
+39059,Guernsey, Ohio,B01002_001,42.2,0.5
+39061,Hamilton, Ohio,B01002_001,36.8,0.1
+39063,Hancock, Ohio,B01002_001,39.3,0.4
+39065,Hardin, Ohio,B01002_001,35.9,0.4
+39067,Harrison, Ohio,B01002_001,46.3,0.7
+39069,Henry, Ohio,B01002_001,41.1,0.7
+39071,Highland, Ohio,B01002_001,40.8,0.4
+39073,Hocking, Ohio,B01002_001,43.1,0.7
+39075,Holmes, Ohio,B01002_001,31.5,0.4
+39077,Huron, Ohio,B01002_001,39.8,0.5
+39079,Jackson, Ohio,B01002_001,40.1,0.8
+39081,Jefferson, Ohio,B01002_001,44.8,0.2
+39083,Knox, Ohio,B01002_001,39.4,0.6
+39085,Lake, Ohio,B01002_001,43.8,0.2
+39087,Lawrence, Ohio,B01002_001,41.8,0.4
+39089,Licking, Ohio,B01002_001,39.7,0.4
+39091,Logan, Ohio,B01002_001,41.4,0.5
+39093,Lorain, Ohio,B01002_001,41.8,0.2
+39095,Lucas, Ohio,B01002_001,37.8,0.2
+39097,Madison, Ohio,B01002_001,40.8,0.5
+39099,Mahoning, Ohio,B01002_001,43.5,0.2
+39101,Marion, Ohio,B01002_001,41.3,0.5
+39103,Medina, Ohio,B01002_001,42.2,0.2
+39105,Meigs, Ohio,B01002_001,43.6,0.5
+39107,Mercer, Ohio,B01002_001,39.6,0.6
+39109,Miami, Ohio,B01002_001,41.3,0.3
+39111,Monroe, Ohio,B01002_001,46.5,0.5
+39113,Montgomery, Ohio,B01002_001,39.2,0.2
+39115,Morgan, Ohio,B01002_001,44.5,0.3
+39117,Morrow, Ohio,B01002_001,42.2,0.5
+39119,Muskingum, Ohio,B01002_001,40.3,0.5
+39121,Noble, Ohio,B01002_001,50.4,0.7
+39123,Ottawa, Ohio,B01002_001,49.3,0.3
+39125,Paulding, Ohio,B01002_001,42.1,0.5
+39127,Perry, Ohio,B01002_001,40.2,0.7
+39129,Pickaway, Ohio,B01002_001,39.7,0.4
+39131,Pike, Ohio,B01002_001,40.8,0.4
+39133,Portage, Ohio,B01002_001,38,0.3
+39135,Preble, Ohio,B01002_001,42.7,0.4
+39137,Putnam, Ohio,B01002_001,39.8,0.5
+39139,Richland, Ohio,B01002_001,41.1,0.3
+39141,Ross, Ohio,B01002_001,41,0.4
+39143,Sandusky, Ohio,B01002_001,42.2,0.4
+39145,Scioto, Ohio,B01002_001,39.9,0.4
+39147,Seneca, Ohio,B01002_001,39.9,0.5
+39149,Shelby, Ohio,B01002_001,39.5,0.6
+39151,Stark, Ohio,B01002_001,42.1,0.2
+39153,Summit, Ohio,B01002_001,41,0.2
+39155,Trumbull, Ohio,B01002_001,44.3,0.2
+39157,Tuscarawas, Ohio,B01002_001,41,0.3
+39159,Union, Ohio,B01002_001,38,0.4
+39161,Van, Ohio,B01002_001,41.2,0.6
+39163,Vinton, Ohio,B01002_001,42.9,0.6
+39165,Warren, Ohio,B01002_001,39.4,0.3
+39167,Washington, Ohio,B01002_001,44.3,0.3
+39169,Wayne, Ohio,B01002_001,38.7,0.3
+39171,Williams, Ohio,B01002_001,41.4,0.6
+39173,Wood, Ohio,B01002_001,34.9,0.2
+39175,Wyandot, Ohio,B01002_001,42.1,0.7
+40001,Adair, Oklahoma,B01002_001,37.2,0.4
+40003,Alfalfa, Oklahoma,B01002_001,44.2,1.2
+40005,Atoka, Oklahoma,B01002_001,40.2,0.4
+40007,Beaver, Oklahoma,B01002_001,39,1
+40009,Beckham, Oklahoma,B01002_001,35.9,0.7
+40011,Blaine, Oklahoma,B01002_001,43.5,1.1
+40013,Bryan, Oklahoma,B01002_001,37.2,0.4
+40015,Caddo, Oklahoma,B01002_001,37.7,0.4
+40017,Canadian, Oklahoma,B01002_001,35.9,0.2
+40019,Carter, Oklahoma,B01002_001,38.2,0.4
+40021,Cherokee, Oklahoma,B01002_001,35.3,0.2
+40023,Choctaw, Oklahoma,B01002_001,42,0.5
+40025,Cimarron, Oklahoma,B01002_001,43.8,1.9
+40027,Cleveland, Oklahoma,B01002_001,34.2,0.2
+40029,Coal, Oklahoma,B01002_001,42,0.6
+40031,Comanche, Oklahoma,B01002_001,33,0.2
+40033,Cotton, Oklahoma,B01002_001,43.5,0.6
+40035,Craig, Oklahoma,B01002_001,42.1,0.6
+40037,Creek, Oklahoma,B01002_001,40.3,0.4
+40039,Custer, Oklahoma,B01002_001,31.4,0.4
+40041,Delaware, Oklahoma,B01002_001,46.7,0.3
+40043,Dewey, Oklahoma,B01002_001,39.2,1.1
+40045,Ellis, Oklahoma,B01002_001,44.1,1.4
+40047,Garfield, Oklahoma,B01002_001,35.8,0.4
+40049,Garvin, Oklahoma,B01002_001,39.3,0.4
+40051,Grady, Oklahoma,B01002_001,39.2,0.4
+40053,Grant, Oklahoma,B01002_001,42.6,1
+40055,Greer, Oklahoma,B01002_001,40.4,2
+40057,Harmon, Oklahoma,B01002_001,40.6,1.8
+40059,Harper, Oklahoma,B01002_001,39.7,1.8
+40061,Haskell, Oklahoma,B01002_001,41,0.7
+40063,Hughes, Oklahoma,B01002_001,39.4,0.6
+40065,Jackson, Oklahoma,B01002_001,34.1,0.5
+40067,Jefferson, Oklahoma,B01002_001,41.5,0.7
+40069,Johnston, Oklahoma,B01002_001,40.1,1.4
+40071,Kay, Oklahoma,B01002_001,38.4,0.3
+40073,Kingfisher, Oklahoma,B01002_001,37.7,1.7
+40075,Kiowa, Oklahoma,B01002_001,42.9,1.3
+40077,Latimer, Oklahoma,B01002_001,41.3,0.8
+40079,Le, Oklahoma,B01002_001,39.4,0.3
+40081,Lincoln, Oklahoma,B01002_001,41.2,0.3
+40083,Logan, Oklahoma,B01002_001,38.5,0.7
+40085,Love, Oklahoma,B01002_001,39.4,1.2
+40087,McClain, Oklahoma,B01002_001,38.5,0.6
+40089,McCurtain, Oklahoma,B01002_001,38.8,0.3
+40091,McIntosh, Oklahoma,B01002_001,47.8,0.5
+40093,Major, Oklahoma,B01002_001,41.1,1.2
+40095,Marshall, Oklahoma,B01002_001,42.8,0.6
+40097,Mayes, Oklahoma,B01002_001,40.6,0.4
+40099,Murray, Oklahoma,B01002_001,42.9,1
+40101,Muskogee, Oklahoma,B01002_001,37.9,0.3
+40103,Noble, Oklahoma,B01002_001,41.2,0.7
+40105,Nowata, Oklahoma,B01002_001,42.4,0.7
+40107,Okfuskee, Oklahoma,B01002_001,40.2,0.4
+40109,Oklahoma, Oklahoma,B01002_001,34.6,0.1
+40111,Okmulgee, Oklahoma,B01002_001,39,0.4
+40113,Osage, Oklahoma,B01002_001,42.5,0.3
+40115,Ottawa, Oklahoma,B01002_001,38,0.3
+40117,Pawnee, Oklahoma,B01002_001,41.9,0.4
+40119,Payne, Oklahoma,B01002_001,27.3,0.3
+40121,Pittsburg, Oklahoma,B01002_001,40.3,0.3
+40123,Pontotoc, Oklahoma,B01002_001,35.7,0.3
+40125,Pottawatomie, Oklahoma,B01002_001,37.7,0.2
+40127,Pushmataha, Oklahoma,B01002_001,44.5,0.5
+40129,Roger, Oklahoma,B01002_001,40.6,1
+40131,Rogers, Oklahoma,B01002_001,39.1,0.3
+40133,Seminole, Oklahoma,B01002_001,38.8,0.4
+40135,Sequoyah, Oklahoma,B01002_001,40.8,0.4
+40137,Stephens, Oklahoma,B01002_001,40.7,0.4
+40139,Texas, Oklahoma,B01002_001,33,1
+40141,Tillman, Oklahoma,B01002_001,42.7,1.8
+40143,Tulsa, Oklahoma,B01002_001,35.7,0.1
+40145,Wagoner, Oklahoma,B01002_001,38.8,0.3
+40147,Washington, Oklahoma,B01002_001,40.2,0.5
+40149,Washita, Oklahoma,B01002_001,39.1,0.8
+40151,Woods, Oklahoma,B01002_001,33.4,0.6
+40153,Woodward, Oklahoma,B01002_001,36.5,0.4
+41001,Baker, Oregon,B01002_001,48,0.4
+41003,Benton, Oregon,B01002_001,33,0.3
+41005,Clackamas, Oregon,B01002_001,41.5,0.2
+41007,Clatsop, Oregon,B01002_001,44.2,0.4
+41009,Columbia, Oregon,B01002_001,43.3,0.5
+41011,Coos, Oregon,B01002_001,48.6,0.3
+41013,Crook, Oregon,B01002_001,47.5,0.5
+41015,Curry, Oregon,B01002_001,56.3,0.5
+41017,Deschutes, Oregon,B01002_001,42.4,0.3
+41019,Douglas, Oregon,B01002_001,47.1,0.3
+41021,Gilliam, Oregon,B01002_001,50.1,3.3
+41023,Grant, Oregon,B01002_001,52.9,0.9
+41025,Harney, Oregon,B01002_001,45.9,0.8
+41027,Hood, Oregon,B01002_001,39.3,0.6
+41029,Jackson, Oregon,B01002_001,42.6,0.2
+41031,Jefferson, Oregon,B01002_001,40.8,0.6
+41033,Josephine, Oregon,B01002_001,47.7,0.4
+41035,Klamath, Oregon,B01002_001,42.2,0.4
+41037,Lake, Oregon,B01002_001,48.6,0.5
+41039,Lane, Oregon,B01002_001,39.4,0.2
+41041,Lincoln, Oregon,B01002_001,51.6,0.3
+41043,Linn, Oregon,B01002_001,39.6,0.3
+41045,Malheur, Oregon,B01002_001,36.1,0.3
+41047,Marion, Oregon,B01002_001,36.6,0.2
+41049,Morrow, Oregon,B01002_001,38.9,1.3
+41051,Multnomah, Oregon,B01002_001,37.2,0.2
+41053,Polk, Oregon,B01002_001,37,0.4
+41055,Sherman, Oregon,B01002_001,51.4,3.9
+41057,Tillamook, Oregon,B01002_001,48.1,0.5
+41059,Umatilla, Oregon,B01002_001,36.5,0.3
+41061,Union, Oregon,B01002_001,40.2,0.6
+41063,Wallowa, Oregon,B01002_001,52.6,0.8
+41065,Wasco, Oregon,B01002_001,40.8,0.6
+41067,Washington, Oregon,B01002_001,36.7,0.1
+41069,Wheeler, Oregon,B01002_001,59,3.3
+41071,Yamhill, Oregon,B01002_001,38.3,0.5
+42001,Adams, Pennsylvania,B01002_001,43.9,0.2
+42003,Allegheny, Pennsylvania,B01002_001,40.8,0.2
+42005,Armstrong, Pennsylvania,B01002_001,46.6,0.2
+42007,Beaver, Pennsylvania,B01002_001,45.1,0.1
+42009,Bedford, Pennsylvania,B01002_001,46.5,0.2
+42011,Berks, Pennsylvania,B01002_001,39.9,0.2
+42013,Blair, Pennsylvania,B01002_001,43.4,0.2
+42015,Bradford, Pennsylvania,B01002_001,44.5,0.2
+42017,Bucks, Pennsylvania,B01002_001,43.9,0.2
+42019,Butler, Pennsylvania,B01002_001,43.3,0.2
+42021,Cambria, Pennsylvania,B01002_001,45.4,0.2
+42023,Cameron, Pennsylvania,B01002_001,52,0.9
+42025,Carbon, Pennsylvania,B01002_001,46.2,0.2
+42027,Centre, Pennsylvania,B01002_001,32.3,0.2
+42029,Chester, Pennsylvania,B01002_001,40.4,0.2
+42031,Clarion, Pennsylvania,B01002_001,41.5,0.5
+42033,Clearfield, Pennsylvania,B01002_001,45,0.2
+42035,Clinton, Pennsylvania,B01002_001,38.6,0.5
+42037,Columbia, Pennsylvania,B01002_001,41,0.4
+42039,Crawford, Pennsylvania,B01002_001,43.2,0.3
+42041,Cumberland, Pennsylvania,B01002_001,40.6,0.2
+42043,Dauphin, Pennsylvania,B01002_001,39.7,0.3
+42045,Delaware, Pennsylvania,B01002_001,39,0.2
+42047,Elk, Pennsylvania,B01002_001,47.4,0.4
+42049,Erie, Pennsylvania,B01002_001,39.7,0.2
+42051,Fayette, Pennsylvania,B01002_001,45,0.1
+42053,Forest, Pennsylvania,B01002_001,43.3,1.4
+42055,Franklin, Pennsylvania,B01002_001,41.6,0.3
+42057,Fulton, Pennsylvania,B01002_001,45.4,0.3
+42059,Greene, Pennsylvania,B01002_001,42.2,0.4
+42061,Huntingdon, Pennsylvania,B01002_001,43.7,0.4
+42063,Indiana, Pennsylvania,B01002_001,40.2,0.4
+42065,Jefferson, Pennsylvania,B01002_001,43.9,0.3
+42067,Juniata, Pennsylvania,B01002_001,42.9,0.4
+42069,Lackawanna, Pennsylvania,B01002_001,42.1,0.2
+42071,Lancaster, Pennsylvania,B01002_001,38.6,0.2
+42073,Lawrence, Pennsylvania,B01002_001,45.2,0.1
+42075,Lebanon, Pennsylvania,B01002_001,41,0.3
+42077,Lehigh, Pennsylvania,B01002_001,39.1,0.2
+42079,Luzerne, Pennsylvania,B01002_001,42.8,0.2
+42081,Lycoming, Pennsylvania,B01002_001,41.5,0.3
+42083,McKean, Pennsylvania,B01002_001,43.2,0.3
+42085,Mercer, Pennsylvania,B01002_001,44.7,0.2
+42087,Mifflin, Pennsylvania,B01002_001,44,0.4
+42089,Monroe, Pennsylvania,B01002_001,42.9,0.3
+42091,Montgomery, Pennsylvania,B01002_001,41.2,0.2
+42093,Montour, Pennsylvania,B01002_001,43.3,0.7
+42095,Northampton, Pennsylvania,B01002_001,42.2,0.3
+42097,Northumberland, Pennsylvania,B01002_001,44.5,0.2
+42099,Perry, Pennsylvania,B01002_001,43.3,0.4
+42101,Philadelphia, Pennsylvania,B01002_001,34.4,0.1
+42103,Pike, Pennsylvania,B01002_001,48.2,0.4
+42105,Potter, Pennsylvania,B01002_001,47.2,0.4
+42107,Schuylkill, Pennsylvania,B01002_001,44.4,0.2
+42109,Snyder, Pennsylvania,B01002_001,40.2,0.4
+42111,Somerset, Pennsylvania,B01002_001,46.1,0.2
+42113,Sullivan, Pennsylvania,B01002_001,53.7,0.4
+42115,Susquehanna, Pennsylvania,B01002_001,48.4,0.2
+42117,Tioga, Pennsylvania,B01002_001,44.6,0.2
+42119,Union, Pennsylvania,B01002_001,39.5,0.7
+42121,Venango, Pennsylvania,B01002_001,46.9,0.3
+42123,Warren, Pennsylvania,B01002_001,47.4,0.2
+42125,Washington, Pennsylvania,B01002_001,44.5,0.2
+42127,Wayne, Pennsylvania,B01002_001,48.2,0.3
+42129,Westmoreland, Pennsylvania,B01002_001,47,0.2
+42131,Wyoming, Pennsylvania,B01002_001,44.7,0.2
+42133,York, Pennsylvania,B01002_001,41,0.2
+44001,Bristol, Rhode Island,B01002_001,44.3,0.3
+44003,Kent, Rhode Island,B01002_001,43.9,0.2
+44005,Newport, Rhode Island,B01002_001,45.2,0.3
+44007,Providence, Rhode Island,B01002_001,37.4,0.1
+44009,Washington, Rhode Island,B01002_001,44.6,0.3
+45001,Abbeville, South Carolina,B01002_001,44.3,0.3
+45003,Aiken, South Carolina,B01002_001,41,0.3
+45005,Allendale, South Carolina,B01002_001,41.9,1.4
+45007,Anderson, South Carolina,B01002_001,40.8,0.4
+45009,Bamberg, South Carolina,B01002_001,41.7,1.3
+45011,Barnwell, South Carolina,B01002_001,41.3,1
+45013,Beaufort, South Carolina,B01002_001,45.5,0.1
+45015,Berkeley, South Carolina,B01002_001,36.1,0.2
+45017,Calhoun, South Carolina,B01002_001,45.5,2.1
+45019,Charleston, South Carolina,B01002_001,37.8,0.2
+45021,Cherokee, South Carolina,B01002_001,39.3,0.5
+45023,Chester, South Carolina,B01002_001,42,0.5
+45025,Chesterfield, South Carolina,B01002_001,42.4,0.5
+45027,Clarendon, South Carolina,B01002_001,45.1,0.3
+45029,Colleton, South Carolina,B01002_001,42.5,0.6
+45031,Darlington, South Carolina,B01002_001,41.4,0.5
+45033,Dillon, South Carolina,B01002_001,37.7,0.5
+45035,Dorchester, South Carolina,B01002_001,37,0.3
+45037,Edgefield, South Carolina,B01002_001,42.9,0.6
+45039,Fairfield, South Carolina,B01002_001,46.4,0.6
+45041,Florence, South Carolina,B01002_001,39.2,0.4
+45043,Georgetown, South Carolina,B01002_001,49.5,0.2
+45045,Greenville, South Carolina,B01002_001,38.2,0.2
+45047,Greenwood, South Carolina,B01002_001,39.5,0.4
+45049,Hampton, South Carolina,B01002_001,40,0.7
+45051,Horry, South Carolina,B01002_001,45.9,0.2
+45053,Jasper, South Carolina,B01002_001,40.3,1.1
+45055,Kershaw, South Carolina,B01002_001,41.1,0.5
+45057,Lancaster, South Carolina,B01002_001,42.1,0.5
+45059,Laurens, South Carolina,B01002_001,40.7,0.5
+45061,Lee, South Carolina,B01002_001,41.8,0.7
+45063,Lexington, South Carolina,B01002_001,39.1,0.3
+45065,McCormick, South Carolina,B01002_001,55.2,0.2
+45067,Marion, South Carolina,B01002_001,40.7,0.5
+45069,Marlboro, South Carolina,B01002_001,40.3,0.6
+45071,Newberry, South Carolina,B01002_001,42,0.5
+45073,Oconee, South Carolina,B01002_001,45.7,0.3
+45075,Orangeburg, South Carolina,B01002_001,40.3,0.5
+45077,Pickens, South Carolina,B01002_001,36.2,0.3
+45079,Richland, South Carolina,B01002_001,33.4,0.2
+45081,Saluda, South Carolina,B01002_001,41.8,1.4
+45083,Spartanburg, South Carolina,B01002_001,38.2,0.2
+45085,Sumter, South Carolina,B01002_001,36.4,0.3
+45087,Union, South Carolina,B01002_001,44,0.5
+45089,Williamsburg, South Carolina,B01002_001,43,0.5
+45091,York, South Carolina,B01002_001,38.7,0.2
+46003,Aurora, South Dakota,B01002_001,37.8,2.7
+46005,Beadle, South Dakota,B01002_001,38.1,1.6
+46007,Bennett, South Dakota,B01002_001,28.6,2.7
+46009,Bon, South Dakota,B01002_001,42.3,1.1
+46011,Brookings, South Dakota,B01002_001,27,0.5
+46013,Brown, South Dakota,B01002_001,37,0.7
+46015,Brule, South Dakota,B01002_001,40.9,1.3
+46017,Buffalo, South Dakota,B01002_001,25.8,2.1
+46019,Butte, South Dakota,B01002_001,40.1,1.1
+46021,Campbell, South Dakota,B01002_001,50.9,2.3
+46023,Charles, South Dakota,B01002_001,35.8,0.3
+46025,Clark, South Dakota,B01002_001,41.4,0.9
+46027,Clay, South Dakota,B01002_001,24.9,0.4
+46029,Codington, South Dakota,B01002_001,39.1,0.5
+46031,Corson, South Dakota,B01002_001,28.7,0.4
+46033,Custer, South Dakota,B01002_001,54.8,0.4
+46035,Davison, South Dakota,B01002_001,38.6,1.9
+46037,Day, South Dakota,B01002_001,47.7,0.8
+46039,Deuel, South Dakota,B01002_001,42.8,0.6
+46041,Dewey, South Dakota,B01002_001,26.9,0.9
+46043,Douglas, South Dakota,B01002_001,46.7,1.2
+46045,Edmunds, South Dakota,B01002_001,42.4,3
+46047,Fall, South Dakota,B01002_001,53.6,1.1
+46049,Faulk, South Dakota,B01002_001,47,3.6
+46051,Grant, South Dakota,B01002_001,42.9,1.6
+46053,Gregory, South Dakota,B01002_001,45.4,0.4
+46055,Haakon, South Dakota,B01002_001,44.1,3.7
+46057,Hamlin, South Dakota,B01002_001,35,1
+46059,Hand, South Dakota,B01002_001,47.4,2.1
+46061,Hanson, South Dakota,B01002_001,36.7,0.6
+46063,Harding, South Dakota,B01002_001,42.3,5.1
+46065,Hughes, South Dakota,B01002_001,38,0.7
+46067,Hutchinson, South Dakota,B01002_001,43,0.9
+46069,Hyde, South Dakota,B01002_001,53.3,4.6
+46071,Jackson, South Dakota,B01002_001,32.2,4.1
+46073,Jerauld, South Dakota,B01002_001,51.6,3.7
+46075,Jones, South Dakota,B01002_001,53.5,5.9
+46077,Kingsbury, South Dakota,B01002_001,45.1,0.4
+46079,Lake, South Dakota,B01002_001,43.2,0.9
+46081,Lawrence, South Dakota,B01002_001,42.1,0.7
+46083,Lincoln, South Dakota,B01002_001,34.9,0.3
+46085,Lyman, South Dakota,B01002_001,35.5,0.7
+46087,McCook, South Dakota,B01002_001,39.3,1.3
+46089,McPherson, South Dakota,B01002_001,50.2,3.3
+46091,Marshall, South Dakota,B01002_001,39.8,0.8
+46093,Meade, South Dakota,B01002_001,36.5,0.9
+46095,Mellette, South Dakota,B01002_001,32.9,2.5
+46097,Miner, South Dakota,B01002_001,44,2.8
+46099,Minnehaha, South Dakota,B01002_001,34.9,0.1
+46101,Moody, South Dakota,B01002_001,39.9,1.1
+46102,Oglala, South Dakota,B01002_001,25.8,0.8
+46103,Pennington, South Dakota,B01002_001,39,0.3
+46105,Perkins, South Dakota,B01002_001,47.5,2.7
+46107,Potter, South Dakota,B01002_001,49.2,4
+46109,Roberts, South Dakota,B01002_001,38.1,0.7
+46111,Sanborn, South Dakota,B01002_001,42.6,5.1
+46115,Spink, South Dakota,B01002_001,43.5,0.5
+46117,Stanley, South Dakota,B01002_001,44.5,3.2
+46119,Sully, South Dakota,B01002_001,46.8,3.4
+46121,Todd, South Dakota,B01002_001,23.8,0.4
+46123,Tripp, South Dakota,B01002_001,45.1,1
+46125,Turner, South Dakota,B01002_001,42,0.8
+46127,Union, South Dakota,B01002_001,40,0.7
+46129,Walworth, South Dakota,B01002_001,42.8,1.7
+46135,Yankton, South Dakota,B01002_001,41.8,1
+46137,Ziebach, South Dakota,B01002_001,33.1,0.8
+47001,Anderson, Tennessee,B01002_001,43.3,0.3
+47003,Bedford, Tennessee,B01002_001,37.9,0.6
+47005,Benton, Tennessee,B01002_001,47.9,0.8
+47007,Bledsoe, Tennessee,B01002_001,44.1,0.9
+47009,Blount, Tennessee,B01002_001,43.7,0.2
+47011,Bradley, Tennessee,B01002_001,39.5,0.4
+47013,Campbell, Tennessee,B01002_001,44.1,0.4
+47015,Cannon, Tennessee,B01002_001,42,0.9
+47017,Carroll, Tennessee,B01002_001,42.5,0.9
+47019,Carter, Tennessee,B01002_001,45.4,0.3
+47021,Cheatham, Tennessee,B01002_001,40.3,0.6
+47023,Chester, Tennessee,B01002_001,37.7,0.8
+47025,Claiborne, Tennessee,B01002_001,43.1,0.5
+47027,Clay, Tennessee,B01002_001,47.3,1.8
+47029,Cocke, Tennessee,B01002_001,45.2,0.3
+47031,Coffee, Tennessee,B01002_001,39.7,0.7
+47033,Crockett, Tennessee,B01002_001,40.7,0.7
+47035,Cumberland, Tennessee,B01002_001,51,0.3
+47037,Davidson, Tennessee,B01002_001,34.3,0.2
+47039,Decatur, Tennessee,B01002_001,46.4,0.6
+47041,DeKalb, Tennessee,B01002_001,41.1,1.5
+47043,Dickson, Tennessee,B01002_001,39.1,0.4
+47045,Dyer, Tennessee,B01002_001,40.5,0.8
+47047,Fayette, Tennessee,B01002_001,45.8,0.2
+47049,Fentress, Tennessee,B01002_001,45.2,0.4
+47051,Franklin, Tennessee,B01002_001,42.2,0.5
+47053,Gibson, Tennessee,B01002_001,39.9,0.7
+47055,Giles, Tennessee,B01002_001,43.9,0.5
+47057,Grainger, Tennessee,B01002_001,45,0.3
+47059,Greene, Tennessee,B01002_001,44.7,0.3
+47061,Grundy, Tennessee,B01002_001,43.4,0.5
+47063,Hamblen, Tennessee,B01002_001,40.7,0.4
+47065,Hamilton, Tennessee,B01002_001,39.7,0.2
+47067,Hancock, Tennessee,B01002_001,44.5,0.5
+47069,Hardeman, Tennessee,B01002_001,40.3,0.7
+47071,Hardin, Tennessee,B01002_001,45.3,0.3
+47073,Hawkins, Tennessee,B01002_001,44.9,0.2
+47075,Haywood, Tennessee,B01002_001,42,1.3
+47077,Henderson, Tennessee,B01002_001,41.5,0.8
+47079,Henry, Tennessee,B01002_001,45.8,0.4
+47081,Hickman, Tennessee,B01002_001,41.1,1.1
+47083,Houston, Tennessee,B01002_001,43.9,1.2
+47085,Humphreys, Tennessee,B01002_001,42,0.8
+47087,Jackson, Tennessee,B01002_001,46.8,0.6
+47089,Jefferson, Tennessee,B01002_001,43.9,0.4
+47091,Johnson, Tennessee,B01002_001,46,0.4
+47093,Knox, Tennessee,B01002_001,37.4,0.1
+47095,Lake, Tennessee,B01002_001,41.5,1
+47097,Lauderdale, Tennessee,B01002_001,38.3,0.6
+47099,Lawrence, Tennessee,B01002_001,39.3,0.5
+47101,Lewis, Tennessee,B01002_001,43.3,1
+47103,Lincoln, Tennessee,B01002_001,42.6,0.8
+47105,Loudon, Tennessee,B01002_001,47.6,0.3
+47107,McMinn, Tennessee,B01002_001,42.6,0.4
+47109,McNairy, Tennessee,B01002_001,43.5,0.7
+47111,Macon, Tennessee,B01002_001,39.4,0.9
+47113,Madison, Tennessee,B01002_001,38.7,0.4
+47115,Marion, Tennessee,B01002_001,43.4,0.3
+47117,Marshall, Tennessee,B01002_001,38.9,0.6
+47119,Maury, Tennessee,B01002_001,39.1,0.4
+47121,Meigs, Tennessee,B01002_001,46,0.9
+47123,Monroe, Tennessee,B01002_001,43.9,0.5
+47125,Montgomery, Tennessee,B01002_001,30.8,0.2
+47127,Moore, Tennessee,B01002_001,45,1.1
+47129,Morgan, Tennessee,B01002_001,41.6,0.4
+47131,Obion, Tennessee,B01002_001,42.6,0.5
+47133,Overton, Tennessee,B01002_001,43,0.5
+47135,Perry, Tennessee,B01002_001,43.2,0.5
+47137,Pickett, Tennessee,B01002_001,50.1,0.1
+47139,Polk, Tennessee,B01002_001,45.6,0.3
+47141,Putnam, Tennessee,B01002_001,36.4,0.5
+47143,Rhea, Tennessee,B01002_001,38.9,0.9
+47145,Roane, Tennessee,B01002_001,46.4,0.4
+47147,Robertson, Tennessee,B01002_001,39,0.4
+47149,Rutherford, Tennessee,B01002_001,33.5,0.1
+47151,Scott, Tennessee,B01002_001,39.4,0.8
+47153,Sequatchie, Tennessee,B01002_001,44.1,0.6
+47155,Sevier, Tennessee,B01002_001,42.9,0.4
+47157,Shelby, Tennessee,B01002_001,35.6,0.1
+47159,Smith, Tennessee,B01002_001,40.3,0.6
+47161,Stewart, Tennessee,B01002_001,44.2,0.8
+47163,Sullivan, Tennessee,B01002_001,45.1,0.2
+47165,Sumner, Tennessee,B01002_001,39.8,0.2
+47167,Tipton, Tennessee,B01002_001,37.5,0.5
+47169,Trousdale, Tennessee,B01002_001,35.1,1.1
+47171,Unicoi, Tennessee,B01002_001,46.5,0.7
+47173,Union, Tennessee,B01002_001,43,0.5
+47175,Van, Tennessee,B01002_001,46.9,1.1
+47177,Warren, Tennessee,B01002_001,40,0.5
+47179,Washington, Tennessee,B01002_001,40.2,0.5
+47181,Wayne, Tennessee,B01002_001,43,0.6
+47183,Weakley, Tennessee,B01002_001,38.6,0.7
+47185,White, Tennessee,B01002_001,43.2,0.5
+47187,Williamson, Tennessee,B01002_001,39.1,0.3
+47189,Wilson, Tennessee,B01002_001,40.4,0.3
+48001,Anderson, Texas,B01002_001,39.3,0.4
+48003,Andrews, Texas,B01002_001,30.8,0.8
+48005,Angelina, Texas,B01002_001,37.5,0.2
+48007,Aransas, Texas,B01002_001,50.6,1.2
+48009,Archer, Texas,B01002_001,44.5,0.4
+48011,Armstrong, Texas,B01002_001,46,2.8
+48013,Atascosa, Texas,B01002_001,35.4,0.3
+48015,Austin, Texas,B01002_001,40.7,0.5
+48017,Bailey, Texas,B01002_001,33.3,2.1
+48019,Bandera, Texas,B01002_001,52.2,0.6
+48021,Bastrop, Texas,B01002_001,38.4,0.4
+48023,Baylor, Texas,B01002_001,45.9,6.7
+48025,Bee, Texas,B01002_001,35.3,0.3
+48027,Bell, Texas,B01002_001,31,0.1
+48029,Bexar, Texas,B01002_001,33.6,0.1
+48031,Blanco, Texas,B01002_001,50.4,0.7
+48033,Borden, Texas,B01002_001,41.7,14.3
+48035,Bosque, Texas,B01002_001,46.6,0.4
+48037,Bowie, Texas,B01002_001,38,0.3
+48039,Brazoria, Texas,B01002_001,35.8,0.1
+48041,Brazos, Texas,B01002_001,26.5,0.2
+48043,Brewster, Texas,B01002_001,43.7,1.4
+48045,Briscoe, Texas,B01002_001,46.4,5.7
+48047,Brooks, Texas,B01002_001,29.7,4
+48049,Brown, Texas,B01002_001,41.5,0.6
+48051,Burleson, Texas,B01002_001,43.3,0.7
+48053,Burnet, Texas,B01002_001,44.6,0.3
+48055,Caldwell, Texas,B01002_001,35.9,0.5
+48057,Calhoun, Texas,B01002_001,37.7,0.5
+48059,Callahan, Texas,B01002_001,44.2,0.5
+48061,Cameron, Texas,B01002_001,31.7,0.1
+48063,Camp, Texas,B01002_001,37.6,1.2
+48065,Carson, Texas,B01002_001,40.6,0.8
+48067,Cass, Texas,B01002_001,43.3,0.5
+48069,Castro, Texas,B01002_001,34.8,0.8
+48071,Chambers, Texas,B01002_001,35.2,0.4
+48073,Cherokee, Texas,B01002_001,37.9,0.5
+48075,Childress, Texas,B01002_001,34.5,2.2
+48077,Clay, Texas,B01002_001,46.6,0.6
+48079,Cochran, Texas,B01002_001,35.1,0.6
+48081,Coke, Texas,B01002_001,48.1,2
+48083,Coleman, Texas,B01002_001,47.2,1.3
+48085,Collin, Texas,B01002_001,36.9,0.2
+48087,Collingsworth, Texas,B01002_001,39.6,2.6
+48089,Colorado, Texas,B01002_001,42.9,1
+48091,Comal, Texas,B01002_001,42.2,0.3
+48093,Comanche, Texas,B01002_001,44.8,1
+48095,Concho, Texas,B01002_001,45.3,1.1
+48097,Cooke, Texas,B01002_001,40.7,0.7
+48099,Coryell, Texas,B01002_001,31.8,0.2
+48101,Cottle, Texas,B01002_001,37.1,9.5
+48103,Crane, Texas,B01002_001,32.7,0.7
+48105,Crockett, Texas,B01002_001,38.8,7.5
+48107,Crosby, Texas,B01002_001,38.4,0.7
+48109,Culberson, Texas,B01002_001,34.4,14
+48111,Dallam, Texas,B01002_001,31.7,1
+48113,Dallas, Texas,B01002_001,33.4,0.1
+48115,Dawson, Texas,B01002_001,33.5,0.5
+48117,Deaf, Texas,B01002_001,31.9,0.5
+48119,Delta, Texas,B01002_001,44.3,2.1
+48121,Denton, Texas,B01002_001,35.5,0.1
+48123,DeWitt, Texas,B01002_001,41,0.7
+48125,Dickens, Texas,B01002_001,46,4.7
+48127,Dimmit, Texas,B01002_001,34.3,2.4
+48129,Donley, Texas,B01002_001,41.4,1.5
+48131,Duval, Texas,B01002_001,36.1,0.8
+48133,Eastland, Texas,B01002_001,41.2,1.3
+48135,Ector, Texas,B01002_001,30.4,0.2
+48137,Edwards, Texas,B01002_001,49.1,3.3
+48139,Ellis, Texas,B01002_001,36.2,0.2
+48141,El, Texas,B01002_001,32.2,0.2
+48143,Erath, Texas,B01002_001,30.4,0.3
+48145,Falls, Texas,B01002_001,39,1
+48147,Fannin, Texas,B01002_001,41.3,0.5
+48149,Fayette, Texas,B01002_001,47,0.7
+48151,Fisher, Texas,B01002_001,44.6,2.5
+48153,Floyd, Texas,B01002_001,37.2,1.3
+48155,Foard, Texas,B01002_001,51.2,4
+48157,Fort, Texas,B01002_001,36.3,0.2
+48159,Franklin, Texas,B01002_001,43.2,0.9
+48161,Freestone, Texas,B01002_001,41.5,0.6
+48163,Frio, Texas,B01002_001,31.2,0.8
+48165,Gaines, Texas,B01002_001,27.8,0.4
+48167,Galveston, Texas,B01002_001,37.7,0.3
+48169,Garza, Texas,B01002_001,41.1,2.9
+48171,Gillespie, Texas,B01002_001,50,0.4
+48173,Glasscock, Texas,B01002_001,30.8,6.6
+48175,Goliad, Texas,B01002_001,46.1,1.3
+48177,Gonzales, Texas,B01002_001,36.3,0.4
+48179,Gray, Texas,B01002_001,36.5,0.6
+48181,Grayson, Texas,B01002_001,39.9,0.4
+48183,Gregg, Texas,B01002_001,35.6,0.2
+48185,Grimes, Texas,B01002_001,40.4,0.5
+48187,Guadalupe, Texas,B01002_001,37,0.3
+48189,Hale, Texas,B01002_001,33.4,0.6
+48191,Hall, Texas,B01002_001,44.6,3.3
+48193,Hamilton, Texas,B01002_001,45.8,2
+48195,Hansford, Texas,B01002_001,35.1,1.6
+48197,Hardeman, Texas,B01002_001,43.5,3.6
+48199,Hardin, Texas,B01002_001,39.2,0.9
+48201,Harris, Texas,B01002_001,33.5,0.1
+48203,Harrison, Texas,B01002_001,38.7,0.5
+48205,Hartley, Texas,B01002_001,38.1,1.3
+48207,Haskell, Texas,B01002_001,43.5,1.2
+48209,Hays, Texas,B01002_001,32,0.3
+48211,Hemphill, Texas,B01002_001,36.4,0.9
+48213,Henderson, Texas,B01002_001,43.9,0.3
+48215,Hidalgo, Texas,B01002_001,29.2,0.1
+48217,Hill, Texas,B01002_001,42.1,0.5
+48219,Hockley, Texas,B01002_001,33.8,0.3
+48221,Hood, Texas,B01002_001,47,0.5
+48223,Hopkins, Texas,B01002_001,39.2,0.6
+48225,Houston, Texas,B01002_001,44.5,0.7
+48227,Howard, Texas,B01002_001,36.5,0.5
+48229,Hudspeth, Texas,B01002_001,37,4.1
+48231,Hunt, Texas,B01002_001,38,0.5
+48233,Hutchinson, Texas,B01002_001,38,1
+48235,Irion, Texas,B01002_001,42.7,9.4
+48237,Jack, Texas,B01002_001,39.6,1.1
+48239,Jackson, Texas,B01002_001,37.7,1
+48241,Jasper, Texas,B01002_001,40.5,0.6
+48243,Jeff, Texas,B01002_001,55.8,6
+48245,Jefferson, Texas,B01002_001,36.2,0.2
+48247,Jim, Texas,B01002_001,32.4,5
+48249,Jim, Texas,B01002_001,34.6,0.4
+48251,Johnson, Texas,B01002_001,36.8,0.2
+48253,Jones, Texas,B01002_001,38.2,0.6
+48255,Karnes, Texas,B01002_001,35.4,0.6
+48257,Kaufman, Texas,B01002_001,35.5,0.2
+48259,Kendall, Texas,B01002_001,41.4,0.7
+48261,Kenedy, Texas,B01002_001,39.7,25.1
+48263,Kent, Texas,B01002_001,51,12.7
+48265,Kerr, Texas,B01002_001,47.4,0.6
+48267,Kimble, Texas,B01002_001,52.1,2.7
+48269,King, Texas,B01002_001,40,21.6
+48271,Kinney, Texas,B01002_001,49.8,6.1
+48273,Kleberg, Texas,B01002_001,28.3,0.5
+48275,Knox, Texas,B01002_001,39.5,1.4
+48277,Lamar, Texas,B01002_001,40.7,0.8
+48279,Lamb, Texas,B01002_001,36.4,0.3
+48281,Lampasas, Texas,B01002_001,43.1,0.8
+48283,La, Texas,B01002_001,36.5,1.7
+48285,Lavaca, Texas,B01002_001,43.4,0.7
+48287,Lee, Texas,B01002_001,41.1,1.2
+48289,Leon, Texas,B01002_001,44.3,0.6
+48291,Liberty, Texas,B01002_001,35.5,0.2
+48293,Limestone, Texas,B01002_001,39.9,0.7
+48295,Lipscomb, Texas,B01002_001,34.7,1.5
+48297,Live, Texas,B01002_001,42.2,0.6
+48299,Llano, Texas,B01002_001,57.4,0.6
+48301,Loving, Texas,B01002_001,55.2,35.5
+48303,Lubbock, Texas,B01002_001,30.8,0.2
+48305,Lynn, Texas,B01002_001,37.3,0.8
+48307,McCulloch, Texas,B01002_001,44.6,1.8
+48309,McLennan, Texas,B01002_001,33.3,0.2
+48311,McMullen, Texas,B01002_001,38.2,7.6
+48313,Madison, Texas,B01002_001,35.2,1.3
+48315,Marion, Texas,B01002_001,50.6,0.7
+48317,Martin, Texas,B01002_001,32.7,2.5
+48319,Mason, Texas,B01002_001,46.3,4.4
+48321,Matagorda, Texas,B01002_001,38.2,0.6
+48323,Maverick, Texas,B01002_001,29.6,0.2
+48325,Medina, Texas,B01002_001,39,0.6
+48327,Menard, Texas,B01002_001,51.8,7.1
+48329,Midland, Texas,B01002_001,31.7,0.2
+48331,Milam, Texas,B01002_001,41.7,0.9
+48333,Mills, Texas,B01002_001,52.1,3
+48335,Mitchell, Texas,B01002_001,33.9,1.8
+48337,Montague, Texas,B01002_001,44.6,0.9
+48339,Montgomery, Texas,B01002_001,37.1,0.2
+48341,Moore, Texas,B01002_001,30.8,0.6
+48343,Morris, Texas,B01002_001,43,1
+48345,Motley, Texas,B01002_001,41.3,12.3
+48347,Nacogdoches, Texas,B01002_001,30.9,0.3
+48349,Navarro, Texas,B01002_001,38.1,0.7
+48351,Newton, Texas,B01002_001,44.3,0.9
+48353,Nolan, Texas,B01002_001,37.5,1.3
+48355,Nueces, Texas,B01002_001,35.5,0.2
+48357,Ochiltree, Texas,B01002_001,32.3,0.7
+48359,Oldham, Texas,B01002_001,35.9,7.3
+48361,Orange, Texas,B01002_001,37.9,0.5
+48363,Palo, Texas,B01002_001,40.6,0.9
+48365,Panola, Texas,B01002_001,39.2,0.9
+48367,Parker, Texas,B01002_001,39.7,0.3
+48369,Parmer, Texas,B01002_001,33.4,0.9
+48371,Pecos, Texas,B01002_001,35.9,0.5
+48373,Polk, Texas,B01002_001,43.7,0.5
+48375,Potter, Texas,B01002_001,33.9,0.2
+48377,Presidio, Texas,B01002_001,41.9,3.6
+48379,Rains, Texas,B01002_001,48.4,0.9
+48381,Randall, Texas,B01002_001,35.9,0.2
+48383,Reagan, Texas,B01002_001,30,2.6
+48385,Real, Texas,B01002_001,47.4,8.5
+48387,Red, Texas,B01002_001,45.9,0.8
+48389,Reeves, Texas,B01002_001,35.8,1.3
+48391,Refugio, Texas,B01002_001,43.3,1
+48393,Roberts, Texas,B01002_001,43.2,5.4
+48395,Robertson, Texas,B01002_001,41.5,1.1
+48397,Rockwall, Texas,B01002_001,37.5,0.4
+48399,Runnels, Texas,B01002_001,40.8,0.7
+48401,Rusk, Texas,B01002_001,38.2,0.4
+48403,Sabine, Texas,B01002_001,53,1.5
+48405,San, Texas,B01002_001,49.3,1
+48407,San, Texas,B01002_001,44.9,0.8
+48409,San, Texas,B01002_001,35.5,0.2
+48411,San, Texas,B01002_001,42.4,2.3
+48413,Schleicher, Texas,B01002_001,36.2,1.4
+48415,Scurry, Texas,B01002_001,36.4,0.9
+48417,Shackelford, Texas,B01002_001,43,2.6
+48419,Shelby, Texas,B01002_001,38,0.6
+48421,Sherman, Texas,B01002_001,40.1,2.5
+48423,Smith, Texas,B01002_001,36.6,0.2
+48425,Somervell, Texas,B01002_001,41,2.1
+48427,Starr, Texas,B01002_001,28.8,0.3
+48429,Stephens, Texas,B01002_001,39.4,2
+48431,Sterling, Texas,B01002_001,40.8,9.7
+48433,Stonewall, Texas,B01002_001,47.1,5.7
+48435,Sutton, Texas,B01002_001,38.6,3.3
+48437,Swisher, Texas,B01002_001,35.9,1.4
+48439,Tarrant, Texas,B01002_001,34.4,0.1
+48441,Taylor, Texas,B01002_001,32.5,0.2
+48443,Terrell, Texas,B01002_001,55.2,7.8
+48445,Terry, Texas,B01002_001,34.6,0.3
+48447,Throckmorton, Texas,B01002_001,52.3,6
+48449,Titus, Texas,B01002_001,34.1,0.4
+48451,Tom, Texas,B01002_001,34.1,0.2
+48453,Travis, Texas,B01002_001,34.2,0.1
+48455,Trinity, Texas,B01002_001,48.6,0.8
+48457,Tyler, Texas,B01002_001,42.4,0.4
+48459,Upshur, Texas,B01002_001,41.4,0.6
+48461,Upton, Texas,B01002_001,39.6,2.3
+48463,Uvalde, Texas,B01002_001,33.7,0.5
+48465,Val, Texas,B01002_001,31.8,0.4
+48467,Van, Texas,B01002_001,42.8,0.4
+48469,Victoria, Texas,B01002_001,35.9,0.4
+48471,Walker, Texas,B01002_001,35.3,0.3
+48473,Waller, Texas,B01002_001,28.9,0.3
+48475,Ward, Texas,B01002_001,33.9,0.9
+48477,Washington, Texas,B01002_001,41.5,0.6
+48479,Webb, Texas,B01002_001,28.8,0.2
+48481,Wharton, Texas,B01002_001,37.3,0.5
+48483,Wheeler, Texas,B01002_001,39.6,1.3
+48485,Wichita, Texas,B01002_001,34.5,0.2
+48487,Wilbarger, Texas,B01002_001,39.4,1.2
+48489,Willacy, Texas,B01002_001,33,0.6
+48491,Williamson, Texas,B01002_001,36.3,0.1
+48493,Wilson, Texas,B01002_001,40.2,0.5
+48495,Winkler, Texas,B01002_001,33.1,0.5
+48497,Wise, Texas,B01002_001,38.3,0.4
+48499,Wood, Texas,B01002_001,47.9,0.4
+48501,Yoakum, Texas,B01002_001,30.3,0.3
+48503,Young, Texas,B01002_001,41.1,0.8
+48505,Zapata, Texas,B01002_001,29.5,0.7
+48507,Zavala, Texas,B01002_001,32.9,1.6
+49001,Beaver, Utah,B01002_001,33,0.9
+49003,Box, Utah,B01002_001,32.6,0.3
+49005,Cache, Utah,B01002_001,25.2,0.1
+49007,Carbon, Utah,B01002_001,37.5,0.5
+49009,Daggett, Utah,B01002_001,42.5,10.9
+49011,Davis, Utah,B01002_001,31.1,0.2
+49013,Duchesne, Utah,B01002_001,31.5,0.3
+49015,Emery, Utah,B01002_001,36.2,0.5
+49017,Garfield, Utah,B01002_001,41.9,1.2
+49019,Grand, Utah,B01002_001,40.2,0.9
+49021,Iron, Utah,B01002_001,29.1,0.3
+49023,Juab, Utah,B01002_001,30.1,0.4
+49025,Kane, Utah,B01002_001,41.9,1.5
+49027,Millard, Utah,B01002_001,35.4,1
+49029,Morgan, Utah,B01002_001,32.2,1
+49031,Piute, Utah,B01002_001,44.5,4.3
+49033,Rich, Utah,B01002_001,34.3,3.7
+49035,Salt, Utah,B01002_001,32.8,0.1
+49037,San, Utah,B01002_001,32.2,0.5
+49039,Sanpete, Utah,B01002_001,32.6,0.4
+49041,Sevier, Utah,B01002_001,35.4,0.3
+49043,Summit, Utah,B01002_001,39.5,0.7
+49045,Tooele, Utah,B01002_001,31.4,0.3
+49047,Uintah, Utah,B01002_001,30.6,0.2
+49049,Utah, Utah,B01002_001,24.8,0.1
+49051,Wasatch, Utah,B01002_001,34,0.4
+49053,Washington, Utah,B01002_001,37.1,0.3
+49055,Wayne, Utah,B01002_001,40.4,1.2
+49057,Weber, Utah,B01002_001,32.7,0.2
+50001,Addison, Vermont,B01002_001,43.5,0.5
+50003,Bennington, Vermont,B01002_001,46.7,0.4
+50005,Caledonia, Vermont,B01002_001,44.7,0.2
+50007,Chittenden, Vermont,B01002_001,36.5,0.2
+50009,Essex, Vermont,B01002_001,50.9,0.5
+50011,Franklin, Vermont,B01002_001,40.4,0.4
+50013,Grand, Vermont,B01002_001,48.2,0.7
+50015,Lamoille, Vermont,B01002_001,40.8,0.8
+50017,Orange, Vermont,B01002_001,46.6,0.3
+50019,Orleans, Vermont,B01002_001,45.8,0.3
+50021,Rutland, Vermont,B01002_001,46.5,0.3
+50023,Washington, Vermont,B01002_001,43.7,0.2
+50025,Windham, Vermont,B01002_001,47.6,0.3
+50027,Windsor, Vermont,B01002_001,48,0.3
+51001,Accomack, Virginia,B01002_001,45.9,0.6
+51003,Albemarle, Virginia,B01002_001,39.1,0.4
+51005,Alleghany, Virginia,B01002_001,48.1,0.3
+51007,Amelia, Virginia,B01002_001,45.1,2.6
+51009,Amherst, Virginia,B01002_001,44.8,0.4
+51011,Appomattox, Virginia,B01002_001,42.6,0.6
+51013,Arlington, Virginia,B01002_001,34.7,0.1
+51015,Augusta, Virginia,B01002_001,45.1,0.3
+51017,Bath, Virginia,B01002_001,47.8,7.4
+51019,Bedford, Virginia,B01002_001,46.3,0.3
+51021,Bland, Virginia,B01002_001,46.4,0.3
+51023,Botetourt, Virginia,B01002_001,47.2,0.4
+51025,Brunswick, Virginia,B01002_001,43.3,1.1
+51027,Buchanan, Virginia,B01002_001,46.8,0.5
+51029,Buckingham, Virginia,B01002_001,43.5,0.9
+51031,Campbell, Virginia,B01002_001,43,0.4
+51033,Caroline, Virginia,B01002_001,40.1,0.6
+51035,Carroll, Virginia,B01002_001,47.6,0.6
+51036,Charles, Virginia,B01002_001,50.8,0.3
+51037,Charlotte, Virginia,B01002_001,46.2,0.7
+51041,Chesterfield, Virginia,B01002_001,38.9,0.3
+51043,Clarke, Virginia,B01002_001,47,0.7
+51045,Craig, Virginia,B01002_001,46.3,3
+51047,Culpeper, Virginia,B01002_001,39.2,0.6
+51049,Cumberland, Virginia,B01002_001,45.6,1.2
+51051,Dickenson, Virginia,B01002_001,44.7,0.4
+51053,Dinwiddie, Virginia,B01002_001,43.2,0.8
+51057,Essex, Virginia,B01002_001,46.3,2
+51059,Fairfax, Virginia,B01002_001,38,0.1
+51061,Fauquier, Virginia,B01002_001,41.3,0.4
+51063,Floyd, Virginia,B01002_001,47.2,1
+51065,Fluvanna, Virginia,B01002_001,43.4,0.5
+51067,Franklin, Virginia,B01002_001,47.2,0.4
+51069,Frederick, Virginia,B01002_001,40.7,0.4
+51071,Giles, Virginia,B01002_001,44.7,0.3
+51073,Gloucester, Virginia,B01002_001,44.9,0.3
+51075,Goochland, Virginia,B01002_001,48.3,0.7
+51077,Grayson, Virginia,B01002_001,48.1,1.1
+51079,Greene, Virginia,B01002_001,39.6,1.7
+51081,Greensville, Virginia,B01002_001,40.7,2.2
+51083,Halifax, Virginia,B01002_001,46.5,0.3
+51085,Hanover, Virginia,B01002_001,42.7,0.3
+51087,Henrico, Virginia,B01002_001,38.8,0.3
+51089,Henry, Virginia,B01002_001,47.6,0.4
+51091,Highland, Virginia,B01002_001,60.9,3.5
+51093,Isle, Virginia,B01002_001,44.3,0.3
+51095,James, Virginia,B01002_001,46.5,0.4
+51097,King, Virginia,B01002_001,46.7,1.5
+51099,King, Virginia,B01002_001,37.4,0.7
+51101,King, Virginia,B01002_001,40.3,0.8
+51103,Lancaster, Virginia,B01002_001,57.3,0.8
+51105,Lee, Virginia,B01002_001,44.9,0.3
+51107,Loudoun, Virginia,B01002_001,36.2,0.2
+51109,Louisa, Virginia,B01002_001,44.8,0.4
+51111,Lunenburg, Virginia,B01002_001,45.3,1.3
+51113,Madison, Virginia,B01002_001,45.6,1.1
+51115,Mathews, Virginia,B01002_001,54.5,1
+51117,Mecklenburg, Virginia,B01002_001,48.4,0.4
+51119,Middlesex, Virginia,B01002_001,53.9,0.4
+51121,Montgomery, Virginia,B01002_001,29,0.2
+51125,Nelson, Virginia,B01002_001,51.4,0.9
+51127,New, Virginia,B01002_001,43.3,1.6
+51131,Northampton, Virginia,B01002_001,49,1
+51133,Northumberland, Virginia,B01002_001,58.9,0.7
+51135,Nottoway, Virginia,B01002_001,40.6,1.3
+51137,Orange, Virginia,B01002_001,42,0.6
+51139,Page, Virginia,B01002_001,45.4,0.3
+51141,Patrick, Virginia,B01002_001,49.9,0.2
+51143,Pittsylvania, Virginia,B01002_001,47.2,0.3
+51145,Powhatan, Virginia,B01002_001,45.1,0.3
+51147,Prince, Virginia,B01002_001,31.5,0.7
+51149,Prince, Virginia,B01002_001,37,0.4
+51153,Prince, Virginia,B01002_001,35.2,0.1
+51155,Pulaski, Virginia,B01002_001,47,0.5
+51157,Rappahannock, Virginia,B01002_001,50.1,1.2
+51159,Richmond, Virginia,B01002_001,47.3,1.5
+51161,Roanoke, Virginia,B01002_001,43.8,0.3
+51163,Rockbridge, Virginia,B01002_001,49,0.5
+51165,Rockingham, Virginia,B01002_001,41.5,0.3
+51167,Russell, Virginia,B01002_001,45.7,0.4
+51169,Scott, Virginia,B01002_001,47.3,0.4
+51171,Shenandoah, Virginia,B01002_001,44.5,0.5
+51173,Smyth, Virginia,B01002_001,45,0.3
+51175,Southampton, Virginia,B01002_001,46.9,0.6
+51177,Spotsylvania, Virginia,B01002_001,38.2,0.3
+51179,Stafford, Virginia,B01002_001,35.5,0.2
+51181,Surry, Virginia,B01002_001,49.8,0.2
+51183,Sussex, Virginia,B01002_001,41,0.9
+51185,Tazewell, Virginia,B01002_001,45.2,0.3
+51187,Warren, Virginia,B01002_001,41.3,0.7
+51191,Washington, Virginia,B01002_001,46.3,0.3
+51193,Westmoreland, Virginia,B01002_001,48.6,0.7
+51195,Wise, Virginia,B01002_001,41.4,0.8
+51197,Wythe, Virginia,B01002_001,45.3,0.3
+51199,York, Virginia,B01002_001,39.6,0.4
+51510,Alexandria, Virginia,B01002_001,36.8,0.2
+51520,Bristol, Virginia,B01002_001,42.2,1.1
+51530,Buena, Virginia,B01002_001,35.5,5.6
+51540,Charlottesville, Virginia,B01002_001,31.6,0.3
+51550,Chesapeake, Virginia,B01002_001,36.9,0.2
+51570,Colonial, Virginia,B01002_001,40.6,0.8
+51580,Covington, Virginia,B01002_001,42.4,1.1
+51590,Danville, Virginia,B01002_001,40.9,0.5
+51595,Emporia, Virginia,B01002_001,35.4,3.2
+51600,Fairfax, Virginia,B01002_001,38.2,0.8
+51610,Falls, Virginia,B01002_001,38.7,1
+51620,Franklin, Virginia,B01002_001,39.4,1.3
+51630,Fredericksburg, Virginia,B01002_001,30.4,0.3
+51640,Galax, Virginia,B01002_001,45,2.5
+51650,Hampton, Virginia,B01002_001,36.2,0.2
+51660,Harrisonburg, Virginia,B01002_001,25.4,0.2
+51670,Hopewell, Virginia,B01002_001,36.2,0.8
+51678,Lexington, Virginia,B01002_001,22.3,0.7
+51680,Lynchburg, Virginia,B01002_001,28.3,0.2
+51683,Manassas, Virginia,B01002_001,34.2,0.3
+51685,Manassas, Virginia,B01002_001,34.7,0.9
+51690,Martinsville, Virginia,B01002_001,40.9,1.4
+51700,Newport, Virginia,B01002_001,33.5,0.2
+51710,Norfolk, Virginia,B01002_001,30.7,0.1
+51720,Norton, Virginia,B01002_001,37.5,3
+51730,Petersburg, Virginia,B01002_001,38.1,0.9
+51735,Poquoson, Virginia,B01002_001,42.4,1.7
+51740,Portsmouth, Virginia,B01002_001,35.3,0.2
+51750,Radford, Virginia,B01002_001,23.4,0.5
+51760,Richmond, Virginia,B01002_001,34,0.1
+51770,Roanoke, Virginia,B01002_001,38.5,0.4
+51775,Salem, Virginia,B01002_001,41.2,0.6
+51790,Staunton, Virginia,B01002_001,42.8,0.7
+51800,Suffolk, Virginia,B01002_001,38,0.3
+51810,Virginia, Virginia,B01002_001,36.2,0.1
+51820,Waynesboro, Virginia,B01002_001,39.2,1.4
+51830,Williamsburg, Virginia,B01002_001,24.9,0.7
+51840,Winchester, Virginia,B01002_001,38.1,0.7
+53001,Adams, Washington,B01002_001,27.9,0.5
+53003,Asotin, Washington,B01002_001,45,0.4
+53005,Benton, Washington,B01002_001,35.8,0.2
+53007,Chelan, Washington,B01002_001,40.1,0.4
+53009,Clallam, Washington,B01002_001,50.8,0.3
+53011,Clark, Washington,B01002_001,38.4,0.1
+53013,Columbia, Washington,B01002_001,50.2,2.3
+53015,Cowlitz, Washington,B01002_001,41.3,0.5
+53017,Douglas, Washington,B01002_001,37.1,0.5
+53019,Ferry, Washington,B01002_001,50.3,0.4
+53021,Franklin, Washington,B01002_001,30.3,0.2
+53023,Garfield, Washington,B01002_001,46.1,6.4
+53025,Grant, Washington,B01002_001,32.9,0.3
+53027,Grays, Washington,B01002_001,44,0.3
+53029,Island, Washington,B01002_001,44.2,0.4
+53031,Jefferson, Washington,B01002_001,58.3,0.7
+53033,King, Washington,B01002_001,37,0.1
+53035,Kitsap, Washington,B01002_001,39.1,0.2
+53037,Kittitas, Washington,B01002_001,33.8,0.6
+53039,Klickitat, Washington,B01002_001,46.9,1
+53041,Lewis, Washington,B01002_001,43.1,0.3
+53043,Lincoln, Washington,B01002_001,48.4,0.7
+53045,Mason, Washington,B01002_001,45.6,0.3
+53047,Okanogan, Washington,B01002_001,42.6,0.3
+53049,Pacific, Washington,B01002_001,53.6,0.4
+53051,Pend, Washington,B01002_001,51,0.5
+53053,Pierce, Washington,B01002_001,36.1,0.2
+53055,San, Washington,B01002_001,56.6,0.2
+53057,Skagit, Washington,B01002_001,41.5,0.3
+53059,Skamania, Washington,B01002_001,46.6,0.5
+53061,Snohomish, Washington,B01002_001,38,0.2
+53063,Spokane, Washington,B01002_001,37.6,0.2
+53065,Stevens, Washington,B01002_001,46.9,0.3
+53067,Thurston, Washington,B01002_001,39,0.2
+53069,Wahkiakum, Washington,B01002_001,55.1,1.7
+53071,Walla, Washington,B01002_001,37.5,0.4
+53073,Whatcom, Washington,B01002_001,37.3,0.2
+53075,Whitman, Washington,B01002_001,24.7,0.3
+53077,Yakima, Washington,B01002_001,33,0.2
+54001,Barbour, West Virginia,B01002_001,41.7,0.7
+54003,Berkeley, West Virginia,B01002_001,38.8,0.3
+54005,Boone, West Virginia,B01002_001,43.5,0.5
+54007,Braxton, West Virginia,B01002_001,45.9,0.6
+54009,Brooke, West Virginia,B01002_001,46.6,0.4
+54011,Cabell, West Virginia,B01002_001,38.8,0.5
+54013,Calhoun, West Virginia,B01002_001,48.1,1.4
+54015,Clay, West Virginia,B01002_001,44.1,0.7
+54017,Doddridge, West Virginia,B01002_001,45.3,1.3
+54019,Fayette, West Virginia,B01002_001,44.3,0.3
+54021,Gilmer, West Virginia,B01002_001,39.2,1
+54023,Grant, West Virginia,B01002_001,46.2,0.5
+54025,Greenbrier, West Virginia,B01002_001,45.5,0.3
+54027,Hampshire, West Virginia,B01002_001,47.2,0.5
+54029,Hancock, West Virginia,B01002_001,46.8,0.4
+54031,Hardy, West Virginia,B01002_001,45.7,0.6
+54033,Harrison, West Virginia,B01002_001,42.2,0.4
+54035,Jackson, West Virginia,B01002_001,43.7,0.6
+54037,Jefferson, West Virginia,B01002_001,41.1,0.4
+54039,Kanawha, West Virginia,B01002_001,43.4,0.2
+54041,Lewis, West Virginia,B01002_001,43.8,0.6
+54043,Lincoln, West Virginia,B01002_001,43.2,0.3
+54045,Logan, West Virginia,B01002_001,43.8,0.4
+54047,McDowell, West Virginia,B01002_001,45,0.6
+54049,Marion, West Virginia,B01002_001,41.1,0.5
+54051,Marshall, West Virginia,B01002_001,45.7,0.3
+54053,Mason, West Virginia,B01002_001,44.2,0.5
+54055,Mercer, West Virginia,B01002_001,43.1,0.4
+54057,Mineral, West Virginia,B01002_001,44.5,0.5
+54059,Mingo, West Virginia,B01002_001,42.8,0.5
+54061,Monongalia, West Virginia,B01002_001,31.7,0.3
+54063,Monroe, West Virginia,B01002_001,48,1.2
+54065,Morgan, West Virginia,B01002_001,47.9,0.7
+54067,Nicholas, West Virginia,B01002_001,45.1,0.4
+54069,Ohio, West Virginia,B01002_001,43.6,0.3
+54071,Pendleton, West Virginia,B01002_001,50.8,0.5
+54073,Pleasants, West Virginia,B01002_001,43.6,0.3
+54075,Pocahontas, West Virginia,B01002_001,49.1,0.4
+54077,Preston, West Virginia,B01002_001,42.7,0.4
+54079,Putnam, West Virginia,B01002_001,41.8,0.5
+54081,Raleigh, West Virginia,B01002_001,42.2,0.5
+54083,Randolph, West Virginia,B01002_001,43.7,0.5
+54085,Ritchie, West Virginia,B01002_001,46.8,1.4
+54087,Roane, West Virginia,B01002_001,45.8,0.4
+54089,Summers, West Virginia,B01002_001,49.1,0.6
+54091,Taylor, West Virginia,B01002_001,44.1,0.5
+54093,Tucker, West Virginia,B01002_001,49.3,0.6
+54095,Tyler, West Virginia,B01002_001,47,0.7
+54097,Upshur, West Virginia,B01002_001,41.7,0.7
+54099,Wayne, West Virginia,B01002_001,44.1,0.4
+54101,Webster, West Virginia,B01002_001,47.2,0.7
+54103,Wetzel, West Virginia,B01002_001,46,0.5
+54105,Wirt, West Virginia,B01002_001,45.4,0.4
+54107,Wood, West Virginia,B01002_001,43.5,0.2
+54109,Wyoming, West Virginia,B01002_001,44.6,0.3
+55001,Adams, Wisconsin,B01002_001,53.8,0.3
+55003,Ashland, Wisconsin,B01002_001,42,0.4
+55005,Barron, Wisconsin,B01002_001,44.2,0.3
+55007,Bayfield, Wisconsin,B01002_001,52.2,0.3
+55009,Brown, Wisconsin,B01002_001,37.4,0.2
+55011,Buffalo, Wisconsin,B01002_001,46.6,0.4
+55013,Burnett, Wisconsin,B01002_001,52.8,0.2
+55015,Calumet, Wisconsin,B01002_001,40.6,0.4
+55017,Chippewa, Wisconsin,B01002_001,41.2,0.3
+55019,Clark, Wisconsin,B01002_001,37.4,0.3
+55021,Columbia, Wisconsin,B01002_001,42.4,0.3
+55023,Crawford, Wisconsin,B01002_001,46.3,0.4
+55025,Dane, Wisconsin,B01002_001,35.1,0.1
+55027,Dodge, Wisconsin,B01002_001,42.5,0.3
+55029,Door, Wisconsin,B01002_001,53,0.3
+55031,Douglas, Wisconsin,B01002_001,42.2,0.4
+55033,Dunn, Wisconsin,B01002_001,34.7,0.2
+55035,Eau, Wisconsin,B01002_001,34.5,0.2
+55037,Florence, Wisconsin,B01002_001,53.6,0.7
+55039,Fond, Wisconsin,B01002_001,41.6,0.3
+55041,Forest, Wisconsin,B01002_001,46.7,0.3
+55043,Grant, Wisconsin,B01002_001,36,0.2
+55045,Green, Wisconsin,B01002_001,43.2,0.3
+55047,Green, Wisconsin,B01002_001,45.3,0.3
+55049,Iowa, Wisconsin,B01002_001,42.8,0.3
+55051,Iron, Wisconsin,B01002_001,54.9,0.1
+55053,Jackson, Wisconsin,B01002_001,41.7,0.5
+55055,Jefferson, Wisconsin,B01002_001,41.1,0.3
+55057,Juneau, Wisconsin,B01002_001,45.4,0.3
+55059,Kenosha, Wisconsin,B01002_001,38.5,0.3
+55061,Kewaunee, Wisconsin,B01002_001,44.3,0.4
+55063,La, Wisconsin,B01002_001,35.9,0.2
+55065,Lafayette, Wisconsin,B01002_001,41.8,0.3
+55067,Langlade, Wisconsin,B01002_001,48.7,0.5
+55069,Lincoln, Wisconsin,B01002_001,47.7,0.4
+55071,Manitowoc, Wisconsin,B01002_001,44.9,0.2
+55073,Marathon, Wisconsin,B01002_001,40.7,0.3
+55075,Marinette, Wisconsin,B01002_001,48.7,0.2
+55077,Marquette, Wisconsin,B01002_001,50,0.3
+55078,Menominee, Wisconsin,B01002_001,32,1.1
+55079,Milwaukee, Wisconsin,B01002_001,34.9,0.1
+55081,Monroe, Wisconsin,B01002_001,39.9,0.5
+55083,Oconto, Wisconsin,B01002_001,46.9,0.4
+55085,Oneida, Wisconsin,B01002_001,51.3,0.2
+55087,Outagamie, Wisconsin,B01002_001,38.3,0.3
+55089,Ozaukee, Wisconsin,B01002_001,44,0.2
+55091,Pepin, Wisconsin,B01002_001,46.4,0.3
+55093,Pierce, Wisconsin,B01002_001,36.8,0.3
+55095,Polk, Wisconsin,B01002_001,45.6,0.2
+55097,Portage, Wisconsin,B01002_001,37,0.3
+55099,Price, Wisconsin,B01002_001,51.6,0.3
+55101,Racine, Wisconsin,B01002_001,40.2,0.3
+55103,Richland, Wisconsin,B01002_001,45.3,0.2
+55105,Rock, Wisconsin,B01002_001,39.5,0.3
+55107,Rusk, Wisconsin,B01002_001,49,0.3
+55109,St., Wisconsin,B01002_001,38.9,0.4
+55111,Sauk, Wisconsin,B01002_001,41.1,0.3
+55113,Sawyer, Wisconsin,B01002_001,50.3,0.2
+55115,Shawano, Wisconsin,B01002_001,45.2,0.1
+55117,Sheboygan, Wisconsin,B01002_001,41.5,0.4
+55119,Taylor, Wisconsin,B01002_001,43.7,0.3
+55121,Trempealeau, Wisconsin,B01002_001,40.5,0.3
+55123,Vernon, Wisconsin,B01002_001,41.7,0.4
+55125,Vilas, Wisconsin,B01002_001,54.6,0.2
+55127,Walworth, Wisconsin,B01002_001,40,0.4
+55129,Washburn, Wisconsin,B01002_001,51.2,0.3
+55131,Washington, Wisconsin,B01002_001,43.2,0.3
+55133,Waukesha, Wisconsin,B01002_001,43.2,0.1
+55135,Waupaca, Wisconsin,B01002_001,45.5,0.3
+55137,Waushara, Wisconsin,B01002_001,49.2,0.3
+55139,Winnebago, Wisconsin,B01002_001,38.3,0.3
+55141,Wood, Wisconsin,B01002_001,44.1,0.3
+56001,Albany, Wyoming,B01002_001,27.6,0.3
+56003,Big, Wyoming,B01002_001,41.6,0.6
+56005,Campbell, Wyoming,B01002_001,34,0.5
+56007,Carbon, Wyoming,B01002_001,38.6,1.1
+56009,Converse, Wyoming,B01002_001,40,1
+56011,Crook, Wyoming,B01002_001,42.7,2.3
+56013,Fremont, Wyoming,B01002_001,38.7,0.3
+56015,Goshen, Wyoming,B01002_001,44.1,0.6
+56017,Hot, Wyoming,B01002_001,46.6,2.3
+56019,Johnson, Wyoming,B01002_001,45.4,0.8
+56021,Laramie, Wyoming,B01002_001,37,0.3
+56023,Lincoln, Wyoming,B01002_001,39.7,0.5
+56025,Natrona, Wyoming,B01002_001,36.9,0.4
+56027,Niobrara, Wyoming,B01002_001,45.5,6.2
+56029,Park, Wyoming,B01002_001,44.5,0.4
+56031,Platte, Wyoming,B01002_001,49.2,1.6
+56033,Sheridan, Wyoming,B01002_001,42.3,0.5
+56035,Sublette, Wyoming,B01002_001,39.4,1.4
+56037,Sweetwater, Wyoming,B01002_001,35.3,0.2
+56039,Teton, Wyoming,B01002_001,39.3,0.6
+56041,Uinta, Wyoming,B01002_001,35.8,0.3
+56043,Washakie, Wyoming,B01002_001,42.9,0.9
+56045,Weston, Wyoming,B01002_001,43.1,0.8
+72001,Adjuntas, Puerto Rico,B01002_001,42.1,0.6
+72003,Aguada, Puerto Rico,B01002_001,42.9,0.3
+72005,Aguadilla, Puerto Rico,B01002_001,42,0.3
+72007,Aguas, Puerto Rico,B01002_001,42.2,0.7
+72009,Aibonito, Puerto Rico,B01002_001,42.5,0.6
+72011,Añasco, Puerto Rico,B01002_001,42.6,0.6
+72013,Arecibo, Puerto Rico,B01002_001,42.8,0.3
+72015,Arroyo, Puerto Rico,B01002_001,40.3,0.6
+72017,Barceloneta, Puerto Rico,B01002_001,40.6,0.7
+72019,Barranquitas, Puerto Rico,B01002_001,36.7,0.4
+72021,Bayamón, Puerto Rico,B01002_001,42.1,0.3
+72023,Cabo, Puerto Rico,B01002_001,44.1,0.4
+72025,Caguas, Puerto Rico,B01002_001,41.3,0.4
+72027,Camuy, Puerto Rico,B01002_001,42.2,1.2
+72029,Canóvanas, Puerto Rico,B01002_001,40.2,0.4
+72031,Carolina, Puerto Rico,B01002_001,42.8,0.2
+72033,Cataño, Puerto Rico,B01002_001,40.3,0.7
+72035,Cayey, Puerto Rico,B01002_001,42.8,0.5
+72037,Ceiba, Puerto Rico,B01002_001,42.9,1.1
+72039,Ciales, Puerto Rico,B01002_001,42.3,0.6
+72041,Cidra, Puerto Rico,B01002_001,40.9,0.5
+72043,Coamo, Puerto Rico,B01002_001,41.7,1
+72045,Comerío, Puerto Rico,B01002_001,38.9,1.9
+72047,Corozal, Puerto Rico,B01002_001,39.6,0.8
+72049,Culebra, Puerto Rico,B01002_001,43.1,7.4
+72051,Dorado, Puerto Rico,B01002_001,41.1,0.7
+72053,Fajardo, Puerto Rico,B01002_001,41.8,0.5
+72054,Florida, Puerto Rico,B01002_001,39.9,1
+72055,Guánica, Puerto Rico,B01002_001,42.5,0.7
+72057,Guayama, Puerto Rico,B01002_001,39.1,0.7
+72059,Guayanilla, Puerto Rico,B01002_001,41.3,0.5
+72061,Guaynabo, Puerto Rico,B01002_001,44.2,0.2
+72063,Gurabo, Puerto Rico,B01002_001,39,0.7
+72065,Hatillo, Puerto Rico,B01002_001,42.1,0.6
+72067,Hormigueros, Puerto Rico,B01002_001,47.2,0.4
+72069,Humacao, Puerto Rico,B01002_001,43.3,0.6
+72071,Isabela, Puerto Rico,B01002_001,42.2,0.7
+72073,Jayuya, Puerto Rico,B01002_001,38.6,1
+72075,Juana, Puerto Rico,B01002_001,38.8,0.6
+72077,Juncos, Puerto Rico,B01002_001,38.6,1
+72079,Lajas, Puerto Rico,B01002_001,45,0.1
+72081,Lares, Puerto Rico,B01002_001,43,0.5
+72083,Las, Puerto Rico,B01002_001,42.4,1.3
+72085,Las, Puerto Rico,B01002_001,40,1
+72087,Loíza, Puerto Rico,B01002_001,40.2,0.5
+72089,Luquillo, Puerto Rico,B01002_001,41.9,0.7
+72091,Manatí, Puerto Rico,B01002_001,42.1,0.4
+72093,Maricao, Puerto Rico,B01002_001,44,1
+72095,Maunabo, Puerto Rico,B01002_001,44.4,0.5
+72097,Mayagüez, Puerto Rico,B01002_001,41.4,0.5
+72099,Moca, Puerto Rico,B01002_001,40,0.9
+72101,Morovis, Puerto Rico,B01002_001,38.7,0.7
+72103,Naguabo, Puerto Rico,B01002_001,38.4,1.7
+72105,Naranjito, Puerto Rico,B01002_001,41.1,0.8
+72107,Orocovis, Puerto Rico,B01002_001,40.1,0.9
+72109,Patillas, Puerto Rico,B01002_001,44.9,0.2
+72111,Peñuelas, Puerto Rico,B01002_001,38.8,0.6
+72113,Ponce, Puerto Rico,B01002_001,41,0.3
+72115,Quebradillas, Puerto Rico,B01002_001,41.2,0.8
+72117,Rincón, Puerto Rico,B01002_001,46,0.6
+72119,Río, Puerto Rico,B01002_001,41.2,0.6
+72121,Sabana, Puerto Rico,B01002_001,42.3,0.6
+72123,Salinas, Puerto Rico,B01002_001,40.9,0.9
+72125,San, Puerto Rico,B01002_001,44,0.5
+72127,San, Puerto Rico,B01002_001,43.2,0.2
+72129,San, Puerto Rico,B01002_001,42.4,0.5
+72131,San, Puerto Rico,B01002_001,44.1,0.3
+72133,Santa, Puerto Rico,B01002_001,38.8,1.2
+72135,Toa, Puerto Rico,B01002_001,38.4,0.6
+72137,Toa, Puerto Rico,B01002_001,40.7,0.4
+72139,Trujillo, Puerto Rico,B01002_001,40.5,0.4
+72141,Utuado, Puerto Rico,B01002_001,43.5,0.5
+72143,Vega, Puerto Rico,B01002_001,39.6,0.8
+72145,Vega, Puerto Rico,B01002_001,41.5,0.5
+72147,Vieques, Puerto Rico,B01002_001,47,1.8
+72149,Villalba, Puerto Rico,B01002_001,40.1,0.5
+72151,Yabucoa, Puerto Rico,B01002_001,42.9,0.5
+72153,Yauco, Puerto Rico,B01002_001,43.9,0.3

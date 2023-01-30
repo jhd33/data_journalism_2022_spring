@@ -74,7 +74,6 @@ filter(str_detect(NAME, "Maryland")) %>%
   group_by(NAME) %>% 
   arrange(estimate)
 
-
 ```
 
 **Q2** Which Maryland counties have a median age of at least 50? Write code to isolate just those jurisdictions.
@@ -166,3 +165,84 @@ Almost all of them are located in Chicago Illinois, and they all share the first
 **Q7** What other columns from the PPP data could be useful in reporting on what happened to these removed loans?
 **A7**
 It would be difficult to avoid the subjectivity, but some sort of indication of why they were removed. Was it a clerical error, fraud, rejection... why were they removed?
+
+Hurricane 
+
+```{r}
+hurricane_data <- read_csv("data/hurricane_data_clean_2.csv") 
+
+## Median Age 
+
+age_clean <- read_csv("data/median_age_clean_2.csv")
+
+hurricanes_by_age <- hurricane_data  %>% 
+left_join(age_clean, by=c("county", "state")) %>% 
+  rename(median_age = estimate)
+
+write_csv(hurricanes_by_age, "data/hurricanes_by_age.csv") 
+
+total_pop <- get_acs(geography = "county", variables = "B01003_001", year = 2019)
+
+white_pop <- get_acs(geography = "county", variables = "B02001_002", year = 2019)
+
+black_pop <- get_acs(geography = "county", variables = "B02001_003", year = 2019)
+
+indian_alaskan <- get_acs(geography = "county", variables = "B02001_004", year = 2019)
+
+asian <- get_acs(geography = "county", variables = "B02001_005", year = 2019)
+
+native_hawaiian <- get_acs(geography = "county", variables = "B02001_006", year = 2019)
+
+```
+
+```{r}
+
+##Population Data
+
+pop_plus_races <- total_pop %>% 
+  rename(total_population = estimate) %>% 
+left_join(white_pop, by=c("GEOID", "NAME")) %>% 
+  rename(white_population = estimate) %>%  
+left_join(black_pop, by=c("GEOID", "NAME")) %>% 
+  rename(black_population = estimate) %>% 
+  left_join(indian_alaskan, by=c("GEOID", "NAME")) %>%
+  rename(american_idian_alaskan_population = estimate) %>% 
+  left_join(asian, by=c("GEOID", "NAME")) %>%
+  rename(asian_population = estimate) %>% 
+  left_join(native_hawaiian, by=c("GEOID", "NAME")) %>%
+  rename(native_hawaiian_population = estimate) 
+  
+write_csv(pop_plus_races, "data/pop_by_race.csv") 
+
+races_clean <- read_csv("data/pop_by_race_clean.csv")
+
+```
+
+```{r}
+## Income 
+
+income <- get_acs(geography = "county", variables = "B10010_001", year = 2019)
+
+```
+
+```{r}
+
+## Join Hurricane + Age with Race 
+
+hurricane_age_race <- hurricanes_by_age %>% 
+  left_join(races_clean, by=c("GEOID")) 
+
+write_csv(hurricane_age_race, "data/hurricane_age_race.csv") 
+```
+
+```{r}
+md_pop <- get_acs(geography = "zcta", variables = "B01003_001", year = 2019) %>% 
+rename(Postal = GEOID)
+
+mg_pg <- read_csv("data/mg_pg_r.csv")
+
+mg_pg_pop <- mg_pg %>% 
+  left_join(md_pop, by=c("Postal")) %>% 
+  rename(population = estimate)
+  
+```

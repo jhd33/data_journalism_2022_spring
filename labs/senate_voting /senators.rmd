@@ -1,0 +1,23 @@
+---
+title: "ProPublicaR demo"
+output: html_notebook
+---
+
+
+```{r}
+library(jsonlite)
+```
+
+## Run the following code from the command line/terminal:
+
+```{bash}
+curl "https://api.propublica.org/congress/v1/117/senate/members.json" -H "X-API-Key: JTa4lpPr6YOwGEmTXcbbiQKVby7VZ0z3a0o244Gf" > senate_117.json
+```
+
+
+```{r}
+senators <- fromJSON("senate_117.json")[[3]]$members[[1]]
+```
+
+
+

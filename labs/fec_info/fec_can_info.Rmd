@@ -1,0 +1,79 @@
+---
+title: "fec_info"
+author: "Jon Donville"
+date: '2022-09-14'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+install.packages("rjson")
+```
+
+```{r}
+# Turn off scientific notation
+options(scipen=999)
+
+library(rjson)
+library(RJSONIO)
+library(plyr)
+library(RCurl)
+library(tidyverse)
+
+```
+
+### Pull down financing data 
+```{r}
+id_list = read.csv("crp_id_117.csv")
+
+cid <-as.vector(id_list$CID)
+
+hdwd<- data.frame()
+
+key <- '4799f8ebf135125b0c87ecb54f0530da'
+
+cycle <- '2021'
+
+base.url <- 'http://www.opensecrets.org/api/?method=candSummary&output=json&cycle='
+
+# loop offset
+for (i in 1:1150 ) {
+  final.url <- paste(base.url,cycle,'&apikey=',key,'&cid=',cid[i],sep = "")
+  data<- fromJSON(paste(readLines(final.url), collapse="")) 
+  hdwd <- rbind(hdwd, ldply(data$response$summary, 
+                                          function(x) c(x[[1]], x[[2]], x[[3]], x[[4]], x[[5]], x[[6]], x[[7]],x[[8]], x[[9]], x[[10]], 
+                                                        x[[11]], x[[12]], x[[13]], x[[14]], x[[15]])))
+}
+colnames(hdwd) <- c('response', 'name', 'crp_id', 'cycle', 'state', 'party','chamber', 'first_elected','next_election','total','spent','cash_on_hand', 'debt', 'origin', 'source', 'last_updated')
+
+
+```
+
+```{r}
+hdwd_clean <- hdwd
+
+  
+hdwd_clean 
+  colnames(hdwd_clean) <- c('response', 'name', 'crp_id', 'cycle', 'state', 'party','chamber', 'first_elected','next_election','total','spent','cash_on_hand', 'debt', 'origin', 'source', 'last_updated')
+
+```
+
+```{r}
+congress_combined_money <- congress_combined %>% 
+  left_join(hdwd_clean, by="crp_id") 
+
+write_csv(congress_combined_money, "congress_combined_money.csv") 
+
+md_delegation <- congress_combined_money %>% 
+  filter(state.x == "MD") 
+
+write_csv(md_delegation, "md_delegation_money.csv") 
+
+senators_money <- congress_combined_money %>% 
+  filter(chamber == "S")
+
+```
+

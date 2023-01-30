@@ -1,0 +1,3221 @@
+GEOID,NAME,variable,estimate,moe
+01001,"Autauga County, Alabama",B01002_001,38.2,0.6
+01003,"Baldwin County, Alabama",B01002_001,43,0.3
+01005,"Barbour County, Alabama",B01002_001,40.4,0.5
+01007,"Bibb County, Alabama",B01002_001,40.9,1.3
+01009,"Blount County, Alabama",B01002_001,40.7,0.3
+01011,"Bullock County, Alabama",B01002_001,40.2,2.3
+01013,"Butler County, Alabama",B01002_001,40.8,0.7
+01015,"Calhoun County, Alabama",B01002_001,39.6,0.3
+01017,"Chambers County, Alabama",B01002_001,42,0.7
+01019,"Cherokee County, Alabama",B01002_001,46.5,0.5
+01021,"Chilton County, Alabama",B01002_001,38.7,0.7
+01023,"Choctaw County, Alabama",B01002_001,46.3,0.3
+01025,"Clarke County, Alabama",B01002_001,42.5,0.8
+01027,"Clay County, Alabama",B01002_001,43.3,0.8
+01029,"Cleburne County, Alabama",B01002_001,43.1,0.8
+01031,"Coffee County, Alabama",B01002_001,39.3,0.3
+01033,"Colbert County, Alabama",B01002_001,42.4,0.4
+01035,"Conecuh County, Alabama",B01002_001,44.8,0.3
+01037,"Coosa County, Alabama",B01002_001,48.4,1
+01039,"Covington County, Alabama",B01002_001,43.3,0.5
+01041,"Crenshaw County, Alabama",B01002_001,41.7,0.8
+01043,"Cullman County, Alabama",B01002_001,40.8,0.3
+01045,"Dale County, Alabama",B01002_001,37.3,0.5
+01047,"Dallas County, Alabama",B01002_001,39.6,0.4
+01049,"DeKalb County, Alabama",B01002_001,39.5,0.4
+01051,"Elmore County, Alabama",B01002_001,38.7,0.3
+01053,"Escambia County, Alabama",B01002_001,40,0.5
+01055,"Etowah County, Alabama",B01002_001,41.4,0.3
+01057,"Fayette County, Alabama",B01002_001,43.7,0.6
+01059,"Franklin County, Alabama",B01002_001,38.6,2.1
+01061,"Geneva County, Alabama",B01002_001,43.2,0.6
+01063,"Greene County, Alabama",B01002_001,40.9,3
+01065,"Hale County, Alabama",B01002_001,40.5,1.8
+01067,"Henry County, Alabama",B01002_001,44.4,0.4
+01069,"Houston County, Alabama",B01002_001,40.1,0.2
+01071,"Jackson County, Alabama",B01002_001,43.1,0.4
+01073,"Jefferson County, Alabama",B01002_001,37.7,0.2
+01075,"Lamar County, Alabama",B01002_001,44.8,0.3
+01077,"Lauderdale County, Alabama",B01002_001,41,0.5
+01079,"Lawrence County, Alabama",B01002_001,42.4,0.4
+01081,"Lee County, Alabama",B01002_001,31.9,0.2
+01083,"Limestone County, Alabama",B01002_001,39.7,0.4
+01085,"Lowndes County, Alabama",B01002_001,42,1.1
+01087,"Macon County, Alabama",B01002_001,38.6,0.6
+01089,"Madison County, Alabama",B01002_001,38.5,0.2
+01091,"Marengo County, Alabama",B01002_001,42.2,0.7
+01093,"Marion County, Alabama",B01002_001,44.3,0.4
+01095,"Marshall County, Alabama",B01002_001,38.8,0.4
+01097,"Mobile County, Alabama",B01002_001,37.9,0.2
+01099,"Monroe County, Alabama",B01002_001,43.3,0.5
+01101,"Montgomery County, Alabama",B01002_001,36.4,0.3
+01103,"Morgan County, Alabama",B01002_001,40.6,0.3
+01105,"Perry County, Alabama",B01002_001,36.9,1.4
+01107,"Pickens County, Alabama",B01002_001,42.2,0.7
+01109,"Pike County, Alabama",B01002_001,31.2,0.7
+01111,"Randolph County, Alabama",B01002_001,43.4,0.4
+01113,"Russell County, Alabama",B01002_001,36.3,0.4
+01115,"St. Clair County, Alabama",B01002_001,40.3,0.4
+01117,"Shelby County, Alabama",B01002_001,39.3,0.3
+01119,"Sumter County, Alabama",B01002_001,35.6,0.3
+01121,"Talladega County, Alabama",B01002_001,41.3,0.4
+01123,"Tallapoosa County, Alabama",B01002_001,44.7,0.3
+01125,"Tuscaloosa County, Alabama",B01002_001,33,0.2
+01127,"Walker County, Alabama",B01002_001,42.1,0.5
+01129,"Washington County, Alabama",B01002_001,43.7,0.6
+01131,"Wilcox County, Alabama",B01002_001,40.5,1
+01133,"Winston County, Alabama",B01002_001,45.2,0.3
+02013,"Aleutians East Borough, Alaska",B01002_001,42.5,1.5
+02016,"Aleutians West Census Area, Alaska",B01002_001,38.6,1.7
+02020,"Anchorage Municipality, Alaska",B01002_001,33.6,0.1
+02050,"Bethel Census Area, Alaska",B01002_001,27.3,0.5
+02060,"Bristol Bay Borough, Alaska",B01002_001,42.9,5.9
+02068,"Denali Borough, Alaska",B01002_001,42.1,8.3
+02070,"Dillingham Census Area, Alaska",B01002_001,30.2,0.4
+02090,"Fairbanks North Star Borough, Alaska",B01002_001,31.3,0.3
+02100,"Haines Borough, Alaska",B01002_001,44.7,6.7
+02105,"Hoonah-Angoon Census Area, Alaska",B01002_001,49.6,3.4
+02110,"Juneau City and Borough, Alaska",B01002_001,38.1,0.4
+02122,"Kenai Peninsula Borough, Alaska",B01002_001,40.8,0.4
+02130,"Ketchikan Gateway Borough, Alaska",B01002_001,39.7,0.5
+02150,"Kodiak Island Borough, Alaska",B01002_001,33.9,0.6
+02158,"Kusilvak Census Area, Alaska",B01002_001,24.1,0.2
+02164,"Lake and Peninsula Borough, Alaska",B01002_001,34.8,1.9
+02170,"Matanuska-Susitna Borough, Alaska",B01002_001,35.2,0.1
+02180,"Nome Census Area, Alaska",B01002_001,28.3,0.4
+02185,"North Slope Borough, Alaska",B01002_001,35.2,1.3
+02188,"Northwest Arctic Borough, Alaska",B01002_001,27.8,0.7
+02195,"Petersburg Borough, Alaska",B01002_001,42.8,4.2
+02198,"Prince of Wales-Hyder Census Area, Alaska",B01002_001,41.3,0.6
+02220,"Sitka City and Borough, Alaska",B01002_001,39.5,0.7
+02230,"Skagway Municipality, Alaska",B01002_001,40.4,1.7
+02240,"Southeast Fairbanks Census Area, Alaska",B01002_001,36.8,1
+02261,"Valdez-Cordova Census Area, Alaska",B01002_001,38.1,1.3
+02275,"Wrangell City and Borough, Alaska",B01002_001,49.4,2.8
+02282,"Yakutat City and Borough, Alaska",B01002_001,36.9,4.7
+02290,"Yukon-Koyukuk Census Area, Alaska",B01002_001,35.2,0.3
+04001,"Apache County, Arizona",B01002_001,35,0.2
+04003,"Cochise County, Arizona",B01002_001,41.1,0.3
+04005,"Coconino County, Arizona",B01002_001,30.7,0.2
+04007,"Gila County, Arizona",B01002_001,50.2,0.2
+04009,"Graham County, Arizona",B01002_001,33.6,0.5
+04011,"Greenlee County, Arizona",B01002_001,34.5,0.5
+04012,"La Paz County, Arizona",B01002_001,56.5,0.5
+04013,"Maricopa County, Arizona",B01002_001,36.4,0.1
+04015,"Mohave County, Arizona",B01002_001,51.6,0.3
+04017,"Navajo County, Arizona",B01002_001,37.3,0.3
+04019,"Pima County, Arizona",B01002_001,38.5,0.1
+04021,"Pinal County, Arizona",B01002_001,39.3,0.3
+04023,"Santa Cruz County, Arizona",B01002_001,36.7,0.5
+04025,"Yavapai County, Arizona",B01002_001,53.4,0.1
+04027,"Yuma County, Arizona",B01002_001,34.6,0.2
+05001,"Arkansas County, Arkansas",B01002_001,40.7,0.6
+05003,"Ashley County, Arkansas",B01002_001,41.7,1.2
+05005,"Baxter County, Arkansas",B01002_001,52.2,0.3
+05007,"Benton County, Arkansas",B01002_001,35.4,0.1
+05009,"Boone County, Arkansas",B01002_001,42.3,0.8
+05011,"Bradley County, Arkansas",B01002_001,40.6,0.8
+05013,"Calhoun County, Arkansas",B01002_001,44.5,2.1
+05015,"Carroll County, Arkansas",B01002_001,45,0.4
+05017,"Chicot County, Arkansas",B01002_001,43.3,0.6
+05019,"Clark County, Arkansas",B01002_001,33.7,0.6
+05021,"Clay County, Arkansas",B01002_001,42.8,0.4
+05023,"Cleburne County, Arkansas",B01002_001,49.4,0.2
+05025,"Cleveland County, Arkansas",B01002_001,42.9,0.8
+05027,"Columbia County, Arkansas",B01002_001,35.7,0.5
+05029,"Conway County, Arkansas",B01002_001,42.5,0.7
+05031,"Craighead County, Arkansas",B01002_001,34.2,0.2
+05033,"Crawford County, Arkansas",B01002_001,38.6,0.6
+05035,"Crittenden County, Arkansas",B01002_001,35.2,0.1
+05037,"Cross County, Arkansas",B01002_001,40.9,0.8
+05039,"Dallas County, Arkansas",B01002_001,43.9,2.2
+05041,"Desha County, Arkansas",B01002_001,40.1,2.3
+05043,"Drew County, Arkansas",B01002_001,37.4,0.8
+05045,"Faulkner County, Arkansas",B01002_001,32.8,0.3
+05047,"Franklin County, Arkansas",B01002_001,41.2,0.9
+05049,"Fulton County, Arkansas",B01002_001,48.4,0.7
+05051,"Garland County, Arkansas",B01002_001,45,0.2
+05053,"Grant County, Arkansas",B01002_001,41,0.8
+05055,"Greene County, Arkansas",B01002_001,38,0.6
+05057,"Hempstead County, Arkansas",B01002_001,40.4,1.1
+05059,"Hot Spring County, Arkansas",B01002_001,41.3,0.9
+05061,"Howard County, Arkansas",B01002_001,39.2,0.8
+05063,"Independence County, Arkansas",B01002_001,39.3,0.9
+05065,"Izard County, Arkansas",B01002_001,47.9,0.6
+05067,"Jackson County, Arkansas",B01002_001,39.7,0.6
+05069,"Jefferson County, Arkansas",B01002_001,38.7,0.5
+05071,"Johnson County, Arkansas",B01002_001,38.4,0.9
+05073,"Lafayette County, Arkansas",B01002_001,47,0.7
+05075,"Lawrence County, Arkansas",B01002_001,40.8,0.6
+05077,"Lee County, Arkansas",B01002_001,42.5,0.8
+05079,"Lincoln County, Arkansas",B01002_001,39,1.1
+05081,"Little River County, Arkansas",B01002_001,42.9,0.7
+05083,"Logan County, Arkansas",B01002_001,42,0.7
+05085,"Lonoke County, Arkansas",B01002_001,36.2,0.3
+05087,"Madison County, Arkansas",B01002_001,42.7,0.9
+05089,"Marion County, Arkansas",B01002_001,52.2,0.5
+05091,"Miller County, Arkansas",B01002_001,39.5,0.9
+05093,"Mississippi County, Arkansas",B01002_001,36.6,0.4
+05095,"Monroe County, Arkansas",B01002_001,47.3,1
+05097,"Montgomery County, Arkansas",B01002_001,50.4,0.8
+05099,"Nevada County, Arkansas",B01002_001,44.3,2.3
+05101,"Newton County, Arkansas",B01002_001,49,0.6
+05103,"Ouachita County, Arkansas",B01002_001,43,0.8
+05105,"Perry County, Arkansas",B01002_001,43.7,0.6
+05107,"Phillips County, Arkansas",B01002_001,38.9,0.7
+05109,"Pike County, Arkansas",B01002_001,43.1,0.7
+05111,"Poinsett County, Arkansas",B01002_001,40.1,0.6
+05113,"Polk County, Arkansas",B01002_001,43.9,0.5
+05115,"Pope County, Arkansas",B01002_001,35.3,0.4
+05117,"Prairie County, Arkansas",B01002_001,47.2,1.2
+05119,"Pulaski County, Arkansas",B01002_001,37.2,0.2
+05121,"Randolph County, Arkansas",B01002_001,41.1,0.7
+05123,"St. Francis County, Arkansas",B01002_001,38.8,0.8
+05125,"Saline County, Arkansas",B01002_001,39.6,0.5
+05127,"Scott County, Arkansas",B01002_001,40.7,1
+05129,"Searcy County, Arkansas",B01002_001,47.9,1.1
+05131,"Sebastian County, Arkansas",B01002_001,37.6,0.3
+05133,"Sevier County, Arkansas",B01002_001,35.3,0.7
+05135,"Sharp County, Arkansas",B01002_001,47.6,0.7
+05137,"Stone County, Arkansas",B01002_001,50.1,0.7
+05139,"Union County, Arkansas",B01002_001,40.3,0.5
+05141,"Van Buren County, Arkansas",B01002_001,48,0.6
+05143,"Washington County, Arkansas",B01002_001,32,0.2
+05145,"White County, Arkansas",B01002_001,36.9,0.4
+05147,"Woodruff County, Arkansas",B01002_001,45.5,0.7
+05149,"Yell County, Arkansas",B01002_001,40.3,1
+06001,"Alameda County, California",B01002_001,37.6,0.1
+06003,"Alpine County, California",B01002_001,52.2,8.8
+06005,"Amador County, California",B01002_001,50.5,0.4
+06007,"Butte County, California",B01002_001,37.1,0.2
+06009,"Calaveras County, California",B01002_001,52,0.6
+06011,"Colusa County, California",B01002_001,35.3,0.4
+06013,"Contra Costa County, California",B01002_001,39.7,0.1
+06015,"Del Norte County, California",B01002_001,39.5,1.1
+06017,"El Dorado County, California",B01002_001,45.9,0.1
+06019,"Fresno County, California",B01002_001,32.2,0.1
+06021,"Glenn County, California",B01002_001,36.4,0.7
+06023,"Humboldt County, California",B01002_001,38.4,0.3
+06025,"Imperial County, California",B01002_001,32.4,0.2
+06027,"Inyo County, California",B01002_001,45.8,0.5
+06029,"Kern County, California",B01002_001,31.6,0.2
+06031,"Kings County, California",B01002_001,31.8,0.2
+06033,"Lake County, California",B01002_001,45.6,0.3
+06035,"Lassen County, California",B01002_001,36.6,0.5
+06037,"Los Angeles County, California",B01002_001,36.5,0.1
+06039,"Madera County, California",B01002_001,34.1,0.2
+06041,"Marin County, California",B01002_001,46.8,0.1
+06043,"Mariposa County, California",B01002_001,51.7,0.6
+06045,"Mendocino County, California",B01002_001,43.1,0.3
+06047,"Merced County, California",B01002_001,31.1,0.1
+06049,"Modoc County, California",B01002_001,47.8,2.3
+06051,"Mono County, California",B01002_001,37.7,1.3
+06053,"Monterey County, California",B01002_001,34.4,0.1
+06055,"Napa County, California",B01002_001,41.3,0.4
+06057,"Nevada County, California",B01002_001,50.5,0.2
+06059,"Orange County, California",B01002_001,38.1,0.2
+06061,"Placer County, California",B01002_001,42,0.2
+06063,"Plumas County, California",B01002_001,52.3,0.5
+06065,"Riverside County, California",B01002_001,35.6,0.1
+06067,"Sacramento County, California",B01002_001,36.2,0.1
+06069,"San Benito County, California",B01002_001,35.7,0.2
+06071,"San Bernardino County, California",B01002_001,33.3,0.2
+06073,"San Diego County, California",B01002_001,35.8,0.1
+06075,"San Francisco County, California",B01002_001,38.2,0.1
+06077,"San Joaquin County, California",B01002_001,34.3,0.1
+06079,"San Luis Obispo County, California",B01002_001,39.2,0.3
+06081,"San Mateo County, California",B01002_001,39.7,0.2
+06083,"Santa Barbara County, California",B01002_001,33.8,0.1
+06085,"Santa Clara County, California",B01002_001,37.1,0.1
+06087,"Santa Cruz County, California",B01002_001,37.8,0.2
+06089,"Shasta County, California",B01002_001,41.5,0.4
+06091,"Sierra County, California",B01002_001,54.8,1.4
+06093,"Siskiyou County, California",B01002_001,47.8,0.3
+06095,"Solano County, California",B01002_001,38.1,0.2
+06097,"Sonoma County, California",B01002_001,42.1,0.2
+06099,"Stanislaus County, California",B01002_001,34.1,0.1
+06101,"Sutter County, California",B01002_001,35.7,0.2
+06103,"Tehama County, California",B01002_001,41,0.6
+06105,"Trinity County, California",B01002_001,52.5,0.5
+06107,"Tulare County, California",B01002_001,31,0.2
+06109,"Tuolumne County, California",B01002_001,48.4,0.5
+06111,"Ventura County, California",B01002_001,38.1,0.2
+06113,"Yolo County, California",B01002_001,31,0.2
+06115,"Yuba County, California",B01002_001,32.8,0.3
+08001,"Adams County, Colorado",B01002_001,33.8,0.2
+08003,"Alamosa County, Colorado",B01002_001,31.8,0.9
+08005,"Arapahoe County, Colorado",B01002_001,36.6,0.1
+08007,"Archuleta County, Colorado",B01002_001,50.9,0.5
+08009,"Baca County, Colorado",B01002_001,46,2.3
+08011,"Bent County, Colorado",B01002_001,40.2,0.8
+08013,"Boulder County, Colorado",B01002_001,36.6,0.2
+08014,"Broomfield County, Colorado",B01002_001,37.8,0.3
+08015,"Chaffee County, Colorado",B01002_001,49.2,0.6
+08017,"Cheyenne County, Colorado",B01002_001,39.4,4.4
+08019,"Clear Creek County, Colorado",B01002_001,48.1,0.9
+08021,"Conejos County, Colorado",B01002_001,38.8,1.3
+08023,"Costilla County, Colorado",B01002_001,51.9,2.1
+08025,"Crowley County, Colorado",B01002_001,35.4,2.8
+08027,"Custer County, Colorado",B01002_001,59.7,2.6
+08029,"Delta County, Colorado",B01002_001,47.3,0.6
+08031,"Denver County, Colorado",B01002_001,34.5,0.1
+08033,"Dolores County, Colorado",B01002_001,48.8,10.7
+08035,"Douglas County, Colorado",B01002_001,38.7,0.2
+08037,"Eagle County, Colorado",B01002_001,37,0.6
+08039,"Elbert County, Colorado",B01002_001,46.1,0.4
+08041,"El Paso County, Colorado",B01002_001,34.2,0.2
+08043,"Fremont County, Colorado",B01002_001,45.1,0.4
+08045,"Garfield County, Colorado",B01002_001,36.5,0.3
+08047,"Gilpin County, Colorado",B01002_001,49,2.4
+08049,"Grand County, Colorado",B01002_001,42.9,0.5
+08051,"Gunnison County, Colorado",B01002_001,34.5,0.8
+08053,"Hinsdale County, Colorado",B01002_001,56.1,4.5
+08055,"Huerfano County, Colorado",B01002_001,55,0.6
+08057,"Jackson County, Colorado",B01002_001,51.6,6.2
+08059,"Jefferson County, Colorado",B01002_001,40.3,0.2
+08061,"Kiowa County, Colorado",B01002_001,42.5,6.2
+08063,"Kit Carson County, Colorado",B01002_001,38.3,1.1
+08065,"Lake County, Colorado",B01002_001,36.7,2.4
+08067,"La Plata County, Colorado",B01002_001,40.4,0.4
+08069,"Larimer County, Colorado",B01002_001,36,0.2
+08071,"Las Animas County, Colorado",B01002_001,45.9,0.6
+08073,"Lincoln County, Colorado",B01002_001,38,2.4
+08075,"Logan County, Colorado",B01002_001,38.2,1
+08077,"Mesa County, Colorado",B01002_001,39.7,0.4
+08079,"Mineral County, Colorado",B01002_001,56.1,5.4
+08081,"Moffat County, Colorado",B01002_001,36.6,0.9
+08083,"Montezuma County, Colorado",B01002_001,45.2,0.3
+08085,"Montrose County, Colorado",B01002_001,45.2,0.3
+08087,"Morgan County, Colorado",B01002_001,36.2,0.5
+08089,"Otero County, Colorado",B01002_001,39.9,0.7
+08091,"Ouray County, Colorado",B01002_001,54.1,2.8
+08093,"Park County, Colorado",B01002_001,50.7,0.9
+08095,"Phillips County, Colorado",B01002_001,37.1,2.7
+08097,"Pitkin County, Colorado",B01002_001,41.8,1
+08099,"Prowers County, Colorado",B01002_001,38.3,0.6
+08101,"Pueblo County, Colorado",B01002_001,39.3,0.3
+08103,"Rio Blanco County, Colorado",B01002_001,36.9,1.4
+08105,"Rio Grande County, Colorado",B01002_001,42.1,2.3
+08107,"Routt County, Colorado",B01002_001,40.2,0.8
+08109,"Saguache County, Colorado",B01002_001,49,1.4
+08111,"San Juan County, Colorado",B01002_001,51.2,6.9
+08113,"San Miguel County, Colorado",B01002_001,41.8,0.9
+08115,"Sedgwick County, Colorado",B01002_001,44.1,8.1
+08117,"Summit County, Colorado",B01002_001,39.1,0.9
+08119,"Teller County, Colorado",B01002_001,50,0.3
+08121,"Washington County, Colorado",B01002_001,41.6,0.8
+08123,"Weld County, Colorado",B01002_001,34.4,0.1
+08125,"Yuma County, Colorado",B01002_001,37.8,2.1
+09001,"Fairfield County, Connecticut",B01002_001,40.6,0.2
+09003,"Hartford County, Connecticut",B01002_001,40.4,0.1
+09005,"Litchfield County, Connecticut",B01002_001,47.3,0.1
+09007,"Middlesex County, Connecticut",B01002_001,45.7,0.1
+09009,"New Haven County, Connecticut",B01002_001,40.3,0.2
+09011,"New London County, Connecticut",B01002_001,41.4,0.3
+09013,"Tolland County, Connecticut",B01002_001,37.7,0.3
+09015,"Windham County, Connecticut",B01002_001,41.2,0.4
+10001,"Kent County, Delaware",B01002_001,37.7,0.4
+10003,"New Castle County, Delaware",B01002_001,38.4,0.2
+10005,"Sussex County, Delaware",B01002_001,49.6,0.1
+11001,"District of Columbia, District of Columbia",B01002_001,34,0.1
+12001,"Alachua County, Florida",B01002_001,31.6,0.2
+12003,"Baker County, Florida",B01002_001,37.7,0.9
+12005,"Bay County, Florida",B01002_001,39.8,0.3
+12007,"Bradford County, Florida",B01002_001,39.7,0.8
+12009,"Brevard County, Florida",B01002_001,47.3,0.2
+12011,"Broward County, Florida",B01002_001,40.4,0.2
+12013,"Calhoun County, Florida",B01002_001,41.6,1.6
+12015,"Charlotte County, Florida",B01002_001,59.1,0.2
+12017,"Citrus County, Florida",B01002_001,56.5,0.3
+12019,"Clay County, Florida",B01002_001,39.7,0.4
+12021,"Collier County, Florida",B01002_001,50.8,0.1
+12023,"Columbia County, Florida",B01002_001,40.4,0.5
+12027,"DeSoto County, Florida",B01002_001,40.9,0.8
+12029,"Dixie County, Florida",B01002_001,46.5,0.8
+12031,"Duval County, Florida",B01002_001,36.2,0.2
+12033,"Escambia County, Florida",B01002_001,37.2,0.3
+12035,"Flagler County, Florida",B01002_001,51.3,0.3
+12037,"Franklin County, Florida",B01002_001,46.4,1
+12039,"Gadsden County, Florida",B01002_001,40.8,0.6
+12041,"Gilchrist County, Florida",B01002_001,42.1,1.1
+12043,"Glades County, Florida",B01002_001,47.9,1.3
+12045,"Gulf County, Florida",B01002_001,44.9,1.1
+12047,"Hamilton County, Florida",B01002_001,40.9,1.1
+12049,"Hardee County, Florida",B01002_001,35.4,0.3
+12051,"Hendry County, Florida",B01002_001,34,0.3
+12053,"Hernando County, Florida",B01002_001,49,0.2
+12055,"Highlands County, Florida",B01002_001,53.5,0.3
+12057,"Hillsborough County, Florida",B01002_001,37.2,0.1
+12059,"Holmes County, Florida",B01002_001,42.7,0.9
+12061,"Indian River County, Florida",B01002_001,53.5,0.2
+12063,"Jackson County, Florida",B01002_001,41.7,0.4
+12065,"Jefferson County, Florida",B01002_001,48,0.6
+12067,"Lafayette County, Florida",B01002_001,37.3,2.4
+12069,"Lake County, Florida",B01002_001,46.9,0.2
+12071,"Lee County, Florida",B01002_001,48.5,0.2
+12073,"Leon County, Florida",B01002_001,31,0.2
+12075,"Levy County, Florida",B01002_001,46.9,0.6
+12077,"Liberty County, Florida",B01002_001,40.7,3.3
+12079,"Madison County, Florida",B01002_001,43.5,0.7
+12081,"Manatee County, Florida",B01002_001,48.3,0.2
+12083,"Marion County, Florida",B01002_001,48.7,0.2
+12085,"Martin County, Florida",B01002_001,52.2,0.3
+12086,"Miami-Dade County, Florida",B01002_001,39.9,0.2
+12087,"Monroe County, Florida",B01002_001,47.7,0.3
+12089,"Nassau County, Florida",B01002_001,45.3,0.3
+12091,"Okaloosa County, Florida",B01002_001,36.9,0.2
+12093,"Okeechobee County, Florida",B01002_001,41.1,0.9
+12095,"Orange County, Florida",B01002_001,35.1,0.1
+12097,"Osceola County, Florida",B01002_001,35.9,0.2
+12099,"Palm Beach County, Florida",B01002_001,44.8,0.1
+12101,"Pasco County, Florida",B01002_001,44.5,0.1
+12103,"Pinellas County, Florida",B01002_001,48.1,0.1
+12105,"Polk County, Florida",B01002_001,40.2,0.2
+12107,"Putnam County, Florida",B01002_001,45.1,0.4
+12109,"St. Johns County, Florida",B01002_001,43.7,0.3
+12111,"St. Lucie County, Florida",B01002_001,45.1,0.2
+12113,"Santa Rosa County, Florida",B01002_001,39.9,0.4
+12115,"Sarasota County, Florida",B01002_001,56.1,0.2
+12117,"Seminole County, Florida",B01002_001,39.2,0.2
+12119,"Sumter County, Florida",B01002_001,67.4,0.2
+12121,"Suwannee County, Florida",B01002_001,43.3,0.8
+12123,"Taylor County, Florida",B01002_001,42,0.8
+12125,"Union County, Florida",B01002_001,39.3,0.7
+12127,"Volusia County, Florida",B01002_001,46.6,0.1
+12129,"Wakulla County, Florida",B01002_001,40.6,0.7
+12131,"Walton County, Florida",B01002_001,44,0.4
+12133,"Washington County, Florida",B01002_001,41.5,0.6
+13001,"Appling County, Georgia",B01002_001,40.3,1.4
+13003,"Atkinson County, Georgia",B01002_001,36.4,1
+13005,"Bacon County, Georgia",B01002_001,36.7,0.7
+13007,"Baker County, Georgia",B01002_001,46.1,5.5
+13009,"Baldwin County, Georgia",B01002_001,35.5,0.3
+13011,"Banks County, Georgia",B01002_001,41.1,1
+13013,"Barrow County, Georgia",B01002_001,35.7,0.2
+13015,"Bartow County, Georgia",B01002_001,38.1,0.3
+13017,"Ben Hill County, Georgia",B01002_001,39.9,1.1
+13019,"Berrien County, Georgia",B01002_001,39.6,0.6
+13021,"Bibb County, Georgia",B01002_001,36.4,0.2
+13023,"Bleckley County, Georgia",B01002_001,35.8,1.1
+13025,"Brantley County, Georgia",B01002_001,41.1,0.8
+13027,"Brooks County, Georgia",B01002_001,42,1.1
+13029,"Bryan County, Georgia",B01002_001,34.6,0.3
+13031,"Bulloch County, Georgia",B01002_001,28.8,0.3
+13033,"Burke County, Georgia",B01002_001,37.4,0.6
+13035,"Butts County, Georgia",B01002_001,38.6,0.9
+13037,"Calhoun County, Georgia",B01002_001,39.6,1.7
+13039,"Camden County, Georgia",B01002_001,32.8,0.4
+13043,"Candler County, Georgia",B01002_001,38.7,1.5
+13045,"Carroll County, Georgia",B01002_001,34.8,0.2
+13047,"Catoosa County, Georgia",B01002_001,40.4,0.4
+13049,"Charlton County, Georgia",B01002_001,41.2,1.6
+13051,"Chatham County, Georgia",B01002_001,35.6,0.1
+13053,"Chattahoochee County, Georgia",B01002_001,24.5,0.5
+13055,"Chattooga County, Georgia",B01002_001,39.4,0.7
+13057,"Cherokee County, Georgia",B01002_001,38.7,0.3
+13059,"Clarke County, Georgia",B01002_001,28,0.3
+13061,"Clay County, Georgia",B01002_001,49.8,5.6
+13063,"Clayton County, Georgia",B01002_001,32.5,0.2
+13065,"Clinch County, Georgia",B01002_001,39.9,1.8
+13067,"Cobb County, Georgia",B01002_001,36.7,0.2
+13069,"Coffee County, Georgia",B01002_001,36.3,0.3
+13071,"Colquitt County, Georgia",B01002_001,36.8,0.6
+13073,"Columbia County, Georgia",B01002_001,36.9,0.4
+13075,"Cook County, Georgia",B01002_001,37.3,0.7
+13077,"Coweta County, Georgia",B01002_001,39,0.4
+13079,"Crawford County, Georgia",B01002_001,44.4,0.4
+13081,"Crisp County, Georgia",B01002_001,38.5,1.2
+13083,"Dade County, Georgia",B01002_001,42.6,0.7
+13085,"Dawson County, Georgia",B01002_001,43.6,0.4
+13087,"Decatur County, Georgia",B01002_001,37.8,0.6
+13089,"DeKalb County, Georgia",B01002_001,35.8,0.1
+13091,"Dodge County, Georgia",B01002_001,41.8,0.7
+13093,"Dooly County, Georgia",B01002_001,43.2,0.7
+13095,"Dougherty County, Georgia",B01002_001,35.6,0.2
+13097,"Douglas County, Georgia",B01002_001,36.5,0.3
+13099,"Early County, Georgia",B01002_001,39.9,0.8
+13101,"Echols County, Georgia",B01002_001,40.6,3
+13103,"Effingham County, Georgia",B01002_001,36,0.2
+13105,"Elbert County, Georgia",B01002_001,42.6,0.6
+13107,"Emanuel County, Georgia",B01002_001,36.9,0.8
+13109,"Evans County, Georgia",B01002_001,37.6,0.8
+13111,"Fannin County, Georgia",B01002_001,52.1,0.5
+13113,"Fayette County, Georgia",B01002_001,43.4,0.3
+13115,"Floyd County, Georgia",B01002_001,38.3,0.3
+13117,"Forsyth County, Georgia",B01002_001,38.5,0.2
+13119,"Franklin County, Georgia",B01002_001,41.2,1
+13121,"Fulton County, Georgia",B01002_001,35.5,0.1
+13123,"Gilmer County, Georgia",B01002_001,47.2,0.8
+13125,"Glascock County, Georgia",B01002_001,42.7,1.1
+13127,"Glynn County, Georgia",B01002_001,41.6,0.7
+13129,"Gordon County, Georgia",B01002_001,38.4,0.6
+13131,"Grady County, Georgia",B01002_001,40.3,1.2
+13133,"Greene County, Georgia",B01002_001,50.2,0.4
+13135,"Gwinnett County, Georgia",B01002_001,35.3,0.1
+13137,"Habersham County, Georgia",B01002_001,39.7,0.8
+13139,"Hall County, Georgia",B01002_001,36.7,0.2
+13141,"Hancock County, Georgia",B01002_001,45.6,2.2
+13143,"Haralson County, Georgia",B01002_001,40.4,0.9
+13145,"Harris County, Georgia",B01002_001,42.9,0.6
+13147,"Hart County, Georgia",B01002_001,44.1,0.8
+13149,"Heard County, Georgia",B01002_001,41.9,1.1
+13151,"Henry County, Georgia",B01002_001,36.9,0.3
+13153,"Houston County, Georgia",B01002_001,35.4,0.2
+13155,"Irwin County, Georgia",B01002_001,39.7,0.7
+13157,"Jackson County, Georgia",B01002_001,38.1,0.5
+13159,"Jasper County, Georgia",B01002_001,43,0.9
+13161,"Jeff Davis County, Georgia",B01002_001,36.6,0.7
+13163,"Jefferson County, Georgia",B01002_001,40,0.5
+13165,"Jenkins County, Georgia",B01002_001,44.3,3.6
+13167,"Johnson County, Georgia",B01002_001,41.8,1.3
+13169,"Jones County, Georgia",B01002_001,40.4,0.5
+13171,"Lamar County, Georgia",B01002_001,37.8,0.8
+13173,"Lanier County, Georgia",B01002_001,35.6,2.2
+13175,"Laurens County, Georgia",B01002_001,38.9,0.6
+13177,"Lee County, Georgia",B01002_001,37.2,0.7
+13179,"Liberty County, Georgia",B01002_001,28.4,0.2
+13181,"Lincoln County, Georgia",B01002_001,47.1,0.9
+13183,"Long County, Georgia",B01002_001,32.9,0.9
+13185,"Lowndes County, Georgia",B01002_001,30.5,0.2
+13187,"Lumpkin County, Georgia",B01002_001,37,0.8
+13189,"McDuffie County, Georgia",B01002_001,37.7,0.9
+13191,"McIntosh County, Georgia",B01002_001,49.4,0.6
+13193,"Macon County, Georgia",B01002_001,40.3,1
+13195,"Madison County, Georgia",B01002_001,41.1,0.7
+13197,"Marion County, Georgia",B01002_001,44.6,2.3
+13199,"Meriwether County, Georgia",B01002_001,42.3,0.8
+13201,"Miller County, Georgia",B01002_001,43.5,1.3
+13205,"Mitchell County, Georgia",B01002_001,39,0.7
+13207,"Monroe County, Georgia",B01002_001,42.9,0.6
+13209,"Montgomery County, Georgia",B01002_001,40,1.2
+13211,"Morgan County, Georgia",B01002_001,44.6,0.6
+13213,"Murray County, Georgia",B01002_001,38.2,0.8
+13215,"Muscogee County, Georgia",B01002_001,34,0.2
+13217,"Newton County, Georgia",B01002_001,36.4,0.3
+13219,"Oconee County, Georgia",B01002_001,40.4,0.5
+13221,"Oglethorpe County, Georgia",B01002_001,42.4,0.5
+13223,"Paulding County, Georgia",B01002_001,36,0.3
+13225,"Peach County, Georgia",B01002_001,37.9,0.6
+13227,"Pickens County, Georgia",B01002_001,45.4,0.4
+13229,"Pierce County, Georgia",B01002_001,39.4,0.7
+13231,"Pike County, Georgia",B01002_001,40.4,0.8
+13233,"Polk County, Georgia",B01002_001,37,0.7
+13235,"Pulaski County, Georgia",B01002_001,43.1,3.1
+13237,"Putnam County, Georgia",B01002_001,46.2,0.6
+13239,"Quitman County, Georgia",B01002_001,47.3,7.1
+13241,"Rabun County, Georgia",B01002_001,49.2,0.7
+13243,"Randolph County, Georgia",B01002_001,41,4.3
+13245,"Richmond County, Georgia",B01002_001,34.1,0.2
+13247,"Rockdale County, Georgia",B01002_001,38.1,0.5
+13249,"Schley County, Georgia",B01002_001,37.8,2.6
+13251,"Screven County, Georgia",B01002_001,41.4,0.9
+13253,"Seminole County, Georgia",B01002_001,44.9,1.2
+13255,"Spalding County, Georgia",B01002_001,39.2,0.6
+13257,"Stephens County, Georgia",B01002_001,41.8,0.6
+13259,"Stewart County, Georgia",B01002_001,35.4,0.9
+13261,"Sumter County, Georgia",B01002_001,35.7,0.4
+13263,"Talbot County, Georgia",B01002_001,50.1,0.1
+13265,"Taliaferro County, Georgia",B01002_001,44.2,3.7
+13267,"Tattnall County, Georgia",B01002_001,37.3,0.9
+13269,"Taylor County, Georgia",B01002_001,45.2,0.5
+13271,"Telfair County, Georgia",B01002_001,41.5,1.3
+13273,"Terrell County, Georgia",B01002_001,41.1,1.5
+13275,"Thomas County, Georgia",B01002_001,40.4,0.6
+13277,"Tift County, Georgia",B01002_001,36.2,0.5
+13279,"Toombs County, Georgia",B01002_001,36.4,0.8
+13281,"Towns County, Georgia",B01002_001,54,0.9
+13283,"Treutlen County, Georgia",B01002_001,40.1,3.3
+13285,"Troup County, Georgia",B01002_001,36.4,0.5
+13287,"Turner County, Georgia",B01002_001,40.3,1.9
+13289,"Twiggs County, Georgia",B01002_001,45.7,1.4
+13291,"Union County, Georgia",B01002_001,54.3,0.4
+13293,"Upson County, Georgia",B01002_001,42.1,0.5
+13295,"Walker County, Georgia",B01002_001,41.4,0.8
+13297,"Walton County, Georgia",B01002_001,38.7,0.4
+13299,"Ware County, Georgia",B01002_001,39.5,0.7
+13301,"Warren County, Georgia",B01002_001,45.1,1.2
+13303,"Washington County, Georgia",B01002_001,41.5,0.9
+13305,"Wayne County, Georgia",B01002_001,38.9,0.8
+13307,"Webster County, Georgia",B01002_001,45.1,3.3
+13309,"Wheeler County, Georgia",B01002_001,38.8,7.2
+13311,"White County, Georgia",B01002_001,46.1,0.6
+13313,"Whitfield County, Georgia",B01002_001,36,0.3
+13315,"Wilcox County, Georgia",B01002_001,39.8,0.8
+13317,"Wilkes County, Georgia",B01002_001,45.1,0.8
+13319,"Wilkinson County, Georgia",B01002_001,42.6,1.6
+13321,"Worth County, Georgia",B01002_001,41.6,1.4
+15001,"Hawaii County, Hawaii",B01002_001,42.7,0.2
+15003,"Honolulu County, Hawaii",B01002_001,37.9,0.2
+15005,"Kalawao County, Hawaii",B01002_001,57.4,2.3
+15007,"Kauai County, Hawaii",B01002_001,42.6,0.5
+15009,"Maui County, Hawaii",B01002_001,41.2,0.3
+16001,"Ada County, Idaho",B01002_001,37,0.2
+16003,"Adams County, Idaho",B01002_001,55.2,0.7
+16005,"Bannock County, Idaho",B01002_001,33.8,0.3
+16007,"Bear Lake County, Idaho",B01002_001,39.6,0.6
+16009,"Benewah County, Idaho",B01002_001,46.2,0.4
+16011,"Bingham County, Idaho",B01002_001,33.6,0.3
+16013,"Blaine County, Idaho",B01002_001,43.2,0.7
+16015,"Boise County, Idaho",B01002_001,54,1
+16017,"Bonner County, Idaho",B01002_001,47.9,0.4
+16019,"Bonneville County, Idaho",B01002_001,32.9,0.2
+16021,"Boundary County, Idaho",B01002_001,43.5,0.8
+16023,"Butte County, Idaho",B01002_001,45.2,6.3
+16025,"Camas County, Idaho",B01002_001,44.5,8.3
+16027,"Canyon County, Idaho",B01002_001,33.6,0.2
+16029,"Caribou County, Idaho",B01002_001,36.9,0.9
+16031,"Cassia County, Idaho",B01002_001,32.9,0.5
+16033,"Clark County, Idaho",B01002_001,33.2,6.7
+16035,"Clearwater County, Idaho",B01002_001,50.4,0.3
+16037,"Custer County, Idaho",B01002_001,53,2
+16039,"Elmore County, Idaho",B01002_001,32.3,0.6
+16041,"Franklin County, Idaho",B01002_001,32.8,1
+16043,"Fremont County, Idaho",B01002_001,37.6,0.6
+16045,"Gem County, Idaho",B01002_001,44.6,0.8
+16047,"Gooding County, Idaho",B01002_001,38.7,0.6
+16049,"Idaho County, Idaho",B01002_001,50.2,0.3
+16051,"Jefferson County, Idaho",B01002_001,31.5,0.7
+16053,"Jerome County, Idaho",B01002_001,32.7,0.4
+16055,"Kootenai County, Idaho",B01002_001,40.2,0.4
+16057,"Latah County, Idaho",B01002_001,28.7,0.4
+16059,"Lemhi County, Idaho",B01002_001,52.1,1.5
+16061,"Lewis County, Idaho",B01002_001,48.6,0.6
+16063,"Lincoln County, Idaho",B01002_001,35.1,1.5
+16065,"Madison County, Idaho",B01002_001,23.5,0.2
+16067,"Minidoka County, Idaho",B01002_001,35.2,0.2
+16069,"Nez Perce County, Idaho",B01002_001,40.8,0.7
+16071,"Oneida County, Idaho",B01002_001,38.6,2.1
+16073,"Owyhee County, Idaho",B01002_001,38.9,1.4
+16075,"Payette County, Idaho",B01002_001,40.4,0.6
+16077,"Power County, Idaho",B01002_001,38.3,2.5
+16079,"Shoshone County, Idaho",B01002_001,47.3,0.5
+16081,"Teton County, Idaho",B01002_001,37.2,1
+16083,"Twin Falls County, Idaho",B01002_001,34.7,0.2
+16085,"Valley County, Idaho",B01002_001,50.6,0.6
+16087,"Washington County, Idaho",B01002_001,45.4,1.9
+17001,"Adams County, Illinois",B01002_001,41.5,0.4
+17003,"Alexander County, Illinois",B01002_001,45.3,1.1
+17005,"Bond County, Illinois",B01002_001,41.6,0.8
+17007,"Boone County, Illinois",B01002_001,38.5,0.5
+17009,"Brown County, Illinois",B01002_001,38.9,0.9
+17011,"Bureau County, Illinois",B01002_001,44.4,0.3
+17013,"Calhoun County, Illinois",B01002_001,46.8,0.7
+17015,"Carroll County, Illinois",B01002_001,48.3,0.4
+17017,"Cass County, Illinois",B01002_001,40,0.9
+17019,"Champaign County, Illinois",B01002_001,30.1,0.1
+17021,"Christian County, Illinois",B01002_001,43.4,0.4
+17023,"Clark County, Illinois",B01002_001,42.3,1.6
+17025,"Clay County, Illinois",B01002_001,42.6,1.1
+17027,"Clinton County, Illinois",B01002_001,40.6,0.5
+17029,"Coles County, Illinois",B01002_001,35.7,0.3
+17031,"Cook County, Illinois",B01002_001,36.8,0.1
+17033,"Crawford County, Illinois",B01002_001,41.8,0.4
+17035,"Cumberland County, Illinois",B01002_001,42.5,0.9
+17037,"DeKalb County, Illinois",B01002_001,31.1,0.2
+17039,"De Witt County, Illinois",B01002_001,43.6,0.6
+17041,"Douglas County, Illinois",B01002_001,37.8,0.6
+17043,"DuPage County, Illinois",B01002_001,39.3,0.1
+17045,"Edgar County, Illinois",B01002_001,45.2,0.3
+17047,"Edwards County, Illinois",B01002_001,43.5,0.7
+17049,"Effingham County, Illinois",B01002_001,39.4,0.5
+17051,"Fayette County, Illinois",B01002_001,41.9,0.7
+17053,"Ford County, Illinois",B01002_001,43.4,0.7
+17055,"Franklin County, Illinois",B01002_001,42.8,0.4
+17057,"Fulton County, Illinois",B01002_001,43.2,0.4
+17059,"Gallatin County, Illinois",B01002_001,45.6,0.9
+17061,"Greene County, Illinois",B01002_001,42.5,0.6
+17063,"Grundy County, Illinois",B01002_001,37.9,0.5
+17065,"Hamilton County, Illinois",B01002_001,43.6,0.8
+17067,"Hancock County, Illinois",B01002_001,46,0.4
+17069,"Hardin County, Illinois",B01002_001,46.8,3.5
+17071,"Henderson County, Illinois",B01002_001,50,0.5
+17073,"Henry County, Illinois",B01002_001,43.1,0.3
+17075,"Iroquois County, Illinois",B01002_001,44.4,0.2
+17077,"Jackson County, Illinois",B01002_001,31.9,0.3
+17079,"Jasper County, Illinois",B01002_001,43.1,0.6
+17081,"Jefferson County, Illinois",B01002_001,40.9,0.4
+17083,"Jersey County, Illinois",B01002_001,42.9,0.5
+17085,"Jo Daviess County, Illinois",B01002_001,49.9,0.4
+17087,"Johnson County, Illinois",B01002_001,43.7,0.4
+17089,"Kane County, Illinois",B01002_001,37.3,0.2
+17091,"Kankakee County, Illinois",B01002_001,37.7,0.3
+17093,"Kendall County, Illinois",B01002_001,35.2,0.1
+17095,"Knox County, Illinois",B01002_001,42.1,0.4
+17097,"Lake County, Illinois",B01002_001,38.4,0.2
+17099,"LaSalle County, Illinois",B01002_001,41.9,0.3
+17101,"Lawrence County, Illinois",B01002_001,42.4,0.6
+17103,"Lee County, Illinois",B01002_001,43.2,0.5
+17105,"Livingston County, Illinois",B01002_001,42,0.7
+17107,"Logan County, Illinois",B01002_001,40.1,0.5
+17109,"McDonough County, Illinois",B01002_001,33,0.7
+17111,"McHenry County, Illinois",B01002_001,40.2,0.2
+17113,"McLean County, Illinois",B01002_001,33.1,0.3
+17115,"Macon County, Illinois",B01002_001,41.1,0.3
+17117,"Macoupin County, Illinois",B01002_001,43.7,0.3
+17119,"Madison County, Illinois",B01002_001,40.2,0.2
+17121,"Marion County, Illinois",B01002_001,42.2,0.4
+17123,"Marshall County, Illinois",B01002_001,46,0.3
+17125,"Mason County, Illinois",B01002_001,45.2,0.3
+17127,"Massac County, Illinois",B01002_001,43.5,0.4
+17129,"Menard County, Illinois",B01002_001,43.2,1
+17131,"Mercer County, Illinois",B01002_001,44.9,0.3
+17133,"Monroe County, Illinois",B01002_001,42,0.4
+17135,"Montgomery County, Illinois",B01002_001,43.3,0.5
+17137,"Morgan County, Illinois",B01002_001,40.8,0.7
+17139,"Moultrie County, Illinois",B01002_001,40.7,0.7
+17141,"Ogle County, Illinois",B01002_001,42.4,0.4
+17143,"Peoria County, Illinois",B01002_001,37.5,0.3
+17145,"Perry County, Illinois",B01002_001,42.2,0.5
+17147,"Piatt County, Illinois",B01002_001,42.9,0.8
+17149,"Pike County, Illinois",B01002_001,42,0.7
+17151,"Pope County, Illinois",B01002_001,52.5,2
+17153,"Pulaski County, Illinois",B01002_001,44,1.6
+17155,"Putnam County, Illinois",B01002_001,48.1,0.6
+17157,"Randolph County, Illinois",B01002_001,41.6,0.5
+17159,"Richland County, Illinois",B01002_001,42,0.6
+17161,"Rock Island County, Illinois",B01002_001,40.1,0.3
+17163,"St. Clair County, Illinois",B01002_001,38.6,0.2
+17165,"Saline County, Illinois",B01002_001,42.2,0.6
+17167,"Sangamon County, Illinois",B01002_001,40.3,0.2
+17169,"Schuyler County, Illinois",B01002_001,46.3,0.3
+17171,"Scott County, Illinois",B01002_001,44.6,0.3
+17173,"Shelby County, Illinois",B01002_001,45.1,0.4
+17175,"Stark County, Illinois",B01002_001,45.1,0.4
+17177,"Stephenson County, Illinois",B01002_001,45.3,0.4
+17179,"Tazewell County, Illinois",B01002_001,41,0.3
+17181,"Union County, Illinois",B01002_001,43.7,0.5
+17183,"Vermilion County, Illinois",B01002_001,40.4,0.4
+17185,"Wabash County, Illinois",B01002_001,43.8,0.6
+17187,"Warren County, Illinois",B01002_001,39.8,1.3
+17189,"Washington County, Illinois",B01002_001,43.9,0.5
+17191,"Wayne County, Illinois",B01002_001,43.4,0.6
+17193,"White County, Illinois",B01002_001,44.3,0.4
+17195,"Whiteside County, Illinois",B01002_001,43.4,0.2
+17197,"Will County, Illinois",B01002_001,37.9,0.2
+17199,"Williamson County, Illinois",B01002_001,41.2,0.4
+17201,"Winnebago County, Illinois",B01002_001,39.7,0.2
+17203,"Woodford County, Illinois",B01002_001,40.5,0.3
+18001,"Adams County, Indiana",B01002_001,33.5,0.5
+18003,"Allen County, Indiana",B01002_001,35.9,0.1
+18005,"Bartholomew County, Indiana",B01002_001,37.8,0.4
+18007,"Benton County, Indiana",B01002_001,40.5,0.6
+18009,"Blackford County, Indiana",B01002_001,44,0.6
+18011,"Boone County, Indiana",B01002_001,38.1,0.5
+18013,"Brown County, Indiana",B01002_001,50,0.4
+18015,"Carroll County, Indiana",B01002_001,42.9,0.7
+18017,"Cass County, Indiana",B01002_001,40.8,0.5
+18019,"Clark County, Indiana",B01002_001,39.1,0.3
+18021,"Clay County, Indiana",B01002_001,41.5,0.5
+18023,"Clinton County, Indiana",B01002_001,37.8,0.7
+18025,"Crawford County, Indiana",B01002_001,43,0.8
+18027,"Daviess County, Indiana",B01002_001,34.4,0.4
+18029,"Dearborn County, Indiana",B01002_001,42.5,0.7
+18031,"Decatur County, Indiana",B01002_001,39.2,1
+18033,"DeKalb County, Indiana",B01002_001,39.1,0.5
+18035,"Delaware County, Indiana",B01002_001,35.6,0.2
+18037,"Dubois County, Indiana",B01002_001,40.3,0.5
+18039,"Elkhart County, Indiana",B01002_001,35.6,0.1
+18041,"Fayette County, Indiana",B01002_001,42.8,0.3
+18043,"Floyd County, Indiana",B01002_001,39.8,0.4
+18045,"Fountain County, Indiana",B01002_001,43.4,0.4
+18047,"Franklin County, Indiana",B01002_001,42.2,0.6
+18049,"Fulton County, Indiana",B01002_001,41.3,0.9
+18051,"Gibson County, Indiana",B01002_001,40.3,0.8
+18053,"Grant County, Indiana",B01002_001,40.3,0.5
+18055,"Greene County, Indiana",B01002_001,43.1,0.4
+18057,"Hamilton County, Indiana",B01002_001,37.1,0.2
+18059,"Hancock County, Indiana",B01002_001,39.8,0.6
+18061,"Harrison County, Indiana",B01002_001,42.3,0.6
+18063,"Hendricks County, Indiana",B01002_001,37.7,0.4
+18065,"Henry County, Indiana",B01002_001,42.1,0.6
+18067,"Howard County, Indiana",B01002_001,41.7,0.6
+18069,"Huntington County, Indiana",B01002_001,40.7,0.5
+18071,"Jackson County, Indiana",B01002_001,38.5,0.7
+18073,"Jasper County, Indiana",B01002_001,40.3,0.6
+18075,"Jay County, Indiana",B01002_001,39.7,0.9
+18077,"Jefferson County, Indiana",B01002_001,40.8,0.7
+18079,"Jennings County, Indiana",B01002_001,39.8,0.7
+18081,"Johnson County, Indiana",B01002_001,37.5,0.3
+18083,"Knox County, Indiana",B01002_001,37.9,0.5
+18085,"Kosciusko County, Indiana",B01002_001,38.5,0.3
+18087,"LaGrange County, Indiana",B01002_001,31.1,0.7
+18089,"Lake County, Indiana",B01002_001,39.1,0.2
+18091,"LaPorte County, Indiana",B01002_001,40.3,0.3
+18093,"Lawrence County, Indiana",B01002_001,43.1,0.5
+18095,"Madison County, Indiana",B01002_001,40.4,0.3
+18097,"Marion County, Indiana",B01002_001,34.3,0.1
+18099,"Marshall County, Indiana",B01002_001,40,0.5
+18101,"Martin County, Indiana",B01002_001,42.7,0.9
+18103,"Miami County, Indiana",B01002_001,40.1,0.5
+18105,"Monroe County, Indiana",B01002_001,29.6,0.1
+18107,"Montgomery County, Indiana",B01002_001,40.2,0.4
+18109,"Morgan County, Indiana",B01002_001,41.5,0.4
+18111,"Newton County, Indiana",B01002_001,43.1,0.7
+18113,"Noble County, Indiana",B01002_001,38.7,0.5
+18115,"Ohio County, Indiana",B01002_001,47.4,0.7
+18117,"Orange County, Indiana",B01002_001,42.4,0.6
+18119,"Owen County, Indiana",B01002_001,45.2,0.8
+18121,"Parke County, Indiana",B01002_001,43.2,0.5
+18123,"Perry County, Indiana",B01002_001,42,0.8
+18125,"Pike County, Indiana",B01002_001,43.7,0.7
+18127,"Porter County, Indiana",B01002_001,39.5,0.2
+18129,"Posey County, Indiana",B01002_001,42.6,0.5
+18131,"Pulaski County, Indiana",B01002_001,41.6,0.8
+18133,"Putnam County, Indiana",B01002_001,37.9,0.5
+18135,"Randolph County, Indiana",B01002_001,42.6,0.6
+18137,"Ripley County, Indiana",B01002_001,40.7,0.5
+18139,"Rush County, Indiana",B01002_001,41.7,0.6
+18141,"St. Joseph County, Indiana",B01002_001,36.6,0.2
+18143,"Scott County, Indiana",B01002_001,41.5,0.6
+18145,"Shelby County, Indiana",B01002_001,40.8,0.5
+18147,"Spencer County, Indiana",B01002_001,44,0.5
+18149,"Starke County, Indiana",B01002_001,41.5,0.6
+18151,"Steuben County, Indiana",B01002_001,43.7,0.5
+18153,"Sullivan County, Indiana",B01002_001,41,0.7
+18155,"Switzerland County, Indiana",B01002_001,40.5,0.7
+18157,"Tippecanoe County, Indiana",B01002_001,28.2,0.2
+18159,"Tipton County, Indiana",B01002_001,45.1,0.5
+18161,"Union County, Indiana",B01002_001,43.5,1.3
+18163,"Vanderburgh County, Indiana",B01002_001,38.3,0.3
+18165,"Vermillion County, Indiana",B01002_001,42.9,0.4
+18167,"Vigo County, Indiana",B01002_001,36.2,0.2
+18169,"Wabash County, Indiana",B01002_001,42.3,0.5
+18171,"Warren County, Indiana",B01002_001,44.4,0.5
+18173,"Warrick County, Indiana",B01002_001,41.2,0.5
+18175,"Washington County, Indiana",B01002_001,41.6,0.5
+18177,"Wayne County, Indiana",B01002_001,40.6,0.3
+18179,"Wells County, Indiana",B01002_001,40.3,0.8
+18181,"White County, Indiana",B01002_001,42,0.6
+18183,"Whitley County, Indiana",B01002_001,41.8,0.9
+19001,"Adair County, Iowa",B01002_001,45.4,0.5
+19003,"Adams County, Iowa",B01002_001,47.3,0.4
+19005,"Allamakee County, Iowa",B01002_001,44.4,0.8
+19007,"Appanoose County, Iowa",B01002_001,45.7,0.5
+19009,"Audubon County, Iowa",B01002_001,48.1,0.5
+19011,"Benton County, Iowa",B01002_001,42.6,0.4
+19013,"Black Hawk County, Iowa",B01002_001,35.2,0.2
+19015,"Boone County, Iowa",B01002_001,41.8,0.8
+19017,"Bremer County, Iowa",B01002_001,39.8,0.5
+19019,"Buchanan County, Iowa",B01002_001,39.1,0.8
+19021,"Buena Vista County, Iowa",B01002_001,35,0.3
+19023,"Butler County, Iowa",B01002_001,43.9,0.5
+19025,"Calhoun County, Iowa",B01002_001,44.6,0.5
+19027,"Carroll County, Iowa",B01002_001,42,0.6
+19029,"Cass County, Iowa",B01002_001,44.9,0.6
+19031,"Cedar County, Iowa",B01002_001,42.7,0.6
+19033,"Cerro Gordo County, Iowa",B01002_001,44.3,0.3
+19035,"Cherokee County, Iowa",B01002_001,46.3,0.8
+19037,"Chickasaw County, Iowa",B01002_001,44.5,0.3
+19039,"Clarke County, Iowa",B01002_001,40.5,2.5
+19041,"Clay County, Iowa",B01002_001,42.9,0.9
+19043,"Clayton County, Iowa",B01002_001,47.3,1
+19045,"Clinton County, Iowa",B01002_001,42.2,0.5
+19047,"Crawford County, Iowa",B01002_001,38.7,0.8
+19049,"Dallas County, Iowa",B01002_001,35.4,0.2
+19051,"Davis County, Iowa",B01002_001,36.8,0.5
+19053,"Decatur County, Iowa",B01002_001,36.4,0.9
+19055,"Delaware County, Iowa",B01002_001,43.8,0.4
+19057,"Des Moines County, Iowa",B01002_001,42.9,0.5
+19059,"Dickinson County, Iowa",B01002_001,48.4,0.4
+19061,"Dubuque County, Iowa",B01002_001,38.6,0.4
+19063,"Emmet County, Iowa",B01002_001,42.9,1.2
+19065,"Fayette County, Iowa",B01002_001,43.8,0.5
+19067,"Floyd County, Iowa",B01002_001,44.1,0.7
+19069,"Franklin County, Iowa",B01002_001,42.7,1
+19071,"Fremont County, Iowa",B01002_001,46.2,0.7
+19073,"Greene County, Iowa",B01002_001,44.5,0.7
+19075,"Grundy County, Iowa",B01002_001,42.6,0.5
+19077,"Guthrie County, Iowa",B01002_001,45.5,0.4
+19079,"Hamilton County, Iowa",B01002_001,42.6,0.8
+19081,"Hancock County, Iowa",B01002_001,44.2,0.6
+19083,"Hardin County, Iowa",B01002_001,44.7,0.3
+19085,"Harrison County, Iowa",B01002_001,44,0.4
+19087,"Henry County, Iowa",B01002_001,39.7,0.6
+19089,"Howard County, Iowa",B01002_001,41.5,0.7
+19091,"Humboldt County, Iowa",B01002_001,42.9,0.9
+19093,"Ida County, Iowa",B01002_001,43.7,0.7
+19095,"Iowa County, Iowa",B01002_001,41.7,0.5
+19097,"Jackson County, Iowa",B01002_001,44.3,1.1
+19099,"Jasper County, Iowa",B01002_001,42.1,0.4
+19101,"Jefferson County, Iowa",B01002_001,42.9,1
+19103,"Johnson County, Iowa",B01002_001,30.3,0.2
+19105,"Jones County, Iowa",B01002_001,43.1,0.6
+19107,"Keokuk County, Iowa",B01002_001,43.7,0.5
+19109,"Kossuth County, Iowa",B01002_001,45.5,0.3
+19111,"Lee County, Iowa",B01002_001,43.1,0.6
+19113,"Linn County, Iowa",B01002_001,37.7,0.2
+19115,"Louisa County, Iowa",B01002_001,41.9,1
+19117,"Lucas County, Iowa",B01002_001,44.2,0.8
+19119,"Lyon County, Iowa",B01002_001,38,0.5
+19121,"Madison County, Iowa",B01002_001,40.7,1.2
+19123,"Mahaska County, Iowa",B01002_001,39.3,0.8
+19125,"Marion County, Iowa",B01002_001,39.4,0.5
+19127,"Marshall County, Iowa",B01002_001,38.7,0.4
+19129,"Mills County, Iowa",B01002_001,42.5,0.7
+19131,"Mitchell County, Iowa",B01002_001,43.6,0.8
+19133,"Monona County, Iowa",B01002_001,46,0.4
+19135,"Monroe County, Iowa",B01002_001,43,1.5
+19137,"Montgomery County, Iowa",B01002_001,44.2,0.9
+19139,"Muscatine County, Iowa",B01002_001,38.1,0.5
+19141,"O'Brien County, Iowa",B01002_001,41.9,0.7
+19143,"Osceola County, Iowa",B01002_001,44,1.2
+19145,"Page County, Iowa",B01002_001,44.1,0.5
+19147,"Palo Alto County, Iowa",B01002_001,41.4,0.9
+19149,"Plymouth County, Iowa",B01002_001,40,0.7
+19151,"Pocahontas County, Iowa",B01002_001,47.6,0.7
+19153,"Polk County, Iowa",B01002_001,35.5,0.1
+19155,"Pottawattamie County, Iowa",B01002_001,39.7,0.3
+19157,"Poweshiek County, Iowa",B01002_001,40.5,0.5
+19159,"Ringgold County, Iowa",B01002_001,44,0.5
+19161,"Sac County, Iowa",B01002_001,46.1,0.4
+19163,"Scott County, Iowa",B01002_001,38.3,0.2
+19165,"Shelby County, Iowa",B01002_001,46.4,0.7
+19167,"Sioux County, Iowa",B01002_001,33.4,0.4
+19169,"Story County, Iowa",B01002_001,26.6,0.2
+19171,"Tama County, Iowa",B01002_001,42.6,0.7
+19173,"Taylor County, Iowa",B01002_001,42.3,1.2
+19175,"Union County, Iowa",B01002_001,40.3,0.9
+19177,"Van Buren County, Iowa",B01002_001,45.4,1.1
+19179,"Wapello County, Iowa",B01002_001,39.6,0.5
+19181,"Warren County, Iowa",B01002_001,38.3,0.4
+19183,"Washington County, Iowa",B01002_001,40.3,0.5
+19185,"Wayne County, Iowa",B01002_001,43.2,0.7
+19187,"Webster County, Iowa",B01002_001,39,0.6
+19189,"Winnebago County, Iowa",B01002_001,41.8,1.2
+19191,"Winneshiek County, Iowa",B01002_001,41.5,0.7
+19193,"Woodbury County, Iowa",B01002_001,35.8,0.2
+19195,"Worth County, Iowa",B01002_001,43.9,0.5
+19197,"Wright County, Iowa",B01002_001,43.5,0.7
+20001,"Allen County, Kansas",B01002_001,41.9,1.2
+20003,"Anderson County, Kansas",B01002_001,40.8,1.4
+20005,"Atchison County, Kansas",B01002_001,36.6,0.8
+20007,"Barber County, Kansas",B01002_001,43.6,3.6
+20009,"Barton County, Kansas",B01002_001,39.9,0.9
+20011,"Bourbon County, Kansas",B01002_001,39.1,1.3
+20013,"Brown County, Kansas",B01002_001,42.1,0.7
+20015,"Butler County, Kansas",B01002_001,38.6,0.4
+20017,"Chase County, Kansas",B01002_001,44.8,0.4
+20019,"Chautauqua County, Kansas",B01002_001,47.9,0.9
+20021,"Cherokee County, Kansas",B01002_001,41.3,0.9
+20023,"Cheyenne County, Kansas",B01002_001,45.6,0.6
+20025,"Clark County, Kansas",B01002_001,45.3,5.4
+20027,"Clay County, Kansas",B01002_001,42.5,1
+20029,"Cloud County, Kansas",B01002_001,40.8,1.1
+20031,"Coffey County, Kansas",B01002_001,43.8,0.7
+20033,"Comanche County, Kansas",B01002_001,48.1,4.8
+20035,"Cowley County, Kansas",B01002_001,38.8,0.9
+20037,"Crawford County, Kansas",B01002_001,32.5,0.8
+20039,"Decatur County, Kansas",B01002_001,50.6,0.5
+20041,"Dickinson County, Kansas",B01002_001,41.3,0.7
+20043,"Doniphan County, Kansas",B01002_001,41,2.1
+20045,"Douglas County, Kansas",B01002_001,29.8,0.1
+20047,"Edwards County, Kansas",B01002_001,45.7,1.6
+20049,"Elk County, Kansas",B01002_001,52.3,1.2
+20051,"Ellis County, Kansas",B01002_001,32.5,0.8
+20053,"Ellsworth County, Kansas",B01002_001,42.1,1.6
+20055,"Finney County, Kansas",B01002_001,30.8,0.3
+20057,"Ford County, Kansas",B01002_001,32.2,0.5
+20059,"Franklin County, Kansas",B01002_001,40,0.6
+20061,"Geary County, Kansas",B01002_001,26.4,0.3
+20063,"Gove County, Kansas",B01002_001,48.2,3.1
+20065,"Graham County, Kansas",B01002_001,50.4,0.5
+20067,"Grant County, Kansas",B01002_001,32.6,1.7
+20069,"Gray County, Kansas",B01002_001,36,0.6
+20071,"Greeley County, Kansas",B01002_001,42.2,8.2
+20073,"Greenwood County, Kansas",B01002_001,48.6,0.4
+20075,"Hamilton County, Kansas",B01002_001,35.8,2
+20077,"Harper County, Kansas",B01002_001,42.4,0.9
+20079,"Harvey County, Kansas",B01002_001,39.2,1.2
+20081,"Haskell County, Kansas",B01002_001,36.9,1.1
+20083,"Hodgeman County, Kansas",B01002_001,47.6,4
+20085,"Jackson County, Kansas",B01002_001,41.2,0.5
+20087,"Jefferson County, Kansas",B01002_001,43.3,0.7
+20089,"Jewell County, Kansas",B01002_001,52.8,0.7
+20091,"Johnson County, Kansas",B01002_001,37.6,0.1
+20093,"Kearny County, Kansas",B01002_001,34.7,0.7
+20095,"Kingman County, Kansas",B01002_001,45.4,0.8
+20097,"Kiowa County, Kansas",B01002_001,41.6,2
+20099,"Labette County, Kansas",B01002_001,41,0.6
+20101,"Lane County, Kansas",B01002_001,40.7,3.2
+20103,"Leavenworth County, Kansas",B01002_001,37.8,0.3
+20105,"Lincoln County, Kansas",B01002_001,46.5,0.9
+20107,"Linn County, Kansas",B01002_001,44.4,0.5
+20109,"Logan County, Kansas",B01002_001,39.7,0.7
+20111,"Lyon County, Kansas",B01002_001,33.4,0.6
+20113,"McPherson County, Kansas",B01002_001,40.8,0.6
+20115,"Marion County, Kansas",B01002_001,44.5,0.5
+20117,"Marshall County, Kansas",B01002_001,42.8,0.7
+20119,"Meade County, Kansas",B01002_001,37.9,1.9
+20121,"Miami County, Kansas",B01002_001,42.1,0.8
+20123,"Mitchell County, Kansas",B01002_001,43.1,1.1
+20125,"Montgomery County, Kansas",B01002_001,40.3,0.7
+20127,"Morris County, Kansas",B01002_001,46.6,0.7
+20129,"Morton County, Kansas",B01002_001,40.5,4.3
+20131,"Nemaha County, Kansas",B01002_001,39.9,0.8
+20133,"Neosho County, Kansas",B01002_001,40.2,0.7
+20135,"Ness County, Kansas",B01002_001,50,2.5
+20137,"Norton County, Kansas",B01002_001,42.7,0.8
+20139,"Osage County, Kansas",B01002_001,43.8,0.5
+20141,"Osborne County, Kansas",B01002_001,46.7,0.8
+20143,"Ottawa County, Kansas",B01002_001,43,1
+20145,"Pawnee County, Kansas",B01002_001,43,2.1
+20147,"Phillips County, Kansas",B01002_001,44.3,0.6
+20149,"Pottawatomie County, Kansas",B01002_001,35.4,0.3
+20151,"Pratt County, Kansas",B01002_001,38.5,1.4
+20153,"Rawlins County, Kansas",B01002_001,48.8,1.2
+20155,"Reno County, Kansas",B01002_001,40.3,0.4
+20157,"Republic County, Kansas",B01002_001,50.7,0.6
+20159,"Rice County, Kansas",B01002_001,38.9,1.2
+20161,"Riley County, Kansas",B01002_001,25.1,0.2
+20163,"Rooks County, Kansas",B01002_001,44.7,0.9
+20165,"Rush County, Kansas",B01002_001,46.6,1.8
+20167,"Russell County, Kansas",B01002_001,49.1,1.7
+20169,"Saline County, Kansas",B01002_001,38.6,0.6
+20171,"Scott County, Kansas",B01002_001,39.7,2.4
+20173,"Sedgwick County, Kansas",B01002_001,35.4,0.2
+20175,"Seward County, Kansas",B01002_001,29.4,0.4
+20177,"Shawnee County, Kansas",B01002_001,39.1,0.3
+20179,"Sheridan County, Kansas",B01002_001,44.9,1.2
+20181,"Sherman County, Kansas",B01002_001,39.3,2.4
+20183,"Smith County, Kansas",B01002_001,51.4,0.9
+20185,"Stafford County, Kansas",B01002_001,44.1,1.2
+20187,"Stanton County, Kansas",B01002_001,35.3,5
+20189,"Stevens County, Kansas",B01002_001,35.1,0.7
+20191,"Sumner County, Kansas",B01002_001,41.2,0.6
+20193,"Thomas County, Kansas",B01002_001,36,0.7
+20195,"Trego County, Kansas",B01002_001,49.4,1.3
+20197,"Wabaunsee County, Kansas",B01002_001,43.8,1
+20199,"Wallace County, Kansas",B01002_001,41.8,3.1
+20201,"Washington County, Kansas",B01002_001,45.4,0.5
+20203,"Wichita County, Kansas",B01002_001,42.3,4.1
+20205,"Wilson County, Kansas",B01002_001,43.7,0.9
+20207,"Woodson County, Kansas",B01002_001,47.4,2.3
+20209,"Wyandotte County, Kansas",B01002_001,33.7,0.2
+21001,"Adair County, Kentucky",B01002_001,41.8,0.7
+21003,"Allen County, Kentucky",B01002_001,40.7,0.9
+21005,"Anderson County, Kentucky",B01002_001,41.4,1.4
+21007,"Ballard County, Kentucky",B01002_001,43.6,0.7
+21009,"Barren County, Kentucky",B01002_001,40.5,0.5
+21011,"Bath County, Kentucky",B01002_001,40.6,0.7
+21013,"Bell County, Kentucky",B01002_001,41.7,0.6
+21015,"Boone County, Kentucky",B01002_001,37.5,0.3
+21017,"Bourbon County, Kentucky",B01002_001,41.8,0.9
+21019,"Boyd County, Kentucky",B01002_001,42.3,0.6
+21021,"Boyle County, Kentucky",B01002_001,40.3,0.5
+21023,"Bracken County, Kentucky",B01002_001,41.4,1.1
+21025,"Breathitt County, Kentucky",B01002_001,42.2,0.8
+21027,"Breckinridge County, Kentucky",B01002_001,43.1,0.6
+21029,"Bullitt County, Kentucky",B01002_001,40.4,0.5
+21031,"Butler County, Kentucky",B01002_001,41.3,0.6
+21033,"Caldwell County, Kentucky",B01002_001,44,1.3
+21035,"Calloway County, Kentucky",B01002_001,35.6,0.5
+21037,"Campbell County, Kentucky",B01002_001,38.2,0.3
+21039,"Carlisle County, Kentucky",B01002_001,42.8,0.5
+21041,"Carroll County, Kentucky",B01002_001,38.5,1.6
+21043,"Carter County, Kentucky",B01002_001,41.6,0.6
+21045,"Casey County, Kentucky",B01002_001,42.6,0.9
+21047,"Christian County, Kentucky",B01002_001,28.3,0.2
+21049,"Clark County, Kentucky",B01002_001,42.3,0.5
+21051,"Clay County, Kentucky",B01002_001,39.6,0.6
+21053,"Clinton County, Kentucky",B01002_001,41.9,1.6
+21055,"Crittenden County, Kentucky",B01002_001,43.6,0.3
+21057,"Cumberland County, Kentucky",B01002_001,46,0.6
+21059,"Daviess County, Kentucky",B01002_001,38.9,0.3
+21061,"Edmonson County, Kentucky",B01002_001,44.3,0.6
+21063,"Elliott County, Kentucky",B01002_001,41.4,1.1
+21065,"Estill County, Kentucky",B01002_001,43.5,0.8
+21067,"Fayette County, Kentucky",B01002_001,34.6,0.1
+21069,"Fleming County, Kentucky",B01002_001,41.4,0.6
+21071,"Floyd County, Kentucky",B01002_001,42.2,0.8
+21073,"Franklin County, Kentucky",B01002_001,40.9,0.5
+21075,"Fulton County, Kentucky",B01002_001,43.5,0.9
+21077,"Gallatin County, Kentucky",B01002_001,38.8,0.8
+21079,"Garrard County, Kentucky",B01002_001,43,0.8
+21081,"Grant County, Kentucky",B01002_001,36.3,0.7
+21083,"Graves County, Kentucky",B01002_001,39.7,0.8
+21085,"Grayson County, Kentucky",B01002_001,40.3,0.9
+21087,"Green County, Kentucky",B01002_001,44.6,0.2
+21089,"Greenup County, Kentucky",B01002_001,43.4,0.3
+21091,"Hancock County, Kentucky",B01002_001,39.9,0.8
+21093,"Hardin County, Kentucky",B01002_001,37,0.3
+21095,"Harlan County, Kentucky",B01002_001,41.3,0.4
+21097,"Harrison County, Kentucky",B01002_001,42.2,0.8
+21099,"Hart County, Kentucky",B01002_001,40.5,0.8
+21101,"Henderson County, Kentucky",B01002_001,41.2,0.4
+21103,"Henry County, Kentucky",B01002_001,41.4,0.6
+21105,"Hickman County, Kentucky",B01002_001,48,1.3
+21107,"Hopkins County, Kentucky",B01002_001,41.8,0.5
+21109,"Jackson County, Kentucky",B01002_001,42.2,0.7
+21111,"Jefferson County, Kentucky",B01002_001,38.3,0.2
+21113,"Jessamine County, Kentucky",B01002_001,37.8,0.6
+21115,"Johnson County, Kentucky",B01002_001,41.8,0.7
+21117,"Kenton County, Kentucky",B01002_001,37.1,0.2
+21119,"Knott County, Kentucky",B01002_001,43.2,0.7
+21121,"Knox County, Kentucky",B01002_001,40,0.8
+21123,"Larue County, Kentucky",B01002_001,40.9,0.9
+21125,"Laurel County, Kentucky",B01002_001,40,0.5
+21127,"Lawrence County, Kentucky",B01002_001,41.2,0.6
+21129,"Lee County, Kentucky",B01002_001,43.6,1.1
+21131,"Leslie County, Kentucky",B01002_001,42.3,1
+21133,"Letcher County, Kentucky",B01002_001,42.4,1
+21135,"Lewis County, Kentucky",B01002_001,42.8,0.6
+21137,"Lincoln County, Kentucky",B01002_001,41.3,0.8
+21139,"Livingston County, Kentucky",B01002_001,46,0.5
+21141,"Logan County, Kentucky",B01002_001,40.7,0.6
+21143,"Lyon County, Kentucky",B01002_001,50.6,1.1
+21145,"McCracken County, Kentucky",B01002_001,42.2,0.4
+21147,"McCreary County, Kentucky",B01002_001,39.4,1.4
+21149,"McLean County, Kentucky",B01002_001,42.4,0.8
+21151,"Madison County, Kentucky",B01002_001,34.1,0.3
+21153,"Magoffin County, Kentucky",B01002_001,42.3,0.7
+21155,"Marion County, Kentucky",B01002_001,39.3,0.9
+21157,"Marshall County, Kentucky",B01002_001,44.9,0.3
+21159,"Martin County, Kentucky",B01002_001,39.5,0.6
+21161,"Mason County, Kentucky",B01002_001,40.6,0.6
+21163,"Meade County, Kentucky",B01002_001,38.6,0.5
+21165,"Menifee County, Kentucky",B01002_001,44.6,2.5
+21167,"Mercer County, Kentucky",B01002_001,43.2,0.6
+21169,"Metcalfe County, Kentucky",B01002_001,43.9,0.7
+21171,"Monroe County, Kentucky",B01002_001,41.4,0.5
+21173,"Montgomery County, Kentucky",B01002_001,39.7,0.7
+21175,"Morgan County, Kentucky",B01002_001,42,1
+21177,"Muhlenberg County, Kentucky",B01002_001,42.4,0.6
+21179,"Nelson County, Kentucky",B01002_001,39.8,0.5
+21181,"Nicholas County, Kentucky",B01002_001,41.1,1.1
+21183,"Ohio County, Kentucky",B01002_001,40.3,0.7
+21185,"Oldham County, Kentucky",B01002_001,38.9,0.4
+21187,"Owen County, Kentucky",B01002_001,42.8,0.9
+21189,"Owsley County, Kentucky",B01002_001,43.4,3.6
+21191,"Pendleton County, Kentucky",B01002_001,40.6,0.9
+21193,"Perry County, Kentucky",B01002_001,41.2,0.8
+21195,"Pike County, Kentucky",B01002_001,42.5,0.4
+21197,"Powell County, Kentucky",B01002_001,38.6,1
+21199,"Pulaski County, Kentucky",B01002_001,42,0.5
+21201,"Robertson County, Kentucky",B01002_001,42.9,7.9
+21203,"Rockcastle County, Kentucky",B01002_001,42.7,0.6
+21205,"Rowan County, Kentucky",B01002_001,30.6,0.5
+21207,"Russell County, Kentucky",B01002_001,43.3,0.6
+21209,"Scott County, Kentucky",B01002_001,36.2,0.3
+21211,"Shelby County, Kentucky",B01002_001,39.4,0.5
+21213,"Simpson County, Kentucky",B01002_001,39,1
+21215,"Spencer County, Kentucky",B01002_001,42.1,1
+21217,"Taylor County, Kentucky",B01002_001,37.6,0.8
+21219,"Todd County, Kentucky",B01002_001,37.8,0.7
+21221,"Trigg County, Kentucky",B01002_001,46.2,0.4
+21223,"Trimble County, Kentucky",B01002_001,43.4,1.6
+21225,"Union County, Kentucky",B01002_001,38.1,1.3
+21227,"Warren County, Kentucky",B01002_001,32.8,0.2
+21229,"Washington County, Kentucky",B01002_001,40.7,0.7
+21231,"Wayne County, Kentucky",B01002_001,42.5,0.9
+21233,"Webster County, Kentucky",B01002_001,41,1.9
+21235,"Whitley County, Kentucky",B01002_001,36.6,0.8
+21237,"Wolfe County, Kentucky",B01002_001,41.8,0.6
+21239,"Woodford County, Kentucky",B01002_001,42.5,0.7
+22001,"Acadia Parish, Louisiana",B01002_001,36.7,0.4
+22003,"Allen Parish, Louisiana",B01002_001,38.2,0.6
+22005,"Ascension Parish, Louisiana",B01002_001,35.7,0.2
+22007,"Assumption Parish, Louisiana",B01002_001,40.9,0.8
+22009,"Avoyelles Parish, Louisiana",B01002_001,38.2,0.5
+22011,"Beauregard Parish, Louisiana",B01002_001,37.4,0.5
+22013,"Bienville Parish, Louisiana",B01002_001,41.9,0.5
+22015,"Bossier Parish, Louisiana",B01002_001,35.3,0.2
+22017,"Caddo Parish, Louisiana",B01002_001,37.7,0.3
+22019,"Calcasieu Parish, Louisiana",B01002_001,36.1,0.2
+22021,"Caldwell Parish, Louisiana",B01002_001,39.8,1.2
+22023,"Cameron Parish, Louisiana",B01002_001,44.1,1.9
+22025,"Catahoula Parish, Louisiana",B01002_001,38.1,1.2
+22027,"Claiborne Parish, Louisiana",B01002_001,42,0.7
+22029,"Concordia Parish, Louisiana",B01002_001,37.7,1
+22031,"De Soto Parish, Louisiana",B01002_001,39.3,1.1
+22033,"East Baton Rouge Parish, Louisiana",B01002_001,34,0.2
+22035,"East Carroll Parish, Louisiana",B01002_001,33.9,1.6
+22037,"East Feliciana Parish, Louisiana",B01002_001,42.9,0.6
+22039,"Evangeline Parish, Louisiana",B01002_001,35.7,0.3
+22041,"Franklin Parish, Louisiana",B01002_001,38.4,0.7
+22043,"Grant Parish, Louisiana",B01002_001,38.1,0.6
+22045,"Iberia Parish, Louisiana",B01002_001,36.5,0.4
+22047,"Iberville Parish, Louisiana",B01002_001,38.4,0.7
+22049,"Jackson Parish, Louisiana",B01002_001,40.9,1.1
+22051,"Jefferson Parish, Louisiana",B01002_001,39.4,0.3
+22053,"Jefferson Davis Parish, Louisiana",B01002_001,37.8,0.6
+22055,"Lafayette Parish, Louisiana",B01002_001,35.2,0.1
+22057,"Lafourche Parish, Louisiana",B01002_001,37.8,0.4
+22059,"LaSalle Parish, Louisiana",B01002_001,38.8,0.9
+22061,"Lincoln Parish, Louisiana",B01002_001,28.3,0.5
+22063,"Livingston Parish, Louisiana",B01002_001,36.6,0.3
+22065,"Madison Parish, Louisiana",B01002_001,35.2,0.5
+22067,"Morehouse Parish, Louisiana",B01002_001,39.9,0.7
+22069,"Natchitoches Parish, Louisiana",B01002_001,33.7,0.4
+22071,"Orleans Parish, Louisiana",B01002_001,36.8,0.2
+22073,"Ouachita Parish, Louisiana",B01002_001,35.7,0.2
+22075,"Plaquemines Parish, Louisiana",B01002_001,36.5,0.7
+22077,"Pointe Coupee Parish, Louisiana",B01002_001,43.1,0.7
+22079,"Rapides Parish, Louisiana",B01002_001,37.4,0.3
+22081,"Red River Parish, Louisiana",B01002_001,39.4,3
+22083,"Richland Parish, Louisiana",B01002_001,38.8,0.5
+22085,"Sabine Parish, Louisiana",B01002_001,41.1,0.8
+22087,"St. Bernard Parish, Louisiana",B01002_001,34.2,0.2
+22089,"St. Charles Parish, Louisiana",B01002_001,37.9,0.4
+22091,"St. Helena Parish, Louisiana",B01002_001,39.4,3.6
+22093,"St. James Parish, Louisiana",B01002_001,39.2,0.7
+22095,"St. John the Baptist Parish, Louisiana",B01002_001,36.8,0.5
+22097,"St. Landry Parish, Louisiana",B01002_001,36.7,0.3
+22099,"St. Martin Parish, Louisiana",B01002_001,37.7,0.5
+22101,"St. Mary Parish, Louisiana",B01002_001,39,0.5
+22103,"St. Tammany Parish, Louisiana",B01002_001,40.2,0.2
+22105,"Tangipahoa Parish, Louisiana",B01002_001,35.3,0.2
+22107,"Tensas Parish, Louisiana",B01002_001,43.4,2.3
+22109,"Terrebonne Parish, Louisiana",B01002_001,35.8,0.2
+22111,"Union Parish, Louisiana",B01002_001,42.1,0.7
+22113,"Vermilion Parish, Louisiana",B01002_001,38,0.5
+22115,"Vernon Parish, Louisiana",B01002_001,30.4,0.2
+22117,"Washington Parish, Louisiana",B01002_001,39.4,0.4
+22119,"Webster Parish, Louisiana",B01002_001,41.4,1
+22121,"West Baton Rouge Parish, Louisiana",B01002_001,36.3,0.8
+22123,"West Carroll Parish, Louisiana",B01002_001,40.3,1.1
+22125,"West Feliciana Parish, Louisiana",B01002_001,41.4,1.3
+22127,"Winn Parish, Louisiana",B01002_001,41.1,0.6
+23001,"Androscoggin County, Maine",B01002_001,41,0.4
+23003,"Aroostook County, Maine",B01002_001,48,0.3
+23005,"Cumberland County, Maine",B01002_001,42.2,0.2
+23007,"Franklin County, Maine",B01002_001,46.3,0.3
+23009,"Hancock County, Maine",B01002_001,48.8,0.3
+23011,"Kennebec County, Maine",B01002_001,44.4,0.2
+23013,"Knox County, Maine",B01002_001,48.4,0.3
+23015,"Lincoln County, Maine",B01002_001,51,0.3
+23017,"Oxford County, Maine",B01002_001,47,0.3
+23019,"Penobscot County, Maine",B01002_001,42,0.3
+23021,"Piscataquis County, Maine",B01002_001,51.5,0.5
+23023,"Sagadahoc County, Maine",B01002_001,46.9,0.4
+23025,"Somerset County, Maine",B01002_001,46.4,0.3
+23027,"Waldo County, Maine",B01002_001,46.2,0.3
+23029,"Washington County, Maine",B01002_001,48.1,0.3
+23031,"York County, Maine",B01002_001,45.2,0.1
+24001,"Allegany County, Maryland",B01002_001,41.7,0.3
+24003,"Anne Arundel County, Maryland",B01002_001,38.3,0.2
+24005,"Baltimore County, Maryland",B01002_001,39.4,0.1
+24009,"Calvert County, Maryland",B01002_001,40.7,0.3
+24011,"Caroline County, Maryland",B01002_001,39.7,0.4
+24013,"Carroll County, Maryland",B01002_001,42.4,0.3
+24015,"Cecil County, Maryland",B01002_001,40.8,0.4
+24017,"Charles County, Maryland",B01002_001,38.4,0.3
+24019,"Dorchester County, Maryland",B01002_001,44.6,0.3
+24021,"Frederick County, Maryland",B01002_001,39.1,0.2
+24023,"Garrett County, Maryland",B01002_001,46.2,0.5
+24025,"Harford County, Maryland",B01002_001,40.9,0.3
+24027,"Howard County, Maryland",B01002_001,38.8,0.2
+24029,"Kent County, Maryland",B01002_001,48.1,0.7
+24031,"Montgomery County, Maryland",B01002_001,39.2,0.1
+24033,"Prince George's County, Maryland",B01002_001,37.1,0.1
+24035,"Queen Anne's County, Maryland",B01002_001,44.4,0.3
+24037,"St. Mary's County, Maryland",B01002_001,36.7,0.3
+24039,"Somerset County, Maryland",B01002_001,36.2,0.6
+24041,"Talbot County, Maryland",B01002_001,50.5,0.2
+24043,"Washington County, Maryland",B01002_001,40.5,0.3
+24045,"Wicomico County, Maryland",B01002_001,36.1,0.3
+24047,"Worcester County, Maryland",B01002_001,50.4,0.2
+24510,"Baltimore city, Maryland",B01002_001,35.4,0.2
+25001,"Barnstable County, Massachusetts",B01002_001,53.3,0.2
+25003,"Berkshire County, Massachusetts",B01002_001,47.1,0.3
+25005,"Bristol County, Massachusetts",B01002_001,41,0.2
+25007,"Dukes County, Massachusetts",B01002_001,47.1,0.7
+25009,"Essex County, Massachusetts",B01002_001,40.9,0.1
+25011,"Franklin County, Massachusetts",B01002_001,46.7,0.3
+25013,"Hampden County, Massachusetts",B01002_001,39,0.2
+25015,"Hampshire County, Massachusetts",B01002_001,36.5,0.2
+25017,"Middlesex County, Massachusetts",B01002_001,38.5,0.2
+25019,"Nantucket County, Massachusetts",B01002_001,40.3,1.3
+25021,"Norfolk County, Massachusetts",B01002_001,40.9,0.2
+25023,"Plymouth County, Massachusetts",B01002_001,42.7,0.2
+25025,"Suffolk County, Massachusetts",B01002_001,32.8,0.2
+25027,"Worcester County, Massachusetts",B01002_001,40.2,0.2
+26001,"Alcona County, Michigan",B01002_001,58.2,0.3
+26003,"Alger County, Michigan",B01002_001,49.5,0.5
+26005,"Allegan County, Michigan",B01002_001,39.8,0.4
+26007,"Alpena County, Michigan",B01002_001,48.1,0.3
+26009,"Antrim County, Michigan",B01002_001,51.3,0.3
+26011,"Arenac County, Michigan",B01002_001,50,0.2
+26013,"Baraga County, Michigan",B01002_001,45.5,0.4
+26015,"Barry County, Michigan",B01002_001,42.5,0.4
+26017,"Bay County, Michigan",B01002_001,43.4,0.3
+26019,"Benzie County, Michigan",B01002_001,50.2,0.3
+26021,"Berrien County, Michigan",B01002_001,42.1,0.3
+26023,"Branch County, Michigan",B01002_001,41.2,0.4
+26025,"Calhoun County, Michigan",B01002_001,39.8,0.3
+26027,"Cass County, Michigan",B01002_001,45.2,0.2
+26029,"Charlevoix County, Michigan",B01002_001,48.6,0.3
+26031,"Cheboygan County, Michigan",B01002_001,51.1,0.2
+26033,"Chippewa County, Michigan",B01002_001,40.5,0.7
+26035,"Clare County, Michigan",B01002_001,47.2,0.3
+26037,"Clinton County, Michigan",B01002_001,40.6,0.4
+26039,"Crawford County, Michigan",B01002_001,50.8,0.5
+26041,"Delta County, Michigan",B01002_001,47.4,0.3
+26043,"Dickinson County, Michigan",B01002_001,46.7,0.4
+26045,"Eaton County, Michigan",B01002_001,40.9,0.3
+26047,"Emmet County, Michigan",B01002_001,45.5,0.3
+26049,"Genesee County, Michigan",B01002_001,40.5,0.2
+26051,"Gladwin County, Michigan",B01002_001,50.1,0.1
+26053,"Gogebic County, Michigan",B01002_001,49.3,0.4
+26055,"Grand Traverse County, Michigan",B01002_001,42.8,0.3
+26057,"Gratiot County, Michigan",B01002_001,39.5,0.4
+26059,"Hillsdale County, Michigan",B01002_001,42.3,0.3
+26061,"Houghton County, Michigan",B01002_001,33,0.4
+26063,"Huron County, Michigan",B01002_001,49.2,0.3
+26065,"Ingham County, Michigan",B01002_001,32,0.1
+26067,"Ionia County, Michigan",B01002_001,38.7,0.3
+26069,"Iosco County, Michigan",B01002_001,52.9,0.3
+26071,"Iron County, Michigan",B01002_001,54.3,0.3
+26073,"Isabella County, Michigan",B01002_001,28.1,0.2
+26075,"Jackson County, Michigan",B01002_001,41.2,0.2
+26077,"Kalamazoo County, Michigan",B01002_001,34.4,0.1
+26079,"Kalkaska County, Michigan",B01002_001,44.4,0.4
+26081,"Kent County, Michigan",B01002_001,35.3,0.2
+26083,"Keweenaw County, Michigan",B01002_001,57.5,0.8
+26085,"Lake County, Michigan",B01002_001,53.2,0.4
+26087,"Lapeer County, Michigan",B01002_001,44.1,0.2
+26089,"Leelanau County, Michigan",B01002_001,54.1,0.2
+26091,"Lenawee County, Michigan",B01002_001,41.9,0.3
+26093,"Livingston County, Michigan",B01002_001,43.5,0.2
+26095,"Luce County, Michigan",B01002_001,44.7,0.6
+26097,"Mackinac County, Michigan",B01002_001,52.8,0.7
+26099,"Macomb County, Michigan",B01002_001,40.9,0.1
+26101,"Manistee County, Michigan",B01002_001,49.3,0.3
+26103,"Marquette County, Michigan",B01002_001,39.1,0.4
+26105,"Mason County, Michigan",B01002_001,46.2,0.4
+26107,"Mecosta County, Michigan",B01002_001,36.9,0.5
+26109,"Menominee County, Michigan",B01002_001,48.8,0.4
+26111,"Midland County, Michigan",B01002_001,41.8,0.4
+26113,"Missaukee County, Michigan",B01002_001,43.5,0.5
+26115,"Monroe County, Michigan",B01002_001,42.6,0.2
+26117,"Montcalm County, Michigan",B01002_001,40.7,0.5
+26119,"Montmorency County, Michigan",B01002_001,56.1,0.4
+26121,"Muskegon County, Michigan",B01002_001,39.3,0.3
+26123,"Newaygo County, Michigan",B01002_001,42.4,0.3
+26125,"Oakland County, Michigan",B01002_001,40.9,0.2
+26127,"Oceana County, Michigan",B01002_001,43.2,0.6
+26129,"Ogemaw County, Michigan",B01002_001,50.4,0.3
+26131,"Ontonagon County, Michigan",B01002_001,58.6,0.4
+26133,"Osceola County, Michigan",B01002_001,43.8,0.3
+26135,"Oscoda County, Michigan",B01002_001,51.8,0.4
+26137,"Otsego County, Michigan",B01002_001,44.9,0.3
+26139,"Ottawa County, Michigan",B01002_001,35.2,0.1
+26141,"Presque Isle County, Michigan",B01002_001,55,0.3
+26143,"Roscommon County, Michigan",B01002_001,56.2,0.3
+26145,"Saginaw County, Michigan",B01002_001,40.9,0.2
+26147,"St. Clair County, Michigan",B01002_001,43.8,0.2
+26149,"St. Joseph County, Michigan",B01002_001,39.6,0.5
+26151,"Sanilac County, Michigan",B01002_001,45.2,0.2
+26153,"Schoolcraft County, Michigan",B01002_001,52.1,0.4
+26155,"Shiawassee County, Michigan",B01002_001,42.4,0.4
+26157,"Tuscola County, Michigan",B01002_001,44.6,0.2
+26159,"Van Buren County, Michigan",B01002_001,41.6,0.4
+26161,"Washtenaw County, Michigan",B01002_001,33.6,0.1
+26163,"Wayne County, Michigan",B01002_001,37.9,0.1
+26165,"Wexford County, Michigan",B01002_001,41.6,0.5
+27001,"Aitkin County, Minnesota",B01002_001,55.5,0.2
+27003,"Anoka County, Minnesota",B01002_001,38.5,0.2
+27005,"Becker County, Minnesota",B01002_001,41.9,0.4
+27007,"Beltrami County, Minnesota",B01002_001,34,0.3
+27009,"Benton County, Minnesota",B01002_001,36,0.5
+27011,"Big Stone County, Minnesota",B01002_001,49,0.8
+27013,"Blue Earth County, Minnesota",B01002_001,31,0.2
+27015,"Brown County, Minnesota",B01002_001,42.3,0.6
+27017,"Carlton County, Minnesota",B01002_001,41,0.5
+27019,"Carver County, Minnesota",B01002_001,37.9,0.3
+27021,"Cass County, Minnesota",B01002_001,48.9,0.2
+27023,"Chippewa County, Minnesota",B01002_001,41.6,0.9
+27025,"Chisago County, Minnesota",B01002_001,41.3,0.3
+27027,"Clay County, Minnesota",B01002_001,32.6,0.4
+27029,"Clearwater County, Minnesota",B01002_001,42.3,0.4
+27031,"Cook County, Minnesota",B01002_001,52.6,0.6
+27033,"Cottonwood County, Minnesota",B01002_001,42.9,0.9
+27035,"Crow Wing County, Minnesota",B01002_001,44.5,0.3
+27037,"Dakota County, Minnesota",B01002_001,37.9,0.2
+27039,"Dodge County, Minnesota",B01002_001,38.4,0.4
+27041,"Douglas County, Minnesota",B01002_001,44.2,0.4
+27043,"Faribault County, Minnesota",B01002_001,45.8,0.5
+27045,"Fillmore County, Minnesota",B01002_001,42.3,0.4
+27047,"Freeborn County, Minnesota",B01002_001,44,0.4
+27049,"Goodhue County, Minnesota",B01002_001,42.2,0.5
+27051,"Grant County, Minnesota",B01002_001,44.9,0.7
+27053,"Hennepin County, Minnesota",B01002_001,36.5,0.1
+27055,"Houston County, Minnesota",B01002_001,45.3,0.2
+27057,"Hubbard County, Minnesota",B01002_001,48.7,0.3
+27059,"Isanti County, Minnesota",B01002_001,40,0.5
+27061,"Itasca County, Minnesota",B01002_001,46.3,0.2
+27063,"Jackson County, Minnesota",B01002_001,44.8,0.4
+27065,"Kanabec County, Minnesota",B01002_001,45,0.3
+27067,"Kandiyohi County, Minnesota",B01002_001,39.3,0.3
+27069,"Kittson County, Minnesota",B01002_001,48.1,0.5
+27071,"Koochiching County, Minnesota",B01002_001,49.5,0.4
+27073,"Lac qui Parle County, Minnesota",B01002_001,50.4,0.5
+27075,"Lake County, Minnesota",B01002_001,50.8,0.6
+27077,"Lake of the Woods County, Minnesota",B01002_001,50.9,0.7
+27079,"Le Sueur County, Minnesota",B01002_001,41,0.4
+27081,"Lincoln County, Minnesota",B01002_001,45.4,0.3
+27083,"Lyon County, Minnesota",B01002_001,35.8,0.3
+27085,"McLeod County, Minnesota",B01002_001,40.7,0.5
+27087,"Mahnomen County, Minnesota",B01002_001,35.7,0.4
+27089,"Marshall County, Minnesota",B01002_001,43.7,0.5
+27091,"Martin County, Minnesota",B01002_001,45.3,0.4
+27093,"Meeker County, Minnesota",B01002_001,42.2,0.4
+27095,"Mille Lacs County, Minnesota",B01002_001,40.5,0.4
+27097,"Morrison County, Minnesota",B01002_001,41.7,0.4
+27099,"Mower County, Minnesota",B01002_001,38.8,0.5
+27101,"Murray County, Minnesota",B01002_001,48.1,0.8
+27103,"Nicollet County, Minnesota",B01002_001,36.3,0.5
+27105,"Nobles County, Minnesota",B01002_001,35.7,0.4
+27107,"Norman County, Minnesota",B01002_001,43.8,0.6
+27109,"Olmsted County, Minnesota",B01002_001,37.2,0.2
+27111,"Otter Tail County, Minnesota",B01002_001,46.8,0.3
+27113,"Pennington County, Minnesota",B01002_001,39.6,0.7
+27115,"Pine County, Minnesota",B01002_001,45,0.3
+27117,"Pipestone County, Minnesota",B01002_001,42.1,0.8
+27119,"Polk County, Minnesota",B01002_001,38.7,0.5
+27121,"Pope County, Minnesota",B01002_001,45.8,0.3
+27123,"Ramsey County, Minnesota",B01002_001,35,0.1
+27125,"Red Lake County, Minnesota",B01002_001,42.7,0.3
+27127,"Redwood County, Minnesota",B01002_001,42.6,0.6
+27129,"Renville County, Minnesota",B01002_001,43.8,0.3
+27131,"Rice County, Minnesota",B01002_001,36.5,0.3
+27133,"Rock County, Minnesota",B01002_001,40.8,0.8
+27135,"Roseau County, Minnesota",B01002_001,41.6,0.4
+27137,"St. Louis County, Minnesota",B01002_001,41.1,0.3
+27139,"Scott County, Minnesota",B01002_001,36.5,0.2
+27141,"Sherburne County, Minnesota",B01002_001,36,0.2
+27143,"Sibley County, Minnesota",B01002_001,41.7,0.3
+27145,"Stearns County, Minnesota",B01002_001,34.4,0.2
+27147,"Steele County, Minnesota",B01002_001,39,0.6
+27149,"Stevens County, Minnesota",B01002_001,33.1,0.7
+27151,"Swift County, Minnesota",B01002_001,43.9,0.6
+27153,"Todd County, Minnesota",B01002_001,43.9,0.4
+27155,"Traverse County, Minnesota",B01002_001,47.5,1.2
+27157,"Wabasha County, Minnesota",B01002_001,45.2,0.4
+27159,"Wadena County, Minnesota",B01002_001,41.5,0.8
+27161,"Waseca County, Minnesota",B01002_001,40.5,0.9
+27163,"Washington County, Minnesota",B01002_001,39.5,0.3
+27165,"Watonwan County, Minnesota",B01002_001,39.9,1.5
+27167,"Wilkin County, Minnesota",B01002_001,43.3,0.4
+27169,"Winona County, Minnesota",B01002_001,35.2,0.3
+27171,"Wright County, Minnesota",B01002_001,37,0.2
+27173,"Yellow Medicine County, Minnesota",B01002_001,42.4,0.5
+28001,"Adams County, Mississippi",B01002_001,41.4,0.9
+28003,"Alcorn County, Mississippi",B01002_001,39.7,0.5
+28005,"Amite County, Mississippi",B01002_001,47.1,1.3
+28007,"Attala County, Mississippi",B01002_001,39.8,0.5
+28009,"Benton County, Mississippi",B01002_001,41.5,2.2
+28011,"Bolivar County, Mississippi",B01002_001,35.6,0.3
+28013,"Calhoun County, Mississippi",B01002_001,41.4,0.8
+28015,"Carroll County, Mississippi",B01002_001,47.6,0.9
+28017,"Chickasaw County, Mississippi",B01002_001,37.8,0.9
+28019,"Choctaw County, Mississippi",B01002_001,44,1
+28021,"Claiborne County, Mississippi",B01002_001,33.9,1
+28023,"Clarke County, Mississippi",B01002_001,42.2,0.7
+28025,"Clay County, Mississippi",B01002_001,39.5,0.6
+28027,"Coahoma County, Mississippi",B01002_001,34.8,0.2
+28029,"Copiah County, Mississippi",B01002_001,38.5,0.5
+28031,"Covington County, Mississippi",B01002_001,37.3,0.6
+28033,"DeSoto County, Mississippi",B01002_001,36.8,0.2
+28035,"Forrest County, Mississippi",B01002_001,32.5,0.3
+28037,"Franklin County, Mississippi",B01002_001,42.5,1
+28039,"George County, Mississippi",B01002_001,36.4,0.6
+28041,"Greene County, Mississippi",B01002_001,40.4,1.1
+28043,"Grenada County, Mississippi",B01002_001,39.2,0.8
+28045,"Hancock County, Mississippi",B01002_001,44.4,0.4
+28047,"Harrison County, Mississippi",B01002_001,36.2,0.2
+28049,"Hinds County, Mississippi",B01002_001,34.8,0.2
+28051,"Holmes County, Mississippi",B01002_001,34.7,0.4
+28053,"Humphreys County, Mississippi",B01002_001,38.3,0.4
+28055,"Issaquena County, Mississippi",B01002_001,42.2,6.1
+28057,"Itawamba County, Mississippi",B01002_001,39.9,0.7
+28059,"Jackson County, Mississippi",B01002_001,38.8,0.3
+28061,"Jasper County, Mississippi",B01002_001,41,2.5
+28063,"Jefferson County, Mississippi",B01002_001,40.5,0.3
+28065,"Jefferson Davis County, Mississippi",B01002_001,44,0.7
+28067,"Jones County, Mississippi",B01002_001,37.5,0.5
+28069,"Kemper County, Mississippi",B01002_001,41.4,2.5
+28071,"Lafayette County, Mississippi",B01002_001,30.5,0.3
+28073,"Lamar County, Mississippi",B01002_001,35.9,0.3
+28075,"Lauderdale County, Mississippi",B01002_001,37.8,0.4
+28077,"Lawrence County, Mississippi",B01002_001,39.9,0.9
+28079,"Leake County, Mississippi",B01002_001,36.9,0.8
+28081,"Lee County, Mississippi",B01002_001,37.5,0.4
+28083,"Leflore County, Mississippi",B01002_001,34,0.5
+28085,"Lincoln County, Mississippi",B01002_001,38.9,0.7
+28087,"Lowndes County, Mississippi",B01002_001,37.1,0.4
+28089,"Madison County, Mississippi",B01002_001,37.2,0.3
+28091,"Marion County, Mississippi",B01002_001,40.8,0.6
+28093,"Marshall County, Mississippi",B01002_001,40.4,0.7
+28095,"Monroe County, Mississippi",B01002_001,41.1,0.6
+28097,"Montgomery County, Mississippi",B01002_001,41.6,2
+28099,"Neshoba County, Mississippi",B01002_001,37.3,0.9
+28101,"Newton County, Mississippi",B01002_001,37,0.8
+28103,"Noxubee County, Mississippi",B01002_001,37,1.2
+28105,"Oktibbeha County, Mississippi",B01002_001,26.1,0.3
+28107,"Panola County, Mississippi",B01002_001,38.3,0.6
+28109,"Pearl River County, Mississippi",B01002_001,40.9,0.6
+28111,"Perry County, Mississippi",B01002_001,41.9,1
+28113,"Pike County, Mississippi",B01002_001,37.2,0.4
+28115,"Pontotoc County, Mississippi",B01002_001,36.6,0.8
+28117,"Prentiss County, Mississippi",B01002_001,39.2,0.9
+28119,"Quitman County, Mississippi",B01002_001,38.7,1.1
+28121,"Rankin County, Mississippi",B01002_001,37.8,0.3
+28123,"Scott County, Mississippi",B01002_001,36.4,0.7
+28125,"Sharkey County, Mississippi",B01002_001,41.2,4
+28127,"Simpson County, Mississippi",B01002_001,39.5,1.4
+28129,"Smith County, Mississippi",B01002_001,41.5,1.5
+28131,"Stone County, Mississippi",B01002_001,38.7,1.5
+28133,"Sunflower County, Mississippi",B01002_001,35.6,0.5
+28135,"Tallahatchie County, Mississippi",B01002_001,36.8,1.9
+28137,"Tate County, Mississippi",B01002_001,38.2,1.2
+28139,"Tippah County, Mississippi",B01002_001,38.8,0.8
+28141,"Tishomingo County, Mississippi",B01002_001,42.5,1.1
+28143,"Tunica County, Mississippi",B01002_001,33.6,1.7
+28145,"Union County, Mississippi",B01002_001,37.9,0.5
+28147,"Walthall County, Mississippi",B01002_001,39.8,0.7
+28149,"Warren County, Mississippi",B01002_001,39.1,0.5
+28151,"Washington County, Mississippi",B01002_001,37.2,0.5
+28153,"Wayne County, Mississippi",B01002_001,40.2,2.3
+28155,"Webster County, Mississippi",B01002_001,40.5,1.3
+28157,"Wilkinson County, Mississippi",B01002_001,37.8,1.6
+28159,"Winston County, Mississippi",B01002_001,42.3,0.9
+28161,"Yalobusha County, Mississippi",B01002_001,42.5,1.5
+28163,"Yazoo County, Mississippi",B01002_001,36.1,0.6
+29001,"Adair County, Missouri",B01002_001,27.6,0.7
+29003,"Andrew County, Missouri",B01002_001,42.4,0.5
+29005,"Atchison County, Missouri",B01002_001,48.5,0.4
+29007,"Audrain County, Missouri",B01002_001,39.7,0.7
+29009,"Barry County, Missouri",B01002_001,43.7,0.6
+29011,"Barton County, Missouri",B01002_001,41.3,0.8
+29013,"Bates County, Missouri",B01002_001,41.6,0.9
+29015,"Benton County, Missouri",B01002_001,53.6,0.4
+29017,"Bollinger County, Missouri",B01002_001,44,0.8
+29019,"Boone County, Missouri",B01002_001,31.2,0.2
+29021,"Buchanan County, Missouri",B01002_001,37.8,0.4
+29023,"Butler County, Missouri",B01002_001,41.3,0.7
+29025,"Caldwell County, Missouri",B01002_001,42.3,0.7
+29027,"Callaway County, Missouri",B01002_001,38.6,0.5
+29029,"Camden County, Missouri",B01002_001,51.5,0.4
+29031,"Cape Girardeau County, Missouri",B01002_001,36.5,0.4
+29033,"Carroll County, Missouri",B01002_001,43.4,0.7
+29035,"Carter County, Missouri",B01002_001,41.7,1.2
+29037,"Cass County, Missouri",B01002_001,39.8,0.4
+29039,"Cedar County, Missouri",B01002_001,44.7,0.6
+29041,"Chariton County, Missouri",B01002_001,45.7,0.4
+29043,"Christian County, Missouri",B01002_001,37.9,0.4
+29045,"Clark County, Missouri",B01002_001,44,0.7
+29047,"Clay County, Missouri",B01002_001,37.1,0.2
+29049,"Clinton County, Missouri",B01002_001,41,0.8
+29051,"Cole County, Missouri",B01002_001,38.6,0.4
+29053,"Cooper County, Missouri",B01002_001,38.7,0.7
+29055,"Crawford County, Missouri",B01002_001,41.9,0.8
+29057,"Dade County, Missouri",B01002_001,46.2,0.4
+29059,"Dallas County, Missouri",B01002_001,44,0.6
+29061,"Daviess County, Missouri",B01002_001,41.1,0.7
+29063,"DeKalb County, Missouri",B01002_001,40.4,0.8
+29065,"Dent County, Missouri",B01002_001,44.7,0.4
+29067,"Douglas County, Missouri",B01002_001,47.3,0.4
+29069,"Dunklin County, Missouri",B01002_001,40,0.6
+29071,"Franklin County, Missouri",B01002_001,40.7,0.3
+29073,"Gasconade County, Missouri",B01002_001,46.2,1
+29075,"Gentry County, Missouri",B01002_001,40.4,1.1
+29077,"Greene County, Missouri",B01002_001,36,0.2
+29079,"Grundy County, Missouri",B01002_001,40.8,0.8
+29081,"Harrison County, Missouri",B01002_001,43.3,0.5
+29083,"Henry County, Missouri",B01002_001,44.1,0.6
+29085,"Hickory County, Missouri",B01002_001,55,0.3
+29087,"Holt County, Missouri",B01002_001,48.5,0.4
+29089,"Howard County, Missouri",B01002_001,39.1,1
+29091,"Howell County, Missouri",B01002_001,40.9,0.9
+29093,"Iron County, Missouri",B01002_001,45.7,0.5
+29095,"Jackson County, Missouri",B01002_001,36.8,0.1
+29097,"Jasper County, Missouri",B01002_001,36.2,0.3
+29099,"Jefferson County, Missouri",B01002_001,39.2,0.3
+29101,"Johnson County, Missouri",B01002_001,30.5,0.3
+29103,"Knox County, Missouri",B01002_001,44.1,0.8
+29105,"Laclede County, Missouri",B01002_001,40.3,0.6
+29107,"Lafayette County, Missouri",B01002_001,42.3,0.6
+29109,"Lawrence County, Missouri",B01002_001,39.4,0.8
+29111,"Lewis County, Missouri",B01002_001,40.6,1
+29113,"Lincoln County, Missouri",B01002_001,37.1,0.3
+29115,"Linn County, Missouri",B01002_001,41.8,0.8
+29117,"Livingston County, Missouri",B01002_001,40,0.7
+29119,"McDonald County, Missouri",B01002_001,37.8,0.5
+29121,"Macon County, Missouri",B01002_001,43.3,0.6
+29123,"Madison County, Missouri",B01002_001,42.2,0.6
+29125,"Maries County, Missouri",B01002_001,46,0.9
+29127,"Marion County, Missouri",B01002_001,38.9,0.6
+29129,"Mercer County, Missouri",B01002_001,42.9,0.7
+29131,"Miller County, Missouri",B01002_001,40.7,0.7
+29133,"Mississippi County, Missouri",B01002_001,41.4,0.8
+29135,"Moniteau County, Missouri",B01002_001,38,0.6
+29137,"Monroe County, Missouri",B01002_001,46.5,0.6
+29139,"Montgomery County, Missouri",B01002_001,44.5,0.4
+29141,"Morgan County, Missouri",B01002_001,46,0.5
+29143,"New Madrid County, Missouri",B01002_001,42,0.9
+29145,"Newton County, Missouri",B01002_001,39.9,0.5
+29147,"Nodaway County, Missouri",B01002_001,29.7,0.9
+29149,"Oregon County, Missouri",B01002_001,46.4,0.6
+29151,"Osage County, Missouri",B01002_001,40.8,0.6
+29153,"Ozark County, Missouri",B01002_001,51.6,0.4
+29155,"Pemiscot County, Missouri",B01002_001,37.9,0.5
+29157,"Perry County, Missouri",B01002_001,40.7,0.8
+29159,"Pettis County, Missouri",B01002_001,37.8,0.4
+29161,"Phelps County, Missouri",B01002_001,35.3,0.4
+29163,"Pike County, Missouri",B01002_001,38.9,0.8
+29165,"Platte County, Missouri",B01002_001,38.2,0.4
+29167,"Polk County, Missouri",B01002_001,37.6,0.5
+29169,"Pulaski County, Missouri",B01002_001,27.6,0.4
+29171,"Putnam County, Missouri",B01002_001,45.8,0.7
+29173,"Ralls County, Missouri",B01002_001,45,0.5
+29175,"Randolph County, Missouri",B01002_001,39.4,0.7
+29177,"Ray County, Missouri",B01002_001,42.2,0.5
+29179,"Reynolds County, Missouri",B01002_001,46.5,0.4
+29181,"Ripley County, Missouri",B01002_001,42.3,0.7
+29183,"St. Charles County, Missouri",B01002_001,38.6,0.2
+29185,"St. Clair County, Missouri",B01002_001,50.3,0.4
+29186,"Ste. Genevieve County, Missouri",B01002_001,43.3,1
+29187,"St. Francois County, Missouri",B01002_001,39.4,0.5
+29189,"St. Louis County, Missouri",B01002_001,40.3,0.2
+29195,"Saline County, Missouri",B01002_001,37.9,0.5
+29197,"Schuyler County, Missouri",B01002_001,40.1,1.6
+29199,"Scotland County, Missouri",B01002_001,37.3,1.2
+29201,"Scott County, Missouri",B01002_001,40,0.7
+29203,"Shannon County, Missouri",B01002_001,45.8,0.8
+29205,"Shelby County, Missouri",B01002_001,42.3,1.7
+29207,"Stoddard County, Missouri",B01002_001,41.4,0.6
+29209,"Stone County, Missouri",B01002_001,53.6,0.2
+29211,"Sullivan County, Missouri",B01002_001,42.1,1.1
+29213,"Taney County, Missouri",B01002_001,42.2,0.5
+29215,"Texas County, Missouri",B01002_001,43.2,1
+29217,"Vernon County, Missouri",B01002_001,40.8,1.3
+29219,"Warren County, Missouri",B01002_001,41,1.1
+29221,"Washington County, Missouri",B01002_001,40.8,0.5
+29223,"Wayne County, Missouri",B01002_001,47.5,1
+29225,"Webster County, Missouri",B01002_001,36.7,0.3
+29227,"Worth County, Missouri",B01002_001,48.1,0.9
+29229,"Wright County, Missouri",B01002_001,41.7,0.4
+29510,"St. Louis city, Missouri",B01002_001,35.8,0.2
+30001,"Beaverhead County, Montana",B01002_001,43,1.1
+30003,"Big Horn County, Montana",B01002_001,30.7,0.8
+30005,"Blaine County, Montana",B01002_001,33.8,0.4
+30007,"Broadwater County, Montana",B01002_001,47.3,0.8
+30009,"Carbon County, Montana",B01002_001,50.5,0.5
+30011,"Carter County, Montana",B01002_001,47.8,4.5
+30013,"Cascade County, Montana",B01002_001,38.3,0.4
+30015,"Chouteau County, Montana",B01002_001,41.9,1.8
+30017,"Custer County, Montana",B01002_001,41.4,0.9
+30019,"Daniels County, Montana",B01002_001,49.2,8.8
+30021,"Dawson County, Montana",B01002_001,41,1.4
+30023,"Deer Lodge County, Montana",B01002_001,48.6,0.7
+30025,"Fallon County, Montana",B01002_001,39.3,1.6
+30027,"Fergus County, Montana",B01002_001,45.3,0.6
+30029,"Flathead County, Montana",B01002_001,42.2,0.4
+30031,"Gallatin County, Montana",B01002_001,33.4,0.2
+30033,"Garfield County, Montana",B01002_001,45.8,6.2
+30035,"Glacier County, Montana",B01002_001,31.9,0.7
+30037,"Golden Valley County, Montana",B01002_001,56.9,2.8
+30039,"Granite County, Montana",B01002_001,54.3,0.4
+30041,"Hill County, Montana",B01002_001,34.3,0.4
+30043,"Jefferson County, Montana",B01002_001,47.6,0.4
+30045,"Judith Basin County, Montana",B01002_001,51.7,2.4
+30047,"Lake County, Montana",B01002_001,42.3,0.6
+30049,"Lewis and Clark County, Montana",B01002_001,40.8,0.4
+30051,"Liberty County, Montana",B01002_001,46.5,5.5
+30053,"Lincoln County, Montana",B01002_001,52.4,0.5
+30055,"McCone County, Montana",B01002_001,46.6,9.3
+30057,"Madison County, Montana",B01002_001,53,0.5
+30059,"Meagher County, Montana",B01002_001,48,6.1
+30061,"Mineral County, Montana",B01002_001,51.7,0.7
+30063,"Missoula County, Montana",B01002_001,36,0.3
+30065,"Musselshell County, Montana",B01002_001,50.1,1.1
+30067,"Park County, Montana",B01002_001,46.3,0.6
+30069,"Petroleum County, Montana",B01002_001,51.8,4.7
+30071,"Phillips County, Montana",B01002_001,49,3.8
+30073,"Pondera County, Montana",B01002_001,40.7,1
+30075,"Powder River County, Montana",B01002_001,53.4,2.8
+30077,"Powell County, Montana",B01002_001,45.5,0.8
+30079,"Prairie County, Montana",B01002_001,48.7,7.8
+30081,"Ravalli County, Montana",B01002_001,49.1,0.4
+30083,"Richland County, Montana",B01002_001,38.6,0.9
+30085,"Roosevelt County, Montana",B01002_001,30.2,0.2
+30087,"Rosebud County, Montana",B01002_001,36.8,1.2
+30089,"Sanders County, Montana",B01002_001,53.9,0.3
+30091,"Sheridan County, Montana",B01002_001,46.3,2.5
+30093,"Silver Bow County, Montana",B01002_001,40,0.9
+30095,"Stillwater County, Montana",B01002_001,46.8,0.5
+30097,"Sweet Grass County, Montana",B01002_001,52,2.5
+30099,"Teton County, Montana",B01002_001,44.4,0.5
+30101,"Toole County, Montana",B01002_001,43.1,1.9
+30103,"Treasure County, Montana",B01002_001,56.8,4.6
+30105,"Valley County, Montana",B01002_001,44.3,0.8
+30107,"Wheatland County, Montana",B01002_001,41.1,5.6
+30109,"Wibaux County, Montana",B01002_001,47.1,4.4
+30111,"Yellowstone County, Montana",B01002_001,38.4,0.2
+31001,"Adams County, Nebraska",B01002_001,37.7,0.7
+31003,"Antelope County, Nebraska",B01002_001,44.9,0.3
+31005,"Arthur County, Nebraska",B01002_001,45.5,6
+31007,"Banner County, Nebraska",B01002_001,48.9,9.1
+31009,"Blaine County, Nebraska",B01002_001,53.2,8.6
+31011,"Boone County, Nebraska",B01002_001,44.8,0.7
+31013,"Box Butte County, Nebraska",B01002_001,39.4,0.8
+31015,"Boyd County, Nebraska",B01002_001,54.3,1.9
+31017,"Brown County, Nebraska",B01002_001,49.4,2.7
+31019,"Buffalo County, Nebraska",B01002_001,33.5,0.3
+31021,"Burt County, Nebraska",B01002_001,45.7,0.4
+31023,"Butler County, Nebraska",B01002_001,43.3,1.1
+31025,"Cass County, Nebraska",B01002_001,41.7,0.4
+31027,"Cedar County, Nebraska",B01002_001,42.7,0.7
+31029,"Chase County, Nebraska",B01002_001,43.5,2.8
+31031,"Cherry County, Nebraska",B01002_001,43.1,1
+31033,"Cheyenne County, Nebraska",B01002_001,40.4,0.6
+31035,"Clay County, Nebraska",B01002_001,42.5,0.8
+31037,"Colfax County, Nebraska",B01002_001,33.7,2.2
+31039,"Cuming County, Nebraska",B01002_001,42.6,1.4
+31041,"Custer County, Nebraska",B01002_001,43.1,0.7
+31043,"Dakota County, Nebraska",B01002_001,33.4,0.7
+31045,"Dawes County, Nebraska",B01002_001,34.9,2.1
+31047,"Dawson County, Nebraska",B01002_001,35.7,0.4
+31049,"Deuel County, Nebraska",B01002_001,48.7,4.5
+31051,"Dixon County, Nebraska",B01002_001,40.8,0.7
+31053,"Dodge County, Nebraska",B01002_001,38.9,0.6
+31055,"Douglas County, Nebraska",B01002_001,34.7,0.1
+31057,"Dundy County, Nebraska",B01002_001,43.3,2.6
+31059,"Fillmore County, Nebraska",B01002_001,47,0.7
+31061,"Franklin County, Nebraska",B01002_001,50.8,0.6
+31063,"Frontier County, Nebraska",B01002_001,45.2,1
+31065,"Furnas County, Nebraska",B01002_001,46.9,0.7
+31067,"Gage County, Nebraska",B01002_001,43.8,0.4
+31069,"Garden County, Nebraska",B01002_001,50.4,4.3
+31071,"Garfield County, Nebraska",B01002_001,50.9,2.6
+31073,"Gosper County, Nebraska",B01002_001,53.4,3.2
+31075,"Grant County, Nebraska",B01002_001,38.8,8.1
+31077,"Greeley County, Nebraska",B01002_001,45.5,0.5
+31079,"Hall County, Nebraska",B01002_001,35.9,0.3
+31081,"Hamilton County, Nebraska",B01002_001,41.9,1.3
+31083,"Harlan County, Nebraska",B01002_001,45.3,1.8
+31085,"Hayes County, Nebraska",B01002_001,45.7,8.3
+31087,"Hitchcock County, Nebraska",B01002_001,46.2,0.6
+31089,"Holt County, Nebraska",B01002_001,42.8,0.5
+31091,"Hooker County, Nebraska",B01002_001,53.3,3.3
+31093,"Howard County, Nebraska",B01002_001,43.1,0.7
+31095,"Jefferson County, Nebraska",B01002_001,46.5,1.1
+31097,"Johnson County, Nebraska",B01002_001,40.9,0.9
+31099,"Kearney County, Nebraska",B01002_001,39.6,0.4
+31101,"Keith County, Nebraska",B01002_001,49.3,0.5
+31103,"Keya Paha County, Nebraska",B01002_001,45.3,5.5
+31105,"Kimball County, Nebraska",B01002_001,46.3,2.2
+31107,"Knox County, Nebraska",B01002_001,45.6,0.3
+31109,"Lancaster County, Nebraska",B01002_001,33.5,0.1
+31111,"Lincoln County, Nebraska",B01002_001,41.1,0.6
+31113,"Logan County, Nebraska",B01002_001,38.6,6.6
+31115,"Loup County, Nebraska",B01002_001,53.2,4.2
+31117,"McPherson County, Nebraska",B01002_001,54.8,4.1
+31119,"Madison County, Nebraska",B01002_001,36.6,0.4
+31121,"Merrick County, Nebraska",B01002_001,43.6,0.5
+31123,"Morrill County, Nebraska",B01002_001,42.3,1.6
+31125,"Nance County, Nebraska",B01002_001,44.8,1.2
+31127,"Nemaha County, Nebraska",B01002_001,39.3,1.2
+31129,"Nuckolls County, Nebraska",B01002_001,49.2,0.6
+31131,"Otoe County, Nebraska",B01002_001,41.4,0.9
+31133,"Pawnee County, Nebraska",B01002_001,50,0.5
+31135,"Perkins County, Nebraska",B01002_001,42.9,0.5
+31137,"Phelps County, Nebraska",B01002_001,42.4,1.4
+31139,"Pierce County, Nebraska",B01002_001,41.6,0.8
+31141,"Platte County, Nebraska",B01002_001,38.4,0.6
+31143,"Polk County, Nebraska",B01002_001,45.1,0.3
+31145,"Red Willow County, Nebraska",B01002_001,40.7,1.1
+31147,"Richardson County, Nebraska",B01002_001,47.7,1.1
+31149,"Rock County, Nebraska",B01002_001,46.2,2.7
+31151,"Saline County, Nebraska",B01002_001,35.5,1.1
+31153,"Sarpy County, Nebraska",B01002_001,34.6,0.1
+31155,"Saunders County, Nebraska",B01002_001,41.2,0.6
+31157,"Scotts Bluff County, Nebraska",B01002_001,39.5,0.4
+31159,"Seward County, Nebraska",B01002_001,38,0.6
+31161,"Sheridan County, Nebraska",B01002_001,46.7,1.2
+31163,"Sherman County, Nebraska",B01002_001,49.7,0.6
+31165,"Sioux County, Nebraska",B01002_001,44.1,11.5
+31167,"Stanton County, Nebraska",B01002_001,42.1,0.9
+31169,"Thayer County, Nebraska",B01002_001,46.5,0.4
+31171,"Thomas County, Nebraska",B01002_001,41.8,8.3
+31173,"Thurston County, Nebraska",B01002_001,27.5,0.3
+31175,"Valley County, Nebraska",B01002_001,46.2,1.1
+31177,"Washington County, Nebraska",B01002_001,41.2,0.8
+31179,"Wayne County, Nebraska",B01002_001,32,0.7
+31181,"Webster County, Nebraska",B01002_001,45.1,0.4
+31183,"Wheeler County, Nebraska",B01002_001,49.4,2.7
+31185,"York County, Nebraska",B01002_001,39.9,1.3
+32001,"Churchill County, Nevada",B01002_001,39.7,1
+32003,"Clark County, Nevada",B01002_001,37.3,0.1
+32005,"Douglas County, Nevada",B01002_001,52,0.3
+32007,"Elko County, Nevada",B01002_001,34.1,0.3
+32009,"Esmeralda County, Nevada",B01002_001,55.4,8.6
+32011,"Eureka County, Nevada",B01002_001,47.7,6.8
+32013,"Humboldt County, Nevada",B01002_001,36,0.5
+32015,"Lander County, Nevada",B01002_001,37.4,3.3
+32017,"Lincoln County, Nevada",B01002_001,44.4,5.2
+32019,"Lyon County, Nevada",B01002_001,43.7,0.5
+32021,"Mineral County, Nevada",B01002_001,52.9,5.1
+32023,"Nye County, Nevada",B01002_001,53.1,0.5
+32027,"Pershing County, Nevada",B01002_001,42.1,2
+32029,"Storey County, Nevada",B01002_001,50.9,4.2
+32031,"Washoe County, Nevada",B01002_001,38.4,0.2
+32033,"White Pine County, Nevada",B01002_001,39.8,1
+32510,"Carson City, Nevada",B01002_001,42.4,0.5
+33001,"Belknap County, New Hampshire",B01002_001,47.4,0.3
+33003,"Carroll County, New Hampshire",B01002_001,52.3,0.4
+33005,"Cheshire County, New Hampshire",B01002_001,43.1,0.3
+33007,"Coos County, New Hampshire",B01002_001,48.2,0.3
+33009,"Grafton County, New Hampshire",B01002_001,43.2,0.4
+33011,"Hillsborough County, New Hampshire",B01002_001,40.7,0.2
+33013,"Merrimack County, New Hampshire",B01002_001,42.8,0.2
+33015,"Rockingham County, New Hampshire",B01002_001,44.5,0.2
+33017,"Strafford County, New Hampshire",B01002_001,36.9,0.3
+33019,"Sullivan County, New Hampshire",B01002_001,46.3,0.4
+34001,"Atlantic County, New Jersey",B01002_001,41.7,0.3
+34003,"Bergen County, New Jersey",B01002_001,41.9,0.1
+34005,"Burlington County, New Jersey",B01002_001,41.6,0.2
+34007,"Camden County, New Jersey",B01002_001,38.8,0.2
+34009,"Cape May County, New Jersey",B01002_001,49.6,0.2
+34011,"Cumberland County, New Jersey",B01002_001,37.6,0.2
+34013,"Essex County, New Jersey",B01002_001,37.6,0.1
+34015,"Gloucester County, New Jersey",B01002_001,40.5,0.2
+34017,"Hudson County, New Jersey",B01002_001,35.3,0.1
+34019,"Hunterdon County, New Jersey",B01002_001,46.3,0.1
+34021,"Mercer County, New Jersey",B01002_001,38.8,0.2
+34023,"Middlesex County, New Jersey",B01002_001,38.6,0.2
+34025,"Monmouth County, New Jersey",B01002_001,43.3,0.2
+34027,"Morris County, New Jersey",B01002_001,42.8,0.1
+34029,"Ocean County, New Jersey",B01002_001,42.7,0.2
+34031,"Passaic County, New Jersey",B01002_001,37.2,0.2
+34033,"Salem County, New Jersey",B01002_001,42.1,0.4
+34035,"Somerset County, New Jersey",B01002_001,41.7,0.2
+34037,"Sussex County, New Jersey",B01002_001,44.7,0.1
+34039,"Union County, New Jersey",B01002_001,38.7,0.2
+34041,"Warren County, New Jersey",B01002_001,44.4,0.2
+35001,"Bernalillo County, New Mexico",B01002_001,37.6,0.2
+35003,"Catron County, New Mexico",B01002_001,58.1,1.3
+35005,"Chaves County, New Mexico",B01002_001,35.7,0.3
+35006,"Cibola County, New Mexico",B01002_001,37.3,0.7
+35007,"Colfax County, New Mexico",B01002_001,50.2,0.6
+35009,"Curry County, New Mexico",B01002_001,31.5,0.4
+35011,"De Baca County, New Mexico",B01002_001,35.4,4.5
+35013,"Doña Ana County, New Mexico",B01002_001,33.1,0.2
+35015,"Eddy County, New Mexico",B01002_001,35.2,0.3
+35017,"Grant County, New Mexico",B01002_001,46.4,0.5
+35019,"Guadalupe County, New Mexico",B01002_001,43.1,5.5
+35021,"Harding County, New Mexico",B01002_001,58.5,5.5
+35023,"Hidalgo County, New Mexico",B01002_001,43.1,1.1
+35025,"Lea County, New Mexico",B01002_001,31.8,0.3
+35027,"Lincoln County, New Mexico",B01002_001,50.9,0.5
+35028,"Los Alamos County, New Mexico",B01002_001,42.3,0.8
+35029,"Luna County, New Mexico",B01002_001,37.1,0.9
+35031,"McKinley County, New Mexico",B01002_001,32.4,0.3
+35033,"Mora County, New Mexico",B01002_001,55.2,4.1
+35035,"Otero County, New Mexico",B01002_001,35.8,0.4
+35037,"Quay County, New Mexico",B01002_001,43.4,1.7
+35039,"Rio Arriba County, New Mexico",B01002_001,41.3,0.5
+35041,"Roosevelt County, New Mexico",B01002_001,30,0.4
+35043,"Sandoval County, New Mexico",B01002_001,40.1,0.3
+35045,"San Juan County, New Mexico",B01002_001,35.4,0.1
+35047,"San Miguel County, New Mexico",B01002_001,44,0.8
+35049,"Santa Fe County, New Mexico",B01002_001,46.3,0.2
+35051,"Sierra County, New Mexico",B01002_001,55.7,0.4
+35053,"Socorro County, New Mexico",B01002_001,39.4,0.9
+35055,"Taos County, New Mexico",B01002_001,48.8,0.3
+35057,"Torrance County, New Mexico",B01002_001,43.6,1
+35059,"Union County, New Mexico",B01002_001,39.8,2.6
+35061,"Valencia County, New Mexico",B01002_001,38.9,0.6
+36001,"Albany County, New York",B01002_001,37.8,0.2
+36003,"Allegany County, New York",B01002_001,39.1,0.4
+36005,"Bronx County, New York",B01002_001,34.2,0.1
+36007,"Broome County, New York",B01002_001,39.9,0.3
+36009,"Cattaraugus County, New York",B01002_001,42,0.2
+36011,"Cayuga County, New York",B01002_001,42.9,0.3
+36013,"Chautauqua County, New York",B01002_001,42.6,0.2
+36015,"Chemung County, New York",B01002_001,41.3,0.4
+36017,"Chenango County, New York",B01002_001,44.9,0.3
+36019,"Clinton County, New York",B01002_001,39.5,0.4
+36021,"Columbia County, New York",B01002_001,48.2,0.3
+36023,"Cortland County, New York",B01002_001,36.4,0.5
+36025,"Delaware County, New York",B01002_001,47.9,0.3
+36027,"Dutchess County, New York",B01002_001,42.2,0.2
+36029,"Erie County, New York",B01002_001,40.3,0.1
+36031,"Essex County, New York",B01002_001,47.7,0.4
+36033,"Franklin County, New York",B01002_001,39.9,0.5
+36035,"Fulton County, New York",B01002_001,43.9,0.4
+36037,"Genesee County, New York",B01002_001,43.1,0.4
+36039,"Greene County, New York",B01002_001,45.9,0.4
+36041,"Hamilton County, New York",B01002_001,55.3,0.3
+36043,"Herkimer County, New York",B01002_001,44.2,0.2
+36045,"Jefferson County, New York",B01002_001,32.5,0.2
+36047,"Kings County, New York",B01002_001,35.2,0.1
+36049,"Lewis County, New York",B01002_001,42.2,0.4
+36051,"Livingston County, New York",B01002_001,41.3,0.4
+36053,"Madison County, New York",B01002_001,41.9,0.5
+36055,"Monroe County, New York",B01002_001,38.9,0.2
+36057,"Montgomery County, New York",B01002_001,41,0.5
+36059,"Nassau County, New York",B01002_001,41.7,0.1
+36061,"New York County, New York",B01002_001,37.5,0.1
+36063,"Niagara County, New York",B01002_001,43.2,0.2
+36065,"Oneida County, New York",B01002_001,41,0.2
+36067,"Onondaga County, New York",B01002_001,39.1,0.2
+36069,"Ontario County, New York",B01002_001,43.7,0.2
+36071,"Orange County, New York",B01002_001,37,0.2
+36073,"Orleans County, New York",B01002_001,43,0.7
+36075,"Oswego County, New York",B01002_001,40.3,0.3
+36077,"Otsego County, New York",B01002_001,42.3,0.4
+36079,"Putnam County, New York",B01002_001,44.2,0.2
+36081,"Queens County, New York",B01002_001,39,0.2
+36083,"Rensselaer County, New York",B01002_001,39.8,0.3
+36085,"Richmond County, New York",B01002_001,40.1,0.2
+36087,"Rockland County, New York",B01002_001,36,0.1
+36089,"St. Lawrence County, New York",B01002_001,39,0.4
+36091,"Saratoga County, New York",B01002_001,42.8,0.2
+36093,"Schenectady County, New York",B01002_001,39.7,0.2
+36095,"Schoharie County, New York",B01002_001,45.4,0.2
+36097,"Schuyler County, New York",B01002_001,46.4,0.6
+36099,"Seneca County, New York",B01002_001,42.1,0.5
+36101,"Steuben County, New York",B01002_001,42.9,0.3
+36103,"Suffolk County, New York",B01002_001,41.5,0.1
+36105,"Sullivan County, New York",B01002_001,42.8,0.4
+36107,"Tioga County, New York",B01002_001,44.5,0.3
+36109,"Tompkins County, New York",B01002_001,31.1,0.2
+36111,"Ulster County, New York",B01002_001,44,0.1
+36113,"Warren County, New York",B01002_001,46.8,0.3
+36115,"Washington County, New York",B01002_001,44.2,0.3
+36117,"Wayne County, New York",B01002_001,43.8,0.2
+36119,"Westchester County, New York",B01002_001,40.9,0.2
+36121,"Wyoming County, New York",B01002_001,42.2,0.6
+36123,"Yates County, New York",B01002_001,41,0.7
+37001,"Alamance County, North Carolina",B01002_001,39.1,0.3
+37003,"Alexander County, North Carolina",B01002_001,43.7,0.5
+37005,"Alleghany County, North Carolina",B01002_001,50.1,0.7
+37007,"Anson County, North Carolina",B01002_001,40.9,0.8
+37009,"Ashe County, North Carolina",B01002_001,48.3,0.3
+37011,"Avery County, North Carolina",B01002_001,45.2,0.4
+37013,"Beaufort County, North Carolina",B01002_001,46.2,0.4
+37015,"Bertie County, North Carolina",B01002_001,45.4,0.3
+37017,"Bladen County, North Carolina",B01002_001,44.5,0.3
+37019,"Brunswick County, North Carolina",B01002_001,53.8,0.2
+37021,"Buncombe County, North Carolina",B01002_001,42.2,0.2
+37023,"Burke County, North Carolina",B01002_001,44.1,0.4
+37025,"Cabarrus County, North Carolina",B01002_001,37.9,0.3
+37027,"Caldwell County, North Carolina",B01002_001,44.6,0.3
+37029,"Camden County, North Carolina",B01002_001,41,2
+37031,"Carteret County, North Carolina",B01002_001,48.6,0.2
+37033,"Caswell County, North Carolina",B01002_001,45.7,0.3
+37035,"Catawba County, North Carolina",B01002_001,41.4,0.2
+37037,"Chatham County, North Carolina",B01002_001,46.7,0.3
+37039,"Cherokee County, North Carolina",B01002_001,51.5,0.6
+37041,"Chowan County, North Carolina",B01002_001,46,1.5
+37043,"Clay County, North Carolina",B01002_001,52.2,2.1
+37045,"Cleveland County, North Carolina",B01002_001,41.8,0.4
+37047,"Columbus County, North Carolina",B01002_001,41.9,0.4
+37049,"Craven County, North Carolina",B01002_001,37,0.3
+37051,"Cumberland County, North Carolina",B01002_001,31.3,0.1
+37053,"Currituck County, North Carolina",B01002_001,42.8,0.7
+37055,"Dare County, North Carolina",B01002_001,46.5,0.6
+37057,"Davidson County, North Carolina",B01002_001,42.5,0.2
+37059,"Davie County, North Carolina",B01002_001,45.2,0.3
+37061,"Duplin County, North Carolina",B01002_001,40.5,0.4
+37063,"Durham County, North Carolina",B01002_001,35.4,0.1
+37065,"Edgecombe County, North Carolina",B01002_001,41.7,0.6
+37067,"Forsyth County, North Carolina",B01002_001,38.4,0.2
+37069,"Franklin County, North Carolina",B01002_001,41.4,0.4
+37071,"Gaston County, North Carolina",B01002_001,40.1,0.2
+37073,"Gates County, North Carolina",B01002_001,46.5,0.6
+37075,"Graham County, North Carolina",B01002_001,46.2,0.6
+37077,"Granville County, North Carolina",B01002_001,42.7,0.3
+37079,"Greene County, North Carolina",B01002_001,40.7,0.9
+37081,"Guilford County, North Carolina",B01002_001,37.1,0.2
+37083,"Halifax County, North Carolina",B01002_001,43.4,0.5
+37085,"Harnett County, North Carolina",B01002_001,34.4,0.1
+37087,"Haywood County, North Carolina",B01002_001,47.6,0.4
+37089,"Henderson County, North Carolina",B01002_001,47.4,0.3
+37091,"Hertford County, North Carolina",B01002_001,42.2,0.6
+37093,"Hoke County, North Carolina",B01002_001,32.8,0.3
+37095,"Hyde County, North Carolina",B01002_001,40.9,3.9
+37097,"Iredell County, North Carolina",B01002_001,40.6,0.2
+37099,"Jackson County, North Carolina",B01002_001,37.7,0.7
+37101,"Johnston County, North Carolina",B01002_001,38.4,0.3
+37103,"Jones County, North Carolina",B01002_001,48.5,1.4
+37105,"Lee County, North Carolina",B01002_001,38.6,0.5
+37107,"Lenoir County, North Carolina",B01002_001,42.7,0.4
+37109,"Lincoln County, North Carolina",B01002_001,43.3,0.3
+37111,"McDowell County, North Carolina",B01002_001,43.9,0.4
+37113,"Macon County, North Carolina",B01002_001,50.1,0.3
+37115,"Madison County, North Carolina",B01002_001,44,0.6
+37117,"Martin County, North Carolina",B01002_001,46.3,0.3
+37119,"Mecklenburg County, North Carolina",B01002_001,35.1,0.1
+37121,"Mitchell County, North Carolina",B01002_001,47,0.5
+37123,"Montgomery County, North Carolina",B01002_001,43.6,0.5
+37125,"Moore County, North Carolina",B01002_001,44.3,0.3
+37127,"Nash County, North Carolina",B01002_001,41.7,0.4
+37129,"New Hanover County, North Carolina",B01002_001,39.1,0.3
+37131,"Northampton County, North Carolina",B01002_001,49.6,0.2
+37133,"Onslow County, North Carolina",B01002_001,26.4,0.2
+37135,"Orange County, North Carolina",B01002_001,34.8,0.1
+37137,"Pamlico County, North Carolina",B01002_001,52.4,0.4
+37139,"Pasquotank County, North Carolina",B01002_001,38.6,0.8
+37141,"Pender County, North Carolina",B01002_001,42.7,0.5
+37143,"Perquimans County, North Carolina",B01002_001,49.8,0.8
+37145,"Person County, North Carolina",B01002_001,43.7,0.5
+37147,"Pitt County, North Carolina",B01002_001,32.5,0.2
+37149,"Polk County, North Carolina",B01002_001,52.7,0.3
+37151,"Randolph County, North Carolina",B01002_001,41.7,0.2
+37153,"Richmond County, North Carolina",B01002_001,40.5,0.4
+37155,"Robeson County, North Carolina",B01002_001,36.6,0.2
+37157,"Rockingham County, North Carolina",B01002_001,44.7,0.2
+37159,"Rowan County, North Carolina",B01002_001,40.2,0.4
+37161,"Rutherford County, North Carolina",B01002_001,45,0.3
+37163,"Sampson County, North Carolina",B01002_001,40.3,0.4
+37165,"Scotland County, North Carolina",B01002_001,39.3,0.5
+37167,"Stanly County, North Carolina",B01002_001,42.2,0.5
+37169,"Stokes County, North Carolina",B01002_001,46.2,0.4
+37171,"Surry County, North Carolina",B01002_001,44.1,0.2
+37173,"Swain County, North Carolina",B01002_001,41.9,1.1
+37175,"Transylvania County, North Carolina",B01002_001,51.1,0.6
+37177,"Tyrrell County, North Carolina",B01002_001,46.2,3.5
+37179,"Union County, North Carolina",B01002_001,38.2,0.2
+37181,"Vance County, North Carolina",B01002_001,40.9,0.8
+37183,"Wake County, North Carolina",B01002_001,36.2,0.1
+37185,"Warren County, North Carolina",B01002_001,48,0.5
+37187,"Washington County, North Carolina",B01002_001,46.1,1.9
+37189,"Watauga County, North Carolina",B01002_001,31.9,0.6
+37191,"Wayne County, North Carolina",B01002_001,37.8,0.4
+37193,"Wilkes County, North Carolina",B01002_001,44.9,0.2
+37195,"Wilson County, North Carolina",B01002_001,40.5,0.3
+37197,"Yadkin County, North Carolina",B01002_001,44.4,0.3
+37199,"Yancey County, North Carolina",B01002_001,47.6,0.7
+38001,"Adams County, North Dakota",B01002_001,45.6,3
+38003,"Barnes County, North Dakota",B01002_001,45.1,0.9
+38005,"Benson County, North Dakota",B01002_001,30.5,0.2
+38007,"Billings County, North Dakota",B01002_001,43.7,6.5
+38009,"Bottineau County, North Dakota",B01002_001,45,0.6
+38011,"Bowman County, North Dakota",B01002_001,41,1.1
+38013,"Burke County, North Dakota",B01002_001,36.8,3.6
+38015,"Burleigh County, North Dakota",B01002_001,37,0.3
+38017,"Cass County, North Dakota",B01002_001,32.5,0.2
+38019,"Cavalier County, North Dakota",B01002_001,49.5,1.3
+38021,"Dickey County, North Dakota",B01002_001,41.9,0.9
+38023,"Divide County, North Dakota",B01002_001,51.1,2.5
+38025,"Dunn County, North Dakota",B01002_001,39,3.7
+38027,"Eddy County, North Dakota",B01002_001,45.8,5
+38029,"Emmons County, North Dakota",B01002_001,50.9,3.8
+38031,"Foster County, North Dakota",B01002_001,44.8,0.7
+38033,"Golden Valley County, North Dakota",B01002_001,45,4.6
+38035,"Grand Forks County, North Dakota",B01002_001,29.7,0.2
+38037,"Grant County, North Dakota",B01002_001,50.1,4.1
+38039,"Griggs County, North Dakota",B01002_001,51.1,4.1
+38041,"Hettinger County, North Dakota",B01002_001,46.5,5
+38043,"Kidder County, North Dakota",B01002_001,47.8,4.1
+38045,"LaMoure County, North Dakota",B01002_001,47.9,1.5
+38047,"Logan County, North Dakota",B01002_001,52,2.1
+38049,"McHenry County, North Dakota",B01002_001,43.2,0.8
+38051,"McIntosh County, North Dakota",B01002_001,53.5,0.6
+38053,"McKenzie County, North Dakota",B01002_001,30.1,0.4
+38055,"McLean County, North Dakota",B01002_001,46,0.4
+38057,"Mercer County, North Dakota",B01002_001,44,1
+38059,"Morton County, North Dakota",B01002_001,37.8,0.6
+38061,"Mountrail County, North Dakota",B01002_001,33.2,0.7
+38063,"Nelson County, North Dakota",B01002_001,52.4,0.5
+38065,"Oliver County, North Dakota",B01002_001,47,6.8
+38067,"Pembina County, North Dakota",B01002_001,48.1,0.6
+38069,"Pierce County, North Dakota",B01002_001,45.8,2.1
+38071,"Ramsey County, North Dakota",B01002_001,40.7,1.4
+38073,"Ransom County, North Dakota",B01002_001,46.6,0.9
+38075,"Renville County, North Dakota",B01002_001,39,2.6
+38077,"Richland County, North Dakota",B01002_001,37.3,0.8
+38079,"Rolette County, North Dakota",B01002_001,31.4,0.3
+38081,"Sargent County, North Dakota",B01002_001,45.2,0.4
+38083,"Sheridan County, North Dakota",B01002_001,50.9,1.8
+38085,"Sioux County, North Dakota",B01002_001,28.2,0.6
+38087,"Slope County, North Dakota",B01002_001,47.7,5.3
+38089,"Stark County, North Dakota",B01002_001,34.2,0.5
+38091,"Steele County, North Dakota",B01002_001,50.3,3.8
+38093,"Stutsman County, North Dakota",B01002_001,40.5,0.7
+38095,"Towner County, North Dakota",B01002_001,47.6,4.3
+38097,"Traill County, North Dakota",B01002_001,41.2,0.9
+38099,"Walsh County, North Dakota",B01002_001,44.2,0.7
+38101,"Ward County, North Dakota",B01002_001,31.6,0.3
+38103,"Wells County, North Dakota",B01002_001,51.6,1.5
+38105,"Williams County, North Dakota",B01002_001,31.3,0.6
+39001,"Adams County, Ohio",B01002_001,42,0.4
+39003,"Allen County, Ohio",B01002_001,39.2,0.3
+39005,"Ashland County, Ohio",B01002_001,40.4,0.6
+39007,"Ashtabula County, Ohio",B01002_001,42.5,0.3
+39009,"Athens County, Ohio",B01002_001,29.6,0.1
+39011,"Auglaize County, Ohio",B01002_001,41.1,0.4
+39013,"Belmont County, Ohio",B01002_001,44.6,0.3
+39015,"Brown County, Ohio",B01002_001,42.1,0.5
+39017,"Butler County, Ohio",B01002_001,36.7,0.2
+39019,"Carroll County, Ohio",B01002_001,45.5,0.4
+39021,"Champaign County, Ohio",B01002_001,41.9,0.5
+39023,"Clark County, Ohio",B01002_001,41.1,0.3
+39025,"Clermont County, Ohio",B01002_001,40,0.3
+39027,"Clinton County, Ohio",B01002_001,39.4,0.6
+39029,"Columbiana County, Ohio",B01002_001,44.1,0.3
+39031,"Coshocton County, Ohio",B01002_001,41.3,0.8
+39033,"Crawford County, Ohio",B01002_001,43,0.4
+39035,"Cuyahoga County, Ohio",B01002_001,40.4,0.2
+39037,"Darke County, Ohio",B01002_001,41.9,0.4
+39039,"Defiance County, Ohio",B01002_001,40.4,0.4
+39041,"Delaware County, Ohio",B01002_001,38.8,0.2
+39043,"Erie County, Ohio",B01002_001,44.8,0.3
+39045,"Fairfield County, Ohio",B01002_001,39.2,0.3
+39047,"Fayette County, Ohio",B01002_001,41.4,0.6
+39049,"Franklin County, Ohio",B01002_001,34.1,0.1
+39051,"Fulton County, Ohio",B01002_001,41.1,0.5
+39053,"Gallia County, Ohio",B01002_001,40.7,0.4
+39055,"Geauga County, Ohio",B01002_001,44.8,0.1
+39057,"Greene County, Ohio",B01002_001,38.3,0.2
+39059,"Guernsey County, Ohio",B01002_001,42.2,0.5
+39061,"Hamilton County, Ohio",B01002_001,36.8,0.1
+39063,"Hancock County, Ohio",B01002_001,39.3,0.4
+39065,"Hardin County, Ohio",B01002_001,35.9,0.4
+39067,"Harrison County, Ohio",B01002_001,46.3,0.7
+39069,"Henry County, Ohio",B01002_001,41.1,0.7
+39071,"Highland County, Ohio",B01002_001,40.8,0.4
+39073,"Hocking County, Ohio",B01002_001,43.1,0.7
+39075,"Holmes County, Ohio",B01002_001,31.5,0.4
+39077,"Huron County, Ohio",B01002_001,39.8,0.5
+39079,"Jackson County, Ohio",B01002_001,40.1,0.8
+39081,"Jefferson County, Ohio",B01002_001,44.8,0.2
+39083,"Knox County, Ohio",B01002_001,39.4,0.6
+39085,"Lake County, Ohio",B01002_001,43.8,0.2
+39087,"Lawrence County, Ohio",B01002_001,41.8,0.4
+39089,"Licking County, Ohio",B01002_001,39.7,0.4
+39091,"Logan County, Ohio",B01002_001,41.4,0.5
+39093,"Lorain County, Ohio",B01002_001,41.8,0.2
+39095,"Lucas County, Ohio",B01002_001,37.8,0.2
+39097,"Madison County, Ohio",B01002_001,40.8,0.5
+39099,"Mahoning County, Ohio",B01002_001,43.5,0.2
+39101,"Marion County, Ohio",B01002_001,41.3,0.5
+39103,"Medina County, Ohio",B01002_001,42.2,0.2
+39105,"Meigs County, Ohio",B01002_001,43.6,0.5
+39107,"Mercer County, Ohio",B01002_001,39.6,0.6
+39109,"Miami County, Ohio",B01002_001,41.3,0.3
+39111,"Monroe County, Ohio",B01002_001,46.5,0.5
+39113,"Montgomery County, Ohio",B01002_001,39.2,0.2
+39115,"Morgan County, Ohio",B01002_001,44.5,0.3
+39117,"Morrow County, Ohio",B01002_001,42.2,0.5
+39119,"Muskingum County, Ohio",B01002_001,40.3,0.5
+39121,"Noble County, Ohio",B01002_001,50.4,0.7
+39123,"Ottawa County, Ohio",B01002_001,49.3,0.3
+39125,"Paulding County, Ohio",B01002_001,42.1,0.5
+39127,"Perry County, Ohio",B01002_001,40.2,0.7
+39129,"Pickaway County, Ohio",B01002_001,39.7,0.4
+39131,"Pike County, Ohio",B01002_001,40.8,0.4
+39133,"Portage County, Ohio",B01002_001,38,0.3
+39135,"Preble County, Ohio",B01002_001,42.7,0.4
+39137,"Putnam County, Ohio",B01002_001,39.8,0.5
+39139,"Richland County, Ohio",B01002_001,41.1,0.3
+39141,"Ross County, Ohio",B01002_001,41,0.4
+39143,"Sandusky County, Ohio",B01002_001,42.2,0.4
+39145,"Scioto County, Ohio",B01002_001,39.9,0.4
+39147,"Seneca County, Ohio",B01002_001,39.9,0.5
+39149,"Shelby County, Ohio",B01002_001,39.5,0.6
+39151,"Stark County, Ohio",B01002_001,42.1,0.2
+39153,"Summit County, Ohio",B01002_001,41,0.2
+39155,"Trumbull County, Ohio",B01002_001,44.3,0.2
+39157,"Tuscarawas County, Ohio",B01002_001,41,0.3
+39159,"Union County, Ohio",B01002_001,38,0.4
+39161,"Van Wert County, Ohio",B01002_001,41.2,0.6
+39163,"Vinton County, Ohio",B01002_001,42.9,0.6
+39165,"Warren County, Ohio",B01002_001,39.4,0.3
+39167,"Washington County, Ohio",B01002_001,44.3,0.3
+39169,"Wayne County, Ohio",B01002_001,38.7,0.3
+39171,"Williams County, Ohio",B01002_001,41.4,0.6
+39173,"Wood County, Ohio",B01002_001,34.9,0.2
+39175,"Wyandot County, Ohio",B01002_001,42.1,0.7
+40001,"Adair County, Oklahoma",B01002_001,37.2,0.4
+40003,"Alfalfa County, Oklahoma",B01002_001,44.2,1.2
+40005,"Atoka County, Oklahoma",B01002_001,40.2,0.4
+40007,"Beaver County, Oklahoma",B01002_001,39,1
+40009,"Beckham County, Oklahoma",B01002_001,35.9,0.7
+40011,"Blaine County, Oklahoma",B01002_001,43.5,1.1
+40013,"Bryan County, Oklahoma",B01002_001,37.2,0.4
+40015,"Caddo County, Oklahoma",B01002_001,37.7,0.4
+40017,"Canadian County, Oklahoma",B01002_001,35.9,0.2
+40019,"Carter County, Oklahoma",B01002_001,38.2,0.4
+40021,"Cherokee County, Oklahoma",B01002_001,35.3,0.2
+40023,"Choctaw County, Oklahoma",B01002_001,42,0.5
+40025,"Cimarron County, Oklahoma",B01002_001,43.8,1.9
+40027,"Cleveland County, Oklahoma",B01002_001,34.2,0.2
+40029,"Coal County, Oklahoma",B01002_001,42,0.6
+40031,"Comanche County, Oklahoma",B01002_001,33,0.2
+40033,"Cotton County, Oklahoma",B01002_001,43.5,0.6
+40035,"Craig County, Oklahoma",B01002_001,42.1,0.6
+40037,"Creek County, Oklahoma",B01002_001,40.3,0.4
+40039,"Custer County, Oklahoma",B01002_001,31.4,0.4
+40041,"Delaware County, Oklahoma",B01002_001,46.7,0.3
+40043,"Dewey County, Oklahoma",B01002_001,39.2,1.1
+40045,"Ellis County, Oklahoma",B01002_001,44.1,1.4
+40047,"Garfield County, Oklahoma",B01002_001,35.8,0.4
+40049,"Garvin County, Oklahoma",B01002_001,39.3,0.4
+40051,"Grady County, Oklahoma",B01002_001,39.2,0.4
+40053,"Grant County, Oklahoma",B01002_001,42.6,1
+40055,"Greer County, Oklahoma",B01002_001,40.4,2
+40057,"Harmon County, Oklahoma",B01002_001,40.6,1.8
+40059,"Harper County, Oklahoma",B01002_001,39.7,1.8
+40061,"Haskell County, Oklahoma",B01002_001,41,0.7
+40063,"Hughes County, Oklahoma",B01002_001,39.4,0.6
+40065,"Jackson County, Oklahoma",B01002_001,34.1,0.5
+40067,"Jefferson County, Oklahoma",B01002_001,41.5,0.7
+40069,"Johnston County, Oklahoma",B01002_001,40.1,1.4
+40071,"Kay County, Oklahoma",B01002_001,38.4,0.3
+40073,"Kingfisher County, Oklahoma",B01002_001,37.7,1.7
+40075,"Kiowa County, Oklahoma",B01002_001,42.9,1.3
+40077,"Latimer County, Oklahoma",B01002_001,41.3,0.8
+40079,"Le Flore County, Oklahoma",B01002_001,39.4,0.3
+40081,"Lincoln County, Oklahoma",B01002_001,41.2,0.3
+40083,"Logan County, Oklahoma",B01002_001,38.5,0.7
+40085,"Love County, Oklahoma",B01002_001,39.4,1.2
+40087,"McClain County, Oklahoma",B01002_001,38.5,0.6
+40089,"McCurtain County, Oklahoma",B01002_001,38.8,0.3
+40091,"McIntosh County, Oklahoma",B01002_001,47.8,0.5
+40093,"Major County, Oklahoma",B01002_001,41.1,1.2
+40095,"Marshall County, Oklahoma",B01002_001,42.8,0.6
+40097,"Mayes County, Oklahoma",B01002_001,40.6,0.4
+40099,"Murray County, Oklahoma",B01002_001,42.9,1
+40101,"Muskogee County, Oklahoma",B01002_001,37.9,0.3
+40103,"Noble County, Oklahoma",B01002_001,41.2,0.7
+40105,"Nowata County, Oklahoma",B01002_001,42.4,0.7
+40107,"Okfuskee County, Oklahoma",B01002_001,40.2,0.4
+40109,"Oklahoma County, Oklahoma",B01002_001,34.6,0.1
+40111,"Okmulgee County, Oklahoma",B01002_001,39,0.4
+40113,"Osage County, Oklahoma",B01002_001,42.5,0.3
+40115,"Ottawa County, Oklahoma",B01002_001,38,0.3
+40117,"Pawnee County, Oklahoma",B01002_001,41.9,0.4
+40119,"Payne County, Oklahoma",B01002_001,27.3,0.3
+40121,"Pittsburg County, Oklahoma",B01002_001,40.3,0.3
+40123,"Pontotoc County, Oklahoma",B01002_001,35.7,0.3
+40125,"Pottawatomie County, Oklahoma",B01002_001,37.7,0.2
+40127,"Pushmataha County, Oklahoma",B01002_001,44.5,0.5
+40129,"Roger Mills County, Oklahoma",B01002_001,40.6,1
+40131,"Rogers County, Oklahoma",B01002_001,39.1,0.3
+40133,"Seminole County, Oklahoma",B01002_001,38.8,0.4
+40135,"Sequoyah County, Oklahoma",B01002_001,40.8,0.4
+40137,"Stephens County, Oklahoma",B01002_001,40.7,0.4
+40139,"Texas County, Oklahoma",B01002_001,33,1
+40141,"Tillman County, Oklahoma",B01002_001,42.7,1.8
+40143,"Tulsa County, Oklahoma",B01002_001,35.7,0.1
+40145,"Wagoner County, Oklahoma",B01002_001,38.8,0.3
+40147,"Washington County, Oklahoma",B01002_001,40.2,0.5
+40149,"Washita County, Oklahoma",B01002_001,39.1,0.8
+40151,"Woods County, Oklahoma",B01002_001,33.4,0.6
+40153,"Woodward County, Oklahoma",B01002_001,36.5,0.4
+41001,"Baker County, Oregon",B01002_001,48,0.4
+41003,"Benton County, Oregon",B01002_001,33,0.3
+41005,"Clackamas County, Oregon",B01002_001,41.5,0.2
+41007,"Clatsop County, Oregon",B01002_001,44.2,0.4
+41009,"Columbia County, Oregon",B01002_001,43.3,0.5
+41011,"Coos County, Oregon",B01002_001,48.6,0.3
+41013,"Crook County, Oregon",B01002_001,47.5,0.5
+41015,"Curry County, Oregon",B01002_001,56.3,0.5
+41017,"Deschutes County, Oregon",B01002_001,42.4,0.3
+41019,"Douglas County, Oregon",B01002_001,47.1,0.3
+41021,"Gilliam County, Oregon",B01002_001,50.1,3.3
+41023,"Grant County, Oregon",B01002_001,52.9,0.9
+41025,"Harney County, Oregon",B01002_001,45.9,0.8
+41027,"Hood River County, Oregon",B01002_001,39.3,0.6
+41029,"Jackson County, Oregon",B01002_001,42.6,0.2
+41031,"Jefferson County, Oregon",B01002_001,40.8,0.6
+41033,"Josephine County, Oregon",B01002_001,47.7,0.4
+41035,"Klamath County, Oregon",B01002_001,42.2,0.4
+41037,"Lake County, Oregon",B01002_001,48.6,0.5
+41039,"Lane County, Oregon",B01002_001,39.4,0.2
+41041,"Lincoln County, Oregon",B01002_001,51.6,0.3
+41043,"Linn County, Oregon",B01002_001,39.6,0.3
+41045,"Malheur County, Oregon",B01002_001,36.1,0.3
+41047,"Marion County, Oregon",B01002_001,36.6,0.2
+41049,"Morrow County, Oregon",B01002_001,38.9,1.3
+41051,"Multnomah County, Oregon",B01002_001,37.2,0.2
+41053,"Polk County, Oregon",B01002_001,37,0.4
+41055,"Sherman County, Oregon",B01002_001,51.4,3.9
+41057,"Tillamook County, Oregon",B01002_001,48.1,0.5
+41059,"Umatilla County, Oregon",B01002_001,36.5,0.3
+41061,"Union County, Oregon",B01002_001,40.2,0.6
+41063,"Wallowa County, Oregon",B01002_001,52.6,0.8
+41065,"Wasco County, Oregon",B01002_001,40.8,0.6
+41067,"Washington County, Oregon",B01002_001,36.7,0.1
+41069,"Wheeler County, Oregon",B01002_001,59,3.3
+41071,"Yamhill County, Oregon",B01002_001,38.3,0.5
+42001,"Adams County, Pennsylvania",B01002_001,43.9,0.2
+42003,"Allegheny County, Pennsylvania",B01002_001,40.8,0.2
+42005,"Armstrong County, Pennsylvania",B01002_001,46.6,0.2
+42007,"Beaver County, Pennsylvania",B01002_001,45.1,0.1
+42009,"Bedford County, Pennsylvania",B01002_001,46.5,0.2
+42011,"Berks County, Pennsylvania",B01002_001,39.9,0.2
+42013,"Blair County, Pennsylvania",B01002_001,43.4,0.2
+42015,"Bradford County, Pennsylvania",B01002_001,44.5,0.2
+42017,"Bucks County, Pennsylvania",B01002_001,43.9,0.2
+42019,"Butler County, Pennsylvania",B01002_001,43.3,0.2
+42021,"Cambria County, Pennsylvania",B01002_001,45.4,0.2
+42023,"Cameron County, Pennsylvania",B01002_001,52,0.9
+42025,"Carbon County, Pennsylvania",B01002_001,46.2,0.2
+42027,"Centre County, Pennsylvania",B01002_001,32.3,0.2
+42029,"Chester County, Pennsylvania",B01002_001,40.4,0.2
+42031,"Clarion County, Pennsylvania",B01002_001,41.5,0.5
+42033,"Clearfield County, Pennsylvania",B01002_001,45,0.2
+42035,"Clinton County, Pennsylvania",B01002_001,38.6,0.5
+42037,"Columbia County, Pennsylvania",B01002_001,41,0.4
+42039,"Crawford County, Pennsylvania",B01002_001,43.2,0.3
+42041,"Cumberland County, Pennsylvania",B01002_001,40.6,0.2
+42043,"Dauphin County, Pennsylvania",B01002_001,39.7,0.3
+42045,"Delaware County, Pennsylvania",B01002_001,39,0.2
+42047,"Elk County, Pennsylvania",B01002_001,47.4,0.4
+42049,"Erie County, Pennsylvania",B01002_001,39.7,0.2
+42051,"Fayette County, Pennsylvania",B01002_001,45,0.1
+42053,"Forest County, Pennsylvania",B01002_001,43.3,1.4
+42055,"Franklin County, Pennsylvania",B01002_001,41.6,0.3
+42057,"Fulton County, Pennsylvania",B01002_001,45.4,0.3
+42059,"Greene County, Pennsylvania",B01002_001,42.2,0.4
+42061,"Huntingdon County, Pennsylvania",B01002_001,43.7,0.4
+42063,"Indiana County, Pennsylvania",B01002_001,40.2,0.4
+42065,"Jefferson County, Pennsylvania",B01002_001,43.9,0.3
+42067,"Juniata County, Pennsylvania",B01002_001,42.9,0.4
+42069,"Lackawanna County, Pennsylvania",B01002_001,42.1,0.2
+42071,"Lancaster County, Pennsylvania",B01002_001,38.6,0.2
+42073,"Lawrence County, Pennsylvania",B01002_001,45.2,0.1
+42075,"Lebanon County, Pennsylvania",B01002_001,41,0.3
+42077,"Lehigh County, Pennsylvania",B01002_001,39.1,0.2
+42079,"Luzerne County, Pennsylvania",B01002_001,42.8,0.2
+42081,"Lycoming County, Pennsylvania",B01002_001,41.5,0.3
+42083,"McKean County, Pennsylvania",B01002_001,43.2,0.3
+42085,"Mercer County, Pennsylvania",B01002_001,44.7,0.2
+42087,"Mifflin County, Pennsylvania",B01002_001,44,0.4
+42089,"Monroe County, Pennsylvania",B01002_001,42.9,0.3
+42091,"Montgomery County, Pennsylvania",B01002_001,41.2,0.2
+42093,"Montour County, Pennsylvania",B01002_001,43.3,0.7
+42095,"Northampton County, Pennsylvania",B01002_001,42.2,0.3
+42097,"Northumberland County, Pennsylvania",B01002_001,44.5,0.2
+42099,"Perry County, Pennsylvania",B01002_001,43.3,0.4
+42101,"Philadelphia County, Pennsylvania",B01002_001,34.4,0.1
+42103,"Pike County, Pennsylvania",B01002_001,48.2,0.4
+42105,"Potter County, Pennsylvania",B01002_001,47.2,0.4
+42107,"Schuylkill County, Pennsylvania",B01002_001,44.4,0.2
+42109,"Snyder County, Pennsylvania",B01002_001,40.2,0.4
+42111,"Somerset County, Pennsylvania",B01002_001,46.1,0.2
+42113,"Sullivan County, Pennsylvania",B01002_001,53.7,0.4
+42115,"Susquehanna County, Pennsylvania",B01002_001,48.4,0.2
+42117,"Tioga County, Pennsylvania",B01002_001,44.6,0.2
+42119,"Union County, Pennsylvania",B01002_001,39.5,0.7
+42121,"Venango County, Pennsylvania",B01002_001,46.9,0.3
+42123,"Warren County, Pennsylvania",B01002_001,47.4,0.2
+42125,"Washington County, Pennsylvania",B01002_001,44.5,0.2
+42127,"Wayne County, Pennsylvania",B01002_001,48.2,0.3
+42129,"Westmoreland County, Pennsylvania",B01002_001,47,0.2
+42131,"Wyoming County, Pennsylvania",B01002_001,44.7,0.2
+42133,"York County, Pennsylvania",B01002_001,41,0.2
+44001,"Bristol County, Rhode Island",B01002_001,44.3,0.3
+44003,"Kent County, Rhode Island",B01002_001,43.9,0.2
+44005,"Newport County, Rhode Island",B01002_001,45.2,0.3
+44007,"Providence County, Rhode Island",B01002_001,37.4,0.1
+44009,"Washington County, Rhode Island",B01002_001,44.6,0.3
+45001,"Abbeville County, South Carolina",B01002_001,44.3,0.3
+45003,"Aiken County, South Carolina",B01002_001,41,0.3
+45005,"Allendale County, South Carolina",B01002_001,41.9,1.4
+45007,"Anderson County, South Carolina",B01002_001,40.8,0.4
+45009,"Bamberg County, South Carolina",B01002_001,41.7,1.3
+45011,"Barnwell County, South Carolina",B01002_001,41.3,1
+45013,"Beaufort County, South Carolina",B01002_001,45.5,0.1
+45015,"Berkeley County, South Carolina",B01002_001,36.1,0.2
+45017,"Calhoun County, South Carolina",B01002_001,45.5,2.1
+45019,"Charleston County, South Carolina",B01002_001,37.8,0.2
+45021,"Cherokee County, South Carolina",B01002_001,39.3,0.5
+45023,"Chester County, South Carolina",B01002_001,42,0.5
+45025,"Chesterfield County, South Carolina",B01002_001,42.4,0.5
+45027,"Clarendon County, South Carolina",B01002_001,45.1,0.3
+45029,"Colleton County, South Carolina",B01002_001,42.5,0.6
+45031,"Darlington County, South Carolina",B01002_001,41.4,0.5
+45033,"Dillon County, South Carolina",B01002_001,37.7,0.5
+45035,"Dorchester County, South Carolina",B01002_001,37,0.3
+45037,"Edgefield County, South Carolina",B01002_001,42.9,0.6
+45039,"Fairfield County, South Carolina",B01002_001,46.4,0.6
+45041,"Florence County, South Carolina",B01002_001,39.2,0.4
+45043,"Georgetown County, South Carolina",B01002_001,49.5,0.2
+45045,"Greenville County, South Carolina",B01002_001,38.2,0.2
+45047,"Greenwood County, South Carolina",B01002_001,39.5,0.4
+45049,"Hampton County, South Carolina",B01002_001,40,0.7
+45051,"Horry County, South Carolina",B01002_001,45.9,0.2
+45053,"Jasper County, South Carolina",B01002_001,40.3,1.1
+45055,"Kershaw County, South Carolina",B01002_001,41.1,0.5
+45057,"Lancaster County, South Carolina",B01002_001,42.1,0.5
+45059,"Laurens County, South Carolina",B01002_001,40.7,0.5
+45061,"Lee County, South Carolina",B01002_001,41.8,0.7
+45063,"Lexington County, South Carolina",B01002_001,39.1,0.3
+45065,"McCormick County, South Carolina",B01002_001,55.2,0.2
+45067,"Marion County, South Carolina",B01002_001,40.7,0.5
+45069,"Marlboro County, South Carolina",B01002_001,40.3,0.6
+45071,"Newberry County, South Carolina",B01002_001,42,0.5
+45073,"Oconee County, South Carolina",B01002_001,45.7,0.3
+45075,"Orangeburg County, South Carolina",B01002_001,40.3,0.5
+45077,"Pickens County, South Carolina",B01002_001,36.2,0.3
+45079,"Richland County, South Carolina",B01002_001,33.4,0.2
+45081,"Saluda County, South Carolina",B01002_001,41.8,1.4
+45083,"Spartanburg County, South Carolina",B01002_001,38.2,0.2
+45085,"Sumter County, South Carolina",B01002_001,36.4,0.3
+45087,"Union County, South Carolina",B01002_001,44,0.5
+45089,"Williamsburg County, South Carolina",B01002_001,43,0.5
+45091,"York County, South Carolina",B01002_001,38.7,0.2
+46003,"Aurora County, South Dakota",B01002_001,37.8,2.7
+46005,"Beadle County, South Dakota",B01002_001,38.1,1.6
+46007,"Bennett County, South Dakota",B01002_001,28.6,2.7
+46009,"Bon Homme County, South Dakota",B01002_001,42.3,1.1
+46011,"Brookings County, South Dakota",B01002_001,27,0.5
+46013,"Brown County, South Dakota",B01002_001,37,0.7
+46015,"Brule County, South Dakota",B01002_001,40.9,1.3
+46017,"Buffalo County, South Dakota",B01002_001,25.8,2.1
+46019,"Butte County, South Dakota",B01002_001,40.1,1.1
+46021,"Campbell County, South Dakota",B01002_001,50.9,2.3
+46023,"Charles Mix County, South Dakota",B01002_001,35.8,0.3
+46025,"Clark County, South Dakota",B01002_001,41.4,0.9
+46027,"Clay County, South Dakota",B01002_001,24.9,0.4
+46029,"Codington County, South Dakota",B01002_001,39.1,0.5
+46031,"Corson County, South Dakota",B01002_001,28.7,0.4
+46033,"Custer County, South Dakota",B01002_001,54.8,0.4
+46035,"Davison County, South Dakota",B01002_001,38.6,1.9
+46037,"Day County, South Dakota",B01002_001,47.7,0.8
+46039,"Deuel County, South Dakota",B01002_001,42.8,0.6
+46041,"Dewey County, South Dakota",B01002_001,26.9,0.9
+46043,"Douglas County, South Dakota",B01002_001,46.7,1.2
+46045,"Edmunds County, South Dakota",B01002_001,42.4,3
+46047,"Fall River County, South Dakota",B01002_001,53.6,1.1
+46049,"Faulk County, South Dakota",B01002_001,47,3.6
+46051,"Grant County, South Dakota",B01002_001,42.9,1.6
+46053,"Gregory County, South Dakota",B01002_001,45.4,0.4
+46055,"Haakon County, South Dakota",B01002_001,44.1,3.7
+46057,"Hamlin County, South Dakota",B01002_001,35,1
+46059,"Hand County, South Dakota",B01002_001,47.4,2.1
+46061,"Hanson County, South Dakota",B01002_001,36.7,0.6
+46063,"Harding County, South Dakota",B01002_001,42.3,5.1
+46065,"Hughes County, South Dakota",B01002_001,38,0.7
+46067,"Hutchinson County, South Dakota",B01002_001,43,0.9
+46069,"Hyde County, South Dakota",B01002_001,53.3,4.6
+46071,"Jackson County, South Dakota",B01002_001,32.2,4.1
+46073,"Jerauld County, South Dakota",B01002_001,51.6,3.7
+46075,"Jones County, South Dakota",B01002_001,53.5,5.9
+46077,"Kingsbury County, South Dakota",B01002_001,45.1,0.4
+46079,"Lake County, South Dakota",B01002_001,43.2,0.9
+46081,"Lawrence County, South Dakota",B01002_001,42.1,0.7
+46083,"Lincoln County, South Dakota",B01002_001,34.9,0.3
+46085,"Lyman County, South Dakota",B01002_001,35.5,0.7
+46087,"McCook County, South Dakota",B01002_001,39.3,1.3
+46089,"McPherson County, South Dakota",B01002_001,50.2,3.3
+46091,"Marshall County, South Dakota",B01002_001,39.8,0.8
+46093,"Meade County, South Dakota",B01002_001,36.5,0.9
+46095,"Mellette County, South Dakota",B01002_001,32.9,2.5
+46097,"Miner County, South Dakota",B01002_001,44,2.8
+46099,"Minnehaha County, South Dakota",B01002_001,34.9,0.1
+46101,"Moody County, South Dakota",B01002_001,39.9,1.1
+46102,"Oglala Lakota County, South Dakota",B01002_001,25.8,0.8
+46103,"Pennington County, South Dakota",B01002_001,39,0.3
+46105,"Perkins County, South Dakota",B01002_001,47.5,2.7
+46107,"Potter County, South Dakota",B01002_001,49.2,4
+46109,"Roberts County, South Dakota",B01002_001,38.1,0.7
+46111,"Sanborn County, South Dakota",B01002_001,42.6,5.1
+46115,"Spink County, South Dakota",B01002_001,43.5,0.5
+46117,"Stanley County, South Dakota",B01002_001,44.5,3.2
+46119,"Sully County, South Dakota",B01002_001,46.8,3.4
+46121,"Todd County, South Dakota",B01002_001,23.8,0.4
+46123,"Tripp County, South Dakota",B01002_001,45.1,1
+46125,"Turner County, South Dakota",B01002_001,42,0.8
+46127,"Union County, South Dakota",B01002_001,40,0.7
+46129,"Walworth County, South Dakota",B01002_001,42.8,1.7
+46135,"Yankton County, South Dakota",B01002_001,41.8,1
+46137,"Ziebach County, South Dakota",B01002_001,33.1,0.8
+47001,"Anderson County, Tennessee",B01002_001,43.3,0.3
+47003,"Bedford County, Tennessee",B01002_001,37.9,0.6
+47005,"Benton County, Tennessee",B01002_001,47.9,0.8
+47007,"Bledsoe County, Tennessee",B01002_001,44.1,0.9
+47009,"Blount County, Tennessee",B01002_001,43.7,0.2
+47011,"Bradley County, Tennessee",B01002_001,39.5,0.4
+47013,"Campbell County, Tennessee",B01002_001,44.1,0.4
+47015,"Cannon County, Tennessee",B01002_001,42,0.9
+47017,"Carroll County, Tennessee",B01002_001,42.5,0.9
+47019,"Carter County, Tennessee",B01002_001,45.4,0.3
+47021,"Cheatham County, Tennessee",B01002_001,40.3,0.6
+47023,"Chester County, Tennessee",B01002_001,37.7,0.8
+47025,"Claiborne County, Tennessee",B01002_001,43.1,0.5
+47027,"Clay County, Tennessee",B01002_001,47.3,1.8
+47029,"Cocke County, Tennessee",B01002_001,45.2,0.3
+47031,"Coffee County, Tennessee",B01002_001,39.7,0.7
+47033,"Crockett County, Tennessee",B01002_001,40.7,0.7
+47035,"Cumberland County, Tennessee",B01002_001,51,0.3
+47037,"Davidson County, Tennessee",B01002_001,34.3,0.2
+47039,"Decatur County, Tennessee",B01002_001,46.4,0.6
+47041,"DeKalb County, Tennessee",B01002_001,41.1,1.5
+47043,"Dickson County, Tennessee",B01002_001,39.1,0.4
+47045,"Dyer County, Tennessee",B01002_001,40.5,0.8
+47047,"Fayette County, Tennessee",B01002_001,45.8,0.2
+47049,"Fentress County, Tennessee",B01002_001,45.2,0.4
+47051,"Franklin County, Tennessee",B01002_001,42.2,0.5
+47053,"Gibson County, Tennessee",B01002_001,39.9,0.7
+47055,"Giles County, Tennessee",B01002_001,43.9,0.5
+47057,"Grainger County, Tennessee",B01002_001,45,0.3
+47059,"Greene County, Tennessee",B01002_001,44.7,0.3
+47061,"Grundy County, Tennessee",B01002_001,43.4,0.5
+47063,"Hamblen County, Tennessee",B01002_001,40.7,0.4
+47065,"Hamilton County, Tennessee",B01002_001,39.7,0.2
+47067,"Hancock County, Tennessee",B01002_001,44.5,0.5
+47069,"Hardeman County, Tennessee",B01002_001,40.3,0.7
+47071,"Hardin County, Tennessee",B01002_001,45.3,0.3
+47073,"Hawkins County, Tennessee",B01002_001,44.9,0.2
+47075,"Haywood County, Tennessee",B01002_001,42,1.3
+47077,"Henderson County, Tennessee",B01002_001,41.5,0.8
+47079,"Henry County, Tennessee",B01002_001,45.8,0.4
+47081,"Hickman County, Tennessee",B01002_001,41.1,1.1
+47083,"Houston County, Tennessee",B01002_001,43.9,1.2
+47085,"Humphreys County, Tennessee",B01002_001,42,0.8
+47087,"Jackson County, Tennessee",B01002_001,46.8,0.6
+47089,"Jefferson County, Tennessee",B01002_001,43.9,0.4
+47091,"Johnson County, Tennessee",B01002_001,46,0.4
+47093,"Knox County, Tennessee",B01002_001,37.4,0.1
+47095,"Lake County, Tennessee",B01002_001,41.5,1
+47097,"Lauderdale County, Tennessee",B01002_001,38.3,0.6
+47099,"Lawrence County, Tennessee",B01002_001,39.3,0.5
+47101,"Lewis County, Tennessee",B01002_001,43.3,1
+47103,"Lincoln County, Tennessee",B01002_001,42.6,0.8
+47105,"Loudon County, Tennessee",B01002_001,47.6,0.3
+47107,"McMinn County, Tennessee",B01002_001,42.6,0.4
+47109,"McNairy County, Tennessee",B01002_001,43.5,0.7
+47111,"Macon County, Tennessee",B01002_001,39.4,0.9
+47113,"Madison County, Tennessee",B01002_001,38.7,0.4
+47115,"Marion County, Tennessee",B01002_001,43.4,0.3
+47117,"Marshall County, Tennessee",B01002_001,38.9,0.6
+47119,"Maury County, Tennessee",B01002_001,39.1,0.4
+47121,"Meigs County, Tennessee",B01002_001,46,0.9
+47123,"Monroe County, Tennessee",B01002_001,43.9,0.5
+47125,"Montgomery County, Tennessee",B01002_001,30.8,0.2
+47127,"Moore County, Tennessee",B01002_001,45,1.1
+47129,"Morgan County, Tennessee",B01002_001,41.6,0.4
+47131,"Obion County, Tennessee",B01002_001,42.6,0.5
+47133,"Overton County, Tennessee",B01002_001,43,0.5
+47135,"Perry County, Tennessee",B01002_001,43.2,0.5
+47137,"Pickett County, Tennessee",B01002_001,50.1,0.1
+47139,"Polk County, Tennessee",B01002_001,45.6,0.3
+47141,"Putnam County, Tennessee",B01002_001,36.4,0.5
+47143,"Rhea County, Tennessee",B01002_001,38.9,0.9
+47145,"Roane County, Tennessee",B01002_001,46.4,0.4
+47147,"Robertson County, Tennessee",B01002_001,39,0.4
+47149,"Rutherford County, Tennessee",B01002_001,33.5,0.1
+47151,"Scott County, Tennessee",B01002_001,39.4,0.8
+47153,"Sequatchie County, Tennessee",B01002_001,44.1,0.6
+47155,"Sevier County, Tennessee",B01002_001,42.9,0.4
+47157,"Shelby County, Tennessee",B01002_001,35.6,0.1
+47159,"Smith County, Tennessee",B01002_001,40.3,0.6
+47161,"Stewart County, Tennessee",B01002_001,44.2,0.8
+47163,"Sullivan County, Tennessee",B01002_001,45.1,0.2
+47165,"Sumner County, Tennessee",B01002_001,39.8,0.2
+47167,"Tipton County, Tennessee",B01002_001,37.5,0.5
+47169,"Trousdale County, Tennessee",B01002_001,35.1,1.1
+47171,"Unicoi County, Tennessee",B01002_001,46.5,0.7
+47173,"Union County, Tennessee",B01002_001,43,0.5
+47175,"Van Buren County, Tennessee",B01002_001,46.9,1.1
+47177,"Warren County, Tennessee",B01002_001,40,0.5
+47179,"Washington County, Tennessee",B01002_001,40.2,0.5
+47181,"Wayne County, Tennessee",B01002_001,43,0.6
+47183,"Weakley County, Tennessee",B01002_001,38.6,0.7
+47185,"White County, Tennessee",B01002_001,43.2,0.5
+47187,"Williamson County, Tennessee",B01002_001,39.1,0.3
+47189,"Wilson County, Tennessee",B01002_001,40.4,0.3
+48001,"Anderson County, Texas",B01002_001,39.3,0.4
+48003,"Andrews County, Texas",B01002_001,30.8,0.8
+48005,"Angelina County, Texas",B01002_001,37.5,0.2
+48007,"Aransas County, Texas",B01002_001,50.6,1.2
+48009,"Archer County, Texas",B01002_001,44.5,0.4
+48011,"Armstrong County, Texas",B01002_001,46,2.8
+48013,"Atascosa County, Texas",B01002_001,35.4,0.3
+48015,"Austin County, Texas",B01002_001,40.7,0.5
+48017,"Bailey County, Texas",B01002_001,33.3,2.1
+48019,"Bandera County, Texas",B01002_001,52.2,0.6
+48021,"Bastrop County, Texas",B01002_001,38.4,0.4
+48023,"Baylor County, Texas",B01002_001,45.9,6.7
+48025,"Bee County, Texas",B01002_001,35.3,0.3
+48027,"Bell County, Texas",B01002_001,31,0.1
+48029,"Bexar County, Texas",B01002_001,33.6,0.1
+48031,"Blanco County, Texas",B01002_001,50.4,0.7
+48033,"Borden County, Texas",B01002_001,41.7,14.3
+48035,"Bosque County, Texas",B01002_001,46.6,0.4
+48037,"Bowie County, Texas",B01002_001,38,0.3
+48039,"Brazoria County, Texas",B01002_001,35.8,0.1
+48041,"Brazos County, Texas",B01002_001,26.5,0.2
+48043,"Brewster County, Texas",B01002_001,43.7,1.4
+48045,"Briscoe County, Texas",B01002_001,46.4,5.7
+48047,"Brooks County, Texas",B01002_001,29.7,4
+48049,"Brown County, Texas",B01002_001,41.5,0.6
+48051,"Burleson County, Texas",B01002_001,43.3,0.7
+48053,"Burnet County, Texas",B01002_001,44.6,0.3
+48055,"Caldwell County, Texas",B01002_001,35.9,0.5
+48057,"Calhoun County, Texas",B01002_001,37.7,0.5
+48059,"Callahan County, Texas",B01002_001,44.2,0.5
+48061,"Cameron County, Texas",B01002_001,31.7,0.1
+48063,"Camp County, Texas",B01002_001,37.6,1.2
+48065,"Carson County, Texas",B01002_001,40.6,0.8
+48067,"Cass County, Texas",B01002_001,43.3,0.5
+48069,"Castro County, Texas",B01002_001,34.8,0.8
+48071,"Chambers County, Texas",B01002_001,35.2,0.4
+48073,"Cherokee County, Texas",B01002_001,37.9,0.5
+48075,"Childress County, Texas",B01002_001,34.5,2.2
+48077,"Clay County, Texas",B01002_001,46.6,0.6
+48079,"Cochran County, Texas",B01002_001,35.1,0.6
+48081,"Coke County, Texas",B01002_001,48.1,2
+48083,"Coleman County, Texas",B01002_001,47.2,1.3
+48085,"Collin County, Texas",B01002_001,36.9,0.2
+48087,"Collingsworth County, Texas",B01002_001,39.6,2.6
+48089,"Colorado County, Texas",B01002_001,42.9,1
+48091,"Comal County, Texas",B01002_001,42.2,0.3
+48093,"Comanche County, Texas",B01002_001,44.8,1
+48095,"Concho County, Texas",B01002_001,45.3,1.1
+48097,"Cooke County, Texas",B01002_001,40.7,0.7
+48099,"Coryell County, Texas",B01002_001,31.8,0.2
+48101,"Cottle County, Texas",B01002_001,37.1,9.5
+48103,"Crane County, Texas",B01002_001,32.7,0.7
+48105,"Crockett County, Texas",B01002_001,38.8,7.5
+48107,"Crosby County, Texas",B01002_001,38.4,0.7
+48109,"Culberson County, Texas",B01002_001,34.4,14
+48111,"Dallam County, Texas",B01002_001,31.7,1
+48113,"Dallas County, Texas",B01002_001,33.4,0.1
+48115,"Dawson County, Texas",B01002_001,33.5,0.5
+48117,"Deaf Smith County, Texas",B01002_001,31.9,0.5
+48119,"Delta County, Texas",B01002_001,44.3,2.1
+48121,"Denton County, Texas",B01002_001,35.5,0.1
+48123,"DeWitt County, Texas",B01002_001,41,0.7
+48125,"Dickens County, Texas",B01002_001,46,4.7
+48127,"Dimmit County, Texas",B01002_001,34.3,2.4
+48129,"Donley County, Texas",B01002_001,41.4,1.5
+48131,"Duval County, Texas",B01002_001,36.1,0.8
+48133,"Eastland County, Texas",B01002_001,41.2,1.3
+48135,"Ector County, Texas",B01002_001,30.4,0.2
+48137,"Edwards County, Texas",B01002_001,49.1,3.3
+48139,"Ellis County, Texas",B01002_001,36.2,0.2
+48141,"El Paso County, Texas",B01002_001,32.2,0.2
+48143,"Erath County, Texas",B01002_001,30.4,0.3
+48145,"Falls County, Texas",B01002_001,39,1
+48147,"Fannin County, Texas",B01002_001,41.3,0.5
+48149,"Fayette County, Texas",B01002_001,47,0.7
+48151,"Fisher County, Texas",B01002_001,44.6,2.5
+48153,"Floyd County, Texas",B01002_001,37.2,1.3
+48155,"Foard County, Texas",B01002_001,51.2,4
+48157,"Fort Bend County, Texas",B01002_001,36.3,0.2
+48159,"Franklin County, Texas",B01002_001,43.2,0.9
+48161,"Freestone County, Texas",B01002_001,41.5,0.6
+48163,"Frio County, Texas",B01002_001,31.2,0.8
+48165,"Gaines County, Texas",B01002_001,27.8,0.4
+48167,"Galveston County, Texas",B01002_001,37.7,0.3
+48169,"Garza County, Texas",B01002_001,41.1,2.9
+48171,"Gillespie County, Texas",B01002_001,50,0.4
+48173,"Glasscock County, Texas",B01002_001,30.8,6.6
+48175,"Goliad County, Texas",B01002_001,46.1,1.3
+48177,"Gonzales County, Texas",B01002_001,36.3,0.4
+48179,"Gray County, Texas",B01002_001,36.5,0.6
+48181,"Grayson County, Texas",B01002_001,39.9,0.4
+48183,"Gregg County, Texas",B01002_001,35.6,0.2
+48185,"Grimes County, Texas",B01002_001,40.4,0.5
+48187,"Guadalupe County, Texas",B01002_001,37,0.3
+48189,"Hale County, Texas",B01002_001,33.4,0.6
+48191,"Hall County, Texas",B01002_001,44.6,3.3
+48193,"Hamilton County, Texas",B01002_001,45.8,2
+48195,"Hansford County, Texas",B01002_001,35.1,1.6
+48197,"Hardeman County, Texas",B01002_001,43.5,3.6
+48199,"Hardin County, Texas",B01002_001,39.2,0.9
+48201,"Harris County, Texas",B01002_001,33.5,0.1
+48203,"Harrison County, Texas",B01002_001,38.7,0.5
+48205,"Hartley County, Texas",B01002_001,38.1,1.3
+48207,"Haskell County, Texas",B01002_001,43.5,1.2
+48209,"Hays County, Texas",B01002_001,32,0.3
+48211,"Hemphill County, Texas",B01002_001,36.4,0.9
+48213,"Henderson County, Texas",B01002_001,43.9,0.3
+48215,"Hidalgo County, Texas",B01002_001,29.2,0.1
+48217,"Hill County, Texas",B01002_001,42.1,0.5
+48219,"Hockley County, Texas",B01002_001,33.8,0.3
+48221,"Hood County, Texas",B01002_001,47,0.5
+48223,"Hopkins County, Texas",B01002_001,39.2,0.6
+48225,"Houston County, Texas",B01002_001,44.5,0.7
+48227,"Howard County, Texas",B01002_001,36.5,0.5
+48229,"Hudspeth County, Texas",B01002_001,37,4.1
+48231,"Hunt County, Texas",B01002_001,38,0.5
+48233,"Hutchinson County, Texas",B01002_001,38,1
+48235,"Irion County, Texas",B01002_001,42.7,9.4
+48237,"Jack County, Texas",B01002_001,39.6,1.1
+48239,"Jackson County, Texas",B01002_001,37.7,1
+48241,"Jasper County, Texas",B01002_001,40.5,0.6
+48243,"Jeff Davis County, Texas",B01002_001,55.8,6
+48245,"Jefferson County, Texas",B01002_001,36.2,0.2
+48247,"Jim Hogg County, Texas",B01002_001,32.4,5
+48249,"Jim Wells County, Texas",B01002_001,34.6,0.4
+48251,"Johnson County, Texas",B01002_001,36.8,0.2
+48253,"Jones County, Texas",B01002_001,38.2,0.6
+48255,"Karnes County, Texas",B01002_001,35.4,0.6
+48257,"Kaufman County, Texas",B01002_001,35.5,0.2
+48259,"Kendall County, Texas",B01002_001,41.4,0.7
+48261,"Kenedy County, Texas",B01002_001,39.7,25.1
+48263,"Kent County, Texas",B01002_001,51,12.7
+48265,"Kerr County, Texas",B01002_001,47.4,0.6
+48267,"Kimble County, Texas",B01002_001,52.1,2.7
+48269,"King County, Texas",B01002_001,40,21.6
+48271,"Kinney County, Texas",B01002_001,49.8,6.1
+48273,"Kleberg County, Texas",B01002_001,28.3,0.5
+48275,"Knox County, Texas",B01002_001,39.5,1.4
+48277,"Lamar County, Texas",B01002_001,40.7,0.8
+48279,"Lamb County, Texas",B01002_001,36.4,0.3
+48281,"Lampasas County, Texas",B01002_001,43.1,0.8
+48283,"La Salle County, Texas",B01002_001,36.5,1.7
+48285,"Lavaca County, Texas",B01002_001,43.4,0.7
+48287,"Lee County, Texas",B01002_001,41.1,1.2
+48289,"Leon County, Texas",B01002_001,44.3,0.6
+48291,"Liberty County, Texas",B01002_001,35.5,0.2
+48293,"Limestone County, Texas",B01002_001,39.9,0.7
+48295,"Lipscomb County, Texas",B01002_001,34.7,1.5
+48297,"Live Oak County, Texas",B01002_001,42.2,0.6
+48299,"Llano County, Texas",B01002_001,57.4,0.6
+48301,"Loving County, Texas",B01002_001,55.2,35.5
+48303,"Lubbock County, Texas",B01002_001,30.8,0.2
+48305,"Lynn County, Texas",B01002_001,37.3,0.8
+48307,"McCulloch County, Texas",B01002_001,44.6,1.8
+48309,"McLennan County, Texas",B01002_001,33.3,0.2
+48311,"McMullen County, Texas",B01002_001,38.2,7.6
+48313,"Madison County, Texas",B01002_001,35.2,1.3
+48315,"Marion County, Texas",B01002_001,50.6,0.7
+48317,"Martin County, Texas",B01002_001,32.7,2.5
+48319,"Mason County, Texas",B01002_001,46.3,4.4
+48321,"Matagorda County, Texas",B01002_001,38.2,0.6
+48323,"Maverick County, Texas",B01002_001,29.6,0.2
+48325,"Medina County, Texas",B01002_001,39,0.6
+48327,"Menard County, Texas",B01002_001,51.8,7.1
+48329,"Midland County, Texas",B01002_001,31.7,0.2
+48331,"Milam County, Texas",B01002_001,41.7,0.9
+48333,"Mills County, Texas",B01002_001,52.1,3
+48335,"Mitchell County, Texas",B01002_001,33.9,1.8
+48337,"Montague County, Texas",B01002_001,44.6,0.9
+48339,"Montgomery County, Texas",B01002_001,37.1,0.2
+48341,"Moore County, Texas",B01002_001,30.8,0.6
+48343,"Morris County, Texas",B01002_001,43,1
+48345,"Motley County, Texas",B01002_001,41.3,12.3
+48347,"Nacogdoches County, Texas",B01002_001,30.9,0.3
+48349,"Navarro County, Texas",B01002_001,38.1,0.7
+48351,"Newton County, Texas",B01002_001,44.3,0.9
+48353,"Nolan County, Texas",B01002_001,37.5,1.3
+48355,"Nueces County, Texas",B01002_001,35.5,0.2
+48357,"Ochiltree County, Texas",B01002_001,32.3,0.7
+48359,"Oldham County, Texas",B01002_001,35.9,7.3
+48361,"Orange County, Texas",B01002_001,37.9,0.5
+48363,"Palo Pinto County, Texas",B01002_001,40.6,0.9
+48365,"Panola County, Texas",B01002_001,39.2,0.9
+48367,"Parker County, Texas",B01002_001,39.7,0.3
+48369,"Parmer County, Texas",B01002_001,33.4,0.9
+48371,"Pecos County, Texas",B01002_001,35.9,0.5
+48373,"Polk County, Texas",B01002_001,43.7,0.5
+48375,"Potter County, Texas",B01002_001,33.9,0.2
+48377,"Presidio County, Texas",B01002_001,41.9,3.6
+48379,"Rains County, Texas",B01002_001,48.4,0.9
+48381,"Randall County, Texas",B01002_001,35.9,0.2
+48383,"Reagan County, Texas",B01002_001,30,2.6
+48385,"Real County, Texas",B01002_001,47.4,8.5
+48387,"Red River County, Texas",B01002_001,45.9,0.8
+48389,"Reeves County, Texas",B01002_001,35.8,1.3
+48391,"Refugio County, Texas",B01002_001,43.3,1
+48393,"Roberts County, Texas",B01002_001,43.2,5.4
+48395,"Robertson County, Texas",B01002_001,41.5,1.1
+48397,"Rockwall County, Texas",B01002_001,37.5,0.4
+48399,"Runnels County, Texas",B01002_001,40.8,0.7
+48401,"Rusk County, Texas",B01002_001,38.2,0.4
+48403,"Sabine County, Texas",B01002_001,53,1.5
+48405,"San Augustine County, Texas",B01002_001,49.3,1
+48407,"San Jacinto County, Texas",B01002_001,44.9,0.8
+48409,"San Patricio County, Texas",B01002_001,35.5,0.2
+48411,"San Saba County, Texas",B01002_001,42.4,2.3
+48413,"Schleicher County, Texas",B01002_001,36.2,1.4
+48415,"Scurry County, Texas",B01002_001,36.4,0.9
+48417,"Shackelford County, Texas",B01002_001,43,2.6
+48419,"Shelby County, Texas",B01002_001,38,0.6
+48421,"Sherman County, Texas",B01002_001,40.1,2.5
+48423,"Smith County, Texas",B01002_001,36.6,0.2
+48425,"Somervell County, Texas",B01002_001,41,2.1
+48427,"Starr County, Texas",B01002_001,28.8,0.3
+48429,"Stephens County, Texas",B01002_001,39.4,2
+48431,"Sterling County, Texas",B01002_001,40.8,9.7
+48433,"Stonewall County, Texas",B01002_001,47.1,5.7
+48435,"Sutton County, Texas",B01002_001,38.6,3.3
+48437,"Swisher County, Texas",B01002_001,35.9,1.4
+48439,"Tarrant County, Texas",B01002_001,34.4,0.1
+48441,"Taylor County, Texas",B01002_001,32.5,0.2
+48443,"Terrell County, Texas",B01002_001,55.2,7.8
+48445,"Terry County, Texas",B01002_001,34.6,0.3
+48447,"Throckmorton County, Texas",B01002_001,52.3,6
+48449,"Titus County, Texas",B01002_001,34.1,0.4
+48451,"Tom Green County, Texas",B01002_001,34.1,0.2
+48453,"Travis County, Texas",B01002_001,34.2,0.1
+48455,"Trinity County, Texas",B01002_001,48.6,0.8
+48457,"Tyler County, Texas",B01002_001,42.4,0.4
+48459,"Upshur County, Texas",B01002_001,41.4,0.6
+48461,"Upton County, Texas",B01002_001,39.6,2.3
+48463,"Uvalde County, Texas",B01002_001,33.7,0.5
+48465,"Val Verde County, Texas",B01002_001,31.8,0.4
+48467,"Van Zandt County, Texas",B01002_001,42.8,0.4
+48469,"Victoria County, Texas",B01002_001,35.9,0.4
+48471,"Walker County, Texas",B01002_001,35.3,0.3
+48473,"Waller County, Texas",B01002_001,28.9,0.3
+48475,"Ward County, Texas",B01002_001,33.9,0.9
+48477,"Washington County, Texas",B01002_001,41.5,0.6
+48479,"Webb County, Texas",B01002_001,28.8,0.2
+48481,"Wharton County, Texas",B01002_001,37.3,0.5
+48483,"Wheeler County, Texas",B01002_001,39.6,1.3
+48485,"Wichita County, Texas",B01002_001,34.5,0.2
+48487,"Wilbarger County, Texas",B01002_001,39.4,1.2
+48489,"Willacy County, Texas",B01002_001,33,0.6
+48491,"Williamson County, Texas",B01002_001,36.3,0.1
+48493,"Wilson County, Texas",B01002_001,40.2,0.5
+48495,"Winkler County, Texas",B01002_001,33.1,0.5
+48497,"Wise County, Texas",B01002_001,38.3,0.4
+48499,"Wood County, Texas",B01002_001,47.9,0.4
+48501,"Yoakum County, Texas",B01002_001,30.3,0.3
+48503,"Young County, Texas",B01002_001,41.1,0.8
+48505,"Zapata County, Texas",B01002_001,29.5,0.7
+48507,"Zavala County, Texas",B01002_001,32.9,1.6
+49001,"Beaver County, Utah",B01002_001,33,0.9
+49003,"Box Elder County, Utah",B01002_001,32.6,0.3
+49005,"Cache County, Utah",B01002_001,25.2,0.1
+49007,"Carbon County, Utah",B01002_001,37.5,0.5
+49009,"Daggett County, Utah",B01002_001,42.5,10.9
+49011,"Davis County, Utah",B01002_001,31.1,0.2
+49013,"Duchesne County, Utah",B01002_001,31.5,0.3
+49015,"Emery County, Utah",B01002_001,36.2,0.5
+49017,"Garfield County, Utah",B01002_001,41.9,1.2
+49019,"Grand County, Utah",B01002_001,40.2,0.9
+49021,"Iron County, Utah",B01002_001,29.1,0.3
+49023,"Juab County, Utah",B01002_001,30.1,0.4
+49025,"Kane County, Utah",B01002_001,41.9,1.5
+49027,"Millard County, Utah",B01002_001,35.4,1
+49029,"Morgan County, Utah",B01002_001,32.2,1
+49031,"Piute County, Utah",B01002_001,44.5,4.3
+49033,"Rich County, Utah",B01002_001,34.3,3.7
+49035,"Salt Lake County, Utah",B01002_001,32.8,0.1
+49037,"San Juan County, Utah",B01002_001,32.2,0.5
+49039,"Sanpete County, Utah",B01002_001,32.6,0.4
+49041,"Sevier County, Utah",B01002_001,35.4,0.3
+49043,"Summit County, Utah",B01002_001,39.5,0.7
+49045,"Tooele County, Utah",B01002_001,31.4,0.3
+49047,"Uintah County, Utah",B01002_001,30.6,0.2
+49049,"Utah County, Utah",B01002_001,24.8,0.1
+49051,"Wasatch County, Utah",B01002_001,34,0.4
+49053,"Washington County, Utah",B01002_001,37.1,0.3
+49055,"Wayne County, Utah",B01002_001,40.4,1.2
+49057,"Weber County, Utah",B01002_001,32.7,0.2
+50001,"Addison County, Vermont",B01002_001,43.5,0.5
+50003,"Bennington County, Vermont",B01002_001,46.7,0.4
+50005,"Caledonia County, Vermont",B01002_001,44.7,0.2
+50007,"Chittenden County, Vermont",B01002_001,36.5,0.2
+50009,"Essex County, Vermont",B01002_001,50.9,0.5
+50011,"Franklin County, Vermont",B01002_001,40.4,0.4
+50013,"Grand Isle County, Vermont",B01002_001,48.2,0.7
+50015,"Lamoille County, Vermont",B01002_001,40.8,0.8
+50017,"Orange County, Vermont",B01002_001,46.6,0.3
+50019,"Orleans County, Vermont",B01002_001,45.8,0.3
+50021,"Rutland County, Vermont",B01002_001,46.5,0.3
+50023,"Washington County, Vermont",B01002_001,43.7,0.2
+50025,"Windham County, Vermont",B01002_001,47.6,0.3
+50027,"Windsor County, Vermont",B01002_001,48,0.3
+51001,"Accomack County, Virginia",B01002_001,45.9,0.6
+51003,"Albemarle County, Virginia",B01002_001,39.1,0.4
+51005,"Alleghany County, Virginia",B01002_001,48.1,0.3
+51007,"Amelia County, Virginia",B01002_001,45.1,2.6
+51009,"Amherst County, Virginia",B01002_001,44.8,0.4
+51011,"Appomattox County, Virginia",B01002_001,42.6,0.6
+51013,"Arlington County, Virginia",B01002_001,34.7,0.1
+51015,"Augusta County, Virginia",B01002_001,45.1,0.3
+51017,"Bath County, Virginia",B01002_001,47.8,7.4
+51019,"Bedford County, Virginia",B01002_001,46.3,0.3
+51021,"Bland County, Virginia",B01002_001,46.4,0.3
+51023,"Botetourt County, Virginia",B01002_001,47.2,0.4
+51025,"Brunswick County, Virginia",B01002_001,43.3,1.1
+51027,"Buchanan County, Virginia",B01002_001,46.8,0.5
+51029,"Buckingham County, Virginia",B01002_001,43.5,0.9
+51031,"Campbell County, Virginia",B01002_001,43,0.4
+51033,"Caroline County, Virginia",B01002_001,40.1,0.6
+51035,"Carroll County, Virginia",B01002_001,47.6,0.6
+51036,"Charles City County, Virginia",B01002_001,50.8,0.3
+51037,"Charlotte County, Virginia",B01002_001,46.2,0.7
+51041,"Chesterfield County, Virginia",B01002_001,38.9,0.3
+51043,"Clarke County, Virginia",B01002_001,47,0.7
+51045,"Craig County, Virginia",B01002_001,46.3,3
+51047,"Culpeper County, Virginia",B01002_001,39.2,0.6
+51049,"Cumberland County, Virginia",B01002_001,45.6,1.2
+51051,"Dickenson County, Virginia",B01002_001,44.7,0.4
+51053,"Dinwiddie County, Virginia",B01002_001,43.2,0.8
+51057,"Essex County, Virginia",B01002_001,46.3,2
+51059,"Fairfax County, Virginia",B01002_001,38,0.1
+51061,"Fauquier County, Virginia",B01002_001,41.3,0.4
+51063,"Floyd County, Virginia",B01002_001,47.2,1
+51065,"Fluvanna County, Virginia",B01002_001,43.4,0.5
+51067,"Franklin County, Virginia",B01002_001,47.2,0.4
+51069,"Frederick County, Virginia",B01002_001,40.7,0.4
+51071,"Giles County, Virginia",B01002_001,44.7,0.3
+51073,"Gloucester County, Virginia",B01002_001,44.9,0.3
+51075,"Goochland County, Virginia",B01002_001,48.3,0.7
+51077,"Grayson County, Virginia",B01002_001,48.1,1.1
+51079,"Greene County, Virginia",B01002_001,39.6,1.7
+51081,"Greensville County, Virginia",B01002_001,40.7,2.2
+51083,"Halifax County, Virginia",B01002_001,46.5,0.3
+51085,"Hanover County, Virginia",B01002_001,42.7,0.3
+51087,"Henrico County, Virginia",B01002_001,38.8,0.3
+51089,"Henry County, Virginia",B01002_001,47.6,0.4
+51091,"Highland County, Virginia",B01002_001,60.9,3.5
+51093,"Isle of Wight County, Virginia",B01002_001,44.3,0.3
+51095,"James City County, Virginia",B01002_001,46.5,0.4
+51097,"King and Queen County, Virginia",B01002_001,46.7,1.5
+51099,"King George County, Virginia",B01002_001,37.4,0.7
+51101,"King William County, Virginia",B01002_001,40.3,0.8
+51103,"Lancaster County, Virginia",B01002_001,57.3,0.8
+51105,"Lee County, Virginia",B01002_001,44.9,0.3
+51107,"Loudoun County, Virginia",B01002_001,36.2,0.2
+51109,"Louisa County, Virginia",B01002_001,44.8,0.4
+51111,"Lunenburg County, Virginia",B01002_001,45.3,1.3
+51113,"Madison County, Virginia",B01002_001,45.6,1.1
+51115,"Mathews County, Virginia",B01002_001,54.5,1
+51117,"Mecklenburg County, Virginia",B01002_001,48.4,0.4
+51119,"Middlesex County, Virginia",B01002_001,53.9,0.4
+51121,"Montgomery County, Virginia",B01002_001,29,0.2
+51125,"Nelson County, Virginia",B01002_001,51.4,0.9
+51127,"New Kent County, Virginia",B01002_001,43.3,1.6
+51131,"Northampton County, Virginia",B01002_001,49,1
+51133,"Northumberland County, Virginia",B01002_001,58.9,0.7
+51135,"Nottoway County, Virginia",B01002_001,40.6,1.3
+51137,"Orange County, Virginia",B01002_001,42,0.6
+51139,"Page County, Virginia",B01002_001,45.4,0.3
+51141,"Patrick County, Virginia",B01002_001,49.9,0.2
+51143,"Pittsylvania County, Virginia",B01002_001,47.2,0.3
+51145,"Powhatan County, Virginia",B01002_001,45.1,0.3
+51147,"Prince Edward County, Virginia",B01002_001,31.5,0.7
+51149,"Prince George County, Virginia",B01002_001,37,0.4
+51153,"Prince William County, Virginia",B01002_001,35.2,0.1
+51155,"Pulaski County, Virginia",B01002_001,47,0.5
+51157,"Rappahannock County, Virginia",B01002_001,50.1,1.2
+51159,"Richmond County, Virginia",B01002_001,47.3,1.5
+51161,"Roanoke County, Virginia",B01002_001,43.8,0.3
+51163,"Rockbridge County, Virginia",B01002_001,49,0.5
+51165,"Rockingham County, Virginia",B01002_001,41.5,0.3
+51167,"Russell County, Virginia",B01002_001,45.7,0.4
+51169,"Scott County, Virginia",B01002_001,47.3,0.4
+51171,"Shenandoah County, Virginia",B01002_001,44.5,0.5
+51173,"Smyth County, Virginia",B01002_001,45,0.3
+51175,"Southampton County, Virginia",B01002_001,46.9,0.6
+51177,"Spotsylvania County, Virginia",B01002_001,38.2,0.3
+51179,"Stafford County, Virginia",B01002_001,35.5,0.2
+51181,"Surry County, Virginia",B01002_001,49.8,0.2
+51183,"Sussex County, Virginia",B01002_001,41,0.9
+51185,"Tazewell County, Virginia",B01002_001,45.2,0.3
+51187,"Warren County, Virginia",B01002_001,41.3,0.7
+51191,"Washington County, Virginia",B01002_001,46.3,0.3
+51193,"Westmoreland County, Virginia",B01002_001,48.6,0.7
+51195,"Wise County, Virginia",B01002_001,41.4,0.8
+51197,"Wythe County, Virginia",B01002_001,45.3,0.3
+51199,"York County, Virginia",B01002_001,39.6,0.4
+51510,"Alexandria city, Virginia",B01002_001,36.8,0.2
+51520,"Bristol city, Virginia",B01002_001,42.2,1.1
+51530,"Buena Vista city, Virginia",B01002_001,35.5,5.6
+51540,"Charlottesville city, Virginia",B01002_001,31.6,0.3
+51550,"Chesapeake city, Virginia",B01002_001,36.9,0.2
+51570,"Colonial Heights city, Virginia",B01002_001,40.6,0.8
+51580,"Covington city, Virginia",B01002_001,42.4,1.1
+51590,"Danville city, Virginia",B01002_001,40.9,0.5
+51595,"Emporia city, Virginia",B01002_001,35.4,3.2
+51600,"Fairfax city, Virginia",B01002_001,38.2,0.8
+51610,"Falls Church city, Virginia",B01002_001,38.7,1
+51620,"Franklin city, Virginia",B01002_001,39.4,1.3
+51630,"Fredericksburg city, Virginia",B01002_001,30.4,0.3
+51640,"Galax city, Virginia",B01002_001,45,2.5
+51650,"Hampton city, Virginia",B01002_001,36.2,0.2
+51660,"Harrisonburg city, Virginia",B01002_001,25.4,0.2
+51670,"Hopewell city, Virginia",B01002_001,36.2,0.8
+51678,"Lexington city, Virginia",B01002_001,22.3,0.7
+51680,"Lynchburg city, Virginia",B01002_001,28.3,0.2
+51683,"Manassas city, Virginia",B01002_001,34.2,0.3
+51685,"Manassas Park city, Virginia",B01002_001,34.7,0.9
+51690,"Martinsville city, Virginia",B01002_001,40.9,1.4
+51700,"Newport News city, Virginia",B01002_001,33.5,0.2
+51710,"Norfolk city, Virginia",B01002_001,30.7,0.1
+51720,"Norton city, Virginia",B01002_001,37.5,3
+51730,"Petersburg city, Virginia",B01002_001,38.1,0.9
+51735,"Poquoson city, Virginia",B01002_001,42.4,1.7
+51740,"Portsmouth city, Virginia",B01002_001,35.3,0.2
+51750,"Radford city, Virginia",B01002_001,23.4,0.5
+51760,"Richmond city, Virginia",B01002_001,34,0.1
+51770,"Roanoke city, Virginia",B01002_001,38.5,0.4
+51775,"Salem city, Virginia",B01002_001,41.2,0.6
+51790,"Staunton city, Virginia",B01002_001,42.8,0.7
+51800,"Suffolk city, Virginia",B01002_001,38,0.3
+51810,"Virginia Beach city, Virginia",B01002_001,36.2,0.1
+51820,"Waynesboro city, Virginia",B01002_001,39.2,1.4
+51830,"Williamsburg city, Virginia",B01002_001,24.9,0.7
+51840,"Winchester city, Virginia",B01002_001,38.1,0.7
+53001,"Adams County, Washington",B01002_001,27.9,0.5
+53003,"Asotin County, Washington",B01002_001,45,0.4
+53005,"Benton County, Washington",B01002_001,35.8,0.2
+53007,"Chelan County, Washington",B01002_001,40.1,0.4
+53009,"Clallam County, Washington",B01002_001,50.8,0.3
+53011,"Clark County, Washington",B01002_001,38.4,0.1
+53013,"Columbia County, Washington",B01002_001,50.2,2.3
+53015,"Cowlitz County, Washington",B01002_001,41.3,0.5
+53017,"Douglas County, Washington",B01002_001,37.1,0.5
+53019,"Ferry County, Washington",B01002_001,50.3,0.4
+53021,"Franklin County, Washington",B01002_001,30.3,0.2
+53023,"Garfield County, Washington",B01002_001,46.1,6.4
+53025,"Grant County, Washington",B01002_001,32.9,0.3
+53027,"Grays Harbor County, Washington",B01002_001,44,0.3
+53029,"Island County, Washington",B01002_001,44.2,0.4
+53031,"Jefferson County, Washington",B01002_001,58.3,0.7
+53033,"King County, Washington",B01002_001,37,0.1
+53035,"Kitsap County, Washington",B01002_001,39.1,0.2
+53037,"Kittitas County, Washington",B01002_001,33.8,0.6
+53039,"Klickitat County, Washington",B01002_001,46.9,1
+53041,"Lewis County, Washington",B01002_001,43.1,0.3
+53043,"Lincoln County, Washington",B01002_001,48.4,0.7
+53045,"Mason County, Washington",B01002_001,45.6,0.3
+53047,"Okanogan County, Washington",B01002_001,42.6,0.3
+53049,"Pacific County, Washington",B01002_001,53.6,0.4
+53051,"Pend Oreille County, Washington",B01002_001,51,0.5
+53053,"Pierce County, Washington",B01002_001,36.1,0.2
+53055,"San Juan County, Washington",B01002_001,56.6,0.2
+53057,"Skagit County, Washington",B01002_001,41.5,0.3
+53059,"Skamania County, Washington",B01002_001,46.6,0.5
+53061,"Snohomish County, Washington",B01002_001,38,0.2
+53063,"Spokane County, Washington",B01002_001,37.6,0.2
+53065,"Stevens County, Washington",B01002_001,46.9,0.3
+53067,"Thurston County, Washington",B01002_001,39,0.2
+53069,"Wahkiakum County, Washington",B01002_001,55.1,1.7
+53071,"Walla Walla County, Washington",B01002_001,37.5,0.4
+53073,"Whatcom County, Washington",B01002_001,37.3,0.2
+53075,"Whitman County, Washington",B01002_001,24.7,0.3
+53077,"Yakima County, Washington",B01002_001,33,0.2
+54001,"Barbour County, West Virginia",B01002_001,41.7,0.7
+54003,"Berkeley County, West Virginia",B01002_001,38.8,0.3
+54005,"Boone County, West Virginia",B01002_001,43.5,0.5
+54007,"Braxton County, West Virginia",B01002_001,45.9,0.6
+54009,"Brooke County, West Virginia",B01002_001,46.6,0.4
+54011,"Cabell County, West Virginia",B01002_001,38.8,0.5
+54013,"Calhoun County, West Virginia",B01002_001,48.1,1.4
+54015,"Clay County, West Virginia",B01002_001,44.1,0.7
+54017,"Doddridge County, West Virginia",B01002_001,45.3,1.3
+54019,"Fayette County, West Virginia",B01002_001,44.3,0.3
+54021,"Gilmer County, West Virginia",B01002_001,39.2,1
+54023,"Grant County, West Virginia",B01002_001,46.2,0.5
+54025,"Greenbrier County, West Virginia",B01002_001,45.5,0.3
+54027,"Hampshire County, West Virginia",B01002_001,47.2,0.5
+54029,"Hancock County, West Virginia",B01002_001,46.8,0.4
+54031,"Hardy County, West Virginia",B01002_001,45.7,0.6
+54033,"Harrison County, West Virginia",B01002_001,42.2,0.4
+54035,"Jackson County, West Virginia",B01002_001,43.7,0.6
+54037,"Jefferson County, West Virginia",B01002_001,41.1,0.4
+54039,"Kanawha County, West Virginia",B01002_001,43.4,0.2
+54041,"Lewis County, West Virginia",B01002_001,43.8,0.6
+54043,"Lincoln County, West Virginia",B01002_001,43.2,0.3
+54045,"Logan County, West Virginia",B01002_001,43.8,0.4
+54047,"McDowell County, West Virginia",B01002_001,45,0.6
+54049,"Marion County, West Virginia",B01002_001,41.1,0.5
+54051,"Marshall County, West Virginia",B01002_001,45.7,0.3
+54053,"Mason County, West Virginia",B01002_001,44.2,0.5
+54055,"Mercer County, West Virginia",B01002_001,43.1,0.4
+54057,"Mineral County, West Virginia",B01002_001,44.5,0.5
+54059,"Mingo County, West Virginia",B01002_001,42.8,0.5
+54061,"Monongalia County, West Virginia",B01002_001,31.7,0.3
+54063,"Monroe County, West Virginia",B01002_001,48,1.2
+54065,"Morgan County, West Virginia",B01002_001,47.9,0.7
+54067,"Nicholas County, West Virginia",B01002_001,45.1,0.4
+54069,"Ohio County, West Virginia",B01002_001,43.6,0.3
+54071,"Pendleton County, West Virginia",B01002_001,50.8,0.5
+54073,"Pleasants County, West Virginia",B01002_001,43.6,0.3
+54075,"Pocahontas County, West Virginia",B01002_001,49.1,0.4
+54077,"Preston County, West Virginia",B01002_001,42.7,0.4
+54079,"Putnam County, West Virginia",B01002_001,41.8,0.5
+54081,"Raleigh County, West Virginia",B01002_001,42.2,0.5
+54083,"Randolph County, West Virginia",B01002_001,43.7,0.5
+54085,"Ritchie County, West Virginia",B01002_001,46.8,1.4
+54087,"Roane County, West Virginia",B01002_001,45.8,0.4
+54089,"Summers County, West Virginia",B01002_001,49.1,0.6
+54091,"Taylor County, West Virginia",B01002_001,44.1,0.5
+54093,"Tucker County, West Virginia",B01002_001,49.3,0.6
+54095,"Tyler County, West Virginia",B01002_001,47,0.7
+54097,"Upshur County, West Virginia",B01002_001,41.7,0.7
+54099,"Wayne County, West Virginia",B01002_001,44.1,0.4
+54101,"Webster County, West Virginia",B01002_001,47.2,0.7
+54103,"Wetzel County, West Virginia",B01002_001,46,0.5
+54105,"Wirt County, West Virginia",B01002_001,45.4,0.4
+54107,"Wood County, West Virginia",B01002_001,43.5,0.2
+54109,"Wyoming County, West Virginia",B01002_001,44.6,0.3
+55001,"Adams County, Wisconsin",B01002_001,53.8,0.3
+55003,"Ashland County, Wisconsin",B01002_001,42,0.4
+55005,"Barron County, Wisconsin",B01002_001,44.2,0.3
+55007,"Bayfield County, Wisconsin",B01002_001,52.2,0.3
+55009,"Brown County, Wisconsin",B01002_001,37.4,0.2
+55011,"Buffalo County, Wisconsin",B01002_001,46.6,0.4
+55013,"Burnett County, Wisconsin",B01002_001,52.8,0.2
+55015,"Calumet County, Wisconsin",B01002_001,40.6,0.4
+55017,"Chippewa County, Wisconsin",B01002_001,41.2,0.3
+55019,"Clark County, Wisconsin",B01002_001,37.4,0.3
+55021,"Columbia County, Wisconsin",B01002_001,42.4,0.3
+55023,"Crawford County, Wisconsin",B01002_001,46.3,0.4
+55025,"Dane County, Wisconsin",B01002_001,35.1,0.1
+55027,"Dodge County, Wisconsin",B01002_001,42.5,0.3
+55029,"Door County, Wisconsin",B01002_001,53,0.3
+55031,"Douglas County, Wisconsin",B01002_001,42.2,0.4
+55033,"Dunn County, Wisconsin",B01002_001,34.7,0.2
+55035,"Eau Claire County, Wisconsin",B01002_001,34.5,0.2
+55037,"Florence County, Wisconsin",B01002_001,53.6,0.7
+55039,"Fond du Lac County, Wisconsin",B01002_001,41.6,0.3
+55041,"Forest County, Wisconsin",B01002_001,46.7,0.3
+55043,"Grant County, Wisconsin",B01002_001,36,0.2
+55045,"Green County, Wisconsin",B01002_001,43.2,0.3
+55047,"Green Lake County, Wisconsin",B01002_001,45.3,0.3
+55049,"Iowa County, Wisconsin",B01002_001,42.8,0.3
+55051,"Iron County, Wisconsin",B01002_001,54.9,0.1
+55053,"Jackson County, Wisconsin",B01002_001,41.7,0.5
+55055,"Jefferson County, Wisconsin",B01002_001,41.1,0.3
+55057,"Juneau County, Wisconsin",B01002_001,45.4,0.3
+55059,"Kenosha County, Wisconsin",B01002_001,38.5,0.3
+55061,"Kewaunee County, Wisconsin",B01002_001,44.3,0.4
+55063,"La Crosse County, Wisconsin",B01002_001,35.9,0.2
+55065,"Lafayette County, Wisconsin",B01002_001,41.8,0.3
+55067,"Langlade County, Wisconsin",B01002_001,48.7,0.5
+55069,"Lincoln County, Wisconsin",B01002_001,47.7,0.4
+55071,"Manitowoc County, Wisconsin",B01002_001,44.9,0.2
+55073,"Marathon County, Wisconsin",B01002_001,40.7,0.3
+55075,"Marinette County, Wisconsin",B01002_001,48.7,0.2
+55077,"Marquette County, Wisconsin",B01002_001,50,0.3
+55078,"Menominee County, Wisconsin",B01002_001,32,1.1
+55079,"Milwaukee County, Wisconsin",B01002_001,34.9,0.1
+55081,"Monroe County, Wisconsin",B01002_001,39.9,0.5
+55083,"Oconto County, Wisconsin",B01002_001,46.9,0.4
+55085,"Oneida County, Wisconsin",B01002_001,51.3,0.2
+55087,"Outagamie County, Wisconsin",B01002_001,38.3,0.3
+55089,"Ozaukee County, Wisconsin",B01002_001,44,0.2
+55091,"Pepin County, Wisconsin",B01002_001,46.4,0.3
+55093,"Pierce County, Wisconsin",B01002_001,36.8,0.3
+55095,"Polk County, Wisconsin",B01002_001,45.6,0.2
+55097,"Portage County, Wisconsin",B01002_001,37,0.3
+55099,"Price County, Wisconsin",B01002_001,51.6,0.3
+55101,"Racine County, Wisconsin",B01002_001,40.2,0.3
+55103,"Richland County, Wisconsin",B01002_001,45.3,0.2
+55105,"Rock County, Wisconsin",B01002_001,39.5,0.3
+55107,"Rusk County, Wisconsin",B01002_001,49,0.3
+55109,"St. Croix County, Wisconsin",B01002_001,38.9,0.4
+55111,"Sauk County, Wisconsin",B01002_001,41.1,0.3
+55113,"Sawyer County, Wisconsin",B01002_001,50.3,0.2
+55115,"Shawano County, Wisconsin",B01002_001,45.2,0.1
+55117,"Sheboygan County, Wisconsin",B01002_001,41.5,0.4
+55119,"Taylor County, Wisconsin",B01002_001,43.7,0.3
+55121,"Trempealeau County, Wisconsin",B01002_001,40.5,0.3
+55123,"Vernon County, Wisconsin",B01002_001,41.7,0.4
+55125,"Vilas County, Wisconsin",B01002_001,54.6,0.2
+55127,"Walworth County, Wisconsin",B01002_001,40,0.4
+55129,"Washburn County, Wisconsin",B01002_001,51.2,0.3
+55131,"Washington County, Wisconsin",B01002_001,43.2,0.3
+55133,"Waukesha County, Wisconsin",B01002_001,43.2,0.1
+55135,"Waupaca County, Wisconsin",B01002_001,45.5,0.3
+55137,"Waushara County, Wisconsin",B01002_001,49.2,0.3
+55139,"Winnebago County, Wisconsin",B01002_001,38.3,0.3
+55141,"Wood County, Wisconsin",B01002_001,44.1,0.3
+56001,"Albany County, Wyoming",B01002_001,27.6,0.3
+56003,"Big Horn County, Wyoming",B01002_001,41.6,0.6
+56005,"Campbell County, Wyoming",B01002_001,34,0.5
+56007,"Carbon County, Wyoming",B01002_001,38.6,1.1
+56009,"Converse County, Wyoming",B01002_001,40,1
+56011,"Crook County, Wyoming",B01002_001,42.7,2.3
+56013,"Fremont County, Wyoming",B01002_001,38.7,0.3
+56015,"Goshen County, Wyoming",B01002_001,44.1,0.6
+56017,"Hot Springs County, Wyoming",B01002_001,46.6,2.3
+56019,"Johnson County, Wyoming",B01002_001,45.4,0.8
+56021,"Laramie County, Wyoming",B01002_001,37,0.3
+56023,"Lincoln County, Wyoming",B01002_001,39.7,0.5
+56025,"Natrona County, Wyoming",B01002_001,36.9,0.4
+56027,"Niobrara County, Wyoming",B01002_001,45.5,6.2
+56029,"Park County, Wyoming",B01002_001,44.5,0.4
+56031,"Platte County, Wyoming",B01002_001,49.2,1.6
+56033,"Sheridan County, Wyoming",B01002_001,42.3,0.5
+56035,"Sublette County, Wyoming",B01002_001,39.4,1.4
+56037,"Sweetwater County, Wyoming",B01002_001,35.3,0.2
+56039,"Teton County, Wyoming",B01002_001,39.3,0.6
+56041,"Uinta County, Wyoming",B01002_001,35.8,0.3
+56043,"Washakie County, Wyoming",B01002_001,42.9,0.9
+56045,"Weston County, Wyoming",B01002_001,43.1,0.8
+72001,"Adjuntas Municipio, Puerto Rico",B01002_001,42.1,0.6
+72003,"Aguada Municipio, Puerto Rico",B01002_001,42.9,0.3
+72005,"Aguadilla Municipio, Puerto Rico",B01002_001,42,0.3
+72007,"Aguas Buenas Municipio, Puerto Rico",B01002_001,42.2,0.7
+72009,"Aibonito Municipio, Puerto Rico",B01002_001,42.5,0.6
+72011,"Añasco Municipio, Puerto Rico",B01002_001,42.6,0.6
+72013,"Arecibo Municipio, Puerto Rico",B01002_001,42.8,0.3
+72015,"Arroyo Municipio, Puerto Rico",B01002_001,40.3,0.6
+72017,"Barceloneta Municipio, Puerto Rico",B01002_001,40.6,0.7
+72019,"Barranquitas Municipio, Puerto Rico",B01002_001,36.7,0.4
+72021,"Bayamón Municipio, Puerto Rico",B01002_001,42.1,0.3
+72023,"Cabo Rojo Municipio, Puerto Rico",B01002_001,44.1,0.4
+72025,"Caguas Municipio, Puerto Rico",B01002_001,41.3,0.4
+72027,"Camuy Municipio, Puerto Rico",B01002_001,42.2,1.2
+72029,"Canóvanas Municipio, Puerto Rico",B01002_001,40.2,0.4
+72031,"Carolina Municipio, Puerto Rico",B01002_001,42.8,0.2
+72033,"Cataño Municipio, Puerto Rico",B01002_001,40.3,0.7
+72035,"Cayey Municipio, Puerto Rico",B01002_001,42.8,0.5
+72037,"Ceiba Municipio, Puerto Rico",B01002_001,42.9,1.1
+72039,"Ciales Municipio, Puerto Rico",B01002_001,42.3,0.6
+72041,"Cidra Municipio, Puerto Rico",B01002_001,40.9,0.5
+72043,"Coamo Municipio, Puerto Rico",B01002_001,41.7,1
+72045,"Comerío Municipio, Puerto Rico",B01002_001,38.9,1.9
+72047,"Corozal Municipio, Puerto Rico",B01002_001,39.6,0.8
+72049,"Culebra Municipio, Puerto Rico",B01002_001,43.1,7.4
+72051,"Dorado Municipio, Puerto Rico",B01002_001,41.1,0.7
+72053,"Fajardo Municipio, Puerto Rico",B01002_001,41.8,0.5
+72054,"Florida Municipio, Puerto Rico",B01002_001,39.9,1
+72055,"Guánica Municipio, Puerto Rico",B01002_001,42.5,0.7
+72057,"Guayama Municipio, Puerto Rico",B01002_001,39.1,0.7
+72059,"Guayanilla Municipio, Puerto Rico",B01002_001,41.3,0.5
+72061,"Guaynabo Municipio, Puerto Rico",B01002_001,44.2,0.2
+72063,"Gurabo Municipio, Puerto Rico",B01002_001,39,0.7
+72065,"Hatillo Municipio, Puerto Rico",B01002_001,42.1,0.6
+72067,"Hormigueros Municipio, Puerto Rico",B01002_001,47.2,0.4
+72069,"Humacao Municipio, Puerto Rico",B01002_001,43.3,0.6
+72071,"Isabela Municipio, Puerto Rico",B01002_001,42.2,0.7
+72073,"Jayuya Municipio, Puerto Rico",B01002_001,38.6,1
+72075,"Juana Díaz Municipio, Puerto Rico",B01002_001,38.8,0.6
+72077,"Juncos Municipio, Puerto Rico",B01002_001,38.6,1
+72079,"Lajas Municipio, Puerto Rico",B01002_001,45,0.1
+72081,"Lares Municipio, Puerto Rico",B01002_001,43,0.5
+72083,"Las Marías Municipio, Puerto Rico",B01002_001,42.4,1.3
+72085,"Las Piedras Municipio, Puerto Rico",B01002_001,40,1
+72087,"Loíza Municipio, Puerto Rico",B01002_001,40.2,0.5
+72089,"Luquillo Municipio, Puerto Rico",B01002_001,41.9,0.7
+72091,"Manatí Municipio, Puerto Rico",B01002_001,42.1,0.4
+72093,"Maricao Municipio, Puerto Rico",B01002_001,44,1
+72095,"Maunabo Municipio, Puerto Rico",B01002_001,44.4,0.5
+72097,"Mayagüez Municipio, Puerto Rico",B01002_001,41.4,0.5
+72099,"Moca Municipio, Puerto Rico",B01002_001,40,0.9
+72101,"Morovis Municipio, Puerto Rico",B01002_001,38.7,0.7
+72103,"Naguabo Municipio, Puerto Rico",B01002_001,38.4,1.7
+72105,"Naranjito Municipio, Puerto Rico",B01002_001,41.1,0.8
+72107,"Orocovis Municipio, Puerto Rico",B01002_001,40.1,0.9
+72109,"Patillas Municipio, Puerto Rico",B01002_001,44.9,0.2
+72111,"Peñuelas Municipio, Puerto Rico",B01002_001,38.8,0.6
+72113,"Ponce Municipio, Puerto Rico",B01002_001,41,0.3
+72115,"Quebradillas Municipio, Puerto Rico",B01002_001,41.2,0.8
+72117,"Rincón Municipio, Puerto Rico",B01002_001,46,0.6
+72119,"Río Grande Municipio, Puerto Rico",B01002_001,41.2,0.6
+72121,"Sabana Grande Municipio, Puerto Rico",B01002_001,42.3,0.6
+72123,"Salinas Municipio, Puerto Rico",B01002_001,40.9,0.9
+72125,"San Germán Municipio, Puerto Rico",B01002_001,44,0.5
+72127,"San Juan Municipio, Puerto Rico",B01002_001,43.2,0.2
+72129,"San Lorenzo Municipio, Puerto Rico",B01002_001,42.4,0.5
+72131,"San Sebastián Municipio, Puerto Rico",B01002_001,44.1,0.3
+72133,"Santa Isabel Municipio, Puerto Rico",B01002_001,38.8,1.2
+72135,"Toa Alta Municipio, Puerto Rico",B01002_001,38.4,0.6
+72137,"Toa Baja Municipio, Puerto Rico",B01002_001,40.7,0.4
+72139,"Trujillo Alto Municipio, Puerto Rico",B01002_001,40.5,0.4
+72141,"Utuado Municipio, Puerto Rico",B01002_001,43.5,0.5
+72143,"Vega Alta Municipio, Puerto Rico",B01002_001,39.6,0.8
+72145,"Vega Baja Municipio, Puerto Rico",B01002_001,41.5,0.5
+72147,"Vieques Municipio, Puerto Rico",B01002_001,47,1.8
+72149,"Villalba Municipio, Puerto Rico",B01002_001,40.1,0.5
+72151,"Yabucoa Municipio, Puerto Rico",B01002_001,42.9,0.5
+72153,"Yauco Municipio, Puerto Rico",B01002_001,43.9,0.3

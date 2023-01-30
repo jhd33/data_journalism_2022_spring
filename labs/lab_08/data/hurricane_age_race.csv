@@ -1,0 +1,329 @@
+state,county,year,state datum (water level),acres below water level,total acreage (2000),percentage of total acreage below water level,assessed value of land below water level,assessed value of buildings/ improvements at least partly below water level,assessed value of land + improvements below water level,buildings at least partly below water level,tax parcels at least partly below water level,GEOID,variable,median_age,moe,NAME 1,NAME 2,total_population,white_population,black_population,american_idian_alaskan_population,asian_population,native_hawaiian_population
+Alaska,Dillingham Census Area,2050,mhhw,10,21032,5e-4,28907,313,29220,0,43,2070,B01002_001,30.2,0.4,Dillingham Census Area,Alaska,4961,866,79,3569,67,3
+Alaska,Kenai Peninsula Borough,2050,mhhw,20,10200000,0,16826,0,16826,0,34,2122,B01002_001,40.8,0.4,Kenai Peninsula Borough,Alaska,58464,48218,365,4574,924,198
+Alaska,Ketchikan Gateway Borough,2050,mhhw,41,3104127,0,1046593,1168052,2214645,0,798,2130,B01002_001,39.7,0.5,Ketchikan Gateway Borough,Alaska,13800,9178,104,1969,1134,27
+Alaska,Nome Census Area,2050,mhhw,15,18629,8e-4,1306552,129399,1435951,0,17,2180,B01002_001,28.3,0.4,Nome Census Area,Alaska,9988,1555,95,7572,166,14
+Alaska,North Slope Borough,2050,mhhw,151319,57000000,0.0027,data not available,data not available,data not available,0,818,2185,B01002_001,35.2,1.3,North Slope Borough,Alaska,9792,3077,151,5017,534,189
+Alaska,Petersburg Borough,2050,mhhw,0,84437,0,0,0,0,0,34,2195,B01002_001,42.8,4.2,Petersburg Borough,Alaska,3257,2480,33,253,153,19
+Alaska,Sitka City and Borough,2050,mhhw,0,8145,0,data not available,data not available,data not available,0,0,2220,B01002_001,39.5,0.7,Sitka City and Borough,Alaska,8640,5554,80,1133,579,8
+Alaska,Wrangell City and Borough,2050,mhhw,1,19206,1e-4,101204,82267,183471,0,401,2275,B01002_001,49.4,2.8,Wrangell City and Borough,Alaska,2502,1577,1,612,18,9
+Alaska,Yakutat City and Borough,2050,mhhw,1031,4891427,2e-4,23437,0,23437,0,19,2282,B01002_001,36.9,4.7,Yakutat City and Borough,Alaska,649,293,5,251,32,8
+Alabama,Baldwin,2050,mhw,5371,1056871,0.0051,data not available,data not available,data not available,435,6394,1003,B01002_001,43,0.3,Baldwin County,Alabama,212830,183471,19718,1645,1969,9
+Alabama,Clarke,2050,mhw,23,782549,0,28436,2686,31122,0,53,1025,B01002_001,42.5,0.8,Clarke County,Alabama,24128,12781,11044,26,104,0
+Alabama,Mobile,2050,mhw,8048,754966,0.0107,5.28E+07,9.03E+07,1.43E+08,430,4039,1097,B01002_001,37.9,0.2,Mobile County,Alabama,414114,242715,148050,3192,7928,47
+Alabama,Monroe,2050,mhw,4,652809,0,4155,0,4155,0,4,1099,B01002_001,43.3,0.5,Monroe County,Alabama,21270,11587,9026,372,58,6
+Alabama,Washington,2050,mhw,1,682775,0,data not available,data not available,data not available,0,2,1129,B01002_001,43.7,0.6,Washington County,Alabama,16541,10972,3894,1221,42,0
+California,Alameda,2050,mhw,382,590990,6e-4,3603321,3.61E+07,3.97E+07,87,771,6001,B01002_001,37.6,0.1,Alameda County,California,1656754,670364,175751,11120,499382,13900
+California,Contra Costa,2050,mhw,470,435283,0.0011,data not available,data not available,data not available,303,835,6013,B01002_001,39.7,0.1,Contra Costa County,California,1142251,637904,99642,5506,190983,5631
+California,Del Norte,2050,mhw,56,643457,1e-4,428489,43347,471836,0,277,6015,B01002_001,39.5,1.1,Del Norte County,California,27495,20581,940,1986,888,44
+California,Humboldt,2050,mhw,1204,2304753,5e-4,2097805,1275375,3373180,24,1060,6023,B01002_001,38.4,0.3,Humboldt County,California,135940,108557,1506,6846,4196,488
+California,Los Angeles,2050,mhw,41,3323552,0,2.19E+07,2.51E+07,4.69E+07,51,1450,6037,B01002_001,36.5,0.1,Los Angeles County,California,10081570,5168443,820478,73393,1473221,27720
+California,Marin,2050,mhw,758,324669,0.0023,data not available,data not available,data not available,874,2642,6041,B01002_001,46.8,0.1,Marin County,California,259943,202313,5767,911,15367,571
+California,Mendocino,2050,mhw,93,2243873,0,1469060,5007557,6476617,12,663,6045,B01002_001,43.1,0.3,Mendocino County,California,87224,72935,628,3818,1805,165
+California,Monterey,2050,mhw,347,2102137,2e-4,5380521,4378667,9759188,13,468,6053,B01002_001,34.4,0.1,Monterey County,California,433410,230992,11367,2993,24326,2135
+California,Napa,2050,mhw,327,494287,7e-4,1169840,1196951,2366791,7,246,6055,B01002_001,41.3,0.4,Napa County,California,139623,102467,2883,1196,11352,301
+California,Orange,2050,mhw,116,747107,2e-4,7.48E+07,1.49E+08,2.24E+08,181,1175,6059,B01002_001,38.1,0.2,Orange County,California,3168044,1931263,55591,14424,649042,10152
+California,Sacramento,2050,mhw,2647,557088,0.0048,3.35E+07,1.11E+08,1.45E+08,1196,1209,6067,B01002_001,36.2,0.1,Sacramento County,California,1524553,873905,149891,10111,239447,17400
+California,San Diego,2050,mhw,301,7482053,0,2.78E+07,9.04E+07,1.18E+08,189,617,6073,B01002_001,35.8,0.1,San Diego County,California,3316073,2345667,166750,22524,394742,13867
+California,San Francisco,2050,mhw,21,78121,3e-4,1021389,0,1021389,60,952,6075,B01002_001,38.2,0.1,San Francisco County,California,874961,406056,45556,3223,301018,3188
+California,San Joaquin,2050,mhw,1011,789960,0.0013,data not available,data not available,data not available,1260,1769,6077,B01002_001,34.3,0.1,San Joaquin County,California,742603,419288,51931,4706,115531,4565
+California,San Luis Obispo,2050,mhw,136,2099693,1e-4,559651,13479,573130,11,195,6079,B01002_001,39.2,0.3,San Luis Obispo County,California,282165,241123,5319,2458,10296,265
+California,San Mateo,2050,mhw,501,587903,9e-4,data not available,data not available,data not available,3810,897,6081,B01002_001,39.7,0.2,San Mateo County,California,767423,388318,17784,3002,220151,10366
+California,Santa Barbara,2050,mhw,119,1738460,1e-4,2.33E+07,1699882,2.50E+07,2,305,6083,B01002_001,33.8,0.1,Santa Barbara County,California,444829,344778,8984,4644,24849,581
+California,Santa Clara,2050,mhw,157,788701,2e-4,data not available,data not available,data not available,1,111,6085,B01002_001,37.1,0.1,Santa Clara County,California,1927470,857092,47992,9697,702881,7271
+California,Santa Cruz,2050,mhw,13,276349,0,data not available,data not available,data not available,1,167,6087,B01002_001,37.8,0.2,Santa Cruz County,California,273962,204866,2904,1505,13134,337
+California,Solano,2050,mhw,11023,837590,0.0132,1.83E+07,2.55E+07,4.37E+07,223,1230,6095,B01002_001,38.1,0.2,Solano County,California,441829,232437,61526,2215,68200,4101
+California,Sonoma,2050,mhw,271,990827,3e-4,2691446,7642314,1.03E+07,12,781,6097,B01002_001,42.1,0.2,Sonoma County,California,499772,373667,8269,4395,20443,1606
+California,Ventura,2050,mhw,74,1163597,1e-4,1.33E+07,2.94E+07,4.27E+07,78,499,6111,B01002_001,38.1,0.2,Ventura County,California,847263,678658,15594,6760,62190,1698
+California,Yolo,2050,mhw,19,638934,0,7841,0,7841,0,9,6113,B01002_001,31,0.2,Yolo County,California,217352,150617,5847,1306,30462,955
+Connecticut,Fairfield,2050,mhw,165,587829,3e-4,1920304,2.72E+08,2.74E+08,450,1273,9001,B01002_001,40.6,0.2,Fairfield County,Connecticut,943926,688856,109186,2074,50339,540
+Connecticut,Hartford,2050,mhw,23,607949,0,79198,702960,782158,1,140,9003,B01002_001,40.4,0.1,Hartford County,Connecticut,893561,631471,123117,2963,47734,280
+Connecticut,Middlesex,2050,mhw,529,287567,0.0018,80477,data not available,80477,137,1490,9007,B01002_001,45.7,0.1,Middlesex County,Connecticut,163053,143486,9119,312,5017,10
+Connecticut,New Haven,2050,mhw,481,386072,0.0012,8720374,4.47E+07,5.34E+07,167,1716,9009,B01002_001,40.3,0.2,New Haven County,Connecticut,857513,628640,115837,1670,34656,177
+Connecticut,New London,2050,mhw,354,222267,0.0016,3995097,2578430,6573527,100,1413,9011,B01002_001,41.4,0.3,New London County,Connecticut,267390,215896,15537,1650,11091,84
+District of Columbia,District of Columbia,2050,mhw,152,32330,0.0047,2.15E+08,1.18E+09,1.39E+09,57,149,11001,B01002_001,34,0.1,District of Columbia,District of Columbia,692683,285857,320811,2091,27592,376
+Delaware,Kent,2050,mlw,1882,365425,0.0051,296734,99003,395737,4,410,10001,B01002_001,37.7,0.4,Kent County,Delaware,176699,116954,45424,1289,3552,102
+Delaware,New Castle,2050,mlw,3040,808991,0.0038,data not available,data not available,data not available,11,602,10003,B01002_001,38.4,0.2,New Castle County,Delaware,556165,357185,139960,1663,30704,182
+Delaware,Sussex,2050,mlw,2573,584277,0.0044,2.31E+07,6797914,2.99E+07,91,2860,10005,B01002_001,49.6,0.1,Sussex County,Delaware,224384,184098,26918,777,2753,258
+Florida,Bay,2050,mhw,1928,471458,0.0041,7.98E+07,580890,8.04E+07,96,4633,12005,B01002_001,39.8,0.3,Bay County,Florida,182161,147657,20057,636,4269,209
+Florida,Brevard,2050,mhw,3858,826268,0.0047,1.26E+08,492334,1.27E+08,138,6263,12009,B01002_001,47.3,0.2,Brevard County,Florida,585507,482985,56493,1961,13854,524
+Florida,Broward,2050,mhw,894,2225935,4e-4,6.81E+08,7220237,6.88E+08,225,2753,12011,B01002_001,40.4,0.2,Broward County,Florida,1926205,1170083,551097,5104,68988,1227
+Florida,Charlotte,2050,mhw,76817,510609,0.1504,6.38E+07,2016669,6.59E+07,141,4753,12015,B01002_001,59.1,0.2,Charlotte County,Florida,181067,162847,10113,581,2342,135
+Florida,Citrus,2050,mhw,24687,394997,0.0625,1.34E+08,2274442,1.37E+08,605,2960,12017,B01002_001,56.5,0.3,Citrus County,Florida,145169,134668,4288,382,2567,40
+Florida,Dixie,2050,mhw,5419,447543,0.0121,1.45E+07,223660,1.48E+07,225,1102,12029,B01002_001,46.5,0.8,Dixie County,Florida,16589,14333,1474,2,38,20
+Florida,Duval,2050,mhw,6690,449519,0.0149,2.62E+08,2.36E+08,4.98E+08,0,7109,12031,B01002_001,36.2,0.2,Duval County,Florida,936186,559532,277195,2328,43297,584
+Florida,Escambia,2050,mhw,887,444257,0.002,7.43E+07,1849192,7.61E+07,45,1770,12033,B01002_001,37.2,0.3,Escambia County,Florida,313491,213368,68733,1301,9367,436
+Florida,Flagler,2050,mhw,6704,305732,0.0219,3.14E+07,927206,3.23E+07,206,3787,12035,B01002_001,51.3,0.3,Flagler County,Florida,109801,90342,11010,326,2874,104
+Florida,Franklin,2050,mhw,8573,350406,0.0245,1.18E+08,449003,1.19E+08,72,2272,12037,B01002_001,46.4,1,Franklin County,Florida,11811,9555,1664,11,41,43
+Florida,Gilchrist,2050,mhw,12,226275,1e-4,96786,993,97779,0,55,12041,B01002_001,42.1,1.1,Gilchrist County,Florida,17953,16382,1052,22,40,2
+Florida,Gulf,2050,mhw,5765,353224,0.0163,3.59E+07,199924,3.61E+07,46,1139,12045,B01002_001,44.9,1.1,Gulf County,Florida,15576,12384,2673,61,85,0
+Florida,Hernando,2050,mhw,5103,310850,0.0164,1.39E+07,414794,1.44E+07,389,938,12053,B01002_001,49,0.2,Hernando County,Florida,186313,165227,9946,608,2283,47
+Florida,Hillsborough,2050,mhw,1613,634620,0.0025,8.31E+07,1.17E+08,2.00E+08,395,4595,12057,B01002_001,37.2,0.1,Hillsborough County,Florida,1422278,1002119,239119,4057,57655,1030
+Florida,Indian River,2050,mhw,357,444470,8e-4,7.13E+07,476553,7.18E+07,18,1564,12061,B01002_001,53.5,0.2,Indian River County,Florida,153989,133103,13633,385,2037,57
+Florida,Jefferson,2050,mhw,2063,391380,0.0053,1091909,0,1091909,0,18,12065,B01002_001,48,0.6,Jefferson County,Florida,14161,8894,4894,71,39,0
+Florida,Lee,2050,mhw,6822,501364,0.0136,3.22E+08,8.46E+07,4.06E+08,240,11489,12071,B01002_001,48.5,0.2,Lee County,Florida,737468,622299,63282,1395,11967,412
+Florida,Levy,2050,mhw,5529,706787,0.0078,2.08E+07,35786,2.08E+07,69,1103,12075,B01002_001,46.9,0.6,Levy County,Florida,40403,35391,3541,67,349,0
+Florida,Manatee,2050,mhw,1347,687783,0.002,8.20E+07,3369476,8.53E+07,190,3612,12081,B01002_001,48.3,0.2,Manatee County,Florida,384213,328110,33462,813,7975,189
+Florida,Marion,2050,mhw,25,1025897,0,428931,45,428976,1,65,12083,B01002_001,48.7,0.2,Marion County,Florida,353526,289561,45754,1008,5088,195
+Florida,Martin,2050,mhw,15186,636703,0.0239,1.24E+08,616592,1.24E+08,51,2120,12085,B01002_001,52.2,0.3,Martin County,Florida,159065,140110,9006,966,2226,141
+Florida,Miami-Dade,2050,mhw,125229,1187507,0.1055,8.04E+08,5.17E+08,1.32E+09,227,4063,12086,B01002_001,39.9,0.2,Miami-Dade County,Florida,2699428,2028500,469202,5101,43152,790
+Florida,Monroe,2050,mhw,126763,681629,0.186,6.78E+08,1.54E+07,6.93E+08,787,20212,12087,B01002_001,47.7,0.3,Monroe County,Florida,75798,66728,5545,81,1058,130
+Florida,Nassau,2050,mhw,2924,452339,0.0065,8924053,178366,9102419,39,1142,12089,B01002_001,45.3,0.3,Nassau County,Florida,83098,75070,5031,398,851,0
+Florida,Okaloosa,2050,mhw,271,638167,4e-4,3.24E+07,280445,3.27E+07,37,1705,12091,B01002_001,36.9,0.2,Okaloosa County,Florida,203794,159371,20032,806,6188,275
+Florida,Palm Beach,2050,mhw,679,1378046,5e-4,4.16E+08,1.44E+08,5.61E+08,83,3007,12099,B01002_001,44.8,0.1,Palm Beach County,Florida,1465027,1077422,273384,3056,39423,527
+Florida,Pasco,2050,mhw,757,478300,0.0016,2.29E+07,189412,2.30E+07,145,3212,12101,B01002_001,44.5,0.1,Pasco County,Florida,524602,456080,30221,1954,13580,320
+Florida,Pinellas,2050,mhw,1285,1554415,8e-4,2.40E+08,1142255,2.41E+08,249,6972,12103,B01002_001,48.1,0.1,Pinellas County,Florida,964666,785739,98942,2812,32679,908
+Florida,Putnam,2050,mhw,32799,484799,0.0677,5.21E+07,434770,5.25E+07,257,3169,12107,B01002_001,45.1,0.4,Putnam County,Florida,73252,58814,11922,309,456,5
+Florida,Santa Rosa,2050,mhw,1702,645144,0.0026,4.04E+07,361873,4.08E+07,35,2896,12113,B01002_001,39.9,0.4,Santa Rosa County,Florida,174755,149250,10858,936,3423,441
+Florida,Sarasota,2050,mhw,867,810949,0.0011,1.99E+08,3189842,2.02E+08,97,4522,12115,B01002_001,56.1,0.2,Sarasota County,Florida,419496,381414,19002,667,7129,79
+Florida,Seminole,2050,mhw,1420,187224,0.0076,1.30E+07,757744,1.38E+07,31,650,12117,B01002_001,39.2,0.2,Seminole County,Florida,461402,349813,55186,1317,20895,263
+Florida,St. Johns,2050,mhw,14954,395415,0.0378,3.81E+08,6514981,3.87E+08,284,4820,12109,B01002_001,43.7,0.3,St. Johns County,Florida,244674,216331,13224,943,6595,192
+Florida,St. Lucie,2050,mhw,1346,555693,0.0024,5.55E+07,364913,5.59E+07,30,1353,12111,B01002_001,45.1,0.2,St. Lucie County,Florida,312947,228616,63087,1284,6383,268
+Florida,Taylor,2050,mhw,9274,671077,0.0138,1.11E+07,169827,1.13E+07,135,770,12123,B01002_001,42,0.8,Taylor County,Florida,21870,16678,4397,69,167,0
+Florida,Volusia,2050,mhw,81148,838978,0.0967,1.19E+08,6.29E+07,1.82E+08,380,5648,12127,B01002_001,46.6,0.1,Volusia County,Florida,536487,436700,58584,1830,9618,158
+Florida,Wakulla,2050,mhw,5026,384135,0.0131,1.38E+07,56645,1.39E+07,49,907,12129,B01002_001,40.6,0.7,Wakulla County,Florida,32321,26579,4874,66,167,0
+Florida,Walton,2050,mhw,2497,679756,0.0037,7.44E+07,818260,7.52E+07,109,3481,12131,B01002_001,44,0.4,Walton County,Florida,68262,59228,3156,383,705,0
+Florida,Washington,2050,mhw,135,382060,4e-4,102035,9,102044,1,91,12133,B01002_001,41.5,0.6,Washington County,Florida,24764,19725,3764,348,167,103
+Georgia,Bryan,2050,mhw,1785,161027,0.0111,data not available,data not available,data not available,11,326,13029,B01002_001,34.6,0.3,Bryan County,Georgia,37063,28542,5340,161,529,28
+Georgia,Camden,2050,mhw,10437,398504,0.0262,data not available,data not available,data not available,19,1512,13039,B01002_001,32.8,0.4,Camden County,Georgia,53231,38864,9997,374,1170,59
+Georgia,Charlton,2050,mhw,434,496544,9e-4,230992,40,231032,0,7,13049,B01002_001,41.2,1.6,Charlton County,Georgia,13040,8661,3419,257,96,14
+Georgia,Chatham,2050,mhw,22417,257597,0.087,6.58E+07,3.92E+08,4.58E+08,209,2001,13051,B01002_001,35.6,0.1,Chatham County,Georgia,288496,152025,115023,929,7428,364
+Georgia,Effingham,2050,mhw,202,304094,7e-4,data not available,data not available,data not available,0,23,13103,B01002_001,36,0.2,Effingham County,Georgia,60477,49360,8050,106,534,29
+Georgia,Glynn,2050,mhw,16198,258657,0.0626,data not available,data not available,data not available,357,755,13127,B01002_001,41.6,0.7,Glynn County,Georgia,84470,57857,22235,303,1099,98
+Georgia,Liberty,2050,mhw,3311,327833,0.0101,data not available,data not available,data not available,200,326,13179,B01002_001,28.4,0.2,Liberty County,Georgia,61349,28086,25265,321,1260,317
+Georgia,McIntosh,2050,mhw,6906,268864,0.0257,data not available,data not available,data not available,20,847,13191,B01002_001,49.4,0.6,McIntosh County,Georgia,14174,8826,5036,14,189,18
+Georgia,Wayne,2050,mhw,411,403574,0.001,data not available,data not available,data not available,0,8,13305,B01002_001,38.9,0.8,Wayne County,Georgia,29788,22251,6127,31,182,0
+Hawaii,Hawaii,2050,mhhw,581,2574204,2e-4,2.57E+07,1.13E+08,1.39E+08,18,1290,15001,B01002_001,42.7,0.2,Hawaii County,Hawaii,199459,66493,1266,977,44971,24338
+Hawaii,Honolulu,2050,mhhw,298,471640,6e-4,5.34E+08,1.76E+09,2.29E+09,92,2109,15003,B01002_001,37.9,0.2,Honolulu County,Hawaii,984821,206218,23603,1900,420093,93980
+Hawaii,Kauai,2050,mhhw,341,400040,9e-4,data not available,data not available,data not available,20,648,15007,B01002_001,42.6,0.5,Kauai County,Hawaii,71769,23229,309,408,23698,6568
+Hawaii,Maui,2050,mhhw,350,1093729,3e-4,2.98E+07,3991747,3.38E+07,8,859,15009,B01002_001,41.2,0.3,Maui County,Hawaii,165979,58891,845,424,48579,18093
+Louisiana,Acadia Parish,2050,mhhw,7402,408729,0.0181,data not available,data not available,data not available,1,830,22001,B01002_001,36.7,0.4,Acadia Parish,Louisiana,62457,49556,10841,86,55,0
+Louisiana,Ascension Parish,2050,mhhw,34002,176920,0.1922,data not available,data not available,data not available,197,1483,22005,B01002_001,35.7,0.2,Ascension Parish,Louisiana,123114,88833,26779,96,1297,43
+Louisiana,Assumption Parish,2050,mhhw,61875,155245,0.3986,data not available,data not available,data not available,1752,4647,22007,B01002_001,40.9,0.8,Assumption Parish,Louisiana,22478,15158,6819,93,17,0
+Louisiana,Avoyelles Parish,2050,mhhw,2,534513,0,data not available,data not available,data not available,0,318,22009,B01002_001,38.2,0.5,Avoyelles Parish,Louisiana,40669,26967,10942,362,214,81
+Louisiana,Calcasieu Parish,2050,mhhw,48174,644108,0.0748,data not available,data not available,data not available,244,4881,22019,B01002_001,36.1,0.2,Calcasieu Parish,Louisiana,201619,141058,50148,636,2842,13
+Louisiana,Cameron Parish,2050,mhhw,607520,2282863,0.2661,data not available,data not available,data not available,616,3375,22023,B01002_001,44.1,1.9,Cameron Parish,Louisiana,6930,6432,235,35,36,0
+Louisiana,Concordia Parish,2050,mhhw,36,469205,1e-4,data not available,data not available,data not available,2,589,22029,B01002_001,37.7,1,Concordia Parish,Louisiana,19778,11433,8133,1,29,0
+Louisiana,East Baton Rouge Parish,2050,mhhw,80,267417,3e-4,431,1646,2077,27,118,22033,B01002_001,34,0.2,East Baton Rouge Parish,Louisiana,443763,207835,204562,795,14125,205
+Louisiana,Iberia Parish,2050,mhhw,117999,276483,0.4268,data not available,data not available,data not available,273,4396,22045,B01002_001,36.5,0.4,Iberia Parish,Louisiana,71887,43640,22780,75,1967,0
+Louisiana,Iberville Parish,2050,mhhw,42499,392092,0.1084,data not available,data not available,data not available,142,1379,22047,B01002_001,38.4,0.7,Iberville Parish,Louisiana,32822,16282,15833,26,14,0
+Louisiana,Jefferson Parish,2050,mhhw,2357,131628,0.0179,data not available,data not available,data not available,905,2292,22051,B01002_001,39.4,0.3,Jefferson Parish,Louisiana,434850,271300,117314,1753,18260,43
+Louisiana,Lafayette Parish,2050,mhhw,79,161192,5e-4,data not available,data not available,data not available,0,445,22055,B01002_001,35.2,0.1,Lafayette Parish,Louisiana,241973,167836,62785,637,4529,0
+Louisiana,Lafourche Parish,2050,mhhw,262831,431717,0.6088,data not available,data not available,data not available,1075,5432,22057,B01002_001,37.8,0.4,Lafourche Parish,Louisiana,98108,77504,13371,2158,575,15
+Louisiana,Livingston Parish,2050,mhhw,36036,361140,0.0998,data not available,data not available,data not available,1154,6255,22063,B01002_001,36.6,0.3,Livingston Parish,Louisiana,138928,125510,8305,551,867,19
+Louisiana,Orleans Parish,2050,mhhw,13151,96143,0.1368,6539701,0,6539701,185,1412,22071,B01002_001,36.8,0.2,Orleans Parish,Louisiana,390845,132643,232660,763,11361,62
+Louisiana,Plaquemines Parish,2050,mhhw,65079,130877,0.4973,data not available,data not available,data not available,747,5124,22075,B01002_001,36.5,0.7,Plaquemines Parish,Louisiana,23338,15858,4733,256,901,8
+Louisiana,Pointe Coupee Parish,2050,mhhw,57,350852,2e-4,data not available,data not available,data not available,0,96,22077,B01002_001,43.1,0.7,Pointe Coupee Parish,Louisiana,22016,13636,7873,0,56,0
+Louisiana,St. Bernard Parish,2050,mhhw,47522,93445,0.5086,data not available,data not available,data not available,247,1555,22087,B01002_001,34.2,0.2,St. Bernard Parish,Louisiana,46266,32097,10757,169,1170,35
+Louisiana,St. Charles Parish,2050,mhhw,88676,153751,0.5768,data not available,data not available,data not available,999,8573,22089,B01002_001,37.9,0.4,St. Charles Parish,Louisiana,52773,36542,14059,191,528,0
+Louisiana,St. James Parish,2050,mhhw,64395,147579,0.4363,data not available,data not available,data not available,183,906,22093,B01002_001,39.2,0.7,St. James Parish,Louisiana,21308,10366,10565,0,35,43
+Louisiana,St. John the Baptist Parish,2050,mhhw,47170,83700,0.5636,data not available,data not available,data not available,277,8119,22095,B01002_001,36.8,0.5,St. John the Baptist Parish,Louisiana,43242,16501,24433,0,482,0
+Louisiana,St. Martin Parish,2050,mhhw,30504,369762,0.0825,data not available,data not available,data not available,1161,3188,22099,B01002_001,37.7,0.5,St. Martin Parish,Louisiana,53732,35874,15629,314,536,0
+Louisiana,St. Mary Parish,2050,mhhw,167201,309429,0.5404,data not available,data not available,data not available,1135,9650,22101,B01002_001,39,0.5,St. Mary Parish,Louisiana,50968,30016,15531,836,734,11
+Louisiana,St. Tammany Parish,2050,mhhw,27628,340204,0.0812,6.62E+07,1.47E+08,2.14E+08,686,5105,22103,B01002_001,40.2,0.2,St. Tammany Parish,Louisiana,255155,211276,30925,1489,4135,51
+Louisiana,Tangipahoa Parish,2050,mhhw,54211,485951,0.1116,data not available,data not available,data not available,419,1873,22105,B01002_001,35.3,0.2,Tangipahoa Parish,Louisiana,132057,88627,38910,341,989,0
+Louisiana,Terrebonne Parish,2050,mhhw,324472,423373,0.7664,data not available,data not available,data not available,5728,17098,22109,B01002_001,35.8,0.2,Terrebonne Parish,Louisiana,112054,78715,21311,6337,1111,64
+Louisiana,Vermilion Parish,2050,mhhw,253431,595532,0.4256,data not available,data not available,data not available,879,7034,22113,B01002_001,38,0.5,Vermilion Parish,Louisiana,59865,48737,8693,279,1189,49
+Louisiana,West Baton Rouge Parish,2050,mhhw,844,119638,0.0071,data not available,data not available,data not available,7,106,22121,B01002_001,36.3,0.8,West Baton Rouge Parish,Louisiana,26101,15222,10458,21,16,0
+Massachusetts,Barnstable,2050,mlw,500,927341,5e-4,1.74E+08,1.27E+07,1.87E+08,3,2644,25001,B01002_001,53.3,0.2,Barnstable County,Massachusetts,213496,195669,6210,1313,3182,109
+Massachusetts,Bristol,2050,mlw,519,468222,0.0011,4.66E+07,3077837,4.97E+07,4,1180,25005,B01002_001,41,0.2,Bristol County,Massachusetts,561037,471827,23969,391,12741,287
+Massachusetts,Dukes,2050,mlw,193,309386,6e-4,8.99E+07,5203126,9.51E+07,8,1805,25007,B01002_001,47.1,0.7,Dukes County,Massachusetts,17312,15247,813,143,59,0
+Massachusetts,Essex,2050,mlw,3,722116,0,108480,0,108480,0,12,25009,B01002_001,40.9,0.1,Essex County,Massachusetts,783676,626140,33424,1596,26899,186
+Massachusetts,Middlesex,2050,mlw,0,1449029,0,0,0,0,0,0,25017,B01002_001,38.5,0.2,Middlesex County,Massachusetts,1600842,1227271,85583,3163,190905,742
+Massachusetts,Nantucket,2050,mlw,376,30475,0.0123,1.48E+08,6386078,1.54E+08,1,770,25019,B01002_001,40.3,1.3,Nantucket County,Massachusetts,11168,9748,871,32,71,7
+Massachusetts,Norfolk,2050,mlw,1,631840,0,40950,0,40950,0,2,25021,B01002_001,40.9,0.2,Norfolk County,Massachusetts,700437,543394,49756,950,77446,274
+Massachusetts,Plymouth,2050,mlw,93,2151053,0,9340042,389994,9730036,0,384,25023,B01002_001,42.7,0.2,Plymouth County,Massachusetts,515303,427046,51537,817,7192,50
+Massachusetts,Suffolk,2050,mlw,1,108088,0,242172,289600,531772,2,4,25025,B01002_001,32.8,0.2,Suffolk County,Massachusetts,796605,439961,178557,2188,70597,418
+Maryland,Dorchester,2050,mhw,34554,338325,0.1021,3.86E+07,5.78E+07,9.64E+07,492,3274,24019,B01002_001,44.6,0.3,Dorchester County,Maryland,32138,21065,8549,20,354,0
+Maryland,Somerset,2050,mhw,13082,195380,0.067,1.67E+07,4.52E+07,6.18E+07,717,2283,24039,B01002_001,36.2,0.6,Somerset County,Maryland,25729,13569,10910,98,253,6
+Maryland,Worcester,2050,mhw,10753,291414,0.0369,1.12E+08,1.66E+08,2.78E+08,425,4017,24047,B01002_001,50.4,0.2,Worcester County,Maryland,51765,42965,6659,70,618,41
+Maryland,Wicomico,2050,mhw,3417,231989,0.0147,6497724,7725727,1.42E+07,40,1226,24045,B01002_001,36.1,0.3,Wicomico County,Maryland,102539,68178,26594,274,3215,28
+Maryland,Charles,2050,mhw,3325,287028,0.0116,1.82E+07,1.07E+07,2.89E+07,29,1187,24017,B01002_001,38.4,0.3,Charles County,Maryland,159428,70090,73300,928,5115,16
+Maryland,St. Mary's,2050,mhw,1547,222461,0.007,5.41E+07,3.77E+07,9.18E+07,170,3775,24037,B01002_001,36.7,0.3,St. Mary's County,Maryland,112290,87625,16431,94,2865,20
+Maryland,Talbot,2050,mhw,1222,164172,0.0074,5.76E+07,3.00E+07,8.76E+07,68,3936,24041,B01002_001,50.5,0.2,Talbot County,Maryland,37167,30818,3887,84,503,0
+Maryland,Caroline,2050,mhw,1216,198619,0.0061,5326335,836645,6162980,5,657,24011,B01002_001,39.7,0.4,Caroline County,Maryland,33049,26405,4666,130,229,0
+Maryland,Kent,2050,mhw,924,173707,0.0053,1.50E+07,1.20E+07,2.71E+07,32,1241,24029,B01002_001,48.1,0.7,Kent County,Maryland,19536,15774,2787,26,228,6
+Maryland,Queen Anne's,2050,mhw,861,229254,0.0038,4.48E+07,2.77E+07,7.25E+07,51,3283,24035,B01002_001,44.4,0.3,Queen Anne's County,Maryland,49632,44328,3302,43,504,51
+Maryland,Anne Arundel,2050,mhw,631,240996,0.0026,1.82E+08,1.59E+08,3.41E+08,215,6426,24003,B01002_001,38.3,0.2,Anne Arundel County,Maryland,571275,415470,95710,1175,21605,386
+Maryland,Cecil,2050,mhw,615,213836,0.0029,1.06E+07,1.63E+07,2.69E+07,39,1733,24015,B01002_001,40.8,0.4,Cecil County,Maryland,102552,90069,6974,92,1446,24
+Maryland,Baltimore,2050,mhw,286,426504,7e-4,4.31E+07,5.72E+07,1.00E+08,120,2033,24005,B01002_001,39.4,0.1,Baltimore County,Maryland,828018,501423,239308,2460,49885,726
+Maryland,Calvert,2050,mhw,146,136610,0.0011,1.60E+07,4.31E+07,5.91E+07,82,1326,24009,B01002_001,40.7,0.3,Calvert County,Maryland,91511,74326,10709,135,1718,51
+Maryland,Prince George's,2050,mhw,119,458048,3e-4,1.09E+07,5.24E+07,6.33E+07,27,301,24033,B01002_001,37.1,0.1,Prince George's County,Maryland,908670,150782,569478,3283,37453,475
+Maryland,Harford,2050,mhw,109,229933,5e-4,3553510,1.21E+07,1.57E+07,28,174,24025,B01002_001,40.9,0.3,Harford County,Maryland,252222,198359,34843,435,6571,43
+Maryland,Baltimore city,2050,mhw,41,122420,3e-4,7625583,3.55E+08,3.63E+08,36,207,24510,B01002_001,35.4,0.2,Baltimore city,Maryland,609032,185489,379751,1732,15693,229
+Maine,Cumberland,2050,mlw,0,530692,0,data not available,data not available,data not available,0,0,23005,B01002_001,42.2,0.2,Cumberland County,Maine,292307,268151,8863,578,6350,34
+Maine,Hancock,2050,mlw,0,1007750,0,0,0,0,0,0,23009,B01002_001,48.8,0.3,Hancock County,Maine,54601,52344,469,254,624,75
+Maine,Knox,2050,mlw,0,199055,0,data not available,data not available,data not available,0,3,23013,B01002_001,48.4,0.3,Knox County,Maine,39759,38200,205,201,201,2
+Maine,Lincoln,2050,mlw,0,267303,0,0,0,0,0,0,23015,B01002_001,51,0.3,Lincoln County,Maine,34201,33143,129,148,340,0
+Maine,Sagadahoc,2050,mlw,11,159632,1e-4,22598,819,23417,0,21,23023,B01002_001,46.9,0.4,Sagadahoc County,Maine,35452,33941,278,127,271,0
+Maine,Washington,2050,mlw,0,1588296,0,data not available,data not available,data not available,0,1,23029,B01002_001,48.1,0.3,Washington County,Maine,31491,28604,244,1665,149,9
+Maine,York,2050,mlw,31,513155,1e-4,0,0,0,3,27,23031,B01002_001,45.2,0.1,York County,Maine,204316,195143,1778,903,2580,53
+Mississippi,Hancock,2050,mhw,5649,320772,0.0176,6290823,3.03E+07,3.66E+07,204,1494,28045,B01002_001,44.4,0.4,Hancock County,Mississippi,46961,41108,3765,264,281,0
+Mississippi,Harrison,2050,mhw,1784,349903,0.0051,data not available,data not available,data not available,135,1810,28047,B01002_001,36.2,0.2,Harrison County,Mississippi,204502,138940,50994,1127,5813,64
+Mississippi,Jackson,2050,mhw,9962,430375,0.0231,3.49E+07,5.73E+07,9.22E+07,304,2943,28059,B01002_001,38.8,0.3,Jackson County,Mississippi,142376,100751,30305,609,3434,82
+North Carolina,Beaufort,2050,mhw,7469,548720,0.0136,7.37E+07,5.57E+07,1.29E+08,245,5606,37013,B01002_001,46.2,0.4,Beaufort County,North Carolina,47168,33969,11782,124,52,0
+North Carolina,Bertie,2050,mhw,19638,436400,0.045,1.05E+07,2443888,1.29E+07,22,591,37015,B01002_001,45.4,0.3,Bertie County,North Carolina,19380,6830,11933,138,151,1
+North Carolina,Bladen,2050,mhw,0,560927,0,0,0,0,0,0,37017,B01002_001,44.5,0.3,Bladen County,North Carolina,33407,19260,11594,850,50,0
+North Carolina,Brunswick,2050,mhw,4130,527709,0.0078,6.52E+07,2.38E+08,3.03E+08,812,1283,37019,B01002_001,53.8,0.2,Brunswick County,North Carolina,131815,110980,12864,907,766,9
+North Carolina,Camden,2050,mhw,21780,150061,0.1451,3.97E+07,6793541,4.65E+07,46,1686,37029,B01002_001,41,2,Camden County,North Carolina,10551,8718,1460,12,189,13
+North Carolina,Carteret,2050,mhw,20666,324466,0.0637,7.84E+08,2.04E+08,9.88E+08,806,7731,37031,B01002_001,48.6,0.2,Carteret County,North Carolina,69070,62094,3685,227,808,40
+North Carolina,Chowan,2050,mhw,5467,109700,0.0498,2.67E+07,5560755,3.22E+07,30,1175,37041,B01002_001,46,1.5,Chowan County,North Carolina,14097,8615,4967,60,46,0
+North Carolina,Columbus,2050,mhw,0,588547,0,0,0,0,0,0,37047,B01002_001,41.9,0.4,Columbus County,North Carolina,56068,34778,17089,2094,228,8
+North Carolina,Craven,2050,mhw,10073,805345,0.0125,6.32E+07,5.57E+07,1.19E+08,102,3138,37049,B01002_001,37,0.3,Craven County,North Carolina,102491,72130,22169,883,2823,112
+North Carolina,Currituck,2050,mhw,31935,156715,0.2038,2.64E+08,6.55E+07,3.30E+08,395,4150,37053,B01002_001,42.8,0.7,Currituck County,North Carolina,26363,23822,1461,87,114,6
+North Carolina,Dare,2050,mhw,61477,231258,0.2658,5.20E+08,3.55E+08,8.74E+08,1259,5771,37055,B01002_001,46.5,0.6,Dare County,North Carolina,36222,33591,1086,142,279,12
+North Carolina,Gates,2050,mhw,17754,214936,0.0826,5736291,1332790,7069081,5,150,37073,B01002_001,46.5,0.6,Gates County,North Carolina,11548,7314,3859,109,61,0
+North Carolina,Halifax,2050,mhw,11,458161,0,data not available,data not available,data not available,1,15,37083,B01002_001,43.4,0.5,Halifax County,North Carolina,51190,20721,27013,1930,374,74
+North Carolina,Hertford,2050,mhw,9478,339895,0.0279,9456606,2203043,1.17E+07,46,414,37091,B01002_001,42.2,0.6,Hertford County,North Carolina,24012,8422,14263,289,184,38
+North Carolina,Hyde,2050,mhw,26546,421421,0.063,1.13E+08,4.83E+07,1.61E+08,609,1313,37095,B01002_001,40.9,3.9,Hyde County,North Carolina,5213,3468,1550,6,0,0
+North Carolina,Jones,2050,mhw,1939,301178,0.0064,7540864,739735,8280599,3,337,37103,B01002_001,48.5,1.4,Jones County,North Carolina,9594,6303,2923,96,8,0
+North Carolina,Lenoir,2050,mhw,2,247403,0,2729,0,2729,0,52,37107,B01002_001,42.7,0.4,Lenoir County,North Carolina,56756,31205,22205,119,279,26
+North Carolina,Martin,2050,mhw,10907,285453,0.0382,data not available,data not available,data not available,3,185,37117,B01002_001,46.3,0.3,Martin County,North Carolina,22849,12460,9625,54,139,77
+North Carolina,New Hanover,2050,mhw,8101,115460,0.0702,2.26E+08,3.08E+08,5.34E+08,657,1411,37129,B01002_001,39.1,0.3,New Hanover County,North Carolina,227938,184851,31337,577,3012,199
+North Carolina,Onslow,2050,mhw,6692,447459,0.015,3.20E+08,9.55E+07,4.15E+08,517,3219,37133,B01002_001,26.4,0.2,Onslow County,North Carolina,195069,145758,27291,1070,4210,283
+North Carolina,Pamlico,2050,mhw,10557,212275,0.0497,4.51E+07,6.25E+07,1.08E+08,239,4317,37137,B01002_001,52.4,0.4,Pamlico County,North Carolina,12701,9664,2341,30,77,3
+North Carolina,Pasquotank,2050,mhw,10995,139939,0.0786,5.85E+07,2.10E+07,7.95E+07,178,2168,37139,B01002_001,38.6,0.8,Pasquotank County,North Carolina,39514,23087,14449,27,485,0
+North Carolina,Pender,2050,mhw,2613,541389,0.0048,1.02E+08,9.93E+07,2.01E+08,493,1309,37141,B01002_001,42.7,0.5,Pender County,North Carolina,60399,46947,8612,273,263,60
+North Carolina,Perquimans,2050,mhw,8784,157045,0.0559,data not available,data not available,data not available,113,2726,37143,B01002_001,49.8,0.8,Perquimans County,North Carolina,13430,9904,3217,42,48,14
+North Carolina,Pitt,2050,mhw,3118,402462,0.0077,3572230,153803,3726033,0,236,37147,B01002_001,32.5,0.2,Pitt County,North Carolina,178433,102087,61924,591,3116,102
+North Carolina,Tyrrell,2050,mhw,77931,305181,0.2554,7.48E+07,1.58E+07,9.06E+07,226,1681,37177,B01002_001,46.2,3.5,Tyrrell County,North Carolina,4095,2268,1521,37,18,0
+North Carolina,Washington,2050,mhw,13529,239338,0.0565,1.11E+07,1668038,1.27E+07,8,716,37187,B01002_001,46.1,1.9,Washington County,North Carolina,11922,5450,5658,30,26,0
+New Hampshire,Rockingham,2050,mlw,28,976289,0,6582901,2837171,9420072,3,107,33015,B01002_001,44.5,0.2,Rockingham County,New Hampshire,306359,290182,2550,127,6321,26
+New Hampshire,Strafford,2050,mlw,46,657135,1e-4,1676841,268053,1944894,0,116,33017,B01002_001,36.9,0.3,Strafford County,New Hampshire,129124,119599,1284,94,4331,53
+New Jersey,Atlantic,2050,mhw,4175,332266,0.0126,1.31E+08,3.32E+08,4.62E+08,474,4198,34001,B01002_001,41.7,0.3,Atlantic County,New Jersey,266105,174978,38907,1078,21006,146
+New Jersey,Bergen,2050,mhw,2121,130803,0.0162,2.51E+08,5.18E+08,7.70E+08,435,926,34003,B01002_001,41.9,0.1,Bergen County,New Jersey,930390,666126,55381,1778,151965,361
+New Jersey,Burlington,2050,mhw,1898,490618,0.0039,1.00E+07,8630514,1.86E+07,78,1677,34005,B01002_001,41.6,0.2,Burlington County,New Jersey,445702,320997,75266,610,22583,277
+New Jersey,Camden,2050,mhw,296,126337,0.0023,1.50E+07,1.96E+08,2.11E+08,37,494,34007,B01002_001,38.8,0.2,Camden County,New Jersey,506738,322202,97617,1061,29048,209
+New Jersey,Cape May,2050,mhw,4027,149215,0.027,2.34E+08,3.25E+08,5.59E+08,1431,8101,34009,B01002_001,49.6,0.2,Cape May County,New Jersey,93086,85095,4187,20,864,21
+New Jersey,Cumberland,2050,mhw,4284,297274,0.0144,8079887,1.83E+07,2.64E+07,273,1917,34011,B01002_001,37.6,0.2,Cumberland County,New Jersey,151906,103397,29551,1278,2189,23
+New Jersey,Essex,2050,mhw,152,68577,0.0022,8.32E+07,3990389,8.72E+07,9,116,34013,B01002_001,37.6,0.1,Essex County,New Jersey,795404,341516,315997,1796,42406,247
+New Jersey,Gloucester,2050,mhw,810,192120,0.0042,1.12E+07,4627810,1.58E+07,31,876,34015,B01002_001,40.5,0.2,Gloucester County,New Jersey,291165,237131,29570,306,9045,64
+New Jersey,Hudson,2050,mhw,4424,28684,0.1542,1.83E+09,5.70E+08,2.40E+09,296,786,34017,B01002_001,35.3,0.1,Hudson County,New Jersey,670046,366901,81275,2648,101912,598
+New Jersey,Mercer,2050,mhw,54,132306,4e-4,1341359,2.67E+07,2.80E+07,4,166,34021,B01002_001,38.8,0.2,Mercer County,New Jersey,367922,231533,76166,629,40882,138
+New Jersey,Middlesex,2050,mhw,207,176925,0.0012,1.08E+07,4232191,1.50E+07,21,776,34023,B01002_001,38.6,0.2,Middlesex County,New Jersey,825920,478174,85481,1876,198426,321
+New Jersey,Monmouth,2050,mhw,308,273660,0.0011,7.20E+07,5.59E+07,1.28E+08,164,2825,34025,B01002_001,43.3,0.2,Monmouth County,New Jersey,621659,512161,44513,959,33559,262
+New Jersey,Ocean,2050,mhw,6038,374381,0.0161,7.40E+08,4.79E+08,1.22E+09,2224,21474,34029,B01002_001,42.7,0.2,Ocean County,New Jersey,596415,542186,18465,396,11175,263
+New Jersey,Passaic,2050,mhw,7,116046,1e-4,527660,4299155,4826815,2,35,34031,B01002_001,37.2,0.2,Passaic County,New Jersey,503637,322127,56399,1486,26084,190
+New Jersey,Salem,2050,mhw,4736,205485,0.023,7358398,2.55E+08,2.62E+08,602,1357,34033,B01002_001,42.1,0.4,Salem County,New Jersey,62990,50417,8340,192,677,31
+New Jersey,Somerset,2050,mhw,13,180690,1e-4,1135537,16804,1152341,0,77,34035,B01002_001,41.7,0.2,Somerset County,New Jersey,329838,218626,32147,886,58305,33
+New Jersey,Union,2050,mhw,303,55180,0.0055,2.83E+07,3.97E+07,6.80E+07,44,165,34039,B01002_001,38.7,0.2,Union County,New Jersey,554033,304231,117292,1672,28328,91
+New York,Albany,2050,mhw,15,320528,0,331192,874201,1205393,2,77,36001,B01002_001,37.8,0.2,Albany County,New York,306968,231246,38035,494,20192,129
+New York,Bronx,2050,mhw,50,20007,0.0025,1.07E+07,data not available,1.07E+07,24,478,36005,B01002_001,34.2,0.1,Bronx County,New York,1435068,315533,504814,10116,52989,1385
+New York,Columbia,2050,mhw,120,394207,3e-4,895153,879147,1774300,3,94,36021,B01002_001,48.2,0.3,Columbia County,New York,60371,53725,2741,34,1084,0
+New York,Dutchess,2050,mhw,133,496825,3e-4,3764886,6353889,1.01E+07,4,206,36027,B01002_001,42.2,0.2,Dutchess County,New York,293754,229746,30970,934,10413,155
+New York,Greene,2050,mhw,78,425923,2e-4,341396,1005181,1346577,5,260,36039,B01002_001,45.9,0.4,Greene County,New York,47424,42486,2758,304,497,3
+New York,Kings,2050,mhw,133,32133,0.0041,9.89E+07,data not available,9.89E+07,70,492,36047,B01002_001,35.2,0.1,Kings County,New York,2589974,1132426,833683,8604,307081,1232
+New York,Nassau,2050,mhw,1292,149883,0.0086,6788031,832967,7620998,353,5225,36059,B01002_001,41.7,0.1,Nassau County,New York,1356509,922873,158857,3912,130971,402
+New York,New York,2050,mhw,13,10344,0.0013,9.99E+07,data not available,9.99E+07,56,171,36061,B01002_001,37.5,0.1,New York County,New York,1631993,922033,240993,6178,198833,888
+New York,Orange,2050,mhw,35,508071,1e-4,1992455,data not available,1992455,8,124,36071,B01002_001,37,0.2,Orange County,New York,380085,281683,41779,1482,10280,298
+New York,Putnam,2050,mhw,34,158320,2e-4,547233,36023,583256,0,56,36079,B01002_001,44.2,0.2,Putnam County,New York,98787,85846,3030,203,2039,23
+New York,Queens,2050,mhw,338,51664,0.0065,2.16E+08,data not available,2.16E+08,211,1067,36081,B01002_001,39,0.2,Queens County,New York,2287388,875191,418429,10326,583459,1078
+New York,Rensselaer,2050,mhw,38,409415,1e-4,514995,2308394,2823389,1,120,36083,B01002_001,39.8,0.3,Rensselaer County,New York,159185,137002,10268,228,4282,13
+New York,Richmond,2050,mhw,119,29342,0.0041,1.99E+07,data not available,1.99E+07,18,394,36085,B01002_001,40.1,0.2,Richmond County,New York,474893,352034,48958,1026,44246,219
+New York,Rockland,2050,mhw,69,105465,7e-4,4683290,4032798,8716088,22,324,36087,B01002_001,36,0.1,Rockland County,New York,324422,229240,39845,524,19099,27
+New York,Suffolk,2050,mhw,5492,526667,0.0104,4.58E+08,data not available,4.58E+08,893,17793,36103,B01002_001,41.5,0.1,Suffolk County,New York,1483832,1196719,116018,4212,58204,418
+New York,Ulster,2050,mhw,65,716788,1e-4,1974355,3093777,5068132,11,339,36111,B01002_001,44,0.1,Ulster County,New York,178665,151001,10780,395,3396,102
+New York,Westchester,2050,mhw,82,264870,3e-4,1.11E+07,1.65E+07,2.76E+07,44,641,36119,B01002_001,40.9,0.2,Westchester County,New York,968890,622855,144053,3594,58140,251
+Oregon,Clackamas,2050,mhw,1,1204555,0,17415,0,17415,0,11,41005,B01002_001,41.5,0.2,Clackamas County,Oregon,410463,359191,3865,3181,17543,1126
+Oregon,Clatsop,2050,mhw,356,663883,5e-4,data not available,data not available,data not available,0,1433,41007,B01002_001,44.2,0.4,Clatsop County,Oregon,39102,35929,314,175,387,128
+Oregon,Columbia,2050,mhw,222,421831,5e-4,28982,25802,54784,0,978,41009,B01002_001,43.3,0.5,Columbia County,Oregon,51375,47618,248,478,509,88
+Oregon,Coos,2050,mhw,369,1344828,3e-4,3861490,598375,4459865,0,1844,41011,B01002_001,48.6,0.3,Coos County,Oregon,63686,56319,327,1349,652,33
+Oregon,Curry,2050,mhw,104,1334640,1e-4,1187083,44675,1231758,0,1135,41015,B01002_001,56.3,0.5,Curry County,Oregon,22650,20583,99,336,118,12
+Oregon,Douglas,2050,mhw,116,5774674,0,485690,9675,495365,0,356,41019,B01002_001,47.1,0.3,Douglas County,Oregon,109114,100807,462,1221,1078,99
+Oregon,Lane,2050,mhw,208,2949766,1e-4,data not available,data not available,data not available,0,700,41039,B01002_001,39.4,0.2,Lane County,Oregon,373340,323102,4064,4132,10127,948
+Oregon,Lincoln,2050,mhw,287,799872,4e-4,data not available,data not available,data not available,0,1654,41041,B01002_001,51.6,0.3,Lincoln County,Oregon,48547,42835,271,1358,603,96
+Oregon,Multnomah,2050,mhw,27,268866,1e-4,5907041,2259696,8166737,0,588,41051,B01002_001,37.2,0.2,Multnomah County,Oregon,804606,627124,43988,7217,59715,5199
+Oregon,Tillamook,2050,mhw,112,704301,2e-4,data not available,data not available,data not available,0,808,41057,B01002_001,48.1,0.5,Tillamook County,Oregon,26389,24561,110,236,181,123
+Pennsylvania,Bucks,2050,mlw,229,367590,6e-4,237364,64639,302003,1,82,42017,B01002_001,43.9,0.2,Bucks County,Pennsylvania,626806,548891,25325,1065,30282,107
+Pennsylvania,Delaware,2050,mlw,464,105481,0.0044,data not available,data not available,data not available,6,304,42045,B01002_001,39,0.2,Delaware County,Pennsylvania,564554,388106,121802,1167,32094,222
+Pennsylvania,Philadelphia,2050,mlw,1488,92604,0.0161,5867584,3.51E+07,4.10E+07,37,327,42101,B01002_001,34.4,0.1,Philadelphia County,Pennsylvania,1579075,642060,665333,5754,114315,784
+Rhode Island,Bristol,2050,mhw,64,14092,0.0046,data not available,data not available,data not available,3,630,44001,B01002_001,44.3,0.3,Bristol County,Rhode Island,48764,45931,650,34,1006,0
+Rhode Island,Kent,2050,mhw,50,110384,5e-4,423800,1613500,2037300,5,919,44003,B01002_001,43.9,0.2,Kent County,Rhode Island,163869,149642,3157,525,4474,16
+Rhode Island,Newport,2050,mhw,177,74176,0.0024,data not available,data not available,data not available,20,984,44005,B01002_001,45.2,0.3,Newport County,Rhode Island,82801,74408,3320,411,1616,173
+Rhode Island,Providence,2050,mhw,111,271354,4e-4,2511804,743878,3255682,3,447,44007,B01002_001,37.4,0.1,Providence County,Rhode Island,635737,463567,62698,3379,26431,523
+Rhode Island,Washington,2050,mhw,518,201166,0.0026,data not available,data not available,data not available,14,3159,44009,B01002_001,44.6,0.3,Washington County,Rhode Island,126060,117049,1736,928,2431,98
+South Carolina,Beaufort,2050,mhw,2561,247907,0.0103,2.73E+08,2.42E+07,2.97E+08,2,1297,45013,B01002_001,45.5,0.1,Beaufort County,South Carolina,186095,138993,33027,512,2428,122
+South Carolina,Charleston,2050,mhw,8072,688505,0.0117,data not available,data not available,data not available,31,4251,45019,B01002_001,37.8,0.2,Charleston County,South Carolina,401165,273817,107239,751,6052,269
+South Carolina,Colleton,2050,mhw,7471,656773,0.0114,3.94E+07,2059210,4.14E+07,1,766,45029,B01002_001,42.5,0.6,Colleton County,South Carolina,37585,21523,14411,312,54,0
+South Carolina,Dorchester,2050,mhw,163,355406,5e-4,data not available,data not available,data not available,0,206,45035,B01002_001,37,0.3,Dorchester County,South Carolina,158299,106779,39720,676,2866,198
+South Carolina,Florence,2050,mhw,45,496364,1e-4,0,18,18,1,47,45041,B01002_001,39.2,0.4,Florence County,South Carolina,138475,74278,59193,354,1810,109
+South Carolina,Georgetown,2050,mhw,17210,509673,0.0338,data not available,data not available,data not available,8,2270,45043,B01002_001,49.5,0.2,Georgetown County,South Carolina,61952,40114,19149,48,317,0
+South Carolina,Hampton,2050,mhw,173,363417,5e-4,data not available,data not available,data not available,0,26,45049,B01002_001,40,0.7,Hampton County,South Carolina,19564,8227,10451,29,63,0
+South Carolina,Horry,2050,mhw,7889,746747,0.0106,data not available,data not available,data not available,22,2230,45051,B01002_001,45.9,0.2,Horry County,South Carolina,332172,269392,44187,1790,4522,142
+South Carolina,Jasper,2050,mhw,1893,407627,0.0046,data not available,data not available,data not available,0,348,45053,B01002_001,40.3,1.1,Jasper County,South Carolina,28657,15011,11909,46,120,0
+South Carolina,Marion,2050,mhw,152,306489,5e-4,95597,487,96084,0,55,45067,B01002_001,40.7,0.5,Marion County,South Carolina,31308,12414,17752,195,223,0
+South Carolina,Williamsburg,2050,mhw,833,587589,0.0014,data not available,data not available,data not available,0,157,45089,B01002_001,43,0.5,Williamsburg County,South Carolina,31324,9957,20217,162,213,0
+Texas,Aransas,2050,mhhw,16961,168740,0.1005,data not available,data not available,data not available,443,3101,48007,B01002_001,50.6,1.2,Aransas County,Texas,24462,22115,354,53,489,0
+Texas,Brazoria,2050,mhhw,62410,891054,0.07,5.40E+07,1.21E+09,1.26E+09,1203,13467,48039,B01002_001,35.8,0.1,Brazoria County,Texas,360677,261164,50437,2401,24110,47
+Texas,Calhoun,2050,mhhw,10213,313130,0.0326,data not available,data not available,data not available,132,1946,48057,B01002_001,37.7,0.5,Calhoun County,Texas,21668,18645,597,19,1183,7
+Texas,Cameron,2050,mhhw,18559,546129,0.034,2.87E+07,1.15E+08,1.44E+08,405,3983,48061,B01002_001,31.7,0.1,Cameron County,Texas,421666,397718,2441,982,2900,70
+Texas,Chambers,2050,mhhw,47422,949477,0.0499,data not available,data not available,data not available,38,1528,48071,B01002_001,35.2,0.4,Chambers County,Texas,41305,36369,2997,63,465,0
+Texas,Fort Bend,2050,mhhw,4,566974,0,18594,3165,21759,0,32,48157,B01002_001,36.3,0.2,Fort Bend County,Texas,765394,395904,157134,2600,154513,408
+Texas,Galveston,2050,mhhw,26808,216683,0.1237,5.52E+08,1.82E+09,2.37E+09,4214,16528,48167,B01002_001,37.7,0.3,Galveston County,Texas,332885,262336,41809,1306,10946,123
+Texas,Hardin,2050,mhhw,170,569734,3e-4,data not available,data not available,data not available,0,12,48199,B01002_001,39.2,0.9,Hardin County,Texas,56765,51841,3279,163,351,0
+Texas,Harris,2050,mhhw,1665,1570775,0.0011,7.09E+07,7.86E+08,8.56E+08,289,3947,48201,B01002_001,33.5,0.1,Harris County,Texas,4646630,2905947,884292,19269,324288,3104
+Texas,Jackson,2050,mhhw,5497,642964,0.0085,data not available,data not available,data not available,3,657,48239,B01002_001,37.7,1,Jackson County,Texas,14816,12912,1010,0,162,9
+Texas,Jefferson,2050,mhhw,86681,557738,0.1554,data not available,data not available,data not available,205,2749,48245,B01002_001,36.2,0.2,Jefferson County,Texas,254340,148331,85682,961,9565,130
+Texas,Kenedy,2050,mhhw,6700,924024,0.0073,data not available,data not available,data not available,1,17,48261,B01002_001,39.7,25.1,Kenedy County,Texas,568,567,0,0,0,0
+Texas,Kleberg,2050,mhhw,3450,551696,0.0063,data not available,data not available,data not available,15,212,48273,B01002_001,28.3,0.5,Kleberg County,Texas,30974,27421,1018,68,695,0
+Texas,Liberty,2050,mhhw,72,749565,1e-4,125952,246244,372196,2,224,48291,B01002_001,35.5,0.2,Liberty County,Texas,83702,67404,8273,496,439,13
+Texas,Matagorda,2050,mhhw,44495,693533,0.0642,6.27E+07,3.79E+07,1.01E+08,459,5163,48321,B01002_001,38.2,0.6,Matagorda County,Texas,36774,25145,3813,141,710,120
+Texas,Nueces,2050,mhhw,4942,505179,0.0098,data not available,data not available,data not available,723,8245,48355,B01002_001,35.5,0.2,Nueces County,Texas,361540,325660,13542,1737,7501,213
+Texas,Orange,2050,mhhw,14048,242636,0.0579,1.20E+07,3.36E+07,4.56E+07,119,1386,48361,B01002_001,37.9,0.5,Orange County,Texas,84069,73496,7327,283,1022,0
+Texas,Refugio,2050,mhhw,5234,675115,0.0078,data not available,data not available,data not available,1,347,48391,B01002_001,43.3,1,Refugio County,Texas,7145,5766,480,20,21,0
+Texas,San Patricio,2050,mhhw,4352,475665,0.0091,8.40E+07,2.12E+07,1.05E+08,76,975,48409,B01002_001,35.5,0.2,San Patricio County,Texas,67008,61845,1171,211,676,44
+Texas,Victoria,2050,mhhw,148,551090,3e-4,data not available,data not available,data not available,1,52,48469,B01002_001,35.9,0.4,Victoria County,Texas,92109,80546,5488,228,1067,71
+Texas,Willacy,2050,mhhw,20984,407362,0.0515,628205,3293948,3922153,29,384,48489,B01002_001,33,0.6,Willacy County,Texas,21588,20975,138,144,0,0
+Virginia,Middlesex,2050,mlw,35614,116933,0.3046,4.57E+07,1.91E+07,6.48E+07,164,2560,51119,B01002_001,53.9,0.4,Middlesex County,Virginia,10675,8358,1485,49,9,31
+Virginia,Northumberland,2050,mlw,22476,185775,0.121,data not available,data not available,data not available,214,6055,51133,B01002_001,58.9,0.7,Northumberland County,Virginia,12190,8605,3331,19,16,0
+Virginia,Accomack,2050,mlw,13782,274707,0.0502,5.81E+07,3.80E+08,4.38E+08,84,7211,51001,B01002_001,45.9,0.6,Accomack County,Virginia,32673,22282,9331,175,265,0
+Virginia,Virginia Beach city,2050,mlw,11190,155042,0.0722,data not available,data not available,data not available,116,5374,51810,B01002_001,36.2,0.1,Virginia Beach city,Virginia,450201,298347,85609,1334,30130,383
+Virginia,Northampton,2050,mlw,7303,115733,0.0631,4.11E+07,5514677,4.66E+07,8,2109,51131,B01002_001,49,1,Northampton County,Virginia,11885,7371,3953,4,123,0
+Virginia,Chesapeake city,2050,mlw,4922,210026,0.0234,5.94E+07,1.09E+08,1.68E+08,37,2379,51550,B01002_001,36.9,0.2,Chesapeake city,Virginia,239982,146540,72084,419,7571,150
+Virginia,Lancaster,2050,mlw,1312,84220,0.0156,data not available,data not available,data not available,38,3586,51103,B01002_001,57.3,0.8,Lancaster County,Virginia,10724,7299,3305,0,90,0
+Virginia,Surry,2050,mlw,1111,178141,0.0062,4998123,767733,5765856,2,226,51181,B01002_001,49.8,0.2,Surry County,Virginia,6523,3454,2897,3,11,0
+Virginia,Isle of Wight,2050,mlw,743,200705,0.0037,6341955,3781498,1.01E+07,6,723,51093,B01002_001,44.3,0.3,Isle of Wight County,Virginia,36627,26425,8248,130,349,25
+Virginia,James City,2050,mlw,736,87471,0.0084,1.01E+07,1586203,1.17E+07,5,391,51095,B01002_001,46.5,0.4,James City County,Virginia,74916,60263,9846,106,1855,6
+Virginia,Richmond,2050,mlw,559,124061,0.0045,data not available,data not available,data not available,16,522,51159,B01002_001,47.3,1.5,Richmond County,Virginia,8884,5717,2370,20,30,0
+Virginia,Prince George,2050,mlw,545,166830,0.0033,745969,382237,1128206,1,125,51149,B01002_001,37,0.4,Prince George County,Virginia,38114,22455,12456,231,565,158
+Virginia,Essex,2050,mlw,493,165775,0.003,1217600,544764,1762364,13,319,51057,B01002_001,46.3,2,Essex County,Virginia,10998,6115,4319,0,68,0
+Virginia,Mathews,2050,mlw,430,56304,0.0076,1.18E+07,6178523,1.79E+07,22,1696,51115,B01002_001,54.5,1,Mathews County,Virginia,8788,7720,777,34,53,3
+Virginia,Poquoson city,2050,mlw,407,12915,0.0315,2.23E+07,6868092,2.91E+07,11,1044,51735,B01002_001,42.4,1.7,Poquoson city,Virginia,12090,11348,136,10,299,0
+Virginia,York,2050,mlw,324,64976,0.005,4.01E+07,3.89E+07,7.90E+07,23,1456,51199,B01002_001,39.6,0.4,York County,Virginia,67982,50604,9034,180,3833,227
+Virginia,Newport News city,2050,mlw,292,47150,0.0062,3.81E+07,9.71E+08,1.01E+09,31,795,51700,B01002_001,33.5,0.2,Newport News city,Virginia,179673,86132,73785,460,5773,362
+Virginia,Suffolk city,2050,mlw,292,297073,0.001,9923161,1.14E+07,2.13E+07,17,576,51800,B01002_001,38,0.3,Suffolk city,Virginia,90093,46357,37648,189,1770,15
+Virginia,Hampton city,2050,mlw,290,28709,0.0101,2.24E+07,5.33E+08,5.55E+08,9,2272,51650,B01002_001,36.2,0.2,Hampton city,Virginia,135041,55513,67450,632,3352,226
+Virginia,King George,2050,mlw,274,115096,0.0024,data not available,data not available,data not available,5,328,51099,B01002_001,37.4,0.7,King George County,Virginia,26229,20501,4288,50,351,0
+Virginia,Westmoreland,2050,mlw,274,143411,0.0019,data not available,data not available,data not available,133,1859,51193,B01002_001,48.6,0.7,Westmoreland County,Virginia,17751,12054,4598,91,129,1
+Virginia,Charles City,2050,mlw,270,117924,0.0023,data not available,data not available,data not available,36,381,51036,B01002_001,50.8,0.3,Charles City County,Virginia,7014,3066,3187,464,67,0
+Virginia,Prince William,2050,mlw,198,203995,0.001,data not available,data not available,data not available,12,105,51153,B01002_001,35.2,0.1,Prince William County,Virginia,461423,261230,96927,1998,38570,478
+Virginia,King William,2050,mlw,178,172382,0.001,701721,69357,771078,0,273,51101,B01002_001,40.3,0.8,King William County,Virginia,16688,13181,2741,135,201,0
+Virginia,Norfolk city,2050,mlw,178,23706,0.0075,4.88E+07,1.17E+08,1.66E+08,84,1975,51710,B01002_001,30.7,0.1,Norfolk city,Virginia,244601,114890,100649,938,9029,168
+Virginia,New Kent,2050,mlw,164,130577,0.0013,data not available,data not available,data not available,1,251,51127,B01002_001,43.3,1.6,New Kent County,Virginia,21686,17653,2603,176,243,0
+Virginia,Portsmouth city,2050,mlw,155,17890,0.0086,1.83E+07,4.29E+07,6.12E+07,36,1212,51740,B01002_001,35.3,0.2,Portsmouth city,Virginia,95097,37831,50274,381,1328,293
+Virginia,Gloucester,2050,mlw,154,152834,0.001,3821730,658382,4480112,2,470,51073,B01002_001,44.9,0.3,Gloucester County,Virginia,37222,32729,3341,11,282,0
+Virginia,Fairfax,2050,mlw,151,245901,6e-4,1167611,470765,1638376,22,558,51059,B01002_001,38,0.1,Fairfax County,Virginia,1145862,701055,112371,2662,219697,847
+Virginia,Stafford,2050,mlw,122,168975,7e-4,2388665,754400,3143065,11,209,51179,B01002_001,35.5,0.2,Stafford County,Virginia,146773,98791,25929,466,4910,118
+Virginia,Caroline,2050,mlw,96,350531,3e-4,98731,36903,135634,0,39,51033,B01002_001,40.1,0.6,Caroline County,Virginia,30381,19820,8211,78,273,0
+Virginia,Henrico,2050,mlw,78,230693,3e-4,710882,36161,747043,0,79,51087,B01002_001,38.8,0.3,Henrico County,Virginia,327535,184326,97414,676,27171,131
+Virginia,Chesterfield,2050,mlw,77,317680,2e-4,14,33927,33941,1,125,51041,B01002_001,38.9,0.3,Chesterfield County,Virginia,343551,230914,79347,1037,11858,204
+Virginia,King and Queen,2050,mlw,66,200358,3e-4,268069,4471,272540,0,93,51097,B01002_001,46.7,1.5,King and Queen County,Virginia,7042,4755,1867,3,0,0
+Virginia,Hanover,2050,mlw,21,293708,1e-4,data not available,data not available,data not available,0,8,51085,B01002_001,42.7,0.3,Hanover County,Virginia,105537,90541,9874,296,1637,116
+Virginia,Alexandria city,2050,mlw,16,17079,9e-4,3108267,5321824,8430091,13,93,51510,B01002_001,36.8,0.2,Alexandria city,Virginia,157613,98017,34287,353,9280,46
+Virginia,Richmond city,2050,mlw,11,45962,2e-4,1135238,38569,1173807,0,44,51760,B01002_001,34,0.1,Richmond city,Virginia,226622,103054,106193,962,4757,44
+Virginia,Colonial Heights city,2050,mlw,8,4041,0.0019,247432,61825,309257,0,46,51570,B01002_001,40.6,0.8,Colonial Heights city,Virginia,17428,13163,2673,50,724,20
+Virginia,Hopewell city,2050,mlw,7,9311,8e-4,189174,5066,194240,0,18,51670,B01002_001,36.2,0.8,Hopewell city,Virginia,22456,11435,9778,32,307,0
+Virginia,Williamsburg city,2050,mlw,7,5078,0.0015,data not available,data not available,data not available,0,15,51830,B01002_001,24.9,0.7,Williamsburg city,Virginia,14927,10961,2246,53,963,0
+Virginia,Arlington,2050,mlw,5,12833,4e-4,data not available,data not available,data not available,0,7,51013,B01002_001,34.7,0.1,Arlington County,Virginia,233464,166912,21360,833,23959,294
+Virginia,Petersburg city,2050,mlw,1,12313,1e-4,13726,0,13726,0,8,51730,B01002_001,38.1,0.9,Petersburg city,Virginia,31362,5473,24044,74,292,26
+Washington,Clark,2050,mhw,29,460793,1e-4,2396536,162167,2558703,0,581,53011,B01002_001,38.4,0.1,Clark County,Washington,473252,400298,8409,2764,21752,3751
+Washington,Grays Harbor,2050,mhw,169,1202345,1e-4,1528769,4892974,6421743,0,1493,53027,B01002_001,44,0.3,Grays Harbor County,Washington,72779,63802,859,3075,1096,200
+Washington,Island,2050,mhw,35,129237,3e-4,1.18E+07,1013006,1.29E+07,0,4033,53029,B01002_001,44.2,0.4,Island County,Washington,82866,70072,2603,840,4046,316
+Washington,Jefferson,2050,mhw,93,1151602,1e-4,1654908,1960274,3615182,0,1483,53031,B01002_001,58.3,0.7,Jefferson County,Washington,31285,28425,178,625,516,57
+Washington,King,2050,mhw,67,1337958,1e-4,1.69E+08,3.95E+07,2.08E+08,2,6479,53033,B01002_001,37,0.1,King County,Washington,2195502,1404324,141790,13057,386404,16944
+Washington,Pacific,2050,mhw,954,588757,0.0016,data not available,data not available,data not available,0,4224,53049,B01002_001,53.6,0.4,Pacific County,Washington,21688,18907,76,549,365,86
+Washington,Pierce,2050,mhw,76,670296,1e-4,3.29E+07,3040559,3.59E+07,0,5690,53053,B01002_001,36.1,0.2,Pierce County,Washington,877013,639612,59213,11170,55571,12848
+Washington,San Juan,2050,mhw,29,102656,3e-4,5234150,2348323,7582473,0,3386,53055,B01002_001,56.6,0.2,San Juan County,Washington,16788,15497,149,163,219,39
+Washington,Skamania,2050,mhw,5,1064596,0,12774,1,12775,0,32,53059,B01002_001,46.6,0.5,Skamania County,Washington,11753,10911,58,213,131,14
+Washington,Snohomish,2050,mhw,82,4316779,0,8922095,603100,9525195,0,2012,53061,B01002_001,38,0.2,Snohomish County,Washington,798808,601915,24369,7353,86121,4197
+Washington,Wahkiakum,2050,mhw,130,166497,8e-4,415315,34445,449760,0,632,53069,B01002_001,55.1,1.7,Wahkiakum County,Washington,4268,3877,54,31,79,1

@@ -1,0 +1,109 @@
+---
+title: "ola_round_1"
+author: "Jon Donville"
+date: "22/07/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+## Load Libraries 
+
+```{r}
+# Turn off scientific notation
+options(scipen=999)
+
+library(tidyverse)
+library(janitor)
+library(lubridate)
+library(ggrepel)
+library(sf)
+library(tidycensus)
+library(tigris)
+library(ggplot2)
+library(rvest)
+library(ggthemes)
+
+```
+
+## Read in stats 
+
+```{r}
+
+round1_team_stats <- read_csv("data/ola_team_playoffs_round1.csv") 
+
+round1_clean_stats <- round1_team_stats %>% 
+  filter(GP >= 1) 
+
+round1_player_stats <- read_csv("data/ola_player_round1_clean.csv")
+```
+
+## Scoring Differential 
+
+```{r}
+
+round1_clean_stats %>% 
+ ggplot() +
+  geom_bar(aes(x=reorder(TEAM, DIFF), weight=DIFF))+
+    coord_flip()+
+   theme_economist() +
+   labs(
+    title="Scoring Differential, Round One",
+    x = "",
+    y = "Round One Scoring Differential",
+    caption = "source: ontariojrlacrosse.com")
+```
+
+```{r}
+
+round1_team_per_game <- round1_clean_stats %>% 
+  mutate (gf_per_game = (GF/GP)) %>% 
+  mutate(ga_per_game = (GA/GP))
+
+gfmean <- mean(round1_team_per_game$`gf_per_game`, na.rm = TRUE)
+gamean <-mean(round1_team_per_game$`ga_per_game`, na.rm = TRUE)
+
+ggplot(round1_team_per_game, aes(x=gf_per_game, y=ga_per_game, label=TEAM))+
+ geom_point() +geom_text(aes(label=TEAM),hjust=-0.2, vjust=-0, size=2.5)+
+    scale_y_reverse()+
+ xlab("Goals Per Game") +
+ ylab("Goals Against Per Game") + 
+ geom_hline(yintercept=9.85,linetype = 'dashed', color="red") + 
+ geom_vline(xintercept=9.85, linetype = 'dashed', color="red") +
+ coord_cartesian(xlim=c(5,15),ylim = c(15,5)) +
+  labs (
+    title="Goals For and Against by Team, Round One",
+    caption = "source: ontariojrlacrosse.com"
+  )
+theme_economist()
+
+
+```
+## Player Scoring 
+
+```{r}
+
+round1_player_stats %>% 
+ggplot() +
+   geom_point(aes(x=G, y=A), size=2, colour="blueviolet",) +
+  geom_text(aes(x=G, y=A, label=(last_name), hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(5, 14)+
+  ylim(5, 14)+
+ labs(
+    title="Player Scoring, Round One",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+``` 
+## Per Game Scoring 
+
+

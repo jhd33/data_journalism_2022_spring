@@ -1,0 +1,441 @@
+PLAYER,first_name,last_name,player_new 1 3,TEAM,POS.,GP,G,A,PTS,PIM,PPG,PPA,SHG,SHA
+FINLAY THOMSON,Finlay,Thomson,,Mimico Mountaineers,F,19,52,72,124,15,25,24,5,5
+BROCK HALEY,Brock,Haley,,Whitby Warriors,F,15,65,41,106,4,9,11,4,2
+WILLEM FIRTH,Willem,Firth,,Toronto Beaches,F,19,50,56,106,2,8,12,4,2
+ADAM POITRAS,Adam,Poitras,,Whitby Warriors,F,17,36,60,96,14,4,15,6,3
+CARSON MOYER,Carson,Moyer,,Mimico Mountaineers,T,20,46,43,89,18,6,4,5,4
+ZACH THOMPSON,Zach,Thompson,,Peterborough Lakers,F,19,30,53,83,10,9,15,3,3
+WILL SHEEHAN,Will,Sheehan,,Oakville Buzz,F,19,43,38,81,0,18,13,1,1
+PARKER PIPHER,Parker,Pipher,,Whitby Warriors,F,19,34,47,81,25,5,15,0,2
+KEATON ZAVITZ,Keaton,Zavitz,,St. Catharines Athletics,F,20,29,51,80,17,9,24,7,2
+JACKSON WEBSTER,Jackson,Webster,,St. Catharines Athletics,F,18,30,46,76,14,14,22,2,4
+COLTRANE TYSON,Coltrane,Tyson,,Burlington Chiefs,F,17,33,40,73,10,13,10,1,1
+TYLER DAVIS,Tyler,Davis,,Six Nations Arrows,F,20,22,51,73,29,9,17,0,1
+LIAM MATTHEWS,Liam,Matthews,,Orangeville Northmen,F,18,31,37,68,10,5,7,2,1
+MATTHEW COLLISON,Matthew,Collison,,Toronto Beaches,F,17,26,39,65,6,8,10,1,4
+BRAEDON SARIS,Braedon,Saris,,Burlington Chiefs,Ð,13,31,32,63,2,6,10,0,0
+DANIEL CLARK,Daniel,Clark,,Peterborough Lakers,F,14,26,37,63,4,7,10,2,5
+WILL MACLEOD,Will,Macleod,,Burlington Chiefs,F,18,27,34,61,2,3,11,0,1
+OWEN HILTZ,Owen,Hiltz,,Peterborough Lakers,F,13,26,34,60,6,6,8,5,5
+JUSTIN SYKES,Justin,Sykes,,Mimico Mountaineers,T,16,25,34,59,8,7,13,5,2
+CURTIS BUKTA,Curtis,Bukta,,Mimico Mountaineers,T,20,18,40,58,4,4,14,1,4
+THUNDER HILL,Thunder,Hill,,Six Nations Arrows,F,20,29,28,57,4,11,10,2,2
+ROSS HILL,Ross,Hill,,Six Nations Arrows,F,20,26,31,57,6,7,13,1,0
+GREG ELIJAH-BROWN,Greg,Elijah-brown,,Burlington Chiefs,F,19,23,33,56,0,4,12,0,0
+CLAY SCANLON,Clay,Scanlon,,St. Catharines Athletics,F,16,22,34,56,15,9,11,0,3
+BOWIE HORSMAN,Bowie,Horsman,,Brampton Excelsiors,F,20,19,36,55,0,3,14,2,3
+JAMESON BUCKTOOTH,Jameson,Bucktooth,,Orangeville Northmen,F,11,23,29,52,6,9,10,0,1
+JUSTIN LEE,Justin,Lee,,Mimico Mountaineers,T,20,25,25,50,30,7,13,1,1
+CARTER PAGE,Carter,Page,,Peterborough Lakers,F,16,16,33,49,6,5,7,1,3
+TYE STEENHUIS,Tye,Steenhuis,,St. Catharines Athletics,F,17,26,22,48,14,7,10,3,1
+LUCAS DUDEMAINE,Lucas,Dudemaine,,Mimico Mountaineers,T,19,20,27,47,31,2,9,1,1
+ISIAH MORAN-WEEKES,Isiah,Moran-weekes,,Mimico Mountaineers,F,13,26,18,44,4,8,5,3,4
+TY JESSO,Ty,Jesso,,Kitchener-Waterloo,Ð,16,13,30,43,4,6,11,1,2
+DAVID ANDERSON,David,Anderson,,Toronto Beaches,F,14,18,24,42,2,2,5,2,3
+TREY DEERE,Trey,Deere,,Orangeville Northmen,F,14,18,24,42,31,3,5,0,1
+BRIAN JACKMAN,Brian,Jackman,,Oakville Buzz,F,17,17,25,42,10,7,10,3,0
+DANTE KULAS,Dante,Kulas,,Peterborough Lakers,F,11,16,26,42,22,3,4,3,3
+JEREMY SEARLE,Jeremy,Searle,,Orangeville Northmen,T,19,18,23,41,23,3,7,1,2
+JACOB HICKEY,Jacob,Hickey,,Toronto Beaches,F,15,17,24,41,0,4,8,0,1
+ERIC WARD,Eric,Ward,,Brampton Excelsiors,F,17,15,26,41,21,9,7,0,1
+JOHNATHAN PESHKO,Johnathan,Peshko,,Mimico Mountaineers,T,8,14,27,41,4,4,10,2,3
+BROOKS ENGLISH,Brooks,English,,Burlington Chiefs,F,14,8,33,41,0,0,9,0,0
+JAKSON RAPOSO,Jakson,Raposo,,Toronto Beaches,F,18,22,18,40,22,3,2,3,2
+KOLETON MARQUIS,Koleton,Marquis,,Orangeville Northmen,F,11,19,21,40,6,4,8,0,0
+GABRIEL SORICHETTI,Gabriel,Sorichetti,,Whitby Warriors,D,11,15,25,40,4,7,2,2,1
+NOAH MILLSAP,Noah,Millsap,,Orangeville Northmen,T,18,12,28,40,20,1,3,1,2
+EDWARD QU,Edward,Qu,,Oakville Buzz,F,16,18,21,39,29,5,6,1,0
+CAMERON ACCHIONE,Cameron,Acchione,,Toronto Beaches,F,13,14,24,38,11,4,4,1,2
+GAVIN HOWARD,Gavin,Howard,,St. Catharines Athletics,F,14,20,17,37,0,6,10,0,1
+ERIC MCDONALD,Eric,Mcdonald,,Oakville Buzz,T,19,14,23,37,14,6,7,0,1
+LOGAN DONNELLY,Logan,Donnelly,,Brampton Excelsiors,T,20,14,23,37,50,2,5,2,0
+ADRIAN CHANNELL,Adrian,Channell,,Brampton Excelsiors,F,19,18,17,35,10,1,4,0,2
+ERICH ACTON,Erich,Acton,,Brampton Excelsiors,F,18,17,17,34,14,3,6,1,0
+RILEY KNOX,Riley,Knox,,Whitby Warriors,F,18,7,26,33,10,2,3,2,1
+TEHARONHIORENS MCCOMBER,Teharonhiorens,Mccomber,,Burlington Chiefs,F,16,13,19,32,16,2,2,0,0
+DAYLIN JOHN-HILL,Daylin,John-hill,,Six Nations Arrows,F,15,12,20,32,18,1,7,0,0
+ETHAN HARKINS,Ethan,Harkins,,Brampton Excelsiors,F,20,11,21,32,2,2,4,1,1
+RILEY FORD,Riley,Ford,,Kitchener-Waterloo,Ð,18,9,23,32,2,2,3,1,5
+COLE TEEPLE,Cole,Teeple,,Orangeville Northmen,F,19,7,25,32,6,0,5,0,1
+CHUCK RAWSON,Chuck,Rawson,,Burlington Chiefs,Ð,10,7,24,31,4,2,3,0,1
+MITCHELL VANEVERY,Mitchell,Vanevery,,Six Nations Arrows,F,19,15,15,30,2,5,5,1,0
+MICHAEL ANDERSSON,Michael,Andersson,,Whitby Warriors,F,11,12,18,30,0,4,3,0,4
+MICHAEL BLAYMIRES,Michael,Blaymires,,Peterborough Lakers,F,15,12,18,30,2,1,6,1,0
+GEORGE PITT,George,Pitt,,Burlington Chiefs,F,13,10,20,30,6,3,2,0,0
+LUKE DAWICK,Luke,Dawick,,Oakville Buzz,F,17,9,21,30,0,4,9,1,1
+CAM SANDERSON,Cam,Sanderson,,Orangeville Northmen,F,11,7,23,30,4,3,3,1,0
+JAKE DAWICK,Jake,Dawick,,Oakville Buzz,F,14,7,23,30,6,0,6,1,2
+CHRIS RATHWELL,Chris,Rathwell,,Kitchener-Waterloo,Ð,14,15,13,28,6,2,5,2,1
+ZACH MILLER,Zach,Miller,,Toronto Beaches,Ð,14,9,19,28,6,1,1,2,2
+ALEX GASTON,Alex,Gaston,,Toronto Beaches,F,12,13,13,26,19,0,1,1,1
+SHANE HALLIWELL,Shane,Halliwell,,Kitchener-Waterloo,Ð,9,11,15,26,23,0,5,4,3
+LOWEN MARTIN,Lowen,Martin,,Kitchener-Waterloo,Ð,14,11,15,26,6,5,5,0,1
+JACK BUDWAY,Jack,Budway,,Whitby Warriors,F,13,7,19,26,6,1,5,0,1
+ALEX ROUSSEL AP,Alex,Roussel,Ap,Mimico Mountaineers,F,14,9,16,25,8,3,4,1,3
+EFRAIN BARRETO,Efrain,Barreto,,St. Catharines Athletics,F,13,3,22,25,21,1,8,0,1
+XAVIER TAYLOR,Xavier,Taylor,,St. Catharines Athletics,F,11,16,7,23,15,4,1,1,0
+ALEXANDER MARINIER,Alexander,Marinier,,Burlington Chiefs,D,6,12,11,23,4,2,4,0,1
+NICK DILAURO,Nick,Dilauro,,Peterborough Lakers,"F, T",15,11,12,23,0,1,2,0,1
+ONENIOTEKOWA MARACLE,Oneniotekowa,Maracle,,Six Nations Arrows,F,10,11,11,22,11,1,0,1,0
+RYAN BROOKS,Ryan,Brooks,,Kitchener-Waterloo,Ð,14,11,11,22,2,2,5,1,0
+MASON HILL,Mason,Hill,,Six Nations Arrows,"D, F",20,6,16,22,14,3,6,0,2
+TYLER HENDRYCKS,Tyler,Hendrycks,,Peterborough Lakers,F,13,12,9,21,8,2,4,0,0
+JAKE DARLISON,Jake,Darlison,,Whitby Warriors,D,18,7,13,20,10,0,0,0,1
+JACK OLDMAN,Jack,Oldman,,Whitby Warriors,F,17,10,9,19,11,0,0,0,0
+LUCAS FERRIERA,Lucas,Ferriera,,Brampton Excelsiors,F,7,4,15,19,2,3,2,1,3
+MARK WATTERSÊ,Mark,Wattersê,,Mimico Mountaineers,Ð,10,4,15,19,0,0,6,0,0
+LUCAS LITTLEJOHN,Lucas,Littlejohn,,Whitby Warriors,F,14,9,9,18,2,1,1,1,0
+JACOB POWER,Jacob,Power,,Burlington Chiefs,F,9,6,12,18,14,5,2,0,0
+JOSH ROSA,Josh,Rosa,,Kitchener-Waterloo,F,7,10,7,17,0,2,1,4,2
+AMOS WHITCOMB,Amos,Whitcomb,,Oakville Buzz,F,7,7,10,17,0,2,3,0,2
+NICK CROWLEY,Nick,Crowley,,Peterborough Lakers,D,16,7,10,17,18,0,1,0,1
+GAVIIN SNOW,Gaviin,Snow,,St. Catharines Athletics,"F, T",9,4,13,17,11,1,6,0,1
+AIDEN LONG,Aiden,Long,,Orangeville Northmen,F,16,13,3,16,23,0,0,0,0
+COHEN JENNINGS,Cohen,Jennings,,Orangeville Northmen,T,19,8,8,16,6,3,1,0,0
+REED KURTZ,Reed,Kurtz,,Mimico Mountaineers,T,18,7,9,16,2,1,0,0,0
+MALIKYE GOOD,Malikye,Good,,Oakville Buzz,F,7,6,10,16,0,0,4,0,0
+RYCOL DAVIS,Rycol,Davis,,Six Nations Arrows,D,18,6,10,16,48,0,1,1,0
+TRISTEN DEMPERS,Tristen,Dempers,,Whitby Warriors,D,18,5,11,16,22,1,0,0,0
+CURTIS GODDARD,Curtis,Goddard,,Oakville Buzz,T,19,5,11,16,18,0,2,0,0
+TANNER COLE,Tanner,Cole,,Oakville Buzz,T,19,2,14,16,8,0,4,0,0
+OWEN TAPPER,Owen,Tapper,,Whitby Warriors,T,18,8,7,15,22,1,0,0,0
+DYLAN ROBINSON,Dylan,Robinson,,Toronto Beaches,Ð,18,6,9,15,29,0,0,1,0
+CODY COULSON,Cody,Coulson,,Orangeville Northmen,F,11,8,6,14,4,2,3,0,0
+JACK TRAVASSOS,Jack,Travassos,,Burlington Chiefs,T,19,8,6,14,25,0,0,1,0
+CARTER ACCURSI,Carter,Accursi,,St. Catharines Athletics,F,14,6,8,14,0,0,0,1,0
+DANTE BOWEN,Dante,Bowen,,Brampton Excelsiors,D,16,8,5,13,13,2,0,1,0
+SCOTT REED,Scott,Reed,,Whitby Warriors,T,19,4,9,13,33,0,0,0,3
+CARTER BEGLEY AP,Carter,Begley,Ap,Mimico Mountaineers,F,8,3,10,13,2,1,3,0,1
+BRYCE CORDINGLEY,Bryce,Cordingley,,Mimico Mountaineers,T,17,3,10,13,61,1,1,1,2
+BRODY CASKENETTE,Brody,Caskenette,,Mimico Mountaineers,T,17,2,11,13,6,1,0,0,2
+HUGH KELLEHER,Hugh,Kelleher,,Oakville Buzz,T,9,10,2,12,6,1,0,2,0
+BEN TRUMBLE,Ben,Trumble,,Peterborough Lakers,T,16,7,5,12,10,3,1,1,1
+GREG PALMER,Greg,Palmer,,Toronto Beaches,Ð,7,6,6,12,7,0,0,0,1
+MATTHEW ACCHIONE,Matthew,Acchione,,Toronto Beaches,F,11,5,7,12,4,0,3,1,0
+LIAM MCGRATH,Liam,Mcgrath,,Orangeville Northmen,T,18,3,9,12,27,0,0,0,0
+TAYLOR DOOLEY,Taylor,Dooley,,Toronto Beaches,D,19,3,9,12,23,1,2,1,0
+PEYTIN WALLACE,Peytin,Wallace,,Whitby Warriors,D,19,0,12,12,38,0,0,0,2
+OWEN VANLOON,Owen,Vanloon,,Six Nations Arrows,T,12,7,4,11,20,1,1,0,1
+ZANE DALPE,Zane,Dalpe,,Kitchener-Waterloo,Ð,3,6,5,11,0,2,0,0,0
+ALEXIS SIMARD,Alexis,Simard,,Burlington Chiefs,T,19,5,6,11,39,0,1,0,1
+TY MYERS,Ty,Myers,,Six Nations Arrows,"D, F",7,3,8,11,2,1,2,0,0
+LIAM KEANE,Liam,Keane,,Brampton Excelsiors,F,12,5,5,10,4,0,2,0,0
+MATT HAMILL,Matt,Hamill,,Six Nations Arrows,"F, T",15,5,5,10,2,0,0,1,0
+JAKE WRIGHT,Jake,Wright,,Oakville Buzz,F,10,4,6,10,14,0,4,1,0
+HUDSON THOMPSON,Hudson,Thompson,,Mimico Mountaineers,F,19,3,7,10,24,1,2,0,0
+MASON TARDIFF,Mason,Tardiff,,Peterborough Lakers,F,8,2,8,10,2,1,3,0,0
+BRENDAN ANDERSON,Brendan,Anderson,,Six Nations Arrows,F,4,6,3,9,16,1,1,0,0
+DAVID PETERKIN,David,Peterkin,,Toronto Beaches,F,14,6,3,9,8,1,0,0,0
+JOSH FAIREY,Josh,Fairey,,Toronto Beaches,D,16,5,4,9,8,0,0,0,1
+OWEN RAHN,Owen,Rahn,,Orangeville Northmen,T,17,4,5,9,35,0,1,1,0
+NATE RUFF,Nate,Ruff,,Orangeville Northmen,T,19,4,5,9,8,1,0,0,0
+LUCAS FERREIRA,Lucas,Ferreira,,Oakville Buzz,F,8,3,6,9,4,0,1,0,0
+NICHOLAS VOLKOV,Nicholas,Volkov,,Burlington Chiefs,T,16,2,7,9,47,0,0,0,0
+ADAM THISTLETHWAITE,Adam,Thistlethwaite,,Peterborough Lakers,T,16,2,7,9,24,1,2,0,2
+MATTHEW VILAS,Matthew,Vilas,,Oakville Buzz,T,17,2,7,9,2,1,1,0,0
+NATHAN POULIOT,Nathan,Pouliot,,Toronto Beaches,Ð,3,1,8,9,2,0,0,0,0
+JACK PAROLIN,Jack,Parolin,,Toronto Beaches,D,12,1,8,9,2,0,0,0,0
+PEYTON MCINTOSH,Peyton,Mcintosh,,St. Catharines Athletics,D,19,1,8,9,12,0,2,0,1
+SAM DRAMITZKE,Sam,Dramitzke,,Kitchener-Waterloo,Ð,4,5,3,8,0,1,1,0,2
+ANDREW DALTON,Andrew,Dalton,,Toronto Beaches,T,9,5,3,8,13,0,0,0,0
+TOM COLLINS,Tom,Collins,,Peterborough Lakers,T,15,5,3,8,24,3,0,0,0
+JUSTIN PORGA,Justin,Porga,,St. Catharines Athletics,F,2,4,4,8,0,1,0,1,4
+ZACH COULMAN,Zach,Coulman,,Oakville Buzz,D,18,4,4,8,36,1,2,0,1
+NATHAN POULIOT,Nathan,Pouliot,,Toronto Beaches,Ð,5,3,5,8,2,0,0,0,0
+KAELEN SMITH,Kaelen,Smith,,Kitchener-Waterloo,Ð,5,3,5,8,0,0,2,0,0
+CODY MERRITT,Cody,Merritt,,Brampton Excelsiors,F,10,3,5,8,0,0,0,1,0
+NATHAN FEHR,Nathan,Fehr,,St. Catharines Athletics,D,18,3,5,8,16,1,0,0,0
+KAELEN SMITH,Kaelen,Smith,,St. Catharines Athletics,"D, F",6,2,6,8,7,0,0,0,3
+JULIAN RACE,Julian,Race,,St. Catharines Athletics,D,14,2,6,8,4,0,1,1,0
+DAMON DECAIRE,Damon,Decaire,,Six Nations Arrows,F,4,1,7,8,2,0,1,0,1
+LIAM FERRIS,Liam,Ferris,,Mimico Mountaineers,T,17,1,7,8,32,0,2,0,3
+JEREMI PHOENIX-LEFEBVRE,Jeremi,Phoenix-lefebvre,,Toronto Beaches,Ð,19,1,7,8,20,0,1,0,1
+AUSTIN LAMOUREUX,Austin,Lamoureux,,Peterborough Lakers,F,2,3,4,7,0,2,2,0,2
+JACK FOLLOWS,Jack,Follows,,Oakville Buzz,D,12,3,4,7,2,0,0,0,1
+JACK MCALPINE,Jack,Mcalpine,,Oakville Buzz,F,5,2,5,7,0,0,0,0,0
+MASON SANDEN,Mason,Sanden,,Six Nations Arrows,T,14,2,5,7,8,0,0,2,0
+HOLDEN LOWES,Holden,Lowes,,Peterborough Lakers,D,19,2,5,7,2,0,1,0,0
+KADEN KUBLINSKAS,Kaden,Kublinskas,,Kitchener-Waterloo,Ð,17,1,6,7,6,0,0,1,0
+COOPER JACKSON,Cooper,Jackson,,Burlington Chiefs,T,18,1,6,7,6,0,2,1,1
+COLIN MATTHEWS,Colin,Matthews,,Burlington Chiefs,Ð,14,4,2,6,2,1,0,0,0
+BEN MACDONNELL,Ben,Macdonnell,,Whitby Warriors,D,17,3,3,6,24,0,1,0,0
+ELIJAH EDWARDS,Elijah,Edwards,,Orangeville Northmen,T,19,2,4,6,29,0,1,1,0
+CARSON ROBINS,Carson,Robins,,St. Catharines Athletics,F,7,1,5,6,0,0,0,0,0
+CAMERON PACK,Cameron,Pack,,St. Catharines Athletics,D,9,1,5,6,16,0,0,0,0
+ANDREW VRADENBURG,Andrew,Vradenburg,,Burlington Chiefs,T,20,1,5,6,17,0,0,0,0
+OWEN DALE,Owen,Dale,,Kitchener-Waterloo,Ð,18,0,6,6,40,0,1,0,1
+DONNY SCOTT,Donny,Scott,,Orangeville Northmen,D,14,4,1,5,19,0,0,0,0
+CHRIS DONG,Chris,Dong,,Oakville Buzz,T,20,3,2,5,4,0,0,0,1
+ROBBIE MCGRAYNE,Robbie,Mcgrayne,,Peterborough Lakers,Ð,1,2,3,5,0,1,1,0,1
+TYSON ALLISON,Tyson,Allison,,Burlington Chiefs,Ð,4,2,3,5,2,0,2,0,1
+RILEY SIMPSON,Riley,Simpson,,Peterborough Lakers,D,7,2,3,5,2,0,0,0,0
+LUCAS OSBORNE,Lucas,Osborne,,Peterborough Lakers,D,13,2,3,5,2,0,0,0,0
+XANDER DERKATZ,Xander,Derkatz,,Oakville Buzz,F,4,1,4,5,4,1,1,0,0
+EDDY FERREDE,Eddy,Ferrede,,Kitchener-Waterloo,Ð,17,1,4,5,16,0,0,0,0
+KEAN PARE,Kean,Pare,,Six Nations Arrows,D,18,1,4,5,23,1,1,0,0
+AARON TOGURI,Aaron,Toguri,,Mimico Mountaineers,D,20,1,4,5,36,0,0,0,0
+REED ALLEN,Reed,Allen,,Burlington Chiefs,Ð,3,0,5,5,0,0,0,0,0
+JADEN CIAPPARA,Jaden,Ciappara,,Orangeville Northmen,T,12,0,5,5,2,0,0,0,0
+PHOENIX PULLEN,Phoenix,Pullen,,Brampton Excelsiors,T,20,0,5,5,37,0,2,0,1
+NICHOLAS ROODE,Nicholas,Roode,,Peterborough Lakers,F,1,3,1,4,0,2,0,1,0
+WILL MCLEOD,Will,Mcleod,,Burlington Chiefs,Ð,1,3,1,4,0,1,0,1,0
+CAMERON STERRITT,Cameron,Sterritt,,Brampton Excelsiors,F,2,3,1,4,0,1,0,0,1
+CHRIS DASILVA,Chris,Dasilva,,Brampton Excelsiors,F,4,3,1,4,0,0,0,0,0
+JUSTIN TAVARES AP,Justin,Tavares,Ap,Mimico Mountaineers,T,5,3,1,4,0,0,0,1,0
+LIAM MACKAY,Liam,Mackay,,Toronto Beaches,Ð,17,3,1,4,29,1,0,0,0
+TREYSEN STEWART,Treysen,Stewart,,Whitby Warriors,F,3,2,2,4,4,0,0,0,0
+COLM BARNETT,Colm,Barnett,,Orangeville Northmen,T,6,2,2,4,2,0,0,0,0
+REECE DICICCO,Reece,Dicicco,,Peterborough Lakers,Ð,8,2,2,4,6,1,1,0,0
+NICK THOMAS,Nick,Thomas,,Kitchener-Waterloo,Ð,9,2,2,4,16,0,0,0,0
+MICHAEL JACKMAN,Michael,Jackman,,Oakville Buzz,D,13,2,2,4,51,1,2,0,0
+LIAM STADNYK,Liam,Stadnyk,,Orangeville Northmen,D,16,2,2,4,0,0,0,1,0
+JACOB MCLEAN,Jacob,Mclean,,Peterborough Lakers,Ð,1,1,3,4,0,1,2,0,0
+ALEX HICKS,Alex,Hicks,,Kitchener-Waterloo,Ð,4,1,3,4,0,0,0,0,0
+ISSAC PRANTERA,Issac,Prantera,,St. Catharines Athletics,D,11,1,3,4,8,1,0,0,1
+ASHTON LANKOWSKI,Ashton,Lankowski,,Kitchener-Waterloo,Ð,17,1,3,4,0,1,1,0,2
+TY CARTY,Ty,Carty,,Brampton Excelsiors,D,20,1,3,4,9,0,1,0,2
+GORDIE POWER,Gordie,Power,,Burlington Chiefs,Ð,2,0,4,4,2,0,2,0,0
+PEYTON DRONE,Peyton,Drone,,Peterborough Lakers,F,2,0,4,4,0,0,1,0,1
+AVERY STEINBACH-PARKER,Avery,Steinbach-parker,,Six Nations Arrows,F,7,0,4,4,0,0,3,0,0
+HADOWAS SMITH,Hadowas,Smith,,Six Nations Arrows,T,14,0,4,4,17,0,0,0,1
+HAYDEN THOMSON,Hayden,Thomson,,Oakville Buzz,D,15,0,4,4,8,0,0,0,1
+CURTIS WARD,Curtis,Ward,,Brampton Excelsiors,F,5,3,0,3,0,1,0,0,0
+ADAM ROSS,Adam,Ross,,St. Catharines Athletics,F,1,2,1,3,0,0,0,0,0
+COLTON ARMITAGE,Colton,Armitage,,St. Catharines Athletics,F,1,2,1,3,2,0,0,1,1
+HUNTER LUBINIECKI,Hunter,Lubiniecki,,Peterborough Lakers,"D, F",2,2,1,3,0,0,1,0,0
+KYLER FRANCIS,Kyler,Francis,,Kitchener-Waterloo,Ð,2,2,1,3,2,0,0,0,0
+MATT WRIGHT,Matt,Wright,,Mimico Mountaineers,Ð,2,2,1,3,2,0,0,1,0
+GEORGE PITT,George,Pitt,,Burlington Chiefs,F,2,2,1,3,0,0,0,1,0
+KAZ NIZIELSKI,Kaz,Nizielski,,Kitchener-Waterloo,Ð,12,2,1,3,12,0,0,2,0
+MITCHELL ARMSTRONG,Mitchell,Armstrong,,St. Catharines Athletics,D,12,2,1,3,23,0,0,0,1
+JOHN WHEELER,John,Wheeler,,Whitby Warriors,D,12,2,1,3,7,0,0,0,0
+LOUIS ALFRED,Louis,Alfred,,Six Nations Arrows,D,16,2,1,3,63,0,0,0,1
+MAVRYK GATT,Mavryk,Gatt,,St. Catharines Athletics,F,1,1,2,3,2,0,0,0,0
+NOLAN BARKER,Nolan,Barker,,Kitchener-Waterloo,Ð,2,1,2,3,0,0,0,0,0
+JAMES DONNELLY,James,Donnelly,,Peterborough Lakers,D,2,1,2,3,0,0,1,1,1
+CHRISTIAN LEFEUVRE,Christian,Lefeuvre,,St. Catharines Athletics,F,2,1,2,3,0,0,1,0,0
+BRAEDEN LOCKYER,Braeden,Lockyer,,Oakville Buzz,F,2,1,2,3,2,0,1,0,0
+TREYTON WEINSTEIN,Treyton,Weinstein,,Kitchener-Waterloo,F,3,1,2,3,0,0,0,0,0
+COLIN MATTHEWS,Colin,Matthews,,Burlington Chiefs,D,6,1,2,3,4,0,0,1,0
+NORM PITT,Norm,Pitt,,Burlington Chiefs,F,6,1,2,3,0,0,0,0,0
+BO COLUMBUS,Bo,Columbus,,Kitchener-Waterloo,D,6,1,2,3,9,0,0,0,0
+ISAAC SQUIRE-HILL,Isaac,Squire-hill,,Six Nations Arrows,D,7,1,2,3,48,0,0,0,0
+BO COLUMBUS,Bo,Columbus,,St. Catharines Athletics,D,8,1,2,3,0,0,0,0,1
+ETHAN BROWN AP,Ethan,Brown,Ap,Mimico Mountaineers,T,8,1,2,3,11,0,1,1,0
+MICHAEL GRACE,Michael,Grace,,Burlington Chiefs,D,14,1,2,3,19,0,0,0,0
+BEN DOHERTY,Ben,Doherty,,St. Catharines Athletics,D,15,1,2,3,42,0,0,0,0
+WILLIAM WHITE,William,White,,Peterborough Lakers,D,15,1,2,3,2,0,0,0,0
+MARK VAN SCHEPEN,Mark,Van,Schepen,Brampton Excelsiors,D,16,1,2,3,23,0,0,0,0
+LUCAS HUCAL,Lucas,Hucal,,Oakville Buzz,T,19,1,2,3,16,1,1,0,0
+KEVIN HILL,Kevin,Hill,,Six Nations Arrows,F,3,0,3,3,2,0,1,0,0
+KYLE MCMILLAN,Kyle,Mcmillan,,Burlington Chiefs,Ð,4,0,3,3,0,0,0,0,0
+GAVIN SNOW,Gavin,Snow,,Kitchener-Waterloo,F,5,0,3,3,2,0,0,0,0
+RYAN PATTERSON,Ryan,Patterson,,St. Catharines Athletics,D,8,0,3,3,8,0,0,0,0
+RYAN ESSENSSA,Ryan,Essenssa,,Mimico Mountaineers,F,10,0,3,3,7,0,0,0,1
+WYATT WIGGINS,Wyatt,Wiggins,,Peterborough Lakers,T,10,0,3,3,4,0,0,0,0
+ATKIN DWYER AP,Atkin,Dwyer,Ap,Mimico Mountaineers,D,12,0,3,3,4,0,2,0,0
+JAYDEN SMITH,Jayden,Smith,,Six Nations Arrows,D,13,0,3,3,38,0,0,0,0
+SEVEN GILLINGHAM,Seven,Gillingham,,Kitchener-Waterloo,Ð,14,0,3,3,26,0,0,0,0
+AIDEN MACDONELL,Aiden,Macdonell,,Mimico Mountaineers,D,15,0,3,3,33,0,1,0,0
+MICHAEL WHITE,Michael,White,,Whitby Warriors,D,17,0,3,3,14,0,1,0,1
+MARCUS KELEHER,Marcus,Keleher,,Oakville Buzz,F,1,2,0,2,0,0,0,0,0
+CAM ESSENSA AP,Cam,Essensa,Ap,Mimico Mountaineers,Ð,1,2,0,2,0,0,0,1,0
+SHAKORENNAWIS SWAMP,Shakorennawis,Swamp,,Six Nations Arrows,F,2,2,0,2,2,1,0,0,0
+DANIEL MAY,Daniel,May,,Toronto Beaches,D,6,2,0,2,8,1,0,0,0
+COLE HUNSBERGERÊ,Cole,Hunsbergerê,,Kitchener-Waterloo,F,7,2,0,2,6,0,0,0,0
+TYLER GRANDEL,Tyler,Grandel,,Peterborough Lakers,D,17,2,0,2,22,0,0,0,0
+LIAM STEELE,Liam,Steele,,Brampton Excelsiors,D,20,2,0,2,24,1,0,0,0
+DYLAN CORDINGLEY,Dylan,Cordingley,,Orangeville Northmen,F,1,1,1,2,0,0,0,0,0
+NATE SAGE,Nate,Sage,,Peterborough Lakers,F,1,1,1,2,0,1,1,0,0
+ANDY DALTON,Andy,Dalton,,Kitchener-Waterloo,Ð,2,1,1,2,4,0,0,0,0
+HAMISH MCPHERSON,Hamish,Mcpherson,,Toronto Beaches,Ð,2,1,1,2,0,0,0,0,0
+DAMON DOXTATOR,Damon,Doxtator,,Six Nations Arrows,F,2,1,1,2,0,0,0,0,0
+KEATON BROWN,Keaton,Brown,,Orangeville Northmen,F,4,1,1,2,0,0,0,0,0
+BRETT HARRISON AP,Brett,Harrison,Ap,Mimico Mountaineers,Ð,4,1,1,2,0,0,0,0,0
+ZACH MACDONALD,Zach,Macdonald,,Burlington Chiefs,T,6,1,1,2,12,0,0,0,0
+NICHOLAS DAMICO,Nicholas,Damico,,Burlington Chiefs,D,7,1,1,2,2,0,0,0,0
+ETHAN FISHER,Ethan,Fisher,,St. Catharines Athletics,D,7,1,1,2,0,0,0,0,0
+JACOB GARCIA,Jacob,Garcia,,Mimico Mountaineers,Ð,10,1,1,2,2,0,0,0,0
+KYLE STERRITT,Kyle,Sterritt,,Brampton Excelsiors,D,11,1,1,2,2,0,0,0,0
+LIAM PERRO,Liam,Perro,,Orangeville Northmen,D,11,1,1,2,14,0,0,0,0
+CHRIS HARLAND,Chris,Harland,,Toronto Beaches,D,12,1,1,2,0,0,0,0,0
+ANDREW HORSLEY,Andrew,Horsley,,Brampton Excelsiors,T,14,1,1,2,34,0,0,0,0
+NEAL ADAMSON,Neal,Adamson,,Brampton Excelsiors,D,14,1,1,2,36,0,0,0,0
+KOBE HANDSOR,Kobe,Handsor,,Whitby Warriors,D,18,1,1,2,12,0,1,0,0
+JAYDEN BUSHEY,Jayden,Bushey,,Peterborough Lakers,F,1,0,2,2,0,0,2,0,0
+JARED DOWNEY,Jared,Downey,,Orangeville Northmen,F,1,0,2,2,0,0,0,0,0
+CURTIS MARTIN,Curtis,Martin,,Peterborough Lakers,Ð,1,0,2,2,0,0,0,0,0
+ZACH GIGNAC,Zach,Gignac,,Oakville Buzz,F,1,0,2,2,0,0,0,0,0
+COOPER DAY-ALLISON,Cooper,Day-allison,,Burlington Chiefs,Ð,1,0,2,2,0,0,0,0,1
+ZACH MCDONALD,Zach,Mcdonald,,Burlington Chiefs,Ð,3,0,2,2,4,0,0,0,0
+BRETT VINCE,Brett,Vince,,Kitchener-Waterloo,Ð,7,0,2,2,0,0,0,0,0
+KENNY SPROAT,Kenny,Sproat,,Burlington Chiefs,D,15,0,2,2,8,0,0,0,0
+BO DOXTATOR,Bo,Doxtator,,Six Nations Arrows,D,17,0,2,2,32,0,0,0,0
+AIDEN FEARN,Aiden,Fearn,,Six Nations Arrows,D,18,0,2,2,45,0,0,0,0
+JAKE DOOLITTLE,Jake,Doolittle,,Whitby Warriors,D,18,0,2,2,8,0,0,0,1
+ANSELMO REGO AP,Anselmo,Rego,Ap,Mimico Mountaineers,T,1,1,0,1,0,1,0,0,0
+GAGE NOSEWORTHY,Gage,Noseworthy,,Orangeville Northmen,D,1,1,0,1,2,0,0,0,0
+ALEX POLISOTO,Alex,Polisoto,,St. Catharines Athletics,F,1,1,0,1,0,0,0,1,0
+ZACH LEFEBVRE,Zach,Lefebvre,,Peterborough Lakers,Ð,1,1,0,1,0,1,0,0,0
+JEREMY FANCETT,Jeremy,Fancett,,Brampton Excelsiors,F,1,1,0,1,0,0,0,0,0
+JEREMY FANCETT,Jeremy,Fancett,,Brampton Excelsiors,F,1,1,0,1,0,0,0,0,0
+COLE TUCKER,Cole,Tucker,,Whitby Warriors,F,1,1,0,1,0,1,0,0,0
+NICK BAFIA,Nick,Bafia,,Orangeville Northmen,F,1,1,0,1,0,0,0,0,0
+EOIN MACKAY,Eoin,Mackay,,Toronto Beaches,Ð,1,1,0,1,0,0,0,1,0
+MICAHEL GREEN,Micahel,Green,,Peterborough Lakers,Ð,2,1,0,1,4,0,0,0,0
+KALEB MALYON,Kaleb,Malyon,,Six Nations Arrows,D,3,1,0,1,8,0,0,0,0
+MYLES NEWPORT,Myles,Newport,,Oakville Buzz,D,3,1,0,1,0,0,0,0,0
+BOBBY CROWE,Bobby,Crowe,,Peterborough Lakers,D,4,1,0,1,2,1,0,0,0
+JONATHAN GAGLIARDI,Jonathan,Gagliardi,,Oakville Buzz,T,6,1,0,1,8,0,0,0,0
+CALLYN MARTIN,Callyn,Martin,,Kitchener-Waterloo,D,7,1,0,1,4,0,0,0,0
+JACOB GARCIA,Jacob,Garcia,,Brampton Excelsiors,D,7,1,0,1,8,0,0,0,0
+FRANK COYLE,Frank,Coyle,,Peterborough Lakers,F,7,1,0,1,2,0,0,0,0
+MAX SKENE,Max,Skene,,Burlington Chiefs,D,11,1,0,1,0,0,0,1,0
+NOLAN KENNEY,Nolan,Kenney,,"Orangeville NorthmenÊ,ÊKitchener-Waterloo",D,12,1,0,1,14,0,0,0,0
+Orangeville Northmen,Orangeville,Northmen,,71,5,0,0,0,0,0,0,0,0,4
+Kitchener-Waterloo,Kitchener-waterloo,,,"4, 7",7,1,0,1,0,0,0,0,0,10
+BAILEY KIRWIN,Bailey,Kirwin,,Toronto Beaches,Ð,14,1,0,1,10,0,0,0,0
+MICHAEL WILSON,Michael,Wilson,,St. Catharines Athletics,D,16,1,0,1,14,0,0,0,0
+TRENT ROBERTSON,Trent,Robertson,,Brampton Excelsiors,D,17,1,0,1,83,0,0,0,0
+REID LOWE,Reid,Lowe,,St. Catharines Athletics,D,20,1,0,1,4,1,0,0,0
+MATT PERREIRA,Matt,Perreira,,Brampton Excelsiors,F,1,0,1,1,0,0,0,0,0
+CARTER TAITE,Carter,Taite,,Peterborough Lakers,Ð,1,0,1,1,0,0,0,0,0
+NOBLE STONEFISH,Noble,Stonefish,,Six Nations Arrows,D,1,0,1,1,2,0,0,0,0
+NOLAN BYRNE,Nolan,Byrne,,Peterborough Lakers,Ð,1,0,1,1,0,0,1,0,0
+LIAM BUCKNELL,Liam,Bucknell,,Toronto Beaches,Ð,1,0,1,1,2,0,1,0,0
+JAMESON STEELE,Jameson,Steele,,Oakville Buzz,F,1,0,1,1,0,0,0,0,0
+CHUCK RAWSON,Chuck,Rawson,,Burlington Chiefs,Ð,1,0,1,1,0,0,0,0,0
+KAYMEN DIABO,Kaymen,Diabo,,Orangeville Northmen,F,1,0,1,1,0,0,0,0,0
+DEELAND MARTIN,Deeland,Martin,,Six Nations Arrows,F,1,0,1,1,0,0,0,0,1
+CURTIS WARD,Curtis,Ward,,Brampton Excelsiors,Ð,1,0,1,1,0,0,0,0,0
+MASON BLACKTOPP,Mason,Blacktopp,,Toronto Beaches,Ð,2,0,1,1,0,0,0,0,0
+ZACH SHEPPARD,Zach,Sheppard,,Whitby Warriors,D,2,0,1,1,2,0,0,0,0
+CODY INNES,Cody,Innes,,Burlington Chiefs,Ð,2,0,1,1,0,0,0,0,0
+SAM ALBERT,Sam,Albert,,Peterborough Lakers,Ð,2,0,1,1,0,0,1,0,0
+CHRIS WONG,Chris,Wong,,St. Catharines Athletics,F,3,0,1,1,0,0,0,0,0
+JACOB KELLER AP,Jacob,Keller,Ap,Mimico Mountaineers,T,3,0,1,1,0,0,0,0,1
+LANDON SINFIELD,Landon,Sinfield,,Peterborough Lakers,Ð,3,0,1,1,0,0,0,0,0
+BRYDEN PITT AP,Bryden,Pitt,Ap,Mimico Mountaineers,T,5,0,1,1,0,0,0,0,0
+KEITH GREEN,Keith,Green,,Six Nations Arrows,T,6,0,1,1,10,0,0,0,0
+BEN MCISAACÊ,Ben,Mcisaacê,,Mimico Mountaineers,T,6,0,1,1,0,0,0,0,0
+GRAYDON STOKES,Graydon,Stokes,,Orangeville Northmen,D,6,0,1,1,8,0,0,0,0
+LOGAN FLETCHER,Logan,Fletcher,,St. Catharines Athletics,T,7,0,1,1,2,0,0,0,0
+MATT SCHELL,Matt,Schell,,Toronto Beaches,Ð,7,0,1,1,8,0,1,0,0
+HAYDEN HILTZ,Hayden,Hiltz,,Burlington Chiefs,Ð,7,0,1,1,0,0,0,0,0
+CALLUM MCLEOD,Callum,Mcleod,,Whitby Warriors,D,8,0,1,1,2,0,1,0,0
+BRODY THOMAS,Brody,Thomas,,Six Nations Arrows,T,8,0,1,1,2,0,0,0,0
+JAMES GOWLAND,James,Gowland,,Six Nations Arrows,D,8,0,1,1,10,0,1,0,0
+CARTER SCHOTT,Carter,Schott,,Whitby Warriors,D,12,0,1,1,40,0,0,0,0
+CADEN HEWITT,Caden,Hewitt,,Toronto Beaches,Ð,18,0,1,1,12,0,0,0,0
+OWEN CIAVOLEILLO,Owen,Ciavoleillo,,Brampton Excelsiors,D,18,0,1,1,6,0,0,0,0
+RILEY DELILL,Riley,Delill,,Brampton Excelsiors,D,20,0,1,1,53,0,0,0,0
+DANNY NEILSON,Danny,Neilson,,Peterborough Lakers,D,1,0,0,0,0,0,0,0,0
+ISAIAH SKIDDERS,Isaiah,Skidders,,Six Nations Arrows,F,1,0,0,0,0,0,0,0,0
+ZACH PIPHER,Zach,Pipher,,Whitby Warriors,D,1,0,0,0,2,0,0,0,0
+BEN KROMER,Ben,Kromer,,Whitby Warriors,D,1,0,0,0,0,0,0,0,0
+MAX TAYLOR,Max,Taylor,,Whitby Warriors,F,1,0,0,0,0,0,0,0,0
+BRAEDAN GARDNER,Braedan,Gardner,,Peterborough Lakers,D,1,0,0,0,0,0,0,0,0
+CY DEERE,Cy,Deere,,Oakville Buzz,F,1,0,0,0,0,0,0,0,0
+MATHIS COULLARD,Mathis,Coullard,,Oakville Buzz,D,1,0,0,0,0,0,0,0,0
+GARRETTE STONEFISH,Garrette,Stonefish,,Oakville Buzz,D,1,0,0,0,0,0,0,0,0
+RYAN CORNFIELD,Ryan,Cornfield,,Kitchener-Waterloo,Ð,1,0,0,0,0,0,0,0,0
+JACK LONGMORE,Jack,Longmore,,Peterborough Lakers,F,1,0,0,0,0,0,0,0,0
+WES GEEKIE,Wes,Geekie,,Peterborough Lakers,F,1,0,0,0,2,0,0,0,0
+NICK D'AMICO,Nick,D'amico,,Burlington Chiefs,Ð,1,0,0,0,0,0,0,0,0
+TRAY MILLER,Tray,Miller,,Six Nations Arrows,D,1,0,0,0,0,0,0,0,0
+TREY JIMERSON,Trey,Jimerson,,Six Nations Arrows,D,1,0,0,0,0,0,0,0,0
+NATHAN MACDONALD,Nathan,Macdonald,,Mimico Mountaineers,Ð,1,0,0,0,0,0,0,0,0
+COREY SOMERS,Corey,Somers,,Peterborough Lakers,Ð,1,0,0,0,0,0,0,0,0
+KYLE ERVINE,Kyle,Ervine,,Toronto Beaches,Ð,1,0,0,0,0,0,0,0,0
+RILEY ROGERS,Riley,Rogers,,Toronto Beaches,Ð,1,0,0,0,0,0,0,0,0
+ISAAC HOTRUM,Isaac,Hotrum,,Peterborough Lakers,D,1,0,0,0,0,0,0,0,0
+BRODIE ROBERTS,Brodie,Roberts,,Peterborough Lakers,D,1,0,0,0,0,0,0,0,0
+JACK BUCKNELL,Jack,Bucknell,,Toronto Beaches,Ð,1,0,0,0,0,0,0,0,0
+CARTER DRYNAN,Carter,Drynan,,Toronto Beaches,Ð,1,0,0,0,0,0,0,0,0
+KADEN BRENNAN,Kaden,Brennan,,Kitchener-Waterloo,D,1,0,0,0,0,0,0,0,0
+MERRICK SANDS,Merrick,Sands,,Peterborough Lakers,Ð,1,0,0,0,0,0,0,0,0
+SCOTT ARSENAULT,Scott,Arsenault,,Peterborough Lakers,Ð,1,0,0,0,0,0,0,0,0
+COLE LESTER,Cole,Lester,,Peterborough Lakers,Ð,1,0,0,0,0,0,0,0,0
+EASTON MCCAFFERTY,Easton,Mccafferty,,Whitby Warriors,F,1,0,0,0,0,0,0,0,0
+COLE BEGLEY AP,Cole,Begley,Ap,Mimico Mountaineers,D,1,0,0,0,0,0,0,0,0
+KEAGAN WALTON,Keagan,Walton,,Peterborough Lakers,D,1,0,0,0,2,0,0,0,0
+OLIVER HAZELWOOD,Oliver,Hazelwood,,Peterborough Lakers,Ð,1,0,0,0,0,0,0,0,0
+REAGAN MARTINELL,Reagan,Martinell,,Peterborough Lakers,D,1,0,0,0,0,0,0,0,0
+BECKER LIPPERT,Becker,Lippert,,Oakville Buzz,F,1,0,0,0,0,0,0,0,0
+COLE BEGLEY AP,Cole,Begley,Ap,Mimico Mountaineers,Ð,1,0,0,0,7,0,0,0,0
+BEN BAKER,Ben,Baker,,Brampton Excelsiors,Ð,1,0,0,0,0,0,0,0,0
+TAYTON SKYE,Tayton,Skye,,Six Nations Arrows,D,1,0,0,0,2,0,0,0,0
+NICK THOMAS,Nick,Thomas,,Brampton Excelsiors,Ð,1,0,0,0,0,0,0,0,0
+BENCH PENALTY,Bench,Penalty,,St. Catharines Athletics,Ð,1,0,0,0,2,0,0,0,0
+TEISON MCGREGOR,Teison,Mcgregor,,St. Catharines Athletics,D,1,0,0,0,0,0,0,0,0
+CAM WHEELDON,Cam,Wheeldon,,Oakville Buzz,Ð,1,0,0,0,0,0,0,0,0
+LEYTON SOWDEN,Leyton,Sowden,,Six Nations Arrows,F,1,0,0,0,0,0,0,0,0
+BRENDAN BOYLE,Brendan,Boyle,,Burlington Chiefs,Ð,1,0,0,0,17,0,0,0,0
+JAKE BARKLEY,Jake,Barkley,,Orangeville Northmen,F,1,0,0,0,0,0,0,0,0
+SAM BOWLING,Sam,Bowling,,Kitchener-Waterloo,Ð,1,0,0,0,0,0,0,0,0
+MATTHEW HERTNERT,Matthew,Hertnert,,Burlington Chiefs,D,1,0,0,0,4,0,0,0,0
+KAYDEN TAPP,Kayden,Tapp,,Kitchener-Waterloo,Ð,1,0,0,0,0,0,0,0,0
+CALEB CONNELL,Caleb,Connell,,Peterborough Lakers,T,1,0,0,0,0,0,0,0,0
+JACK MOORES,Jack,Moores,,St. Catharines Athletics,D,1,0,0,0,2,0,0,0,0
+JOSH MANNING,Josh,Manning,,Kitchener-Waterloo,Ð,1,0,0,0,0,0,0,0,0
+OWEN WILLIAMS AP,Owen,Williams,Ap,Mimico Mountaineers,Ð,1,0,0,0,0,0,0,0,0
+BAILEY ROLPH,Bailey,Rolph,,Kitchener-Waterloo,D,2,0,0,0,2,0,0,0,0
+KALEB PARKHURST,Kaleb,Parkhurst,,Peterborough Lakers,Ð,2,0,0,0,0,0,0,0,0
+DUNCAN CARTE,Duncan,Carte,,Burlington Chiefs,D,2,0,0,0,12,0,0,0,0
+SHATEKAIENTHON VANDOMMLEN,Shatekaienthon,Vandommlen,,Six Nations Arrows,T,2,0,0,0,5,0,0,0,0
+NOLAN CANDY,Nolan,Candy,,Kitchener-Waterloo,Ð,2,0,0,0,0,0,0,0,0
+LUCAS RENZETTI,Lucas,Renzetti,,Oakville Buzz,D,2,0,0,0,4,0,0,0,0
+PARKER VANDEBOOM,Parker,Vandeboom,,Kitchener-Waterloo,Ð,2,0,0,0,0,0,0,0,0
+NOLAN POWER,Nolan,Power,,Oakville Buzz,D,2,0,0,0,0,0,0,0,0
+CAL ANDERSON,Cal,Anderson,,Six Nations Arrows,T,2,0,0,0,0,0,0,0,0
+ETHAN KELEHER,Ethan,Keleher,,Oakville Buzz,T,2,0,0,0,2,0,0,0,0
+JUSTIN BELLEPERCHE,Justin,Belleperche,,Peterborough Lakers,D,2,0,0,0,0,0,0,0,0
+RYAN ANDREWS,Ryan,Andrews,,St. Catharines Athletics,D,2,0,0,0,0,0,0,0,0
+MICK MILLER,Mick,Miller,,Six Nations Arrows,D,2,0,0,0,0,0,0,0,0
+MATT DARROCH,Matt,Darroch,,Oakville Buzz,D,2,0,0,0,2,0,0,0,0
+AIDEN ARSENAULT,Aiden,Arsenault,,St. Catharines Athletics,D,2,0,0,0,0,0,0,0,0
+LEROY RYAN JAMIESON,Leroy,Ryan,Jamieson,Six Nations Arrows,D,2,0,0,0,2,0,0,0,0
+AIDEN OTOOLE,Aiden,Otoole,,Orangeville Northmen,F,2,0,0,0,4,0,0,0,0
+TY VAN WART,Ty,Van,Wart,Orangeville Northmen,T,3,0,0,0,2,0,0,0,0
+RYAN OLIN,Ryan,Olin,,Whitby Warriors,D,3,0,0,0,4,0,0,0,0
+CARTER FROST,Carter,Frost,,Peterborough Lakers,D,3,0,0,0,4,0,0,0,0
+TREYTON WEINSTEIN,Treyton,Weinstein,,Kitchener-Waterloo,Ð,3,0,0,0,2,0,0,0,0
+MAX BROOK,Max,Brook,,St. Catharines Athletics,"D, F",3,0,0,0,0,0,0,0,0
+TYLER FLETCHER,Tyler,Fletcher,,Kitchener-Waterloo,D,3,0,0,0,6,0,0,0,0
+ANDREW KIDD,Andrew,Kidd,,Toronto Beaches,Ð,3,0,0,0,0,0,0,0,0
+NICK DAMICO,Nick,Damico,,Burlington Chiefs,Ð,3,0,0,0,0,0,0,0,0
+SEAN MCMAHON,Sean,Mcmahon,,Toronto Beaches,Ð,3,0,0,0,0,0,0,0,0
+COLBY WOOD,Colby,Wood,,Peterborough Lakers,Ð,3,0,0,0,0,0,0,0,0
+SHELDON BROUGHTON,Sheldon,Broughton,,Toronto Beaches,Ð,3,0,0,0,0,0,0,0,0
+KENNY PORTER,Kenny,Porter,,Six Nations Arrows,T,3,0,0,0,0,0,0,0,0
+DEREK KOHUT,Derek,Kohut,,"Six Nations ArrowsÊ,ÊBurlington Chiefs",D,4,0,0,0,2,0,0,0,0
+Six Nations Arrows,Six,Nations,Arrows,81,3,0,0,0,0,0,0,0,0,0
+Burlington Chiefs,Burlington,Chiefs,,21,1,0,0,0,0,0,0,0,0,2
+KAEDEN BURGER,Kaeden,Burger,,Kitchener-Waterloo,Ð,4,0,0,0,0,0,0,0,0
+KAEDEN BURGER,Kaeden,Burger,,Kitchener-Waterloo,F,4,0,0,0,2,0,0,0,0
+ROBERT MORGAN,Robert,Morgan,,Kitchener-Waterloo,Ð,5,0,0,0,0,0,0,0,0
+RYAN BARKER,Ryan,Barker,,Oakville Buzz,D,5,0,0,0,10,0,0,0,0
+SHAWN GLOVER-NOAH,Shawn,Glover-noah,,Kitchener-Waterloo,Ð,5,0,0,0,2,0,0,0,0
+BRENDAN BOYLE,Brendan,Boyle,,Burlington Chiefs,T,5,0,0,0,2,0,0,0,0
+JAKE ARGUE,Jake,Argue,,Orangeville Northmen,D,5,0,0,0,0,0,0,0,0
+NICK MCCLURE,Nick,Mcclure,,Brampton Excelsiors,D,7,0,0,0,2,0,0,0,0
+CARTER GEOFFROY,Carter,Geoffroy,,St. Catharines Athletics,D,8,0,0,0,8,0,0,0,0
+JACOB RAWSON,Jacob,Rawson,,St. Catharines Athletics,D,8,0,0,0,10,0,0,0,0
+KYLE MCMILLAN,Kyle,Mcmillan,,Burlington Chiefs,D,8,0,0,0,0,0,0,0,0
+KAEL CAREY,Kael,Carey,,Oakville Buzz,T,9,0,0,0,0,0,0,0,0
+DAVIS LONGELADE,Davis,Longelade,,St. Catharines Athletics,D,13,0,0,0,33,0,0,0,0
+TRENT JACKSON,Trent,Jackson,,Oakville Buzz,D,13,0,0,0,29,0,0,0,0
+JAMIE HUNT,Jamie,Hunt,,Orangeville Northmen,D,13,0,0,0,15,0,0,0,0
+MICHAEL BILLINGS,Michael,Billings,,Kitchener-Waterloo,D,16,0,0,0,31,0,0,0,0
+BENCH PENALTY,Bench,Penalty,,"Toronto BeachesÊ,ÊOakville Buzz",Ð,19,0,0,0,6,0,0,0,0
+Toronto Beaches,Toronto,Beaches,,99,18,0,0,0,0,0,0,0,0,4
+Oakville Buzz,Oakville,Buzz,,99,1,0,0,0,0,0,0,0,0,2
+BENCH PENALTY,Bench,Penalty,,"Burlington ChiefsÊ,ÊPeterborough Lakers",Ð,21,0,0,0,20,0,0,0,0
+Burlington Chiefs,Burlington,Chiefs,,99,2,0,0,0,0,0,0,0,0,2
+Peterborough Lakers,Peterborough,Lakers,,99,19,0,0,0,0,0,0,0,0,18
+BENCH PENALTY,Bench,Penalty,,"Brampton ExcelsiorsÊ,ÊMimico Mountaineers",Ð,36,0,0,0,32,0,0,0,0
+Brampton Excelsiors,Brampton,Excelsiors,,"88, 99",16,0,0,0,0,0,0,0,0,10
+Mimico Mountaineers,Mimico,Mountaineers,,"88, 99",20,0,0,0,0,0,0,0,0,22
+BENCH PENALTY,Bench,Penalty,,"Whitby WarriorsÊ,ÊKitchener-Waterloo",Ð,36,0,0,0,24,0,0,0,0
+Whitby Warriors,Whitby,Warriors,,99,19,0,0,0,0,0,0,0,0,12
+Kitchener-Waterloo,Kitchener-waterloo,,,99,17,0,0,0,0,0,0,0,0,12

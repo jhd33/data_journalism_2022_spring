@@ -1,0 +1,338 @@
+---
+title: "ola_alltime"
+author: "Jon Donville"
+date: "23/07/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+```{r}
+# Turn off scientific notation
+options(scipen=999)
+
+library(tidyverse)
+library(janitor)
+library(lubridate)
+library(ggrepel)
+library(sf)
+library(tidycensus)
+library(tigris)
+library(ggplot2)
+library(rvest)
+library(ggthemes)
+
+```
+
+## Read in stats 
+
+```{r}
+alltime_team_stats <- read_csv("ola_team_alltime_2.csv") 
+
+alltime_player_stats <- read_csv("ola_alltime_clean_4.csv")
+```
+
+## Orangeville 
+```{r}
+
+northmen_over60 <- alltime_player_stats %>% 
+  filter(team_clean == "ORA") %>% 
+  filter(points >= 60)
+
+northmen_over60 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 47)+
+  ylim(20, 60)+
+ labs(
+    title="Orangeville Northmen - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+```
+
+## Burlington
+
+```{r}
+
+chiefs_over60 <- alltime_player_stats %>% 
+  filter(team_clean == "BUR") %>% 
+  filter(points >= 60)
+
+chiefs_over60 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 55)+
+  ylim(20, 60)+
+ labs(
+    title="Burlington Chiefs - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+```
+
+## Mimico 
+```{r}
+mounties_over60 <- alltime_player_stats %>% 
+  filter(team_clean == "MIM") %>% 
+  filter(points >= 60)
+
+mounties_over60 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 57)+
+  ylim(20, 75)+
+ labs(
+    title="Mimico Mountaineers - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+```
+
+## Whitby 
+
+```{r}
+warriors_over60 <- alltime_player_stats %>% 
+  filter(team_clean == "WHI") %>% 
+  filter(points >= 60)
+
+warriors_over60 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(18, 80)+
+  ylim(20, 95)+
+ labs(
+    title="Whitby Warriors - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+```
+
+## Brampton
+
+```{r}
+excels_over60 <- alltime_player_stats %>% 
+  filter(team_clean == "BRA") %>% 
+  filter(points >= 60)
+
+excels_over60 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 60)+
+  ylim(30, 100)+
+ labs(
+    title="Brampton Excelsiors - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+```
+
+## Six Nations
+
+```{r}
+arrows_over60 <- alltime_player_stats %>% 
+  filter(team_clean == "SNA") %>% 
+  filter(points >= 60)
+
+arrows_over60 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text_repel(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(12, 80)+
+  ylim(25, 60)+
+ labs(
+    title="Six Nations - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+```
+
+## Beaches 
+```{r}
+
+beaches_over60 <- alltime_player_stats %>% 
+  filter(team_clean == "TOR") %>% 
+  filter(points >= 60)
+
+beaches_over60 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text_repel(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(13, 55)+
+  ylim(20, 60)+
+ labs(
+    title="Toronto Beaches - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+```
+
+## Boro 
+```{r}
+boro_over60 <- alltime_player_stats %>% 
+  filter(team_clean == "PET") %>% 
+  filter(points >= 60)
+
+boro_over60 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(25, 40)+
+  ylim(25, 70)+
+ labs(
+    title="Peterborough Lakers - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+```
+
+## KW
+
+```{r}
+braves_over60 <- alltime_player_stats %>% 
+  filter(team_clean == "KWE") %>% 
+  filter(points >= 60)
+
+braves_over60 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(17, 70)+
+  ylim(20, 70)+
+ labs(
+    title="Kitchener Junior A - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+```
+
+## Oakville 
+
+```{r}
+buzz_over60 <- alltime_player_stats %>% 
+  filter(team_clean == "OAK") %>% 
+  filter(points >= 60)
+
+buzz_over60 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 60)+
+  ylim(20, 80)+
+ labs(
+    title="Oakville Buzz - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+```
+
+## St Catharines 
+
+```{r}
+athletics_over60 <- alltime_player_stats %>% 
+  filter(team_clean == "SCA") %>% 
+  filter(points >= 60)
+
+athletics_over60 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 42)+
+  ylim(20, 55)+
+ labs(
+    title="St. Catharines Athletics - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+```
+## Century Club 
+
+```{r}
+
+century_club <- alltime_player_stats %>% 
+  filter(points >= 100)
+
+century_club %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text_repel(aes(x=goals, y=assists, label=last_name_year, hjust=-0.3,vjust=-0.2,), size=1.8) +
+  xlim(20, 80)+
+  ylim(40, 100)+
+ labs(
+    title="The Century Club - Best Individual Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+```
+
+## Scoring Over Time 
+
+```{r}
+scoring_over_time <- alltime_team_stats %>% 
+    group_by(year) %>% 
+  summarise(sum(GF))
+```
+
+## Cumulative win percentage 
+
+```{r}
+win_percentage <- alltime_team_stats %>% 
+  group_by(team_name) %>% 
+  mutate(total_wins = sum(W)) %>% 
+  mutate(total_games = sum(GP)) %>% 
+  mutate (win_pctg = (total_wins / total_games)*100) %>% 
+  summarise(win_pctg) %>% 
+  arrange(desc(win_pctg))
+  
+
+
+```
+
+## Cumulative Scoring Differential?
+
+```{r}
+scoring_differential <- alltime_team_stats %>% 
+  group_by(team)
+```
+
+## PIMS Top 10

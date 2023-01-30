@@ -1,0 +1,102 @@
+PLAYER,TEAM,GP,G,A,PTS,PPG,PPA,SHG,SHA,PIM
+DAVID ANDERSON,Toronto Beaches,4,13,9,22,2,1,2,0,2
+WILLEM FIRTH,Toronto Beaches,4,11,11,22,2,3,0,0,4
+ADAM POITRAS,Whitby Warriors,3,7,13,20,1,4,0,0,2
+BROCK HALEY,Whitby Warriors,3,8,11,19,1,2,0,0,0
+DANIEL CLARK,Peterborough Lakers,4,3,14,17,1,5,1,0,4
+OWEN HILTZ,Peterborough Lakers,4,8,8,16,4,1,0,0,5
+PARKER PIPHER,Whitby Warriors,3,10,5,15,3,2,0,0,2
+WILL SHEEHAN,Oakville Buzz,5,8,7,15,0,6,1,0,2
+BRAEDON SARIS,Burlington Chiefs,3,5,10,15,2,6,0,0,2
+KEATON ZAVITZ,St. Catharines Athletics,3,5,10,15,2,4,1,0,2
+TREY DEERE,Orangeville Northmen,5,8,6,14,2,0,1,0,10
+FINLAY THOMSON,Mimico Mountaineers,3,7,7,14,3,1,0,1,4
+MATTHEW COLLISON,Toronto Beaches,4,6,8,14,3,2,0,1,0
+CARTER PAGE,Peterborough Lakers,4,5,9,14,1,1,0,0,2
+JACKSON WEBSTER,St. Catharines Athletics,3,2,12,14,0,3,0,2,12
+ZACH THOMPSON,Peterborough Lakers,4,8,5,13,0,1,0,0,2
+AMOS WHITCOMB,Oakville Buzz,5,7,6,13,4,1,0,1,14
+LUCAS DUDEMAINE,Mimico Mountaineers,3,4,9,13,2,2,0,0,7
+KOLETON MARQUIS,Orangeville Northmen,5,5,7,12,1,4,0,1,11
+JACOB HICKEY,Toronto Beaches,4,4,8,12,0,2,0,0,0
+GABRIEL SORICHETTI,Whitby Warriors,3,3,9,12,0,3,0,0,0
+ISIAH MORAN-WEEKES,Mimico Mountaineers,3,5,6,11,0,2,2,0,0
+COLTRANE TYSON,Burlington Chiefs,2,4,7,11,0,4,0,0,0
+JUSTIN LEE,Mimico Mountaineers,3,4,7,11,0,2,0,0,0
+BRIAN JACKMAN,Oakville Buzz,5,4,7,11,2,3,0,0,4
+GREG ELIJAH-BROWN,Burlington Chiefs,3,3,8,11,1,3,1,0,2
+BROOKS ENGLISH,Burlington Chiefs,3,2,9,11,1,4,0,1,4
+CLAY SCANLON,St. Catharines Athletics,3,7,3,10,2,2,0,0,0
+NICHOLAS ROODE,Peterborough Lakers,4,5,5,10,0,1,0,1,2
+LIAM MATTHEWS,Orangeville Northmen,5,5,5,10,2,1,0,0,2
+CURTIS GODDARD,Oakville Buzz,5,5,5,10,1,1,1,0,4
+JACK BUDWAY,Whitby Warriors,3,4,6,10,2,1,0,0,0
+WILL MACLEOD,Burlington Chiefs,3,5,4,9,3,1,0,1,2
+CARSON MOYER,Mimico Mountaineers,3,5,4,9,0,1,0,0,2
+CHUCK RAWSON,Burlington Chiefs,3,3,6,9,2,0,0,0,0
+RILEY KNOX,Whitby Warriors,3,3,6,9,0,3,0,0,0
+NICK DILAURO,Peterborough Lakers,4,2,7,9,0,0,0,0,2
+ZACH MILLER,Toronto Beaches,4,0,9,9,0,0,0,0,0
+JAMESON BUCKTOOTH,Orangeville Northmen,5,4,4,8,1,2,0,0,6
+CAMERON ACCHIONE,Toronto Beaches,4,2,6,8,0,3,0,0,0
+JAKE DAWICK,Oakville Buzz,5,2,6,8,0,2,0,2,2
+TYLER HENDRYCKS,Peterborough Lakers,4,3,4,7,0,0,0,0,4
+CAM SANDERSON,Orangeville Northmen,4,2,5,7,1,2,0,0,4
+LUCAS FERREIRA,Oakville Buzz,5,2,5,7,1,0,1,0,0
+CURTIS BUKTA,Mimico Mountaineers,2,3,3,6,1,0,0,0,0
+TIMON ENGLISH,Burlington Chiefs,3,3,3,6,1,0,1,1,2
+GAVIN HOWARD,St. Catharines Athletics,3,3,3,6,0,0,1,0,2
+EDWARD QU,Oakville Buzz,4,3,3,6,0,1,0,1,12
+TRISTEN DEMPERS,Whitby Warriors,3,2,4,6,1,0,0,0,2
+MICHAEL BLAYMIRES,Peterborough Lakers,4,2,4,6,0,0,0,0,0
+NATE RUFF,Orangeville Northmen,5,4,1,5,0,0,1,0,0
+TYE STEENHUIS,St. Catharines Athletics,3,3,2,5,1,1,0,1,21
+EFRAIN BARRETO,St. Catharines Athletics,3,2,3,5,2,0,0,1,2
+JUSTIN SYKES,Mimico Mountaineers,3,1,4,5,0,0,0,0,2
+ALEX GASTON,Toronto Beaches,4,1,4,5,0,0,0,0,2
+NOAH MILLSAP,Orangeville Northmen,5,0,5,5,0,2,0,0,14
+ALEXANDER MARINIER,Burlington Chiefs,3,4,0,4,0,0,0,0,0
+JAKSON RAPOSO,Toronto Beaches,4,3,1,4,0,0,1,0,6
+CARTER BEGLEY AP,Mimico Mountaineers,1,0,4,4,0,2,0,0,0
+ALEXIS SIMARD,Burlington Chiefs,2,2,1,3,0,0,0,0,6
+JEREMI PHOENIX-LEFEBVRE,Toronto Beaches,4,2,1,3,0,0,1,0,18
+XAVIER TAYLOR,St. Catharines Athletics,1,1,2,3,0,1,1,0,6
+CARTER ACCURSI,St. Catharines Athletics,3,1,2,3,0,1,0,0,0
+CODY COULSON,Orangeville Northmen,4,1,2,3,0,0,0,0,4
+COLM BARNETT,Orangeville Northmen,4,1,2,3,0,0,0,1,2
+JEREMY SEARLE,Orangeville Northmen,5,1,2,3,0,1,0,0,7
+TEHARONHIORENS MCCOMBER,Burlington Chiefs,3,0,3,3,0,0,0,0,0
+LUKE DAWICK,Oakville Buzz,4,0,3,3,0,2,0,0,0
+LIAM MCGRATH,Orangeville Northmen,5,0,3,3,0,0,0,0,6
+MICHAEL GRACE,Burlington Chiefs,3,2,0,2,0,0,1,0,2
+MITCHELL ARMSTRONG,St. Catharines Athletics,3,2,0,2,0,0,0,0,2
+GEORGE PITT,Burlington Chiefs,3,2,0,2,0,0,0,0,0
+AIDEN LONG,Orangeville Northmen,4,2,0,2,0,0,0,0,0
+NOLAN BYRNE,Peterborough Lakers,4,2,0,2,0,0,0,0,2
+DAVID PETERKIN,Toronto Beaches,4,2,0,2,0,0,0,0,0
+MICHAEL ANDERSSON,Whitby Warriors,2,1,1,2,0,0,0,0,0
+CARTER SCHOTT,Whitby Warriors,2,1,1,2,0,0,0,0,2
+JAKE DARLISON,Whitby Warriors,3,1,1,2,0,0,0,0,28
+ANDREW VRADENBURG,Burlington Chiefs,3,1,1,2,0,0,0,0,0
+COLE TEEPLE,Orangeville Northmen,2,0,2,2,0,0,0,0,0
+REED KURTZ,Mimico Mountaineers,3,0,2,2,0,0,0,0,0
+DYLAN ROBINSON,Toronto Beaches,4,0,2,2,0,0,0,1,2
+NICK CROWLEY,Peterborough Lakers,4,0,2,2,0,0,0,0,16
+JULIEN BELAIR,Orangeville Northmen,1,1,0,1,0,0,0,0,0
+LUCAS LITTLEJOHN,Whitby Warriors,2,1,0,1,0,0,0,0,4
+JACK OLDMAN,Whitby Warriors,3,1,0,1,0,0,0,0,2
+RILEY SIMPSON,Peterborough Lakers,4,1,0,1,0,0,0,0,0
+CHRIS HARLAND,Toronto Beaches,4,1,0,1,0,0,0,0,4
+ADAM THISTLETHWAITE,Peterborough Lakers,4,1,0,1,0,0,0,0,12
+HUGH KELLEHER,Oakville Buzz,5,1,0,1,1,0,0,0,9
+ALEX ROUSSEL AP,Mimico Mountaineers,1,0,1,1,0,0,0,0,0
+GAVIIN SNOW,St. Catharines Athletics,2,0,1,1,0,0,0,0,0
+MARK WATTERS ,Mimico Mountaineers,2,0,1,1,0,0,0,0,0
+MATTHEW VILAS,Oakville Buzz,2,0,1,1,0,0,0,0,0
+CAMERON PACK,St. Catharines Athletics,2,0,1,1,0,1,0,0,2
+REECE DICICCO,Peterborough Lakers,3,0,1,1,0,0,0,0,6
+RYAN ESSENSSA,Mimico Mountaineers,3,0,1,1,0,1,0,0,2
+OWEN TAPPER,Whitby Warriors,3,0,1,1,0,0,0,0,2
+JAKE DOOLITTLE,Whitby Warriors,3,0,1,1,0,0,0,0,2
+JOHN WHELLER,Whitby Warriors,3,0,1,1,0,0,0,0,0
+Powered by Gamesheet Inc.,,,,,,,,,,

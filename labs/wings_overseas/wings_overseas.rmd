@@ -1,0 +1,416 @@
+---
+title: "Wings Overseas"
+author: "Jon Donville"
+date: '2023-01-19'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Turn off scientific notation
+options(scipen=999)
+
+# Load the tidyverse.
+library(tidyverse)
+library(rvest)
+library(dplyr)
+```
+
+## Satou Stats Lines 23-74
+```{r}
+satou_stats_url <- "https://basketball.eurobasket.com/player/Satou-Sabally/297162?Women=1"
+```
+
+```{r}
+satou_stats_kbsl <- satou_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[3]') %>%
+  html_table()
+
+```
+
+```{r}
+satou_stats_eurobasket <- satou_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[4]') %>%
+  html_table()
+
+```
+
+```{r}
+satou_stats_kbsl <- satou_stats_kbsl[[1]]
+satou_stats_eurobasket <- satou_stats_eurobasket[[1]]
+```
+
+```{r}
+colnames(satou_stats_kbsl) <- as.character(satou_stats_kbsl[2, ])
+```
+
+```{r}
+satou_stats_kbsl <- satou_stats_kbsl %>%   
+  mutate(League =("KBSL"))
+```
+
+```{r}
+satou_stats_kbsl <- satou_stats_kbsl[-1,]
+```
+
+```{r}
+satou_stats_kbsl <- satou_stats_kbsl[-1,]
+```
+
+```{r}
+colnames(satou_stats_eurobasket) <- as.character(satou_stats_eurobasket[2, ])
+```
+
+```{r}
+satou_stats_eurobasket <- satou_stats_eurobasket %>%   
+  mutate(League =("Eurobasket"))
+```
+  
+```{r}
+satou_stats_eurobasket <- satou_stats_eurobasket[-1,]
+```
+
+```{r}
+satou_stats_eurobasket <- satou_stats_eurobasket[-1,]
+```
+
+```{r}
+satou_stats_combined <- bind_rows(list(satou_stats_eurobasket, satou_stats_kbsl)) 
+
+satou_stats_combined <- satou_stats_combined %>% 
+mutate(Last =("Sabally")) %>% 
+  mutate(First ="Satou")
+```
+
+## Awak Kuier 
+
+```{r}
+kuier_stats_url <- "https://basketball.eurobasket.com/player/Awak-Kuier/410742?Women=1"
+```
+
+```{r}
+kuier_stats_seriea <- kuier_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[4]') %>%
+  html_table()
+```
+
+```{r}
+kuier_stats_eurobasket <- kuier_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[5]') %>%
+  html_table()
+```
+
+```{r}
+kuier_stats_europeanchamp <- kuier_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[6]') %>%
+  html_table()
+```
+
+```{r}
+kuier_stats_seriea <- kuier_stats_seriea[[1]]
+kuier_stats_eurobasket<- kuier_stats_eurobasket[[1]]
+kuier_stats_europeanchamp <- kuier_stats_europeanchamp[[1]]
+```
+
+```{r}
+colnames(kuier_stats_seriea) <- as.character(kuier_stats_seriea[2, ])
+```
+
+```{r}
+kuier_stats_seriea <- kuier_stats_seriea %>%   
+  mutate(League =("Italian Serie A"))
+```
+
+```{r}
+kuier_stats_seriea <- kuier_stats_seriea[-1,]
+```
+
+```{r}
+kuier_stats_seriea <- kuier_stats_seriea[-1,]
+```
+
+```{r}
+colnames(kuier_stats_eurobasket) <- as.character(kuier_stats_eurobasket[2, ])
+```
+
+```{r}
+kuier_stats_eurobasket <- kuier_stats_eurobasket %>%   
+  mutate(League =("Eurobasket"))
+```
+
+```{r}
+kuier_stats_eurobasket<- kuier_stats_eurobasket[-1,]
+```
+
+```{r}
+kuier_stats_eurobasket <- kuier_stats_eurobasket[-1,]
+```
+
+```{r}
+colnames(kuier_stats_europeanchamp) <- as.character(kuier_stats_europeanchamp[2, ])
+```
+
+```{r}
+kuier_stats_europeanchamp <- kuier_stats_europeanchamp %>%   
+  mutate(League =("European Championships"))
+```
+
+```{r}
+kuier_stats_europeanchamp<-kuier_stats_europeanchamp[-1,]
+```
+
+```{r}
+kuier_stats_europeanchamp <- kuier_stats_europeanchamp[-1,]
+```
+
+```{r}
+kuier_stats_combined <- bind_rows(list(kuier_stats_eurobasket, kuier_stats_europeanchamp, kuier_stats_seriea))
+
+kuier_stats_combined <- kuier_stats_combined %>% 
+  mutate(Last =("Kuier")) %>% 
+  mutate(First ="Awak")
+  
+```
+
+### Charli Collier 
+
+```{r}
+collier_stats_url <- "https://basketball.eurobasket.com/player/Charli-Collier/400173?Women=1"
+```
+
+```{r}
+collier_stats_israeld1 <- collier_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[3]') %>%
+  html_table()
+```
+
+```{r}
+collier_stats_eurocup <- collier_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[4]') %>%
+  html_table()
+```
+
+```{r}
+collier_stats_israeld1 <- collier_stats_israeld1[[1]]
+collier_stats_eurocup<- collier_stats_eurocup[[1]]
+```
+
+```{r}
+colnames(collier_stats_israeld1) <- as.character(collier_stats_israeld1[2, ])
+```
+
+```{r}
+collier_stats_israeld1 <- collier_stats_israeld1 %>%   
+  mutate(League =("Israel D-1"))
+```
+
+```{r}
+collier_stats_israeld1 <- collier_stats_israeld1[-1,]
+```
+
+```{r}
+collier_stats_israeld1 <- collier_stats_israeld1[-1,]
+```
+
+```{r}
+colnames(collier_stats_eurocup) <- as.character(collier_stats_eurocup[2, ])
+```
+
+```{r}
+collier_stats_eurocup <- collier_stats_eurocup %>%   
+  mutate(League =("Eurocup"))
+```
+
+```{r}
+collier_stats_eurocup<- collier_stats_eurocup[-1,]
+```
+
+```{r}
+collier_stats_eurocup <- collier_stats_eurocup[-1,]
+```
+
+```{r}
+collier_stats_combined <- bind_rows(list(collier_stats_eurocup, collier_stats_israeld1))
+
+collier_stats_combined <- collier_stats_combined %>% 
+  mutate(Last =("Collier")) %>% 
+  mutate(First ="Charlie")
+  
+```
+
+## Mabrey
+
+```{r}
+mabrey_stats_url <- "https://basketball.eurobasket.com/player/Marina-Mabrey/334722?Women=1"
+```
+
+```{r}
+mabrey_stats_seriea <- mabrey_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[3]') %>%
+  html_table()
+```
+
+```{r}
+mabrey_stats_euroleague <- mabrey_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[4]') %>%
+  html_table()
+```
+
+```{r}
+mabrey_stats_seriea <- mabrey_stats_seriea[[1]]
+mabrey_stats_euroleague<- mabrey_stats_euroleague[[1]]
+```
+
+
+```{r}
+colnames(mabrey_stats_seriea ) <- as.character(mabrey_stats_seriea[2, ])
+```
+
+```{r}
+mabrey_stats_seriea  <- mabrey_stats_seriea  %>%   
+  mutate(League =("Italy Serie A-1"))
+```
+
+```{r}
+mabrey_stats_seriea <- mabrey_stats_seriea [-1,]
+```
+
+```{r}
+mabrey_stats_seriea <- mabrey_stats_seriea [-1,]
+```
+
+```{r}
+colnames(mabrey_stats_euroleague) <- as.character(mabrey_stats_euroleague[2, ])
+```
+
+```{r}
+mabrey_stats_euroleague <- mabrey_stats_euroleague%>%   
+  mutate(League =("Euroleague"))
+```
+
+```{r}
+mabrey_stats_euroleague<- mabrey_stats_euroleague[-1,]
+```
+
+```{r}
+mabrey_stats_euroleague <- mabrey_stats_euroleague[-1,]
+```
+
+```{r}
+mabrey_stats_combined <- bind_rows(list(mabrey_stats_seriea, mabrey_stats_euroleague))
+
+mabrey_stats_combined <- mabrey_stats_combined %>% 
+  mutate(Last =("Mabrey")) %>% 
+  mutate(First ="Marina")
+  
+```
+
+## McCowan 
+
+```{r}
+tea_stats_url <- "https://basketball.eurobasket.com/player/Teaira-McCowan/372234?Women=1"
+```
+
+```{r}
+tea_stats_kbsl <- tea_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[4]') %>%
+  html_table()
+```
+
+```{r}
+tea_stats_eurocup <- tea_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[5]') %>%
+  html_table()
+```
+
+```{r}
+tea_stats_eurochamp <- tea_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[6]') %>%
+  html_table()
+```
+
+```{r}
+tea_stats_eurocup<- tea_stats_eurocup[[1]]
+tea_stats_eurochamp<- tea_stats_eurochamp[[1]]
+tea_stats_kbsl<- tea_stats_kbsl[[1]]
+```
+
+
+```{r}
+colnames(tea_stats_eurocup) <- as.character(tea_stats_eurocup[2, ])
+```
+
+```{r}
+tea_stats_eurocup <- tea_stats_eurocup%>%   
+  mutate(League =("Eurocup"))
+```
+
+```{r}
+tea_stats_eurocup<- tea_stats_eurocup[-1,]
+```
+
+```{r}
+tea_stats_eurocup<- tea_stats_eurocup[-1,]
+```
+
+```{r}
+colnames(tea_stats_eurochamp) <- as.character(tea_stats_eurochamp[2, ])
+```
+
+```{r}
+tea_stats_eurochamp <- tea_stats_eurochamp%>%   
+  mutate(League =("European Championships"))
+```
+
+```{r}
+tea_stats_eurochamp<- tea_stats_eurochamp[-1,]
+```
+
+```{r}
+tea_stats_eurochamp<- tea_stats_eurochamp[-1,]
+```
+
+```{r}
+colnames(tea_stats_kbsl) <- as.character(tea_stats_kbsl[2, ])
+```
+
+```{r}
+tea_stats_kbsl <- tea_stats_kbsl%>%   
+  mutate(League =("European Championships"))
+```
+
+```{r}
+tea_stats_kbsl<- tea_stats_kbsl[-1,]
+```
+
+```{r}
+tea_stats_kbsl<- tea_stats_kbsl[-1,]
+```
+
+```{r}
+tea_stats_combined <- bind_rows(list(tea_stats_eurochamp, tea_stats_eurocup, tea_stats_kbsl))
+
+tea_stats_combined <- tea_stats_combined %>% 
+  mutate(Last =("Tea")) %>% 
+  mutate(First ="McCowan")
+  
+```
+## All Players 
+```{r}
+all_games_combined <- bind_rows(list(kuier_stats_combined, satou_stats_combined, collier_stats_combined, mabrey_stats_combined, tea_stats_combined))
+```

@@ -28,6 +28,8 @@ library(sf)
 library(tidycensus)
 library(tigris)
 library(ggplot2)
+library(rvest)
+library(ggthemes)
 
 ```
 
@@ -35,8 +37,7 @@ library(ggplot2)
 
 ```{r}
 
-ola_player_stats <- read_csv("data/ola_stats_july7.csv")
-
+ola_player_stats <- read_csv("data/ola_stats_july11_clean.csv")
 
 ```
 
@@ -48,20 +49,22 @@ Goals + Assists
 
 ```{r}
 ola_top_scorers <- ola_player_stats %>% 
-  filter(PTS >= 40) %>% 
-  mutate(player_name = PLAYER)
+  filter(PTS >= 40) 
+
   
 ola_top_scorers %>% 
 ggplot() +
-  geom_point(aes(G, A), size=2, colour="blueviolet",) +
+  geom_point(aes(x=G, y=A), size=2, colour="blueviolet",) +
+  geom_text(aes(x=G, y=A, label=last_name, hjust=-0.3,vjust=0,), size=2) +
+  xlim(20, 70)+
+  ylim(20, 80)+
+  theme_economist() +
  labs(
-    title="Goals and Assists As of July 7",
+    title="Leading Scorers As Of July 11 (min 40 points)",
     x = "Goals",
     y = "Assists",
     caption = "source: ontariojuniorlacrosse.com",
   ) 
-   geom_text()
-
 
 
 ```
@@ -69,18 +72,329 @@ ggplot() +
 Powerplay
 
 ```{r}
-
-ola_top_scorers <- ola_player_stats %>% 
-  filter(PTS >= 20) 
   
-ggplot(ola_top_scorers) +
-  geom_point(aes(PPG, PPA), size=2, colour="blueviolet",) +
+
+ola_top_scorers %>% 
+ggplot() +
+   geom_point(aes(x=PPG, y=PPA), size=2, colour="blueviolet",) +
+  geom_text(aes(x=PPG, y=PPA, label=last_name, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(0, 30)+
+  ylim(0, 30)+
  labs(
-    title="Goals and Assists As of July 7",
+    title="Powerplay Points As of July 11",
     x = "Powerplay Goals",
     y = "Powerplay Assists",
     caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+```
+
+Attempt at matrix 
+
+## Team Scoring 
+
+```{r}
+ola_team_stats <- read_csv("data/ola_team_regseason.csv") %>% 
+  filter(PTS >= 2)
+
+
+ola_team_stats %>% 
+ ggplot() +
+  geom_bar(aes(x=reorder(team_name, DIFF), weight=DIFF))+
+    coord_flip()+
+   theme_economist() +
+   labs(
+    title="Scoring Differential by Team, Summer 2022",
+    x = "",
+    y = "Season Scoring Differential",
+    caption = "source: ontariojrlacrosse.com")
+    
+
+  
+
+```
+
+## Matrix Attempt
+
+```{r}
+
+gfmean <- mean(ola_team_stats$`GF`, na.rm = TRUE)
+gamean <-mean(ola_team_stats$`GA`, na.rm = TRUE)
+
+ggplot(ola_team_stats, aes(x=GF, y=GA, label=team_name))+
+ geom_point() +geom_text(aes(label=team_name),hjust=-0.2, vjust=-0, size=2.5)+
+    scale_y_reverse()+
+ xlab("Goals For") +
+ ylab("Goals Against") + 
+ geom_hline(yintercept=194,linetype = 'dashed', color="red") + 
+ geom_vline(xintercept=194, linetype = 'dashed', color="red") +
+ coord_cartesian(xlim=c(100,300),ylim = c(300,100)) +
+  labs (
+    title="Goals For and Against by Team, July 11",
+    caption = "source: ontariojrlacrosse.com"
   )
-geom_text(size=6)
+theme_economist()
+
+
+
+```
+
+```{r}
+ola_alltime <- read_csv("data/ola_alltime_clean.csv") 
+ 
+century_club <- ola_alltime %>% 
+filter(goals >= 50)
+  
+century_club %>% 
+  ggplot() +
+  geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name, hjust=-0.1,vjust=0,), size=2) +
+  xlim(20, 100)+
+  ylim(40, 100)+
+  theme_economist() +
+ labs(
+    title="Points As of July 7",
+    x = "Snipers",
+    y = "Distributors",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) 
+
+
+
+```
+## Single Season Goals
+
+```{r}
+top_scorers_decade <- ola_alltime %>% 
+  filter(goals >= 50)
+
+
+```
+
+## Special Teams Differential 
+
+```{r}
+
+special_teams_differential <- ola_team_stats %>% 
+mutate(st_diff= ((PPG+SHG)-(SHGA)))
+
+special_teams_differential %>% 
+ ggplot() +
+  geom_bar(aes(x=reorder(team_name, st_diff), weight=st_diff))+
+    coord_flip()+
+   theme_economist() +
+   labs(
+    title="Special Teams Plus Minus, Summer 2022",
+    x = "",
+    y = "Powerplay Goals + Shorthanded Goals - Short Handed Goals Against",
+    caption = "source: ontariojrlacrosse.com")
+    
+
+```
+
+
+```{r}
+ola_team_playoffs <- read_csv("data/ola_team_playoffs_july18.csv") 
+
+special_teams_differential_playoffs <- ola_team_playoffs %>% 
+mutate(st_diff= ((PPG)-(SHGA)))
+
+special_teams_differential_playoffs %>% 
+ ggplot() +
+  geom_bar(aes(x=reorder(TEAM, st_diff), weight=st_diff))+
+    coord_flip()+
+   theme_economist() +
+   labs(
+    title="Power Play Plus Minus, OJLL First Round",
+    x = "",
+    y = "Powerplay Goals - Short Handed Goals Allowed",
+    caption = "source: ontariojrlacrosse.com")
+
+
+
+
+```
+
+
+## Orangeville 
+```{r}
+ola_alltime_clean <-  read_csv("data/ola_alltime_clean.csv") 
+
+northmen_top10 <- ola_alltime_clean %>% 
+  filter(team_clean == "ORA") %>% 
+  filter(points >= 60)
+
+northmen_top10 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 50)+
+  ylim(20, 60)+
+ labs(
+    title="Orangeville Northmen - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+```
+
+## Burlington
+
+```{r}
+
+chiefs_top10 <- ola_alltime_clean %>% 
+  filter(team_clean == "BUR") %>% 
+  filter(points >= 60)
+
+chiefs_top10 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 60)+
+  ylim(20, 60)+
+ labs(
+    title="Burlington Chiefs - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+```
+
+## Mimico 
+```{r}
+mounties_top10 <- ola_alltime_clean %>% 
+  filter(team_clean == "MIM") %>% 
+  filter(points >= 60)
+
+mounties_top10 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 60)+
+  ylim(20, 80)+
+ labs(
+    title="Mimico Mountaineers - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+```
+
+## Whitby 
+
+```{r}
+warriors_top10 <- ola_alltime_clean %>% 
+  filter(team_clean == "WHI") %>% 
+  filter(points >= 60)
+
+warriors_top10 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 60)+
+  ylim(20, 85)+
+ labs(
+    title="Whitby Warriors - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+```
+
+## Brampton
+
+```{r}
+excels_top10 <- ola_alltime_clean %>% 
+  filter(team_clean == "BRA") %>% 
+  filter(points >= 60)
+
+excels_top10 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 60)+
+  ylim(20, 100)+
+ labs(
+    title="Brampton Excelsiors - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+```
+
+## Six Nations
+
+```{r}
+arrows_top10 <- ola_alltime_clean %>% 
+  filter(team_clean == "SNA") %>% 
+  filter(points >= 60)
+
+arrows_top10 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 80)+
+  ylim(20, 60)+
+ labs(
+    title="Six Nations - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+```
+
+## Beaches 
+```{r}
+
+beaches_top10 <- ola_alltime_clean %>% 
+  filter(team_clean == "TOR") %>% 
+  filter(points >= 60)
+
+beaches_top10 %>% 
+ggplot() +
+   geom_point(aes(x=goals, y=assists), size=2, colour="blueviolet",) +
+  geom_text(aes(x=goals, y=assists, label=last_name, hjust=-0.3,vjust=0,), size=1.8) +
+  xlim(20, 60)+
+  ylim(20, 60)+
+ labs(
+    title="Toronto Beaches - Best Seasons Since 2012",
+    x = "Goals",
+    y = "Assists",
+    caption = "source: ontariojuniorlacrosse.com",
+  ) +
+theme_economist()
+
+```
+
+## Scoring Over Time 
+
+```{r}
+ola_team_alltime<-  read_csv("data/ola_team_alltime.csv") 
+
+scoring_over_time <- ola_team_alltime %>% 
+    group_by(year) %>% 
+  summarise(sum(GF))
+
+
+  
+  
+
+```
+
+## End of Round 1
+
+```{r}
+
 
 ```
