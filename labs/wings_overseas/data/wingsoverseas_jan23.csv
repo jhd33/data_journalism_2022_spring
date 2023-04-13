@@ -8,6 +8,11 @@ Date,Team,Against Team,Result,MIN,PTS,2FGP,3FGP,FT,RO,RD,RT,AS,PF,BS,ST,TO,RNK,L
 2023-01-05,Venezia,Sassari,82-89,34,21,6-9,2-4,3-5,0,6,6,2,3,0,4,1,22,Eurobasket,Kuier,Awak
 2023-01-12,Venezia,Sassari,83-61,34,19,8-11,1-4,0-2,1,6,7,6,1,1,1,3,22,Eurobasket,Kuier,Awak
 2023-01-26,Venezia,E.Holon,68-83,23,6,1-5,1-2,1-3,1,0,1,1,0,1,1,3,0,Eurobasket,Kuier,Awak
+2023-02-01,Venezia,E.Holon,77-60,31,11,3-5,1-4,2-4,3,5,8,1,1,2,0,3,11,Eurobasket,Kuier,Awak
+2023-02-23,Venezia,E.Ramla,75-80,9,1,0-1,0-1,1-2,0,4,4,0,1,0,0,0,1,Eurobasket,Kuier,Awak
+2023-03-02,Venezia,E.Ramla,59-48,26,12,4-5,1-5,1-2,0,4,4,0,3,1,1,5,4,Eurobasket,Kuier,Awak
+2023-03-16,Venezia,Galatasaray,49-74,32,6,3-7,0-4,0-0,0,4,4,1,2,0,2,5,-2,Eurobasket,Kuier,Awak
+2023-03-23,Venezia,Galatasaray,69-60,31,10,2-5,2-5,0-0,0,3,3,1,3,4,0,1,8,Eurobasket,Kuier,Awak
 2021-11-11,Finland,Lithuania,69-59,35,21,5-11,3-8,2-4,3,11,14,1,2,4,2,6,21,European Championships,Kuier,Awak
 2021-11-14,Finland,Ukraine,71-77,37,25,9-12,1-5,4-5,3,8,11,1,2,2,0,5,24,European Championships,Kuier,Awak
 2022-11-24,Finland,France,103-77,28,14,3-10,2-8,2-2,0,7,7,4,3,0,2,3,8,European Championships,Kuier,Awak
@@ -30,13 +35,28 @@ Date,Team,Against Team,Result,MIN,PTS,2FGP,3FGP,FT,RO,RD,RT,AS,PF,BS,ST,TO,RNK,L
 2023-01-15,Venezia,Ragusa,82-74,27,10,4-6,0-3,2-4,0,6,6,1,4,2,2,2,11,Italian Serie A,Kuier,Awak
 2023-01-21,Venezia,Sassari,74-79,30,10,4-9,0-2,2-2,0,7,7,1,1,2,1,3,14,Italian Serie A,Kuier,Awak
 2023-01-29,Venezia,Crema,83-62,28,15,3-3,2-2,3-4,1,2,3,4,3,1,1,1,21,Italian Serie A,Kuier,Awak
+2023-02-19,Venezia,Lucca,86-45,27,21,7-9,2-3,1-1,0,10,10,1,2,2,1,2,29,Italian Serie A,Kuier,Awak
+2023-03-05,Venezia,Bologna,60-85,26,16,4-8,2-5,2-4,2,5,7,1,0,1,0,3,16,Italian Serie A,Kuier,Awak
+2023-03-09,Venezia,Schio,73-72,38,20,5-10,2-3,4-4,0,10,10,1,1,4,0,1,32,Italian Serie A,Kuier,Awak
+2023-03-12,Venezia,Moncalieri,79-66,28,13,4-9,1-2,2-4,1,4,5,0,1,2,0,3,13,Italian Serie A,Kuier,Awak
+2023-03-19,Venezia,San Martino,80-55,16,6,1-4,0-1,4-6,0,2,2,2,0,0,0,2,4,Italian Serie A,Kuier,Awak
+2023-03-26,Venezia,San Giovanni,67-51,25,6,2-7,0-2,2-2,1,4,5,1,0,0,1,1,6,Italian Serie A,Kuier,Awak
 2023-01-04,Fenerbahce,Polkowice,111-61,19,17,4-6,3-3,0-0,0,2,2,4,3,0,0,2,16,Eurobasket,Sabally,Satou
-2023-01-11,Fenerbahce,Szekszard,91-71,16,0,0-2,0-2,0-0,2,0,2,1,1,0,1,1,-2,Eurobasket,Sabally,Satou
+2023-01-11,Fenerbahce,Atomeromu,91-71,16,0,0-2,0-2,0-0,2,0,2,1,1,0,1,1,-2,Eurobasket,Sabally,Satou
 2023-01-18,Fenerbahce,Olympiacos,92-58,20,10,1-5,2-4,2-4,1,8,9,3,2,0,0,3,9,Eurobasket,Sabally,Satou
 2023-01-25,Fenerbahce,Bologna,95-73,23,19,6-14,2-3,1-1,1,2,3,3,3,0,2,1,14,Eurobasket,Sabally,Satou
+2023-01-31,Fenerbahce,USK Praha,73-66,23,14,5-7,0-3,4-5,2,4,6,6,4,0,3,1,18,Eurobasket,Sabally,Satou
+2023-02-22,Fenerbahce,Valencia,93-61,20,20,2-5,3-5,7-8,3,4,7,0,1,1,2,4,19,Eurobasket,Sabally,Satou
+2023-03-01,Fenerbahce,Bourges,90-79,26,14,4-5,1-4,3-4,2,4,6,4,5,0,1,3,12,Eurobasket,Sabally,Satou
+2023-03-14,Fenerbahce,Sopron,82-62,24,13,4-9,1-3,2-2,2,2,4,3,3,1,1,0,12,Eurobasket,Sabally,Satou
+2023-03-17,Fenerbahce,Sopron,82-62,20,8,2-4,0-5,4-6,2,3,5,1,1,1,0,4,1,Eurobasket,Sabally,Satou
 2023-01-13,Fenerbahce,Antalya 07,106-69,29,31,5-9,7-10,0-0,4,3,7,5,5,1,4,1,35,KBSL,Sabally,Satou
-2022-10-07,Ramat Hasharon,FCSM Csata,70-62,28,15,5-15,1-3,2-5,5,5,10,1,3,0,1,5,4,Eurocup,Collier,Charlie
-2022-10-13,Ramat Hasharon,FCSM Csata,71-68,32,24,7-13,2-3,4-6,3,6,9,1,5,1,0,3,18,Eurocup,Collier,Charlie
+2023-03-04,Fenerbahce,Kayseri,110-56,29,28,7-12,4-7,2-2,3,3,6,3,1,0,3,4,27,KBSL,Sabally,Satou
+2023-03-06,Fenerbahce,Nesibe,82-81,30,27,5-6,4-8,5-8,2,0,2,3,2,0,3,2,23,KBSL,Sabally,Satou
+2023-03-20,Fenerbahce,Besiktas,90-72,29,28,5-12,5-7,3-4,3,10,13,4,3,1,1,4,30,KBSL,Sabally,Satou
+2023-03-28,Fenerbahce,Rize,110-54,20,14,5-9,1-6,1-2,1,3,4,3,1,0,1,1,10,KBSL,Sabally,Satou
+2022-10-07,Ramat Hasharon,Ludovika-Csata,70-62,28,15,5-15,1-3,2-5,5,5,10,1,3,0,1,5,4,Eurocup,Collier,Charlie
+2022-10-13,Ramat Hasharon,Ludovika-Csata,71-68,32,24,7-13,2-3,4-6,3,6,9,1,5,1,0,3,18,Eurocup,Collier,Charlie
 2022-10-26,Ramat Hasharon,Crvena Zvezda,87-88,37,23,6-11,2-3,5-8,4,8,12,3,4,0,0,5,20,Eurocup,Collier,Charlie
 2022-11-03,Ramat Hasharon,Panathinaikos,62-76,32,15,4-7,0-3,7-10,4,6,10,0,4,0,1,6,7,Eurocup,Collier,Charlie
 2022-11-10,Ramat Hasharon,Lublin,66-69,28,13,2-5,1-6,6-6,1,0,1,1,0,0,1,1,7,Eurocup,Collier,Charlie
@@ -53,46 +73,51 @@ Date,Team,Against Team,Result,MIN,PTS,2FGP,3FGP,FT,RO,RD,RT,AS,PF,BS,ST,TO,RNK,L
 2023-01-02,Ramat Hasharon,M.Ramat Gan,82-66,31,9,2-8,1-3,2-4,4,10,14,3,1,0,0,1,14,Israel D-1,Collier,Charlie
 2023-01-09,Ramat Hasharon,H.Petah Tikva,94-67,29,21,7-12,1-3,4-5,5,5,10,0,4,0,2,1,20,Israel D-1,Collier,Charlie
 2023-01-23,Ramat Hasharon,Hertzliya,71-58,34,18,8-14,0-4,2-2,6,4,10,0,3,0,1,3,13,Israel D-1,Collier,Charlie
-2022-10-16,Schio,Bologna,76-71,27,16,4-13,2-7,2-3,1,1,2,2,3,0,2,3,4,Italy Serie A-1,Mabrey,Marina
-2022-10-30,Schio,Faenza,103-69,20,18,3-5,4-7,0-0,1,2,3,4,2,0,2,0,21,Italy Serie A-1,Mabrey,Marina
-2022-11-05,Schio,Moncalieri,74-54,28,14,4-11,1-3,3-4,1,3,4,4,0,0,2,1,14,Italy Serie A-1,Mabrey,Marina
-2022-11-12,Schio,Campobasso,85-52,18,2,1-6,0-3,0-0,0,4,4,2,1,1,1,1,0,Italy Serie A-1,Mabrey,Marina
-2022-11-19,Schio,Lucca,98-76,30,27,7-8,4-6,1-1,2,10,12,3,2,0,0,5,36,Italy Serie A-1,Mabrey,Marina
-2022-12-04,Schio,Venezia,83-71,29,25,6-9,2-5,7-9,0,1,1,6,3,0,1,2,27,Italy Serie A-1,Mabrey,Marina
-2022-12-17,Schio,Valdarno,105-44,17,17,1-1,5-5,0-0,0,3,3,3,1,0,0,3,19,Italy Serie A-1,Mabrey,Marina
-2022-12-23,Schio,Sassari,94-66,21,16,2-3,4-7,0-0,0,3,3,4,2,0,1,3,16,Italy Serie A-1,Mabrey,Marina
-2023-01-01,Schio,San Martino,73-72,32,10,1-7,2-4,2-3,1,5,6,2,2,0,0,3,6,Italy Serie A-1,Mabrey,Marina
-2023-01-08,Schio,San Giovanni,80-59,21,22,2-2,6-9,0-0,1,0,1,6,1,0,1,3,25,Italy Serie A-1,Mabrey,Marina
-2023-01-21,Schio,Bologna,80-94,35,30,7-14,5-12,1-2,1,1,2,3,4,0,0,4,13,Italy Serie A-1,Mabrey,Marina
-2023-01-28,Schio,Ragusa,89-72,34,30,8-12,4-8,2-2,4,2,6,1,1,0,0,4,26,Italy Serie A-1,Mabrey,Marina
-2022-10-27,Schio,Miskolc,90-82,36,18,2-8,3-10,5-7,1,1,2,6,2,0,1,1,9,Euroleague,Mabrey,Marina
-2022-11-02,Schio,Girona,63-83,30,13,2-6,2-5,3-5,1,6,7,0,3,0,2,4,6,Euroleague,Mabrey,Marina
-2022-11-10,Schio,Avenida,71-54,34,16,5-12,2-7,0-0,0,4,4,3,1,0,1,2,9,Euroleague,Mabrey,Marina
-2022-11-15,Schio,Landes,78-58,25,23,5-5,3-7,4-5,0,4,4,5,1,0,2,0,28,Euroleague,Mabrey,Marina
-2022-12-08,Schio,Mersin,76-72,36,19,5-12,1-3,6-10,0,1,1,3,2,0,1,5,4,Euroleague,Mabrey,Marina
-2022-12-14,Schio,Kangoeroes,74-70,17,12,6-7,0-1,0-0,0,1,1,1,3,0,0,1,8,Euroleague,Mabrey,Marina
-2022-12-20,Schio,Sopron,61-80,29,6,3-7,0-1,0-1,0,1,1,6,2,0,1,4,2,Euroleague,Mabrey,Marina
-2023-01-05,Schio,Miskolc,63-65,25,6,0-5,2-5,0-0,2,3,5,4,1,1,1,4,4,Euroleague,Mabrey,Marina
-2023-01-12,Schio,Girona,70-65,26,5,2-12,0-3,1-2,0,3,3,2,1,0,1,0,-4,Euroleague,Mabrey,Marina
-2023-01-18,Schio,Avenida,72-61,31,10,2-7,2-4,0-0,0,2,2,5,1,0,2,3,8,Euroleague,Mabrey,Marina
-2023-01-25,Schio,Landes,85-71,26,21,2-5,5-7,2-5,0,4,4,5,2,0,1,2,19,Euroleague,Mabrey,Marina
+2023-01-30,Ramat Hasharon,M.Haifa,79-65,35,20,7-16,1-2,3-4,8,8,16,2,2,1,3,0,29,Israel D-1,Collier,Charlie
+2023-02-16,Ramat Hasharon,H.Rishon LZ,54-82,35,13,5-14,0-1,3-4,2,6,8,1,1,0,0,5,5,Israel D-1,Collier,Charlie
+2023-02-20,Ramat Hasharon,E.Holon,98-89,36,19,6-9,1-1,4-4,1,9,10,1,5,1,0,4,19,Israel D-1,Collier,Charlie
+2023-02-27,Ramat Hasharon,M.Ashdod,68-57,32,12,2-5,2-5,2-2,2,4,6,3,3,1,0,2,11,Israel D-1,Collier,Charlie
+2023-03-06,Ramat Hasharon,E.Ramla,66-54,34,8,2-6,1-6,1-2,1,7,8,3,5,2,2,1,7,Israel D-1,Collier,Charlie
+2023-03-09,Ramat Hasharon,H.Rishon LZ,69-66,38,25,9-12,2-3,1-1,2,2,4,0,2,0,2,3,22,Israel D-1,Collier,Charlie
+2023-03-13,Ramat Hasharon,M.Ramat Gan,54-65,38,14,3-4,1-5,5-6,3,6,9,1,2,1,1,1,17,Israel D-1,Collier,Charlie
+2023-03-16,Ramat Hasharon,M.Haifa,75-64,36,3,0-5,1-4,0-0,0,6,6,0,3,0,1,3,-4,Israel D-1,Collier,Charlie
+2023-03-20,Ramat Hasharon,M.Ashdod,67-88,37,13,5-9,1-6,0-1,4,3,7,2,2,1,1,0,12,Israel D-1,Collier,Charlie
+2023-03-23,Ramat Hasharon,E.Ramla,66-61,35,11,4-9,1-5,0-0,3,8,11,5,4,0,1,3,12,Israel D-1,Collier,Charlie
+2023-03-27,Ramat Hasharon,M.Ashdod,71-77,30,12,4-6,0-5,4-4,3,7,10,1,5,0,2,3,10,Israel D-1,Collier,Charlie
+2023-03-30,Ramat Hasharon,M.Ashdod,80-104,32,7,3-5,0-3,1-2,1,3,4,4,4,0,0,1,4,Israel D-1,Collier,Charlie
 2022-11-24,Turkey,Albania,140-44,21,28,14-19,0-0,0-3,8,9,17,0,2,1,1,0,37,European Championships,McCowan,Tea
 2022-11-27,Turkey,Slovenia,80-74,28,26,10-14,0-0,6-10,7,2,9,4,3,1,0,4,25,European Championships,McCowan,Tea
+2023-02-09,Turkey,Poland,76-72,36,19,5-10,0-0,9-10,5,11,16,2,1,3,1,2,32,European Championships,McCowan,Tea
+2023-02-12,Turkey,Albania,48-98,11,19,9-9,0-1,1-2,2,4,6,1,1,2,2,0,27,European Championships,McCowan,Tea
 2022-12-07,Galatasaray,Gorzow Wlkp.,68-66,35,33,16-23,0-0,1-4,10,4,14,3,3,1,0,3,35,Eurocup,McCowan,Tea
 2022-12-14,Galatasaray,Piestanske C.,79-55,30,20,8-14,1-1,1-2,6,5,11,4,2,0,4,4,26,Eurocup,McCowan,Tea
-2023-01-04,Galatasaray,Uni Gyor,78-61,35,17,6-12,1-2,2-4,6,12,18,2,3,4,1,1,29,Eurocup,McCowan,Tea
-2023-01-11,Galatasaray,Uni Gyor,64-54,31,16,4-10,0-2,8-9,3,8,11,1,2,2,2,2,19,Eurocup,McCowan,Tea
+2023-01-04,Galatasaray,UNI Gyor,78-61,35,17,6-12,1-2,2-4,6,12,18,2,3,4,1,1,29,Eurocup,McCowan,Tea
+2023-01-11,Galatasaray,UNI Gyor,64-54,31,16,4-10,0-2,8-9,3,8,11,1,2,2,2,2,19,Eurocup,McCowan,Tea
 2023-01-26,Galatasaray,BLMA,88-75,37,29,11-15,0-1,7-10,4,8,12,4,2,1,0,5,31,Eurocup,McCowan,Tea
-2022-12-01,Galatasaray,Fenerbahce,72-80,36,26,9-16,0-0,8-14,8,8,16,1,3,1,0,3,25,European Championships,McCowan,Tea
-2022-12-04,Galatasaray,Botas A.,55-47,23,11,5-6,0-0,1-2,2,6,8,0,5,1,0,3,10,European Championships,McCowan,Tea
-2022-12-10,Galatasaray,Emlak,66-74,35,20,8-13,0-0,4-5,6,7,13,3,1,1,1,3,28,European Championships,McCowan,Tea
-2022-12-18,Galatasaray,Bursa,86-58,18,13,6-9,0-0,1-3,2,5,7,3,0,2,1,1,20,European Championships,McCowan,Tea
-2022-12-25,Galatasaray,Kayseri,100-61,27,18,7-19,0-2,4-4,6,6,12,3,3,2,0,0,18,European Championships,McCowan,Tea
-2022-12-30,Galatasaray,Nesibe,76-57,29,16,6-14,0-0,4-7,3,5,8,2,2,0,1,7,7,European Championships,McCowan,Tea
-2023-01-07,Galatasaray,Antalya 07,79-59,32,13,5-11,0-1,3-4,3,9,12,1,4,2,1,2,15,European Championships,McCowan,Tea
-2023-01-14,Galatasaray,Cankaya,83-57,26,19,8-11,0-0,3-5,3,5,8,3,3,1,1,4,20,European Championships,McCowan,Tea
-2023-01-21,Galatasaray,Besiktas,81-65,34,13,5-10,0-1,3-8,6,8,14,6,2,2,2,5,19,European Championships,McCowan,Tea
-2023-01-29,Galatasaray,Hatay,91-60,19,16,7-8,0-1,2-4,1,3,4,1,2,1,0,0,16,European Championships,McCowan,Tea
+2023-02-01,Galatasaray,BLMA,67-57,33,21,9-13,0-0,3-4,4,12,16,1,2,1,1,4,29,Eurocup,McCowan,Tea
+2023-02-22,Galatasaray,Cadi La Seu,86-61,35,15,7-11,0-3,1-2,8,15,23,2,3,1,1,6,25,Eurocup,McCowan,Tea
+2023-03-01,Galatasaray,Cadi La Seu,75-65,25,20,7-15,0-1,6-8,10,6,16,1,4,2,0,2,22,Eurocup,McCowan,Tea
+2023-03-16,Galatasaray,Venezia,74-49,34,21,8-11,0-0,5-9,3,13,16,2,1,1,0,2,30,Eurocup,McCowan,Tea
+2023-03-23,Galatasaray,Venezia,60-69,36,17,5-10,0-0,7-8,7,11,18,1,2,1,0,2,27,Eurocup,McCowan,Tea
+2022-12-01,Galatasaray,Fenerbahce,72-80,36,26,9-16,0-0,8-14,8,8,16,1,3,1,0,3,25,KBSL,McCowan,Tea
+2022-12-04,Galatasaray,Botas A.,55-47,23,11,5-6,0-0,1-2,2,6,8,0,5,1,0,3,10,KBSL,McCowan,Tea
+2022-12-10,Galatasaray,Emlak,66-74,35,20,8-13,0-0,4-5,6,7,13,3,1,1,1,3,28,KBSL,McCowan,Tea
+2022-12-18,Galatasaray,Bursa,86-58,18,13,6-9,0-0,1-3,2,5,7,3,0,2,1,1,20,KBSL,McCowan,Tea
+2022-12-25,Galatasaray,Kayseri,100-61,27,18,7-19,0-2,4-4,6,6,12,3,3,2,0,0,18,KBSL,McCowan,Tea
+2022-12-30,Galatasaray,Nesibe,76-57,29,16,6-14,0-0,4-7,3,5,8,2,2,0,1,7,7,KBSL,McCowan,Tea
+2023-01-07,Galatasaray,Antalya 07,79-59,32,13,5-11,0-1,3-4,3,9,12,1,4,2,1,2,15,KBSL,McCowan,Tea
+2023-01-14,Galatasaray,Cankaya,83-57,26,19,8-11,0-0,3-5,3,5,8,3,3,1,1,4,20,KBSL,McCowan,Tea
+2023-01-21,Galatasaray,Besiktas,81-65,34,13,5-10,0-1,3-8,6,8,14,6,2,2,2,5,19,KBSL,McCowan,Tea
+2023-01-29,Galatasaray,Hatay,91-60,19,16,7-8,0-1,2-4,1,3,4,1,2,1,0,0,16,KBSL,McCowan,Tea
+2023-02-04,Galatasaray,Rize,88-69,31,29,8-12,2-2,7-8,7,12,19,2,3,0,1,4,39,KBSL,McCowan,Tea
+2023-03-03,Galatasaray,Ormanspor,92-84,34,26,11-16,0-0,4-5,6,9,15,2,0,1,0,1,37,KBSL,McCowan,Tea
+2023-03-06,Galatasaray,Mersin,58-75,33,19,7-11,0-0,5-7,5,9,14,2,3,1,0,4,23,KBSL,McCowan,Tea
+2023-03-09,Galatasaray,Fenerbahce,62-80,36,14,7-10,0-1,0-0,4,8,12,2,1,1,1,2,23,KBSL,McCowan,Tea
+2023-03-11,Galatasaray,Botas A.,77-86,13,10,3-6,1-1,1-2,3,3,6,0,2,0,0,0,10,KBSL,McCowan,Tea
+2023-03-18,Galatasaray,Emlak,90-68,30,26,12-14,0-0,2-3,6,7,13,2,2,1,1,0,38,KBSL,McCowan,Tea
+2023-03-26,Galatasaray,Bursa,89-83,28,11,5-8,0-0,1-3,0,6,6,2,2,2,1,2,13,KBSL,McCowan,Tea
+2023-03-28,Galatasaray,Kayseri,80-61,16,14,5-5,1-2,1-3,3,5,8,1,0,0,0,0,20,KBSL,McCowan,Tea
+2023-04-01,Galatasaray,Nesibe,76-69,32,19,9-14,0-0,1-5,6,8,14,0,2,0,1,2,21,KBSL,McCowan,Tea
 2022-10-01,Crema,Bologna,52-75,33,9,3-16,0-2,3-4,4,2,6,2,0,1,4,1,7,Italy Serie A1,Dickey,Jasmine
 2022-10-05,Crema,Lucca,60-75,37,22,10-20,0-3,2-3,2,4,6,0,2,1,4,4,18,Italy Serie A1,Dickey,Jasmine
 2022-10-09,Crema,Schio,62-87,37,14,4-16,1-1,3-5,2,5,7,2,1,1,1,3,10,Italy Serie A1,Dickey,Jasmine
@@ -109,3 +134,11 @@ Date,Team,Against Team,Result,MIN,PTS,2FGP,3FGP,FT,RO,RD,RT,AS,PF,BS,ST,TO,RNK,L
 2023-01-15,Crema,Schio,70-73,27,13,4-12,0-2,5-6,1,1,2,1,3,0,2,0,7,Italy Serie A1,Dickey,Jasmine
 2023-01-22,Crema,Moncalieri,78-62,35,27,8-13,2-6,5-5,3,5,8,0,1,0,1,2,26,Italy Serie A1,Dickey,Jasmine
 2023-01-29,Crema,Venezia,62-83,34,12,4-11,0-0,4-6,3,5,8,2,0,2,0,1,18,Italy Serie A1,Dickey,Jasmine
+2023-02-04,Crema,San Giovanni,78-77,23,8,2-6,0-3,4-5,3,6,9,0,5,2,0,4,6,Italy Serie A1,Dickey,Jasmine
+2023-02-19,Crema,Ragusa,74-69,31,17,6-12,1-2,2-4,1,4,5,2,3,1,2,1,18,Italy Serie A1,Dickey,Jasmine
+2023-02-26,Crema,San Martino,84-77,32,14,5-16,0-2,4-4,3,8,11,1,2,0,3,1,16,Italy Serie A1,Dickey,Jasmine
+2023-03-04,Crema,Campobasso,62-69,35,19,8-13,0-1,3-5,4,7,11,0,3,0,1,1,22,Italy Serie A1,Dickey,Jasmine
+2023-03-08,Crema,Brescia,84-64,24,14,3-8,2-2,2-2,1,7,8,2,4,0,2,3,16,Italy Serie A1,Dickey,Jasmine
+2023-03-12,Crema,Sassari,65-61,37,12,5-10,0-1,2-2,0,3,3,0,1,1,1,0,11,Italy Serie A1,Dickey,Jasmine
+2023-03-19,Crema,Faenza,62-57,33,14,6-14,0-1,2-2,1,3,4,1,2,0,1,0,14,Italy Serie A1,Dickey,Jasmine
+2023-03-26,Crema,Valdarno,90-58,22,12,4-10,1-1,1-2,1,5,6,2,1,1,2,1,17,Italy Serie A1,Dickey,Jasmine

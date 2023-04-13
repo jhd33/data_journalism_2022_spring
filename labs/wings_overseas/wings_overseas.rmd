@@ -17,6 +17,7 @@ options(scipen=999)
 library(tidyverse)
 library(rvest)
 library(dplyr)
+library(lubridate)
 ```
 
 ## Satou Stats Lines 23-74
@@ -391,7 +392,7 @@ colnames(tea_stats_kbsl) <- as.character(tea_stats_kbsl[2, ])
 
 ```{r}
 tea_stats_kbsl <- tea_stats_kbsl%>%   
-  mutate(League =("European Championships"))
+  mutate(League =("KBSL"))
 ```
 
 ```{r}
@@ -406,11 +407,63 @@ tea_stats_kbsl<- tea_stats_kbsl[-1,]
 tea_stats_combined <- bind_rows(list(tea_stats_eurochamp, tea_stats_eurocup, tea_stats_kbsl))
 
 tea_stats_combined <- tea_stats_combined %>% 
-  mutate(Last =("Tea")) %>% 
-  mutate(First ="McCowan")
+  mutate(Last =("McCowan")) %>% 
+  mutate(First ="Tea")
   
 ```
+
+## Jasmine Dickey
+
+```{r}
+dickey_stats_url <- "https://basketball.eurobasket.com/player/Jasmine-Dickey/481300?Women=1"
+```
+
+```{r}
+dickey_stats_seriea <- dickey_stats_url %>%
+  read_html() %>%
+  html_nodes(xpath = '//*[@id="divStatsData"]/div[2]') %>%
+  html_table()
+```
+
+```{r}
+dickey_stats_seriea<- dickey_stats_seriea[[1]]
+```
+
+```{r}
+colnames(dickey_stats_seriea) <- as.character(dickey_stats_seriea[2, ])
+```
+
+```{r}
+dickey_stats_seriea <- dickey_stats_seriea%>%   
+  mutate(League =("Italy Serie A1"))
+```
+
+```{r}
+dickey_stats_seriea<- dickey_stats_seriea[-1,]
+```
+
+```{r}
+dickey_stats_seriea<- dickey_stats_seriea[-1,]
+```
+
+```{r}
+dickey_stats_combined <- dickey_stats_seriea %>% 
+  mutate(Last =("Dickey")) %>% 
+  mutate(First ="Jasmine")
+```
+
 ## All Players 
 ```{r}
-all_games_combined <- bind_rows(list(kuier_stats_combined, satou_stats_combined, collier_stats_combined, mabrey_stats_combined, tea_stats_combined))
+all_games_combined <- bind_rows(list(kuier_stats_combined, satou_stats_combined, collier_stats_combined, tea_stats_combined, dickey_stats_combined))
+
+```
+
+```{r}
+all_games_combined <- all_games_combined %>% 
+  mutate(Date=mdy(Date))
+
+```
+
+```{r}
+write_csv(all_games_combined, "data/wingsoverseas_jan23.csv")
 ```
